@@ -1,4 +1,4 @@
-Bien que cette méthode ne soit que rarement utilisée de nos jours et fortement déconseillée, le langage HTML permet d’inclure du style directement dans les balises HTML. 
+Bien que la méthode présentée soit fortement déconseillée pour styliser des éléments HTML, le langage permet d’inclure du style directement dans les balises. Notez que le présent cours n'est pas dédié au CSS.
 
 ## Attribut style
 
