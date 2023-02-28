@@ -162,8 +162,6 @@ __Remarques__ :
 et non pas sur les **a**, sinon ce sera seulement l’arrière-plan de liens qui sera coloré.
 - Les pseudo-classes et pseudo-éléments évoqués pour la création du menu vertical sont également utilisables pour styliser la barre de navigation horizontale.
 
-Il est également possible d’utiliser la propriété flex afin de réaliser un menu horizontal. Cette propriété est entièrement détaillée dans un cours spécifique.
-
 ## Ou encore...
 
 Une autre possibilité est aujourd'hui très largement utilisée dans le positionnement des menus : le Flexbox. Référrez-vous au cours le concernant pour vous mettre à jour !
