@@ -1,3 +1,5 @@
+**Attention** : L'utilisation du ```float``` n'est pas recommandé. Il s'agit d'une ancienne pratique et ce cours à pour vocation de vous l'expliquer de telle sorte à ce que vous puissiez comprendre ou modifier un ancien code. Évitez de l'utiliser sur de nouveaux projets !
+
 La propriété CSS ```float``` définit la manière dont un élément HTML doit “flotter”. En d’autres termes, cette propriété permet de sortir un élément du flux normal de la page et de le placer du côté gauche ou droit de son conteneur. Les éléments de type inline entourent alors l’élément flottant.
 
 La propriété CSS ```clear``` définit quel élément peut flotter à côté des éléments ```clear``` et de quel côté.
