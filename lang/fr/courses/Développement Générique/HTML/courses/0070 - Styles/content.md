@@ -1,8 +1,8 @@
-Bien que cette méthode ne soit que rarement utilisée de nos jours et fortement déconseillée, le langage HTML permet d’inclure du style directement dans les balises HTML. 
+Bien que la méthode présentée soit fortement déconseillée pour styliser des éléments HTML, le langage permet d’inclure du style directement dans les balises. Notez que le présent cours n'est pas dédié au CSS.
 
 ## Attribut style
 
-L’attribut **style** permet d’inclure du code CSS directement au sein du HTML, dans n’importe quelle balise, sans passer par un fichier tiers. Quelques exemples vous sont présentés ci-dessous, mais référez vous aux cours sur le CSS afin de mieux cerner l’étendue des possibilités.
+L’attribut **style** permet d’inclure du code CSS directement au sein du HTML, dans n’importe quelle balise, sans passer par un fichier tiers. Quelques exemples vous sont présentés ci-dessous, mais référez-vous aux cours sur le CSS afin de mieux cerner l’étendue des possibilités.
 
 L’utilisation de cet attribut est assez simple : la **propriété CSS** est déclarée entre les guillemets, suivie de **deux points** (:) suivi de la **valeur** à attribuer à cette propriété, suivi d’un **point virgule** (;).
 

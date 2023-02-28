@@ -1,6 +1,6 @@
 Cette introduction au cours du langage HTML traite, de manière générale, des différentes fonctions de ce langage et de sa sémantique générale.
 
-Le HTML est le langage de base se trouvant derrière toutes les pages webs. Il permet de la structurer, mais ne permet pas la mise en forme du site. 
+Le HTML est le langage de base se trouvant derrière toutes les pages web. Il permet de les structurer, mais ne permet pas la mise en forme du site. 
 
 Ce cours se base sur les dernières versions stables de ce langage, à savoir HTML5 au moment où ces lignes sont écrites.
 
@@ -9,7 +9,7 @@ Ce cours se base sur les dernières versions stables de ce langage, à savoir HT
 - Le HTML est l’acronyme de Hyper Text Markup Language
 - Le HTML est le langage de balisage standard pour la création de pages Web
 - Le HTML décrit la structure d'une page Web
-- Le HTML se compose d'une série d'éléments entourés de balises.
+- Le HTML se compose d'une série d'éléments entourés de balises
 - Les éléments HTML indiquent au navigateur comment organiser le contenu
 - Les balises autour des éléments HTML permettent d’indiquer le type de contenu (titre, paragraphe, liste, tableau, etc.).
 
@@ -38,7 +38,7 @@ Enfin, les balises ```<body></body>``` définissent le corps de la page HTML. To
 
 ## Qu'est-ce qu'un élément HTML?
 
-En HTML, un élément est entouré de deux balise : **une balise de début**, dite “ouvrante”, contenant le nom de l’élément, puis **le contenu de l’élément**, pour finir avec une **balise de fin**, dite “fermante”, commençant par un slash (/) pour indiquer c’est une balise fermante. Le nom de l’élément indiqué dans la balise se trouve entre des chevrons : ```<>```.
+En HTML, un élément est entouré de deux balises : **une balise de début**, dite “ouvrante”, contenant le nom de l’élément, puis **le contenu de l’élément**, pour finir avec une **balise de fin**, dite “fermante”, commençant par un slash (/) pour indiquer que c’est une balise fermante. Le nom de l’élément indiqué dans la balise se trouve entre des chevrons : ```<>```.
 
 Exemple :
 
@@ -72,7 +72,7 @@ En reprenant l’exemple de la structure de base d’un document HTML, donné da
 ```
 
 Voici ce que donne le code HTML de cet exemple :
-![Rendu du code ci-dessus](https://github.com/Microleadoff/content/blob/master/lang/fr/D%C3%A9veloppement%20G%C3%A9n%C3%A9rique/HTML/courses/0010%20-%20Introduction/images/image2.png)
+![Rendu du code ci-dessus](https://raw.githubusercontent.com/Microleadoff/content/master/lang/fr/courses/D%C3%A9veloppement%20G%C3%A9n%C3%A9rique/HTML/courses/0010%20-%20Introduction/images/image2.png)
 
 Comme indiqué, les balises HTML ne sont pas affichées mais ont permis au navigateur d’afficher “Titre du document” en gros.
 
