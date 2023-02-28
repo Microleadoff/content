@@ -1,3 +1,5 @@
+**Attention** : Ce cours consiste en une technique vieillissante et ancienne. Il est disponible afin de vous permettre de comprendre d'anciens code, mais n'ai plus utilisé (ou presque) de nos jours. Évitez donc de vous en servir.
+
 Une image “sprite” est un ensemble d’images qui sont regroupées en plusieurs. Une page web avec beaucoup d’images peut prendre plus de temps à charger, car il va générer plus de requêtes serveur afin d’aller récupérer les images.
 
 Utiliser une image “sprite” va générer moins de requêtes serveur et réduire les besoins de téléchargement lors de l’affichage par le navigateur.
