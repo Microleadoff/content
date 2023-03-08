@@ -10,14 +10,14 @@ L’ensemble de ces diagrammes sont basés sur des concepts fondamentaux de dév
 
 Voici la liste des diagrammes structuraux de l’UML 2.5.1 : 
 
-- **Diagramme de contexte** : Ils décrivent les typologies d’utilisateurs destinés à réaliser des interactions avec le système.
-- **Diagramme de package** : Ils représentent des regroupements logiques d’éléments
-- **Diagramme de classes** : ils décrivent les classes d’une application ainsi que leurs relations
-- **Diagramme d’objets** : ils représentent des objets ainsi que leurs liens à un instant donné
-- **Diagramme de composants** : Ils représentent les composants d’un point de vue physique
-- **Diagramme de déploiement** : Ils modélisent l’aspect matériel
-- **Diagramme de structure composite** : Ils représentent une vue simplifiée des relations entre les composants d’une classe
-- **Diagramme de profils** : Ils représentent les différentes extensions d’un métamodèle.
+- **Diagrammes de contexte** : Ils décrivent les typologies d’utilisateurs destinés à réaliser des interactions avec le système.
+- **Diagrammes de package** : Ils représentent des regroupements logiques d’éléments
+- **Diagrammes de classes** : ils décrivent les classes d’une application ainsi que leurs relations
+- **Diagrammes d’objets** : ils représentent des objets ainsi que leurs liens à un instant donné
+- **Diagrammes de composants** : Ils représentent les composants d’un point de vue physique
+- **Diagrammes de déploiement** : Ils modélisent l’aspect matériel
+- **Diagrammes de structure composite** : Ils représentent une vue simplifiée des relations entre les composants d’une classe
+- **Diagrammes de profils** : Ils représentent les différentes extensions d’un métamodèle.
 
 ## La sémantique comportementale
 
@@ -27,9 +27,9 @@ Une notion importante à propos de ces types de diagrammes est qu’ils ne stipu
 
 On distingue trois types de diagrammes comportementaux : 
 
-- **Diagramme de cas d’utilisation** : Ils décrivent les fonctionnalités d’un système d’un point de vue utilisateur.
-- **Diagramme d’états-transitions** :  Ils représentent le comportement d’un objet sous la forme d’un automate à différents états.
-- **Diagramme d’activité** : Ils détaillent le comportement d’une opération.
+- **Diagrammes de cas d’utilisation** : Ils décrivent les fonctionnalités d’un système d’un point de vue utilisateur.
+- **Diagrammes d’états-transitions** :  Ils représentent le comportement d’un objet sous la forme d’un automate à différents états.
+- **Diagrammes d’activité** : Ils détaillent le comportement d’une opération.
 
 ## Les diagrammes à double sémantique
 
@@ -37,8 +37,8 @@ Certains diagrammes utilisés en UML sont concernés par les deux types de séma
 
 On distingue 4 types de diagrammes dans cette catégorie : 
 
-- **Diagramme de séquence** : Ils représentent les interactions entre objets chronologiquement
-- **Diagramme de communication** : Ils assurent une représentation spatiale des interactions entre objets.
-- **Diagramme de temps** : Ils servent à représenter les variations d’un élément au cours du temps.
-- **Diagramme de vue d’ensemble des interactions** : Ils représentent un déroulé logique entre des diagrammes de séquence.
-- **Diagramme d’activité** : Ils sont une représentation graphique d’un processus d'exécution d’une action.
+- **Diagrammes de séquence** : Ils représentent les interactions entre objets chronologiquement
+- **Diagrammes de communication** : Ils assurent une représentation spatiale des interactions entre objets.
+- **Diagrammes de temps** : Ils servent à représenter les variations d’un élément au cours du temps.
+- **Diagrammes de vue d’ensemble des interactions** : Ils représentent un déroulé logique entre des diagrammes de séquence.
+- **Diagrammes d’activité** : Ils sont une représentation graphique d’un processus d'exécution d’une action.
