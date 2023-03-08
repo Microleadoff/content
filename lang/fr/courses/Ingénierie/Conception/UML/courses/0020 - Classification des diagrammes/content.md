@@ -35,7 +35,7 @@ On distingue trois types de diagrammes comportementaux :
 
 Certains diagrammes utilisés en UML sont concernés par les deux types de sémantiques : structurelle et comportementale. Ainsi ils peuvent représenter un état statique aussi bien qu’un état dynamique. Il sont en général davantage associés aux diagrammes à sémantique comportementale. Ils sont cependant souvent différenciés du fait de leur prise en compte d’éléments statiques. Retenez qu’en cas de doute, vous devrez les classer parmi les diagrammes comportementaux du fait de la prise en compte de potentielles évolutions dans le temps.
 
-On distingue 4 types de diagrammes dans cette catégorie : 
+On distingue 5 types de diagrammes dans cette catégorie : 
 
 - **Diagrammes de séquence** : Ils représentent les interactions entre objets chronologiquement
 - **Diagrammes de communication** : Ils assurent une représentation spatiale des interactions entre objets.
