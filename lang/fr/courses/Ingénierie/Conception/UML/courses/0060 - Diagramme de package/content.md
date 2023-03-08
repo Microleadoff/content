@@ -1,9 +1,3 @@
-## Informations génériques
-
-- **Type** : Diagramme Structurel
-- **Périmètre** : Fonctionnel
-- **Langages** : Tous
-
 ## Définition / Utilisation
 
 Le diagramme de packages est un diagramme qui permet de représenter un **regroupement** de différents éléments. Il est généralement utilisé en lien avec les diagrammes de classe (par exemple pour organiser les classes par fonctionnalités) et les diagrammes de cas d’utilisation (par exemple pour trier ceux-ci par champ d’action). Il peut cependant être utilisé avec n’importe quel élément répertorié en UML.
