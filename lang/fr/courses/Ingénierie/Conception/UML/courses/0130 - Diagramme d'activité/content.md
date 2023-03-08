@@ -1,9 +1,3 @@
-## Informations génériques
-
-- **Type** : Comportemental
-- **Périmètre** : Fonctionnel et Technique
-- **Language** : Tous
-
 ## Définition / Utilisation
 
 Le diagramme d’activités est un schéma UML permettant de modéliser un processus dans son ensemble. Il permet non seulement de détailler les différentes actions qui y sont présentes, mais également d’y inclure des conditions d’exécution ainsi que la prise en compte de différents acteurs, de telle sorte que le déroulé du processus devienne extrêmement clair et précis. Ce type de diagramme est par exemple tout indiqué pour documenter ou modéliser un workflow au sein d’une équipe.
