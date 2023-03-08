@@ -145,7 +145,7 @@ Reprenons la liste ci-dessus, et indiquons en *italic* par exemple ces condition
 
 #### Identification des flux entre actions
 
-Une fois cette liste dressée, il nous faut passer à l’étape 5 de la démarche de création proposée : inscrire les étapes suivant chacune des actions ne disposant pas de conditions (ici en rouge). Pour plus de clarté, nous représenterons ces éléments en **gras**.
+Une fois cette liste dressée, il nous faut passer à l’étape 5 de la démarche de création proposée : inscrire les étapes suivant chacune des actions ne disposant pas de conditions. Pour plus de clarté, nous représenterons ces éléments en **gras**.
 
 1. début **passage à l’étape 2**
 2. Vérification de l’existence d’un token de connexion *Si un token existe, passer directement à l’étape 5. Si l’utilisateur n’a pas de compte, passer à l’étape 3. Si l’utilisateur a déjà un compte, passer à l’étape 4.*
