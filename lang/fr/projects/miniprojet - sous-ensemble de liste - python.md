@@ -17,10 +17,10 @@ Exemple d'utilisation :
 ```
 >>> ma_liste = [2, 3, 4, 5, 6]
 >>> trouver_sous_ensembles(ma_liste, 9)
-[[2, 3, 4], [5, 4], [3, 6], [9]]
+[[2, 3, 4], [5, 4], [3, 6]]
 >>> ma_liste = [1, 2, 3]
 >>> trouver_sous_ensembles(ma_liste, 5)
-[[2, 3], [1, 2, 2]]
+[[2, 3]]
 ```
 
 ### Contraintes
