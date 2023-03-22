@@ -25,4 +25,5 @@ None
 
 ### Contraintes
 
-- N'utilisez que les fonctionnalités de base de python (variables, boucles et conditions). N'utilisez pas de fonction intégré à python.
+- N'utilisez que les fonctionnalités de base de python (variables, boucles et conditions).
+- vous pouvez exceptionnellement utiliser les fonctions ```len``` et ```max```
