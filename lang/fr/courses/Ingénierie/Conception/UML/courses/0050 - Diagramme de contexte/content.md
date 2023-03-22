@@ -1,9 +1,3 @@
-## Informations générique
-
-- **Type** : Diagramme Structurel & comportemental
-- **Périmètre** : Fonctionnel & technique
-- **Langages** : Tous
-
 ## Définition / Utilisation
 
 Le diagramme de contexte est souvent réalisé au tout début d’une conception, qu’elle soit technique ou fonctionnelle. Son rôle est principalement d’identifier les acteurs relatifs au projet décrit.

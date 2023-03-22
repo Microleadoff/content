@@ -1,9 +1,3 @@
-## Informations génériques
-
-- **Type** : Comportemental
-- **Périmètre** : Fonctionnel et Technique
-- **Language** : Tous
-
 ## Définition / Utilisation
 
 Le diagramme d’activités est un schéma UML permettant de modéliser un processus dans son ensemble. Il permet non seulement de détailler les différentes actions qui y sont présentes, mais également d’y inclure des conditions d’exécution ainsi que la prise en compte de différents acteurs, de telle sorte que le déroulé du processus devienne extrêmement clair et précis. Ce type de diagramme est par exemple tout indiqué pour documenter ou modéliser un workflow au sein d’une équipe.
@@ -151,7 +145,7 @@ Reprenons la liste ci-dessus, et indiquons en *italic* par exemple ces condition
 
 #### Identification des flux entre actions
 
-Une fois cette liste dressée, il nous faut passer à l’étape 5 de la démarche de création proposée : inscrire les étapes suivant chacune des actions ne disposant pas de conditions (ici en rouge). Pour plus de clarté, nous représenterons ces éléments en **gras**.
+Une fois cette liste dressée, il nous faut passer à l’étape 5 de la démarche de création proposée : inscrire les étapes suivant chacune des actions ne disposant pas de conditions. Pour plus de clarté, nous représenterons ces éléments en **gras**.
 
 1. début **passage à l’étape 2**
 2. Vérification de l’existence d’un token de connexion *Si un token existe, passer directement à l’étape 5. Si l’utilisateur n’a pas de compte, passer à l’étape 3. Si l’utilisateur a déjà un compte, passer à l’étape 4.*
