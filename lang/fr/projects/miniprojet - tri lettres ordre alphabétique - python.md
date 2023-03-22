@@ -18,7 +18,7 @@ Exemple d'utilisation :
 >>> trier_lettres("Hello, World!")
 " ,dehllloorw"
 >>> trier_lettres("Python is awesome")
-"aeihoopstwyvmns"
+"  aeehimnoopsstwy"
 ```
 
 ### Contraintes
