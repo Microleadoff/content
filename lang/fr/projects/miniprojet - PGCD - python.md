@@ -26,4 +26,3 @@ Le reste est nul, donc le PGCD de 24 et 36 est égal à 12.
 ### Contraintes
 
 - N'utilisez que les fonctionnalités de base de python (variables, boucles et conditions).
-- vous pouvez exceptionnellement utiliser les fonctions ```len``` et ```sorted```
