@@ -89,18 +89,25 @@ Le tri par insertion consiste à trouver la bonne place pour un élément donné
 ### Exemple
 
 ```python
-def insertion_sort(InputList):
-    for i in range(1, len(InputList)):
+def insertion_sort(liste):
+    for i in range(1, len(liste)):
+    # parcours de tous les éléments de la liste
+        key = liste[i]
         j = i - 1
-        nxt_element = InputList[i]
-    # Compare the current element with next one
-    while (InputList[j] > nxt_element) and (j >= 0):
-        InputList[j+1] = InputList[j]
-        j = j - 1
-    InputList[j+1] = nxt_element
-list = [19, 2, 31, 45, 30, 11, 121, 27]
-insertion_sort(list)
-print(list)
+        # element a deplacer
+        while j >= 0 and key < liste[j]:
+        # déplacement des éléments de la liste
+            liste[j + 1] = liste[j]
+            # déplace l'élément
+            j -= 1
+            # continue le parcours de la liste pour trouver la position correcte de la clé.
+        liste[j + 1] = key
+        # on insère la clé dans la liste à l'indice j+1 en lui affectant la valeur de la clé
+    return liste
+
+l = [19, 2, 31, 45, 30, 11, 121, 27]
+insertion_sort(l)
+print(l)
 ```
 
 ### Réponse
