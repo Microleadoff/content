@@ -11,6 +11,7 @@ Chaque recommandation PSR est maintenue à jour régulièrement et leurs états 
 Voici la liste de l’ensemble des PSR ayant été créés depuis les débuts de PHP-fig. Vous trouverez également l’état actuel de chaque PSR afin de savoir s’il est à prendre en compte ou non.
 
 | **Numéro** | **Titre** | **État** |
+| --- | --- | --- |
 | 0 | Autoloading Standard | Déprécié |
 | 1 | Basic Coding Standard | Accepté |
 | 2 | Coding Style Guide | Déprécié |
