@@ -1,11 +1,3 @@
-## Durée approximative
-
-1 jour
-
-## Prérequis
-
-- <a href="https://microlead.fr/echelles/php" title="Prérequis en PHP" target="_blank">PHP niveau 6</a>
-
 ## Énoncé
 
 ### Description courte

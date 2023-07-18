@@ -1,12 +1,3 @@
-## Durée approximative
-
-2 jours
-
-## Prérequis
-
-- <a href="https://microlead.fr/echelles/javascript" title="Prérequis en JavaScript" target="_blank">JavaScript niveau 5</a>
-- React Native - niveau 7
-
 ## Énoncé
 
 ### Description courte

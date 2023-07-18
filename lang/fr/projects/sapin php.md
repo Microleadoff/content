@@ -1,12 +1,3 @@
-## Durée approximative
-
-1 jour
-
-## Prérequis
-
-- <a href="https://microlead.fr/echelles/html" title="Prérequis en HTML" target="_blank">PHP niveau 5</a>
-- Algorithmie
-
 ## Énoncé
 
 ### Description courte

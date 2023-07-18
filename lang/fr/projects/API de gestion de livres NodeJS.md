@@ -1,12 +1,3 @@
-## Durée approximative
-
-1 jour
-
-## Prérequis
-
-- <a href="https://microlead.fr/echelles/javascript" title="Prérequis en JavaScript" target="_blank">JavaScript niveau 10</a>
-- NodeJS : niveau 9
-
 ## Énoncé
 
 ### Description courte

@@ -1,11 +1,3 @@
-## Durée approximative
-
-1 jour
-
-## Prérequis
-
-- Python - niveau 5
-
 ## Énoncé
 
 ### Description courte

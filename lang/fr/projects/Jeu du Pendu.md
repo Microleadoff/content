@@ -1,11 +1,3 @@
-## Durée approximative
-
-1 jour
-
-## Prérequis
-
-- <a href="https://microlead.fr/echelles/javascript" title="Prérequis en JavaScript" target="_blank">JavaScript niveau 5</a>
-
 ## Énoncé
 
 ### Description courte

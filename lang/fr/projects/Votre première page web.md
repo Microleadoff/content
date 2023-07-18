@@ -1,12 +1,3 @@
-## Durée approximative
-
-1 heure
-
-## Prérequis
-
-- <a href="https://microlead.fr/echelles/html" title="Prérequis en HTML" target="_blank">HTML niveau 3</a>
-- <a href="https://microlead.fr/echelles/css" title="Prérequis en CSS" target="_blank">CSS niveau 2</a>
-
 ## Énoncé
 
 ### Description courte

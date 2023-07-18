@@ -1,14 +1,3 @@
-## Durée approximative
-
-10 heures
-
-## Prérequis
-
-- <a href="https://microlead.fr/echelles/html" title="Prérequis en HTML" target="_blank">HTML niveau 9</a>
-- <a href="https://microlead.fr/echelles/css" title="Prérequis en CSS" target="_blank">CSS niveau 9</a>
-- <a href="https://microlead.fr/echelles/php" title="Prérequis en PHP" target="_blank">PHP niveau 6</a>
-- SQLite niveau 10
-
 ## Énoncé
 
 ### Description courte

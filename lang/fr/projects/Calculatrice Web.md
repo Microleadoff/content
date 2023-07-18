@@ -1,11 +1,3 @@
-## Durée approximative
-
-1 heure
-
-## Prérequis
-
-- <a href="https://microlead.fr/echelles/javascript" title="Prérequis en JavaScript" target="_blank">JavaScript niveau 4</a>
-
 ## Énoncé
 
 ### Description courte

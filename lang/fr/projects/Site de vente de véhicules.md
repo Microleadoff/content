@@ -1,13 +1,3 @@
-## Durée approximative
-
-5 jours
-
-## Prérequis
-
-- <a href="https://microlead.fr/echelles/php" title="Prérequis en PHP" target="_blank">PHP niveau 7</a>
-- <a href="https://microlead.fr/echelles/html" title="Prérequis en HTML" target="_blank">HTML niveau 8</a>
-- <a href="https://microlead.fr/echelles/mysql" title="Prérequis en MySQL" target="_blank">MySQL niveau 6</a>
-
 ## Énoncé
 
 ### Description courte

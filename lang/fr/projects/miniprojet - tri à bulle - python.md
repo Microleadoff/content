@@ -1,11 +1,3 @@
-## Durée approximative
-
-30 minutes
-
-## Prérequis
-
-- <a href="https://microlead.fr/echelles/python" title="Prérequis en Python" target="_blank">Python niveau 5</a>
-
 ## Énoncé
 
 ### Description courte

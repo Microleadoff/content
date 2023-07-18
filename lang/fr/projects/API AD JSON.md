@@ -1,11 +1,3 @@
-## Durée approximative
-
-1 jour
-
-## Prérequis
-
-- Beautiful Soup : niveau 9
-
 ## Énoncé
 
 ### Description courte
