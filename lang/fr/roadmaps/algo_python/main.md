@@ -38,10 +38,9 @@ Découvrez une nouvelle façon de développer vos compétences en Python. Notre 
                 La section de recherche renforce vos compétences d'algorithmique en vous faisant explorer des techniques de recherche telles que la 'recherche naïve', 'recherche linéaire', 'recherche binaire', et la 'recherche de sous-chaine'. Ces projets augmenteront la complexité au fur et à mesure, vous obligeant à utiliser les compétences que vous avez acquises lors des sections précédentes pour développer des solutions de plus en plus sophistiquées.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Calculator-amico.svg" alt="axés sur les compétences">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/5c8abda1814e8a678c88ca0cb1e73d5683cd21f8/images/Woman-thinking-rafiki.svg" alt="axés sur les compétences">
     </div>
 </section>
-
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col xl:flex-row gap-16 items-center justify-between">
