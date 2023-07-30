@@ -2,7 +2,6 @@ Découvrez une nouvelle façon de développer vos compétences en Python. Notre 
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://microlead.fr/images/discovers/students/competence.svg" alt="axés sur les compétences">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl text-center xl:text-left" style="line-height: 3.6rem">
                 Section de Mathématiques
@@ -11,6 +10,7 @@ Découvrez une nouvelle façon de développer vos compétences en Python. Notre 
                 Commencez votre voyage avec des concepts mathématiques essentiels. Les projets tels que 'le plus grand nombre pair', 'la somme des nombres pairs', 'le deuxième plus grand nombre', 'la médiane', 'la méthode de Newton', 'PGCD' et 'Fibonacci' sont conçus pour aiguiser votre esprit analytique. Chaque défi mathématique vous oblige à appliquer les concepts que vous avez appris et à les transformer en solutions de programmation efficaces.
             </p>
         </div>
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://microlead.fr/images/discovers/students/competence.svg" alt="axés sur les compétences">
     </div>
 </section>
 
