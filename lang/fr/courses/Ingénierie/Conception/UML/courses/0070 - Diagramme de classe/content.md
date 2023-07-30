@@ -291,6 +291,7 @@ La symbolisation de cette interaction se fait grâce à un trait, reliant les cl
 ## Formes et symboles
 
 | Symboles | Signification |
+| --- | --- |
 | ![Représentation d’une classe](https://raw.githubusercontent.com/Microleadoff/content/master/lang/fr/courses/Ing%C3%A9nierie/Conception/UML/courses/0070%20-%20Diagramme%20de%20classe/images/image14.png) | Représentation d’une classe avec son nom, ses attributs et ses méthodes |
 | ![Représentation d’association unidirectionnelle](https://raw.githubusercontent.com/Microleadoff/content/master/lang/fr/courses/Ing%C3%A9nierie/Conception/UML/courses/0070%20-%20Diagramme%20de%20classe/images/image24.png) | Représentation d’association unidirectionnelle - la classe côté flèche partage ses instances avec celle opposée, tandis que la classe côté non fléché ne les partage pas |
 | ![Représentation d’association bidirectionnelle](https://raw.githubusercontent.com/Microleadoff/content/master/lang/fr/courses/Ing%C3%A9nierie/Conception/UML/courses/0070%20-%20Diagramme%20de%20classe/images/image3.png) | Représentation d’association bidirectionnelle |
