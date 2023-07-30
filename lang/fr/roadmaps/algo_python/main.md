@@ -2,10 +2,10 @@ Découvrez une nouvelle façon de développer vos compétences en Python. Notre 
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col xl:flex-row gap-16 items-center justify-between">
-        <h2 class="font-bold text-4xl md:text-5xl text-center xl:text-left" style="line-height: 3.6rem">
-            Section de Mathématiques
-        </h2>
         <div>
+            <h2 class="font-bold text-4xl md:text-5xl text-center xl:text-left" style="line-height: 3.6rem">
+                Section de Mathématiques
+            </h2>
             <p class="max-w-md text-gray-600 pt-8 text-center xl:text-left text-md lg:text-lg">
                 Commencez votre voyage avec des concepts mathématiques essentiels. Les projets tels que 'le plus grand nombre pair', 'la somme des nombres pairs', 'le deuxième plus grand nombre', 'la médiane', 'la méthode de Newton', 'PGCD' et 'Fibonacci' sont conçus pour aiguiser votre esprit analytique. Chaque défi mathématique vous oblige à appliquer les concepts que vous avez appris et à les transformer en solutions de programmation efficaces.
             </p>
@@ -30,10 +30,10 @@ Découvrez une nouvelle façon de développer vos compétences en Python. Notre 
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col xl:flex-row gap-16 items-center justify-between">
-        <h2 class="font-bold text-4xl md:text-5xl text-center xl:text-left" style="line-height: 3.6rem">
-            Section de Recherche
-        </h2>
         <div>
+            <h2 class="font-bold text-4xl md:text-5xl text-center xl:text-left" style="line-height: 3.6rem">
+                Section de Recherche
+            </h2>
             <p class="max-w-md text-gray-600 pt-8 text-center xl:text-left text-md lg:text-lg">
                 La section de recherche renforce vos compétences d'algorithmique en vous faisant explorer des techniques de recherche telles que la 'recherche naïve', 'recherche linéaire', 'recherche binaire', et la 'recherche de sous-chaine'. Ces projets augmenteront la complexité au fur et à mesure, vous obligeant à utiliser les compétences que vous avez acquises lors des sections précédentes pour développer des solutions de plus en plus sophistiquées.
             </p>
@@ -45,10 +45,10 @@ Découvrez une nouvelle façon de développer vos compétences en Python. Notre 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col xl:flex-row gap-16 items-center justify-between">
         <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Calculator-amico.svg" alt="axés sur les compétences">
-        <h2 class="font-bold text-4xl md:text-5xl text-center xl:text-left" style="line-height: 3.6rem">
-            Section de Cryptage
-        </h2>
         <div>
+            <h2 class="font-bold text-4xl md:text-5xl text-center xl:text-left" style="line-height: 3.6rem">
+                Section de Cryptage
+            </h2>
             <p class="max-w-md text-gray-600 pt-8 text-center xl:text-left text-md lg:text-lg">
                 La section finale du parcours présente des défis de cryptage, une compétence indispensable pour tout développeur Python moderne. Vous serez initié à des techniques de cryptage classiques telles que 'Cryptage de César', 'chiffrement de Vigenère', 'chiffrement de Hill', et 'chiffrement par substitution'. Chacun de ces projets présente des défis uniques qui mettront à l'épreuve tout ce que vous avez appris jusqu'à présent.
             </p>
