@@ -30,10 +30,10 @@ Découvrez une nouvelle façon de développer vos compétences en Python. Notre 
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col xl:flex-row gap-16 items-center justify-between">
+        <h2 class="font-bold text-4xl md:text-5xl text-center xl:text-left" style="line-height: 3.6rem">
+            Section de Recherche
+        </h2>
         <div>
-            <h2 class="font-bold text-4xl md:text-5xl text-center xl:text-left" style="line-height: 3.6rem">
-                Section de Recherche
-            </h2>
             <p class="max-w-md text-gray-600 pt-8 text-center xl:text-left text-md lg:text-lg">
                 La section de recherche renforce vos compétences d'algorithmique en vous faisant explorer des techniques de recherche telles que la 'recherche naïve', 'recherche linéaire', 'recherche binaire', et la 'recherche de sous-chaine'. Ces projets augmenteront la complexité au fur et à mesure, vous obligeant à utiliser les compétences que vous avez acquises lors des sections précédentes pour développer des solutions de plus en plus sophistiquées.
             </p>
