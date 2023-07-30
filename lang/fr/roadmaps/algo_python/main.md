@@ -16,7 +16,7 @@ Découvrez une nouvelle façon de développer vos compétences en Python. Notre 
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Woman-thinking-rafiki.svg" alt="axés sur les compétences">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/aa27553796117f85edb19fb8b26a578bcfcc4d71/images/Filter-rafiki.svg" alt="axés sur les compétences">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl text-center xl:text-left" style="line-height: 3.6rem">
                 Section de Tri
