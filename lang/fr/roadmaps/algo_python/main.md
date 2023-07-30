@@ -17,10 +17,10 @@ Découvrez une nouvelle façon de développer vos compétences en Python. Notre 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col xl:flex-row gap-16 items-center justify-between">
         <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/aa27553796117f85edb19fb8b26a578bcfcc4d71/images/Filter-rafiki.svg" alt="axés sur les compétences">
-        <h2 class="font-bold text-4xl md:text-5xl text-center xl:text-left" style="line-height: 3.6rem">
-            Section de Tri
-        </h2>
         <div>
+            <h2 class="font-bold text-4xl md:text-5xl text-center xl:text-left" style="line-height: 3.6rem">
+                Section de Tri
+            </h2>
             <p class="max-w-md text-gray-600 pt-8 text-center xl:text-left text-md lg:text-lg">
                 Après avoir solidifié vos bases mathématiques, il est temps de monter d'un cran. Dans cette section, vous apprendrez à organiser et à manipuler les données de manière efficace grâce à des projets tels que 'tri à bulle', 'tri par insertion', 'tri fusion' et 'tri rapide'. Chaque projet augmentera la complexité, vous forçant à comprendre et à maîtriser de nouvelles stratégies de tri.
             </p>
