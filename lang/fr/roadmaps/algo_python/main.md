@@ -61,7 +61,7 @@
 </section>
 
 <section class="py-6 md:py-16">
-    <h2 class="text-4xl md:text-5xl font-bold text-center py-4">Conclusion</h2>
+    <h2 class="text-4xl md:text-5xl font-bold text-center py-4">En conclusion</h2>
     <p class="text-gray-600 pt-8 text-center text-md lg:text-lg max-w-4xl mx-auto">
         Notre parcours d'apprentissage en développement Python offre une progression de difficulté calculée pour vous aider à développer vos compétences de manière cohérente. Que vous soyez débutant ou que vous ayez déjà une certaine expérience, ce parcours vous aidera à renforcer vos compétences en Python et à vous préparer à affronter n'importe quel défi de programmation qui se présentera à vous.
         <br>
