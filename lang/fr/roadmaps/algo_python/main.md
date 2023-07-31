@@ -1,9 +1,8 @@
-<div class="py-6 md:py-16">
-    <!-- <h2 class="text-4xl md:text-5xl font-bold text-center py-4">SE FORMER</h2> -->
+<section class="py-6 md:py-16">
     <p class="text-gray-600 pt-8 text-center text-md lg:text-lg max-w-4xl mx-auto">
         Découvrez une nouvelle façon de développer vos compétences en Python. Notre parcours d'apprentissage progressif vous permet de renforcer votre maîtrise de Python à travers une série de mini-projets couvrant un large éventail de domaines. Des mathématiques à l'algorithmique, en passant par le tri, la recherche et le cryptage, chaque projet est conçu pour vous aider à améliorer progressivement vos compétences et votre compréhension de la logique de programmation.
     </p>
-</div>
+</section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col xl:flex-row gap-16 items-center justify-between">
@@ -61,15 +60,11 @@
     </div>
 </section>
 
-<div class="py-6 md:py-16">
+<section class="py-6 md:py-16">
     <h2 class="text-4xl md:text-5xl font-bold text-center py-4">Conclusion</h2>
     <p class="text-gray-600 pt-8 text-center text-md lg:text-lg max-w-4xl mx-auto">
         Notre parcours d'apprentissage en développement Python offre une progression de difficulté calculée pour vous aider à développer vos compétences de manière cohérente. Que vous soyez débutant ou que vous ayez déjà une certaine expérience, ce parcours vous aidera à renforcer vos compétences en Python et à vous préparer à affronter n'importe quel défi de programmation qui se présentera à vous.
         <br>
         Prêt à commencer votre parcours pour devenir un expert en Python ? Inscrivez-vous dès aujourd'hui et transformez votre potentiel en expertise avec notre parcours d'apprentissage progressif en Python.
     </p>
-</div>
-
-Notre parcours d'apprentissage en développement Python offre une progression de difficulté calculée pour vous aider à développer vos compétences de manière cohérente. Que vous soyez débutant ou que vous ayez déjà une certaine expérience, ce parcours vous aidera à renforcer vos compétences en Python et à vous préparer à affronter n'importe quel défi de programmation qui se présentera à vous.
-
-Prêt à commencer votre parcours pour devenir un expert en Python ? Inscrivez-vous dès aujourd'hui et transformez votre potentiel en expertise avec notre parcours d'apprentissage progressif en Python.
+</section>
