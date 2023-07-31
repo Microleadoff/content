@@ -1,4 +1,4 @@
-## Qu'est-ce que le rappel ?
+## Qu'est-ce que le callback ?
 
 Le callback est l'équivalent asynchrone d'une fonction. Une fonction de rappel est appelée à la fin d'une tâche donnée. Node fait un usage intensif des callbacks. Toutes les API de Node sont écrites de telle manière qu'elles supportent les callbacks.
 
