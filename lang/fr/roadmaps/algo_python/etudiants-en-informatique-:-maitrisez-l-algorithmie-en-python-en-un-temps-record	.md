@@ -51,10 +51,10 @@
         <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Calculator-amico.svg" alt="axés sur les compétences">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
-                Section de Cryptage
+                Maitrisez L'Art du Tri en Python : Votre Prochaine Étape vers l'Excellence Algorithmique
             </h2>
             <p class="max-w-md text-gray-600 pt-8 text-md lg:text-lg">
-                La section finale du parcours présente des défis de cryptage, une compétence indispensable pour tout développeur Python moderne. Vous serez initié à des techniques de cryptage classiques telles que 'Cryptage de César', 'chiffrement de Vigenère', 'chiffrement de Hill', et 'chiffrement par substitution'. Chacun de ces projets présente des défis uniques qui mettront à l'épreuve tout ce que vous avez appris jusqu'à présent.
+                Juste après avoir consolidé vos fondamentaux mathématiques, êtes-vous prêt à relever un défi plus exigeant? La section de tri est là pour répondre à cette aspiration. Tout étudiant en informatique sait que manipuler et organiser les données est souvent un casse-tête. C'est là que notre cursus entre en jeu. Grâce à des projets progressifs comme 'tri à bulle', 'tri par insertion', 'tri fusion' et 'tri rapide', vous n'allez pas seulement apprendre, mais aussi DOMINER ces méthodes cruciales. Chaque projet est conçu pour augmenter graduellement la difficulté, garantissant une immersion complète dans les stratégies de tri et assurant que vos lacunes d'aujourd'hui deviennent vos forces de demain.
             </p>
         </div>
     </div>
