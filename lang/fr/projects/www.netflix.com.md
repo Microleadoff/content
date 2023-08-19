@@ -2,13 +2,13 @@
 
 ### Description courte
 
-Réalisez l'intégration statique (HTML et CSS uniquement) de la page ci-dessous : 
+Réalisez l'intégration statique (HTML et CSS uniquement) de la page d'accueil de Netflix ! 
 
-![Maquette débutant à intégrer en HTML et CSS](https://raw.githubusercontent.com/Microleadoff/content/master/lang/fr/projects/images_projets/Projet%20HTML%20CSS%20int%C3%A9gration%20page%20d%C3%A9butant.png)
+![Maquette de la page d'accueil de Netflix](https://raw.githubusercontent.com/Microleadoff/content/master/lang/fr/projects/images_projets/www.netflix.com.png)
 
 ### Éléments donnés
 
-Vous pouvez trouver la maquette sur ce lien : <a href="https://www.figma.com/community/file/1212413779386428565?fuid=1045029214149200129" target="_blank" title="Lien vers la maquette à intégrer">Lien vers la maquette à intégrer</a>
+Vous pouvez trouver la maquette sur ce lien : <a href="https://www.figma.com/file/QKRranJIz8w1jpvXOOjVfB" target="_blank" title="Lien vers la maquette de la page d'accueil de Netflix">Lien vers la maquette de la page d'accueil de Netflix</a>
 
 Pour accéder à la maquette, vous devez : 
 - Vous connecter à Figma
