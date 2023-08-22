@@ -14,13 +14,13 @@
                 Plongez au cœur des mécanismes qui rendent les interfaces web interactives et intuitives. Les projets tels que 'Dropdown Javascript', 'Accordéon Javascript', 'Snackbar Javascript' et 'Tabs navigation Javascript' sont spécialement conçus pour affiner votre sensibilité aux interactions utilisateurs. Chaque défi centré sur l'utilisateur vous pousse à mettre en œuvre les principes du JavaScript natif pour créer des expériences fluides et réactives, captivant l'attention de vos visiteurs et améliorant la convivialité de vos applications web.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/User-flow-amico.svg" alt="axés sur les compétences">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/User-flow-amico.svg" alt="Interactions Utilisateur">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/aa27553796117f85edb19fb8b26a578bcfcc4d71/images/Hotel-Booking-amico.svg" alt="axés sur les compétences">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/aa27553796117f85edb19fb8b26a578bcfcc4d71/images/Hotel-Booking-amico.svg" alt="Dynamisme Web">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Dynamisme Web
@@ -42,13 +42,13 @@
                 Élevez votre maîtrise de JavaScript à un niveau supérieur en créant des éléments qui améliorent la navigation et l'engagement utilisateur. Les projets tels que 'Pagination Javascript', 'Barre de recherche Javascript', 'Effet de frappe Javascript', et 'Slider de comparaison Javascript' sont méticuleusement conçus pour vous initier aux nuances des expériences utilisateur avancées. Chaque défi vous emmène dans les coulisses de la création d'interactions web sophistiquées, poussant vos compétences à leurs limites. Découvrez comment sublimer l'interaction utilisateur, offrant à vos visiteurs une navigation fluide, intuitive et captivante.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/5c8abda1814e8a678c88ca0cb1e73d5683cd21f8/images/Content-structure-amico.svg" alt="axés sur les compétences">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/5c8abda1814e8a678c88ca0cb1e73d5683cd21f8/images/Content-structure-amico.svg" alt="Expérience Utilisateur Avancée">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Mobile-testing-amico.svg" alt="axés sur les compétences">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Mobile-testing-amico.svg" alt="Interactions Fines et Précises">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Interactions Fines et Précises

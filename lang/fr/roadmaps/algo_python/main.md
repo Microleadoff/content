@@ -14,13 +14,13 @@
                 Commencez votre voyage avec des concepts mathématiques essentiels. Les projets tels que 'le plus grand nombre pair', 'la somme des nombres pairs', 'le deuxième plus grand nombre', 'la médiane', 'la méthode de Newton', 'PGCD' et 'Fibonacci' sont conçus pour aiguiser votre esprit analytique. Chaque défi mathématique vous oblige à appliquer les concepts que vous avez appris et à les transformer en solutions de programmation efficaces.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Mathematics-amico.svg" alt="axés sur les compétences">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Mathematics-amico.svg" alt="Section de Mathématiques">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/aa27553796117f85edb19fb8b26a578bcfcc4d71/images/Filter-rafiki.svg" alt="axés sur les compétences">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/aa27553796117f85edb19fb8b26a578bcfcc4d71/images/Filter-rafiki.svg" alt="Section de Tri">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Section de Tri
@@ -42,13 +42,13 @@
                 La section de recherche renforce vos compétences d'algorithmique en vous faisant explorer des techniques de recherche telles que la 'recherche naïve', 'recherche linéaire', 'recherche binaire', et la 'recherche de sous-chaine'. Ces projets augmenteront la complexité au fur et à mesure, vous obligeant à utiliser les compétences que vous avez acquises lors des sections précédentes pour développer des solutions de plus en plus sophistiquées.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/5c8abda1814e8a678c88ca0cb1e73d5683cd21f8/images/Woman-thinking-rafiki.svg" alt="axés sur les compétences">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/5c8abda1814e8a678c88ca0cb1e73d5683cd21f8/images/Woman-thinking-rafiki.svg" alt="Section de Recherche">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Calculator-amico.svg" alt="axés sur les compétences">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Calculator-amico.svg" alt="Section de Cryptage">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Section de Cryptage
