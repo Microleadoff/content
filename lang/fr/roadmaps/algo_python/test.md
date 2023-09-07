@@ -151,7 +151,7 @@
               </ul>
           </div>
           <img class="h-[350px] md:h-[500px]" width="727" height="723"
-               src="{{ asset('images/landing_roadmaps/image-1.svg') }}"
+               src="https://raw.githubusercontent.com/Microleadoff/content/4ada00c730f209b24be96f506ee8a600e6f98f4e/images/advantages.svg"
                alt="axés sur les compétences">
       </div>
   </section>
