@@ -41,7 +41,7 @@
               </ul>
           </div>
           <img class="h-[350px] md:h-[500px]" width="727" height="723"
-               src="{{ asset('images/landing_roadmaps/image-1.svg') }}"
+               src="https://raw.githubusercontent.com/Microleadoff/content/7b47d6d5e5b1c89d91855458c508cd7389b8d90b/images/irritated.svg"
                alt="axés sur les compétences">
       </div>
   </section>
