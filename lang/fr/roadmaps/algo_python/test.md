@@ -76,7 +76,7 @@
       <div
           class="pt-8 md:pt-12 flex flex-col xl:flex-row gap-16 items-center justify-between">
           <img class="h-[350px] md:h-[500px]" width="727" height="723"
-               src="{{ asset('images/landing_roadmaps/image-2.svg') }}"
+               src="https://raw.githubusercontent.com/Microleadoff/content/4e471cdedb2a8400ae26afb199202035a9a5155b/images/kevin-niel.svg"
                alt="axés sur les compétences">
           <div>
               <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
