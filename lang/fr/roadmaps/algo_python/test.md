@@ -122,7 +122,7 @@
             </ul>
             <a href="#"
                 class="rounded-xl py-2 px-6 w-full bg-blue-500 text-lg text-white hover:bg-blue-400 duration-150 font-semibold mx-auto block max-w-max"
-                style="padding-top: 9px; padding-bottom: 9px">
+                style="padding-top: 9px; padding-bottom: 9px;">
                 Rejoindre la formation
             </a>
         </div>
