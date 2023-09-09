@@ -32,8 +32,8 @@
             </ul>
         </div>
         <img class="h-[350px] md:h-[500px]" width="727" height="723"
-            src="https://raw.githubusercontent.com/Microleadoff/content/7b47d6d5e5b1c89d91855458c508cd7389b8d90b/images/irritated.svg"
-            alt="axés sur les compétences">
+             src="https://raw.githubusercontent.com/Microleadoff/content/7b47d6d5e5b1c89d91855458c508cd7389b8d90b/images/irritated.svg"
+             alt="axés sur les compétences">
     </div>
 </section>
 
@@ -43,14 +43,14 @@
     </h2>
     <p class="text-gray-600 pt-8 xl:text-center text-md lg:text-lg max-w-7xl mx-auto pb-12">
         Dans l'univers impitoyable de la programmation, chacun cherche à faire ses preuves et à affirmer sa place. Si tu as l'ambition de <strong>réaliser n'importe quel algorithme</strong> en Python, alors tu es au bon endroit. Ne te contente pas de suivre la foule. Va plus loin en trouvant des <strong>solutions adaptées à chaque projet</strong>, car l'originalité et la pertinence te différencieront toujours.
-    <br><br>
+        <br><br>
         Apprends à devenir non seulement <strong>efficace</strong>, mais aussi <strong>rapide</strong>. Dans ce monde où tout évolue à la vitesse de la lumière, la rapidité d'exécution est aussi importante que la précision. Mais ne t'arrête pas là. <strong>Prouve au monde entier que tu en es capable</strong>. Montre-leur que tu n'es pas juste un autre codeur dans la masse, mais un véritable innovateur. Et comment y parvenir? En <strong>pensant différemment</strong>.
-    <br><br>
+        <br><br>
         Pense comme un <strong>ordinateur</strong> pour comprendre sa logique, comme un <strong>développeur</strong> pour saisir les nuances du code, et comme un <strong>pro</strong> pour toujours viser l'excellence. Voilà ce que tu veux réussir à faire. Alors, es-tu prêt à relever le défi ?
     </p>
     <a href="#"
-        class="rounded-xl py-2 px-6 w-full bg-blue-500 text-lg text-white hover:bg-blue-400 duration-150 font-semibold mx-auto block max-w-max"
-        style="padding-top: 9px; padding-bottom: 9px">
+       class="rounded-xl py-2 px-6 w-full bg-blue-500 text-lg text-white hover:bg-blue-400 duration-150 font-semibold md:mx-auto block max-w-max"
+       style="padding-top: 9px; padding-bottom: 9px">
         Je relève le defi
     </a>
 </section>
@@ -59,24 +59,24 @@
     <div
         class="pt-8 md:pt-12 flex flex-col xl:flex-row gap-16 items-center justify-between">
         <img class="h-[350px] md:h-[500px]" width="727" height="723"
-            src="https://raw.githubusercontent.com/Microleadoff/content/4e471cdedb2a8400ae26afb199202035a9a5155b/images/kevin-niel.svg"
-            alt="axés sur les compétences">
+             src="https://raw.githubusercontent.com/Microleadoff/content/4e471cdedb2a8400ae26afb199202035a9a5155b/images/kevin-niel.svg"
+             alt="axés sur les compétences">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Pourquoi me faire confiance ?
             </h2>
             <p class="text-gray-600 pt-8 text-md lg:text-lg">
                 Je m'appelle Kévin NIEL et mon engagement dans l'enseignement a débuté il y a plus de <strong>15 ans</strong>. Mon parcours est loin d'être conventionnel : j'ai décroché un BAC+5 en informatique sans même avoir obtenu le BAC. Un témoignage de ma <strong>passion</strong> et de ma <strong>détermination</strong> à dépasser les normes.
-            <br><br>
+                <br><br>
                 Ma carrière m'a conduit dans certaines des <strong>écoles d'informatique les plus renommées de France</strong>, où j'ai eu l'honneur de former la future génération d'informaticiens. Et mes compétences ne sont pas passées inaperçues : le Ministère du Travail français m'a agréé en tant que <strong>Jury officiel</strong>, me confiant la responsabilité de délivrer des diplômes jusqu'au niveau BAC+5.
-            <br><br>
+                <br><br>
                 Au fil de ma carrière, j'ai guidé <strong>des milliers d'étudiants</strong> vers le succès. Grâce à cette riche expérience, j'ai rassemblé tout mon savoir et mes ressources pédagogiques sur cette plateforme. Mon objectif ? <strong>Aider chaque étudiant à briller</strong> dans ce domaine passionnant, quel que soit son lieu de résidence !
             </p>
             <a href="https://www.linkedin.com/in/kevinniel/details/recommendations/?detailScreenTabIndex=0"
-                target="_blank"
-                title="Voir mes recommandations LinkedIn"
-                class="rounded-xl py-2 px-6 w-full bg-blue-500 text-lg text-white hover:bg-blue-400 duration-150 font-semibold mx-auto block max-w-max"
-                style="padding-top: 9px; padding-bottom: 9px">
+               target="_blank"
+               title="Voir mes recommandations LinkedIn"
+               class="rounded-xl py-2 px-6 w-full bg-blue-500 text-lg text-white hover:bg-blue-400 duration-150 font-semibold block max-w-max mt-6"
+               style="padding-top: 9px; padding-bottom: 9px">
                 Voir mes recommandations LinkedIn
             </a>
         </div>
@@ -121,14 +121,14 @@
                 </li>
             </ul>
             <a href="#"
-                class="rounded-xl py-2 px-6 w-full bg-blue-500 text-lg text-white hover:bg-blue-400 duration-150 font-semibold mx-auto block max-w-max"
-                style="padding-top: 9px; padding-bottom: 9px;">
+               class="rounded-xl py-2 px-6 w-full bg-blue-500 text-lg text-white hover:bg-blue-400 duration-150 font-semibold mt-6 block max-w-max"
+               style="padding-top: 9px; padding-bottom: 9px;">
                 Rejoindre la formation
             </a>
         </div>
         <img class="h-[350px] md:h-[500px]" width="727" height="723"
-            src="https://raw.githubusercontent.com/Microleadoff/content/4ada00c730f209b24be96f506ee8a600e6f98f4e/images/advantages.svg"
-            alt="axés sur les compétences">
+             src="https://raw.githubusercontent.com/Microleadoff/content/4ada00c730f209b24be96f506ee8a600e6f98f4e/images/advantages.svg"
+             alt="axés sur les compétences">
     </div>
 </section>
 
