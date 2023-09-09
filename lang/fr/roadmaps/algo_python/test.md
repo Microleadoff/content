@@ -5,29 +5,53 @@
                 On connait parfaitement ta situation :
             </h2>
             <ul class="flex flex-col gap-5">
+                {{--    <li>--}}
+                {{--        <a href="#" class="cta block p-5 rounded-lg" style="background: #ededed;">--}}
+                {{--            <div>--}}
+                {{--                <h4 class="text-xl font-bold text-gray-900 pb-2">Tu galères tous les jours sur tes algos ?</h4>--}}
+                {{--                <p class="text-gray-600">Et même si tu as démultiplié toutes les sources que tu as trouvé sur internet, tu n’y arrives toujours pas ?</p>--}}
+                {{--            </div>--}}
+                {{--        </a>--}}
+                {{--    </li>--}}
+                {{--    <li>--}}
+                {{--        <a href="#" class="cta block p-5 rounded-lg" style="background: #ededed;">--}}
+                {{--            <div>--}}
+                {{--                <h4 class="text-xl font-bold text-gray-900 pb-2">Tu maitrises les fondamentaux mais tu n’arrives pas à les utiliser dans des cas concrets ?</h4>--}}
+                {{--                <p class="text-gray-600">Les boucles et les conditions n’ont plus de secret pour toi, mais comment faire pour les utiliser quand il faut ?</p>--}}
+                {{--            </div>--}}
+                {{--        </a>--}}
+                {{--    </li>--}}
+                {{--    <li>--}}
+                {{--        <a href="#" class="cta block p-5 rounded-lg" style="background: #ededed;">--}}
+                {{--            <div>--}}
+                {{--                <h4 class="text-xl font-bold text-gray-900 pb-2">Tu sais ce qu’il faut faire, mais tu ne sais pas dans quel ordre t’y prendre ?</h4>--}}
+                {{--                <p class="text-gray-600">Malgré la réalisation de nombreux exercices trouvés à droite à gauche sur internet, rien n’y fait : tu n’arrives pas à obtenir le résultat souhaité.</p>--}}
+                {{--            </div>--}}
+                {{--        </a>--}}
+                {{--    </li>--}}
                 <li>
-                    <a href="#" class="cta block p-5 rounded-lg" style="background: #ededed;">
+                    <div class="cta block p-5 rounded-lg" style="background: #ededed;">
                         <div>
                             <h4 class="text-xl font-bold text-gray-900 pb-2">Tu galères tous les jours sur tes algos ?</h4>
                             <p class="text-gray-600">Et même si tu as démultiplié toutes les sources que tu as trouvé sur internet, tu n’y arrives toujours pas ?</p>
                         </div>
-                    </a>
+                    </div>
                 </li>
                 <li>
-                    <a href="#" class="cta block p-5 rounded-lg" style="background: #ededed;">
+                    <div class="cta block p-5 rounded-lg" style="background: #ededed;">
                         <div>
                             <h4 class="text-xl font-bold text-gray-900 pb-2">Tu maitrises les fondamentaux mais tu n’arrives pas à les utiliser dans des cas concrets ?</h4>
                             <p class="text-gray-600">Les boucles et les conditions n’ont plus de secret pour toi, mais comment faire pour les utiliser quand il faut ?</p>
                         </div>
-                    </a>
+                    </div>
                 </li>
                 <li>
-                    <a href="#" class="cta block p-5 rounded-lg" style="background: #ededed;">
+                    <div class="cta block p-5 rounded-lg" style="background: #ededed;">
                         <div>
                             <h4 class="text-xl font-bold text-gray-900 pb-2">Tu sais ce qu’il faut faire, mais tu ne sais pas dans quel ordre t’y prendre ?</h4>
                             <p class="text-gray-600">Malgré la réalisation de nombreux exercices trouvés à droite à gauche sur internet, rien n’y fait : tu n’arrives pas à obtenir le résultat souhaité.</p>
                         </div>
-                    </a>
+                    </div>
                 </li>
             </ul>
         </div>
