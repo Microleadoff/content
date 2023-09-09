@@ -179,12 +179,6 @@
             </li>
             <li class="block p-5 rounded-lg" style="background: #ededed;">
                 <div>
-                    <h4 class="text-xl font-bold text-gray-900 pb-2">Est-ce que je peux tester la solution avant de l’acheter ?</h4>
-                    <p class="text-gray-600">Non. Nous avons mis en place un système millimétré pour facilité votre progression. Démarrer la formation entraîne immédiatement des bénéfices, dès les premières minutes, c’est pourquoi nous ne pouvons pas te permettre de l’essayer avant !</p>
-                </div>
-            </li>
-            <li class="block p-5 rounded-lg" style="background: #ededed;">
-                <div>
                     <h4 class="text-xl font-bold text-gray-900 pb-2">Qu’est-ce que je vais trouver dans la formation ?</h4>
                     <p class="text-gray-600">Un tas de choses ! Le plus important : des projets pour te mettre en situation réelle ! En fonction des formations, tu pourras également retrouver des cours, des vidéos, des exercices, des sources d’apprentissages et plein d’autres choses encore. Le seul élément que tu dois retenir ici c’est que tout est fait pour te faire progresser rapidement et de façon certaine ! N’oublies pas aussi que l’accès est débloqué à vie, accessible 24h/24, 7j/7 et que toutes les mises à jour seront accessibles gratuitement par la suite !</p>
                 </div>
