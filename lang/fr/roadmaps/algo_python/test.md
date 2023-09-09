@@ -6,7 +6,7 @@
             </h2>
             <ul class="flex flex-col gap-5">
                 <li>
-                    <a href="#" class="block p-5 rounded-lg" style="background: #ededed;">
+                    <a href="#" class="cta block p-5 rounded-lg" style="background: #ededed;">
                         <div>
                             <h4 class="text-xl font-bold text-gray-900 pb-2">Tu galères tous les jours sur tes algos ?</h4>
                             <p class="text-gray-600">Et même si tu as démultiplié toutes les sources que tu as trouvé sur internet, tu n’y arrives toujours pas ?</p>
@@ -14,7 +14,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="block p-5 rounded-lg" style="background: #ededed;">
+                    <a href="#" class="cta block p-5 rounded-lg" style="background: #ededed;">
                         <div>
                             <h4 class="text-xl font-bold text-gray-900 pb-2">Tu maitrises les fondamentaux mais tu n’arrives pas à les utiliser dans des cas concrets ?</h4>
                             <p class="text-gray-600">Les boucles et les conditions n’ont plus de secret pour toi, mais comment faire pour les utiliser quand il faut ?</p>
@@ -22,7 +22,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="block p-5 rounded-lg" style="background: #ededed;">
+                    <a href="#" class="cta block p-5 rounded-lg" style="background: #ededed;">
                         <div>
                             <h4 class="text-xl font-bold text-gray-900 pb-2">Tu sais ce qu’il faut faire, mais tu ne sais pas dans quel ordre t’y prendre ?</h4>
                             <p class="text-gray-600">Malgré la réalisation de nombreux exercices trouvés à droite à gauche sur internet, rien n’y fait : tu n’arrives pas à obtenir le résultat souhaité.</p>
@@ -49,7 +49,7 @@
         Pense comme un <strong>ordinateur</strong> pour comprendre sa logique, comme un <strong>développeur</strong> pour saisir les nuances du code, et comme un <strong>pro</strong> pour toujours viser l'excellence. Voilà ce que tu veux réussir à faire. Alors, es-tu prêt à relever le défi ?
     </p>
     <a href="#"
-       class="rounded-xl py-2 px-6 w-full bg-blue-500 text-lg text-white hover:bg-blue-400 duration-150 font-semibold md:mx-auto block max-w-max"
+       class="cta rounded-xl py-2 px-6 w-full bg-blue-500 text-lg text-white hover:bg-blue-400 duration-150 font-semibold md:mx-auto block max-w-max"
        style="padding-top: 9px; padding-bottom: 9px">
         Je relève le defi
     </a>
@@ -121,7 +121,7 @@
                 </li>
             </ul>
             <a href="#"
-               class="rounded-xl py-2 px-6 w-full bg-blue-500 text-lg text-white hover:bg-blue-400 duration-150 font-semibold mt-6 block max-w-max"
+               class="cta rounded-xl py-2 px-6 w-full bg-blue-500 text-lg text-white hover:bg-blue-400 duration-150 font-semibold mt-6 block max-w-max"
                style="padding-top: 9px; padding-bottom: 9px;">
                 Rejoindre la formation
             </a>
