@@ -94,28 +94,28 @@
                 <li class="block p-3 rounded-lg border-2 border-gray-200 bg-white">
                     <div>
                         <h4 class="text-lg font-semibold text-gray-900 flex items-center">
-                            <i class="fa fa-check mx-2"></i>Résoudre des problèmes mathématiques concrets, que tu pourras retrouver en entreprise ou dans des missions clients
+                            <i class="fa fa-check mx-2 pr-2 text-blue-500"></i>Résoudre des problèmes mathématiques concrets, que tu pourras retrouver en entreprise ou dans des missions clients
                         </h4>
                     </div>
                 </li>
                 <li class="block p-3 rounded-lg border-2 border-gray-200 bg-white">
                     <div>
                         <h4 class="text-lg font-semibold text-gray-900 flex items-center">
-                            <i class="fa fa-check mx-2"></i>Maîtriser les différents algorithmes de tri pour maximiser ton efficacité et la rapidité d’exécution de ton code
+                            <i class="fa fa-check mx-2 pr-2 text-blue-500"></i>Maîtriser les différents algorithmes de tri pour maximiser ton efficacité et la rapidité d’exécution de ton code
                         </h4>
                     </div>
                 </li>
                 <li class="block p-3 rounded-lg border-2 border-gray-200 bg-white">
                     <div>
                         <h4 class="text-lg font-semibold text-gray-900 flex items-center">
-                            <i class="fa fa-check mx-2"></i>Dompter les techniques de recherche avancées pour garantir un résultat optimal aux utilisateurs
+                            <i class="fa fa-check mx-2 pr-2 text-blue-500"></i>Dompter les techniques de recherche avancées pour garantir un résultat optimal aux utilisateurs
                         </h4>
                     </div>
                 </li>
                 <li class="block p-3 rounded-lg border-2 border-gray-200 bg-white">
                     <div>
                         <h4 class="text-lg font-semibold text-gray-900 flex items-center">
-                            <i class="fa fa-check mx-2"></i>Apprendre les techniques de cryptage pour découvrir des moyens de sécuriser tes applications
+                            <i class="fa fa-check mx-2 pr-2 text-blue-500"></i>Apprendre les techniques de cryptage pour découvrir des moyens de sécuriser tes applications
                         </h4>
                     </div>
                 </li>
