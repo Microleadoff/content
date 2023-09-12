@@ -2,7 +2,7 @@
 
 ### Description courte
 
-Le principe du projet est de générer un sapin de noël à partir d'un algorithme que vous devrez concevoir.
+Le principe du projet est de créer un outil de gestion de centre de toilettage canin.
 
 ### Contexte
 
@@ -20,6 +20,8 @@ Le principe du projet est de générer un sapin de noël à partir d'un algorith
 - Un système de gestion des chiens (liés aux clients)
 - Un système de gestion des Services
 - Un système de gestion les RDVs
+
+**Attention, notez que chaque utilisateur ne pourra pas réaliser tous les soins, il faudra donc dissocier quel utilisateur pourra réaliser quel soin !**
 
 ### Listing des pages à réaliser
 
