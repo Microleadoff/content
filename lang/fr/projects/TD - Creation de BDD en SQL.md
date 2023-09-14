@@ -16,11 +16,7 @@ Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes S
 - Supprimer la base de données "Tata"
 - Supprimer la base de données "toto"
 
-### Éléments donnés
-
-lien vers le dépôt : <a href="https://github.com/Microleadoff/Tabs-navigation-Javascript" title="lien vers le dépôt" target="_blank">https://github.com/Microleadoff/Tabs-navigation-Javascript</a>
-
 ### Contraintes
 
-- Vous ne devez pas modifier le code HTML/CSS fournis,
-- Le système de validation du formulaire est créé en JavaScript uniquement.
+- N'utilisez que du SQL
+- Gardez bien trace de chaque instruction rédigée
