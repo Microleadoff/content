@@ -32,6 +32,8 @@ Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes S
 - Renseignez l’âge de Harley DAVIDSON : 200 ans
 - Renseignez l’âge de David GOLIATH : 3000 ans
 - Modifier la table « golfeurs » en supprimant la colonne « Email »
+- Supprimer l'utilisateur david GOLIATH
+- Supprimer le golfeur Tim COOK
 - Vider les informations de la table « utilisateurs »
 - Vider les informations de la table « golfeurs »
 - Supprimer la base de données nommée « golf »
