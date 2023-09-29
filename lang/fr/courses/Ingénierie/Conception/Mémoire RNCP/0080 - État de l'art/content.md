@@ -39,5 +39,6 @@ Imaginons faire des recherches sur la programmation en python, voici un exemple 
 Bref, vous avez normalement compris le principe !
 
 **Note** : Remarquez le dernier exemple, la date de publication du livre (2012) est ici très révélatrice : le livre à déjà plus de 10 ans ! Cela signifie deux choses :
+
 1. Vous devez vous méfier de son contenu, surtout s'agissant de développement et de la rapiditié d'évolution du domaine. Cela ne signifie bien évidemment pas que le contenu ne soit pas bon, mais cela soulève un point d'attention qu'il faut retenir !
 2. En admettant que le critère de date rende la source non utilisable, il convient tout de même de laisser noté dans votre tableau la source ! Vous devez lister toutes les sources que vous avez vu ou que vous avez survolé, afin de démontrer un maximum d'engagement de votre part concernant l'état de l'art !
