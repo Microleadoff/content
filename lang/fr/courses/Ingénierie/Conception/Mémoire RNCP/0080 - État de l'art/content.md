@@ -42,3 +42,7 @@ Bref, vous avez normalement compris le principe !
 
 1. Vous devez vous méfier de son contenu, surtout s'agissant de développement et de la rapiditié d'évolution du domaine. Cela ne signifie bien évidemment pas que le contenu ne soit pas bon, mais cela soulève un point d'attention qu'il faut retenir !
 2. En admettant que le critère de date rende la source non utilisable, il convient tout de même de laisser noté dans votre tableau la source ! Vous devez lister toutes les sources que vous avez vu ou que vous avez survolé, afin de démontrer un maximum d'engagement de votre part concernant l'état de l'art !
+
+## Un dernier mot ?
+
+Pensez à votre bibliographie ! Il est souvent de mise de réaliser un tel type d'exercice au sein d'un mémoire. Ce listing de sources et cette méthodologie vous aiderons grandement dans la réalisation d'une bibliographie digne de ce nom !
