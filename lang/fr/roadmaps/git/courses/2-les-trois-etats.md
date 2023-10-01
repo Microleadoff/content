@@ -8,7 +8,7 @@ Il est essentiel de garder à l'esprit les éléments suivants si vous souhaitez
 
 Ces concepts nous conduisent aux trois sections principales d'un projet Git : le répertoire Git, le répertoire de travail et la zone d'index.
 
-Le répertoire Git constitue la zone où Git stocke les métadonnées essentielles et la base de données d'objets de votre projet. C'est la partie fondamentale de Git, et c'est ce qui est reproduit lorsque vous effectuez un clonage (clone) d'un dépôt à partir d'un autre ordinateur.
+Le répertoire Git constitue la zone où Git stocke les métadonnées essentielles et la base de données d'objets de votre projet. C'est la partie fondamentale de Git, et c'est ce qui est reproduit lorsque vous effectuez un clonage (```clone```) d'un dépôt à partir d'un autre ordinateur.
 
 Le répertoire de travail représente une copie unique d'une version spécifique du projet. Ces fichiers sont extraits de la base de données compressée du répertoire Git et sont placés sur votre disque dur pour être utilisés ou modifiés.
 
