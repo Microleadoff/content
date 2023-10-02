@@ -13,3 +13,7 @@
     __Remarque__ : ici tout votre contenu doit toujours être sous forme de liste à l'exception des titres et sous-titres (plan niveau 2)
     3. Organiser chaque sous-titre / sous-partie, en classant les éléments y étant présents. On peut considérer que chaque élément fera office d'un paragraphe (non obligatoire, mais pratique comme point de repère) (plan niveau 3)
     4. Tous vos titres sont maintenant en place, l'ensemble des éléments restants sous forme de liste représente donc vos contenus à rédiger. Point de repère : 1 élément de la liste = 1 sujet à aborder. Pour chaque sujet, possible de faire des sous-listes : 1 sous-liste = 1 paragraphe. (plan niveau 4)
+
+
+
+- toujours pas de rédaction !
