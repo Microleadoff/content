@@ -15,7 +15,7 @@ Prennons un exemple parmis la liste précédemment réalisée :
 
 ## Entrons dans le détail
 
-Pour chacun des éléments choisi, il est temps de dresser une dernière liste qui vont vous permettre de faire votre choix de sujet final : 
+Pour chacun des éléments choisi, il est temps de dresser une dernière liste qui va vous permettre de faire votre choix de sujet final : 
 
 - Ce que vous utilisez en entreprise : détaillez les technologies, l'organisation, ou toute autre information qui permettrait de faire un lien entre l'élément de la liste, et l'utilisation que vous en faites en entreprise.
 - Ce qui existe en dehors de votre entreprise : essayez de trouver des technologies ou des organisations qui soient similaires à celles que vous utilisez en entreprise, mais qui ne sont pas identique ! L'idée sous-jacente ici sera de vous permettre de démontrer plus tard des travaux de comparaison et / ou de recherche
