@@ -4,7 +4,7 @@ Cette étape consiste tout simplement en la réalisation de travaux de recherche
 
 Lors de cette étape, il est possible que vous ayez déjà en vu votre problématique (que nous aborderons très bientôt). Si tel est le cas, vous êtes soit en avance, soit en retard :
 
-- Si vous êtes sûr et certain de votre sujet, et que vous le maitrisé sous tous les angles, il est probable que vous soyez en avance
+- Si vous êtes sûr et certain de votre sujet, et que vous le maitrisez sous tous les angles, il est probable que vous soyez en avance
 - Si à contrario vous pensez tout connaître de votre sujet, mais que ce n'est qu'une illusion, alors vous être probablement en retard
 
 **Note** : Le retard se caractérise par un manque global d'information. Il a pour principal conséquence d'engendrer une mauvaise vision d'un sujet, et entraine donc souvent une mauvaise approche de la problématique (ce qui entraîne par conséquent un mémoire souvent hors sujet ou pas suffisamment approfondi...)
