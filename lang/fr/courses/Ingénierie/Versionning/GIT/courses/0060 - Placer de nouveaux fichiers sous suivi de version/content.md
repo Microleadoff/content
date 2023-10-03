@@ -1,5 +1,3 @@
-## Placer de nouveaux fichiers sous suivi de version
-
 Pour commencer à suivre un nouveau fichier, vous devez utiliser la commande ```git add```. Dans le cas de votre fichier LISEZMOI, vous pouvez le faire en saisissant la commande suivante :
 
 ```bash

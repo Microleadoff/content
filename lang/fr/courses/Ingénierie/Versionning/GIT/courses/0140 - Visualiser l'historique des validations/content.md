@@ -1,5 +1,3 @@
-## Visualiser l’historique des validations
-
 Après avoir créé plusieurs commits ou si vous avez cloné un dépôt ayant un historique de commits, vous souhaitez probablement revoir le fil des évènements. Pour ce faire, la commande ```git log``` est l’outil le plus basique et le plus puissant.
 
 Les exemples qui suivent utilisent un projet très simple nommé simplegit utilisé pour les démonstrations. Pour récupérer le projet, lancez :

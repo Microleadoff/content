@@ -1,5 +1,3 @@
-## Valider vos modifications
-
 Une fois que vous avez configuré votre zone d'index comme vous le souhaitez, il est temps de valider vos modifications. N'oubliez pas que tout ce qui n'a pas encore été indexé, c'est-à-dire tous les fichiers que vous avez créés ou modifiés mais auxquels vous n'avez pas encore appliqué la commande ```git add``` depuis leur modification, ne fera pas partie de la prochaine validation. Ces fichiers resteront dans un état modifié sur votre disque.
 
 Dans notre cas, lors de votre dernière utilisation de ```git status```, vous avez vérifié que tout était bien indexé, ce qui signifie que vous êtes prêt à valider vos modifications. La méthode la plus simple pour effectuer une validation est d'exécuter la commande ```git commit``` :

@@ -1,5 +1,3 @@
-## Limiter la longueur de l’historique
-
 En complément des options de formatage de sortie, ```git log``` est pourvu de certaines options de limitation utiles, des options qui permettent de restreindre la liste à un sous-ensemble de commits. Vous avez déjà vu une de ces options, l’option `-2` qui ne montre que les deux derniers commits. En fait, on peut utiliser ```-<n>```, où n correspond au nombre de commits que l’on cherche à visualiser en partant des plus récents. En vérité, il est peu probable que vous utilisiez cette option, parce que Git injecte par défaut sa sortie dans un outil de pagination qui permet de la visualiser page à page.
 
 Cependant, les options de limitation portant sur le temps, telles que ```--since``` (depuis) et ```--until``` (jusqu’à) sont très utiles. Par exemple, la commande suivante affiche la liste des commits des deux dernières semaines :

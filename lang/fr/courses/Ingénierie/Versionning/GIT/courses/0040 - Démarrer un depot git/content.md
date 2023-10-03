@@ -1,5 +1,3 @@
-## Démarrer un dépôt Git
-
 Pour créer un dépôt Git, vous avez principalement deux options. La première consiste à prendre un projet ou un répertoire existant et à l'intégrer dans Git. La seconde consiste à effectuer un clonage (clone) d'un dépôt Git existant depuis un autre serveur.
 
 ### Initialisation d’un dépôt Git dans un répertoire existant

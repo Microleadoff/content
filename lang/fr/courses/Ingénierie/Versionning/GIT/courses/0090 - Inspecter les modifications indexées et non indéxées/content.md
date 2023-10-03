@@ -1,5 +1,3 @@
-## Inspecter les modifications indexées et non indexées
-
 Lorsque la sortie de la commande ```git status``` ne fournit pas suffisamment de détails et que vous souhaitez non seulement savoir quels fichiers ont été modifiés, mais également ce qui a été modifié dans ces fichiers, vous pouvez utiliser la commande ```git diff```. Cette commande sera examinée en détail plus tard, mais elle est généralement utilisée pour répondre aux questions suivantes : qu'a-t-il été modifié mais pas encore indexé ? Quelles modifications ont été indexées et sont prêtes à être validées ? Alors que ```git status``` offre des informations générales pour répondre à ces questions, ```git diff``` affiche les lignes exactes qui ont été ajoutées, modifiées ou supprimées.
 
 ```bash

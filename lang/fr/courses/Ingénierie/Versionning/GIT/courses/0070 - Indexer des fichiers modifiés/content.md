@@ -1,5 +1,3 @@
-## Indexer des fichiers modifiés
-
 Modifier un fichier déjà sous suivi de version. Si vous apportez des modifications à un fichier suivi par Git, tel que "CONTRIBUTING.md", et que vous exécutez à nouveau la commande ```git status```, vous obtiendrez la sortie suivante :
 
 ```bash

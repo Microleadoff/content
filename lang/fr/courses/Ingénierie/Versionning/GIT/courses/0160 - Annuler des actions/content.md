@@ -1,5 +1,3 @@
-## Annuler des actions
-
 À tout moment, vous pouvez désirer annuler une de vos dernières actions. Il faut être très attentif car certaines de ces annulations sont définitives (elles ne peuvent pas être elles-mêmes annulées). C’est donc un des rares cas d’utilisation de Git où des erreurs de manipulation peuvent entraîner des pertes définitives de données.
 
 Une des annulations les plus communes apparaît lorsqu’on valide une modification trop tôt en oubliant d’ajouter certains fichiers, ou si on se trompe dans le message de validation. Si vous souhaitez rectifier cette erreur, vous pouvez valider le complément de modification avec l’option ```--amend``` :

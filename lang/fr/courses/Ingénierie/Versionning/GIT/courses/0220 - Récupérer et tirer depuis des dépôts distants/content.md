@@ -1,5 +1,3 @@
-## Récupérer et tirer depuis des dépôts distants
-
 Pour obtenir les données des dépôts distants, comme vous venez de le voir, vous pouvez utiliser la commande suivante :
 
 ```bash

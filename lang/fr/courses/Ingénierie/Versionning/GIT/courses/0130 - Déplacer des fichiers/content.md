@@ -1,5 +1,3 @@
-## Déplacer des fichiers
-
 Contrairement à d'autres systèmes de contrôle de version (VCS), Git ne suit pas explicitement les mouvements de fichiers. Lorsque vous renommez un fichier suivi par Git, aucune métadonnée indiquant le renommage n'est stockée par Git. Cependant, Git est suffisamment intelligent pour détecter ces renommages a posteriori.
 
 Par conséquent, le fait que Git dispose d'une commande ```mv``` peut sembler trompeur. Si vous souhaitez renommer un fichier dans Git, vous pouvez simplement exécuter une commande telle que :

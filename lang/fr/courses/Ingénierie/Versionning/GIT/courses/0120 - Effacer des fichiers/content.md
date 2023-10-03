@@ -1,5 +1,3 @@
-## Effacer des fichiers
-
 Pour supprimer un fichier de Git, vous devez d'abord le retirer des fichiers sous suivi de version (plus précisément, le désindexer dans la zone d'index), puis procéder à la validation. La commande ```git rm``` accomplit cette tâche, mais elle efface également le fichier de votre copie de travail de manière à ce qu'il ne réapparaisse pas comme un fichier non suivi lors de la prochaine validation.
 
 Si vous supprimez simplement le fichier dans votre copie de travail, il apparaîtra sous la section **Modifications qui ne seront pas validées** (c'est-à-dire, non indexé) lorsque vous exécutez ```git status``` :

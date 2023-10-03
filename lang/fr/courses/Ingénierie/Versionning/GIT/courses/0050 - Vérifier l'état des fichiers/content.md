@@ -1,5 +1,3 @@
-## Vérifier l’état des fichiers
-
 Lorsque vous travaillez sur votre projet, il est important de comprendre que chaque fichier de votre copie de travail peut se trouver dans l'un des deux états : suivi ou non suivi.
 
 Les fichiers **suivis** sont ceux qui étaient déjà présents dans la dernière version (commit). Ils peuvent être inchangés, modifiés ou indexés pour un futur commit. Tous les autres fichiers sont considérés comme **non suivis** cela signifie qu'ils ne faisaient pas partie de la dernière version et n'ont pas été inclus dans l'index (zone de staging).

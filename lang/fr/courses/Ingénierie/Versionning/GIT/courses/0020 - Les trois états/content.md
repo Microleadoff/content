@@ -1,5 +1,3 @@
-## Les trois états
-
 Il est essentiel de garder à l'esprit les éléments suivants si vous souhaitez que la suite de votre apprentissage se déroule en douceur. Git gère trois états dans lesquels les fichiers peuvent se trouver : validé, modifié et indexé.
 
 - **Validé** signifie que les données sont enregistrées en toute sécurité dans votre base de données locale.

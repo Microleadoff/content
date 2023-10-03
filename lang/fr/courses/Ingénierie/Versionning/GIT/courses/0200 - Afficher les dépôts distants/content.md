@@ -1,5 +1,3 @@
-## Afficher les dépôts distants
-
 Pour afficher la liste des serveurs distants enregistrés, vous pouvez utiliser la commande ```git remote```. Cette commande répertorie les noms des références distantes que vous avez configurées. Lorsque vous clonez un dépôt, vous verrez au moins une référence appelée ```origin```, qui est le nom par défaut donné par Git au serveur à partir duquel vous avez cloné. Voici comment vous pouvez l'utiliser :
 
 ```bash

@@ -1,5 +1,3 @@
-## Ajouter des dépôts distants
-
 Pour ajouter un nouveau dépôt distant Git avec un nom court pour une référence facile, utilisez la commande ```git remote add [nom court] [URL]```. Voici un exemple :
 
 ```bash

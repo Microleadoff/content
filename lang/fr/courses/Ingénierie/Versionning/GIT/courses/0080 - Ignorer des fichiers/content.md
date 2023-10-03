@@ -1,5 +1,3 @@
-## Ignorer des fichiers
-
 Il est courant de constater que certains types de fichiers présents dans la copie de travail ne doivent pas être ajoutés automatiquement, voire ne doivent même pas être pris en compte pour le suivi de version. Ces fichiers comprennent notamment ceux générés automatiquement, tels que les fichiers journaux ou de sauvegarde produits par les outils que vous utilisez. Dans de tels cas, vous pouvez spécifier les modèles de noms de fichiers à ignorer en créant un fichier nommé **.gitignore** placé à la racine du projet. Voici un exemple de contenu pour un fichier **.gitignore** :
 
 ```bash

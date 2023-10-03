@@ -1,5 +1,3 @@
-## Mise en index
-
 Bien qu'il soit extrêmement pratique de pouvoir organiser les commits à sa guise, la gestion de la zone d'index peut parfois sembler plus compliquée que nécessaire lors d'une utilisation normale. Si vous souhaitez éviter l'étape d'ajout des fichiers à la zone d'index, Git propose une solution simplifiée. En utilisant l'option ```-a``` avec la commande ```git commit```, Git sera automatiquement chargé d'ajouter tous les fichiers déjà sous suivi de version à la zone d'index avant d'effectuer la validation, vous évitant ainsi d'avoir à saisir les commandes ```git add``` :
 
 ```bash
