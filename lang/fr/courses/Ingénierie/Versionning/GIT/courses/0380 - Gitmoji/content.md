@@ -59,9 +59,9 @@ Les deux approches sont tout à fait acceptables, vous pouvez choisir celle qui 
 
 | Unicode | Shortcode | Signification |
 |-----|-----|-----|
-|🎨|:art:|Améliorer la structure / le format du code.|
-|⚡️|:zap:|Améliorer les performances.|
-|🔥|:fire:|Supprimer du code ou des fichiers.|
+|🎨|```:art:```|Améliorer la structure / le format du code.|
+|⚡️|```:zap:```|Améliorer les performances.|
+|🔥|```:fire:```|Supprimer du code ou des fichiers.|
 |XXX|XXX|XXX|
 |XXX|XXX|XXX|
 |XXX|XXX|XXX|
