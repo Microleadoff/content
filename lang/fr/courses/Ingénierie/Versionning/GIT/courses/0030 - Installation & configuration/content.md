@@ -4,17 +4,17 @@ Avant de pouvoir commencer à utiliser Git, vous devez vous assurer qu'il est in
 
 ### Installation sur Windows
 
-Il existe plusieurs façons d'installer Git sur un système Windows. L'application officielle de Git est disponible en téléchargement sur le site web de Git. Vous pouvez y accéder en vous rendant sur [http://git-scm.com/download/win](http://git-scm.com/download/win), et le téléchargement commencera automatiquement. Il est important de noter qu'il s'agit du projet appelé "Git for Windows" (également connu sous le nom de msysGit), qui est distinct du projet Git lui-même.
+Il existe plusieurs façons d'installer Git sur un système Windows. L'application officielle de Git est disponible en téléchargement sur le site web de Git. Vous pouvez y accéder en vous rendant sur <a href="http://git-scm.com/download/win" target="_blank" title="Link to download GIT">http://git-scm.com/download/win</a>, et le téléchargement commencera automatiquement. Il est important de noter qu'il s'agit du projet appelé "Git for Windows" (également connu sous le nom de msysGit), qui est distinct du projet Git lui-même.
 
-Une autre méthode simple pour installer Git est d'utiliser "Github for Windows". Cet installateur inclut une version en ligne de commande de Git ainsi qu'une interface graphique conviviale. Il est également compatible avec Powershell et configure automatiquement les paramètres de mise en cache des informations d'authentification et les réglages CRLF. Il est important de savoir que ces options sont très utiles. Vous pouvez télécharger Github for Windows depuis le site [http://windows.github.com](http://windows.github.com).
+Une autre méthode simple pour installer Git est d'utiliser "Github for Windows". Cet installateur inclut une version en ligne de commande de Git ainsi qu'une interface graphique conviviale. Il est également compatible avec Powershell et configure automatiquement les paramètres de mise en cache des informations d'authentification et les réglages CRLF. Il est important de savoir que ces options sont très utiles. Vous pouvez télécharger Github for Windows depuis le site <a href="http://windows.github.com" target="_blank" title="http://windows.github.com">http://windows.github.com</a>.
 
 ### Installation sur Mac
 
 Il existe plusieurs méthodes pour installer Git sur un Mac, et l'une des plus simples consiste à installer les Xcode Command Line Tools. Si vous utilisez Mavericks (10.9) ou une version ultérieure, vous pouvez simplement essayer de lancer la commande 'git' dans le terminal. Si Git n'est pas déjà installé, il vous sera demandé de le faire.
 
-Si vous préférez disposer d'une version plus récente, vous avez également la possibilité de l'installer à partir de l'installateur binaire. Un installateur Git spécifiquement conçu pour OS X est maintenu et disponible en téléchargement sur le site web de Git à l'adresse [http://git-scm.com/download/mac](http://git-scm.com/download/mac).
+Si vous préférez disposer d'une version plus récente, vous avez également la possibilité de l'installer à partir de l'installateur binaire. Un installateur Git spécifiquement conçu pour OS X est maintenu et disponible en téléchargement sur le site web de Git à l'adresse <a href="http://git-scm.com/download/mac" target="_blank" title="http://git-scm.com/download/mac">http://git-scm.com/download/mac</a>.
 
-Vous pouvez aussi l’installer comme sous-partie de l’installation de GitHub pour Mac. Leur outil Git graphique a une option pour installer les outils en ligne de commande. Vous pouvez télécharger cet outil depuis le site web de GitHub pour Mac, à [http://mac.github.com](http://mac.github.com).
+Vous pouvez aussi l’installer comme sous-partie de l’installation de GitHub pour Mac. Leur outil Git graphique a une option pour installer les outils en ligne de commande. Vous pouvez télécharger cet outil depuis le site web de GitHub pour Mac, à <a href="http://mac.github.com" target="_blank" title="http://mac.github.com">http://mac.github.com</a>.
 
 ### Installation sur Linux
 
@@ -30,7 +30,7 @@ Sur une distribution basée sur Debian, telle que Ubuntu, essayer apt-get :
 $ apt-get install git-all
 ```
 
-Pour plus d’options, des instructions d’installation sur différentes versions Unix sont disponibles sur le site web de Git, à [http://git-scm.com/download/linux](https://git-scm.com/download/linux).
+Pour plus d’options, des instructions d’installation sur différentes versions Unix sont disponibles sur le site web de Git, à <a href="https://git-scm.com/download/linux" target="_blank" title="https://git-scm.com/download/linux">https://git-scm.com/download/linux</a>.
 
 ## Configuration
 
