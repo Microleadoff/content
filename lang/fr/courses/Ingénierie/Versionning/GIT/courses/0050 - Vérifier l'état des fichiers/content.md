@@ -15,7 +15,7 @@ présente dans la dernière version. Vous pouvez ensuite les **indexer** en les 
 effectuez un commit pour enregistrer toutes les modifications indexées. Ce cycle se répète au fur et à mesure de
 l'évolution de votre projet.
 
-L'outil principal pour déterminer l'état de vos fichiers dans Git est la commande **git status**. Lorsque vous
+L'outil principal pour déterminer l'état de vos fichiers dans Git est la commande ```git status```. Lorsque vous
 l'exécutez juste après avoir cloné un dépôt, vous obtenez une réponse semblable à ceci :
 
 ```bash
@@ -31,7 +31,7 @@ la commande vous indique sur quelle branche vous vous trouvez, pour l'instant, c
 qui est la branche par défaut. Nous explorerons les branches dans un autre cours.
 
 Supposons maintenant que vous souhaitiez ajouter un nouveau fichier au projet, par exemple, un fichier nommé LISEZMOI.
-Si ce fichier n'existait pas auparavant et que vous exécutez **git status**, vous verrez votre fichier **non suivi**
+Si ce fichier n'existait pas auparavant et que vous exécutez ```git status```, vous verrez votre fichier **non suivi**
 répertorié comme suit :
 
 ```bash
@@ -48,6 +48,4 @@ aucune modification ajoutée à la validation mais des fichiers non suivis sont 
 ```
 
 Vous remarquerez que le nouveau fichier LISEZMOI est répertorié comme **Fichiers non suivis** dans le rapport de statut.
-Cela signifie simplement que Git a détecté un fichier qui n'était pas présent dans le dernier commit. Git ne suit pas
-automatiquement les fichiers nouvellement créés, vous devez lui indiquer de les suivre explicitement. Cette approche
-empêche d'ajouter accidentellement des fichiers non désirés à votre suivi de version. 
+Cela signifie simplement que Git a détecté un fichier qui n'était pas présent dans le dernier commit. Git ne suit pas automatiquement les fichiers nouvellement créés, vous devez lui indiquer de les suivre explicitement. Cette approche empêche d'ajouter accidentellement des fichiers non désirés à votre suivi de version. 
