@@ -1,6 +1,6 @@
 ## Ajouter des dépôts distants
 
-Pour ajouter un nouveau dépôt distant Git avec un nom court pour une référence facile, utilisez la commande **git remote add [nom court] [URL]**. Voici un exemple :
+Pour ajouter un nouveau dépôt distant Git avec un nom court pour une référence facile, utilisez la commande ```git remote add [nom court] [URL]```. Voici un exemple :
 
 ```bash
 $ git remote
@@ -13,7 +13,7 @@ pb  https://github.com/paulboone/ticgit (fetch)
 pb  https://github.com/paulboone/ticgit (push)
 ```
 
-Maintenant, vous pouvez utiliser le mot-clé **pb** sur la ligne de commande au lieu de l'URL complète. Par exemple, si vous souhaitez récupérer toutes les informations que Paul a, mais que vous ne voulez pas encore les fusionner dans votre branche actuelle, vous pouvez utiliser git fetch **pb** :
+Maintenant, vous pouvez utiliser le mot-clé ```pb``` sur la ligne de commande au lieu de l'URL complète. Par exemple, si vous souhaitez récupérer toutes les informations que Paul a, mais que vous ne voulez pas encore les fusionner dans votre branche actuelle, vous pouvez utiliser git fetch ```pb``` :
 
 ```bash
 $ git fetch pb
@@ -26,4 +26,4 @@ Depuis https://github.com/paulboone/ticgit
  * [nouvelle branche] ticgit     -> pb/ticgit
 ```
 
-La branche master de Paul est maintenant accessible localement sous le nom **pb/master**. Vous pouvez la fusionner dans l'une de vos propres branches, ou vous pouvez extraire une branche localement si vous souhaitez l'inspecter plus en détail.
+La branche master de Paul est maintenant accessible localement sous le nom ```pb/master```. Vous pouvez la fusionner dans l'une de vos propres branches, ou vous pouvez extraire une branche localement si vous souhaitez l'inspecter plus en détail.
