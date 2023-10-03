@@ -1,4 +1,4 @@
-Le verionning dans un projet web fait référence à la numérotation et à la gestion des différentes étapes de développement d'un logiciel ou d'une application web. Il permet de suivre l'évolution du produit, de le rendre identifiable et de gérer les modifications de manière efficace.
+Le versionnage dans un projet web fait référence à la numérotation et à la gestion des différentes étapes de développement d'un logiciel ou d'une application web. Il permet de suivre l'évolution du produit, de le rendre identifiable et de gérer les modifications de manière efficace.
 
 ### Qu'est-ce qu'une Version ?
 
