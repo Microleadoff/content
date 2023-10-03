@@ -1,6 +1,6 @@
 ## Afficher les dépôts distants
 
-Pour afficher la liste des serveurs distants enregistrés, vous pouvez utiliser la commande **git remote**. Cette commande répertorie les noms des références distantes que vous avez configurées. Lorsque vous clonez un dépôt, vous verrez au moins une référence appelée **origin**, qui est le nom par défaut donné par Git au serveur à partir duquel vous avez cloné. Voici comment vous pouvez l'utiliser :
+Pour afficher la liste des serveurs distants enregistrés, vous pouvez utiliser la commande ```git remote```. Cette commande répertorie les noms des références distantes que vous avez configurées. Lorsque vous clonez un dépôt, vous verrez au moins une référence appelée ```origin```, qui est le nom par défaut donné par Git au serveur à partir duquel vous avez cloné. Voici comment vous pouvez l'utiliser :
 
 ```bash
 $ git clone https://github.com/schacon/ticgit
@@ -15,7 +15,7 @@ $ git remote
 origin
 ```
 
-Si vous souhaitez voir également les URLs associées à chaque référence distante, vous pouvez utiliser l'option **-v** (pour "verbose") de la commande git remote :
+Si vous souhaitez voir également les URLs associées à chaque référence distante, vous pouvez utiliser l'option ```-v``` (pour "verbose") de la commande git remote :
 
 ```bash
 $ git remote -v
@@ -40,7 +40,3 @@ origin    git@github.com:mojombo/grit.git (fetch)
 origin    git@github.com:mojombo/grit.git (push)
 ```
 Cette liste affiche les noms des dépôts distants et leurs URLs associées pour les opérations de récupération (fetch) et de poussée (push).
-
-
-
-
