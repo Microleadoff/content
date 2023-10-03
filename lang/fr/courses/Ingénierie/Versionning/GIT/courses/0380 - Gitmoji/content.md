@@ -62,126 +62,73 @@ Les deux approches sont tout à fait acceptables, vous pouvez choisir celle qui 
 |🎨|```:art:```|Améliorer la structure / le format du code.|
 |⚡️|```:zap:```|Améliorer les performances.|
 |🔥|```:fire:```|Supprimer du code ou des fichiers.|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
-|XXX|XXX|XXX|
+|🐛|```:bug:```|Correction d'un bug.|
+|🚑️|```:ambulance:```|Correctif critique.|
+|✨|```:sparkles:```|Introduire de nouvelles fonctionnalités.|
+|📝|```:memo:```|Ajouter ou mettre à jour la documentation.|
+|🚀|```:rocket:```|Déployer des éléments.|
+|💄|```:lipstick:```|Ajouter ou mettre à jour les fichiers d'interface utilisateur et de style.|
+|🎉|```:tada:```|Commencer un projet.|
+|✅|```:white_check_mark:```|Ajouter, mettre à jour ou passer des tests.|
+|🔒️|```:lock:```|Corriger les problèmes de sécurité.|
+|🔐|```:closed_lock_with_key:```|Add or update secrets.|
+|🔖|```:bookmark:```|Étiquettes de version.|
+|🚨|```:rotating_light:```|Correction des avertissements du compilateur / du linter.|
+|🚧|```:construction:```|Travaux en cours.|
+|💚|```:green_heart:```|Corriger le build du CI.|
+|⬇️|```:arrow_down:```|Downgrade les dépendances.|
+|⬆️|```:arrow_up:```|Upgrade les dépendances.|
+|📌|```:pushpin:```|Attacher les dépendances à des versions spécifiques.|
+|👷|```:construction_worker:```|Ajouter ou mettre à jour le système de construction CI.|
+|📈|```:chart_with_upwards_trend:```|Ajouter ou mettre à jour le code d'analyse ou de suivi.|
+|♻️|```:recycle:```|Refacto du code.|
+|➕|```:heavy_plus_sign:```|Ajouter une dépendance.|
+|➖|```:heavy_minus_sign:```|Supprimer une dépendance.|
+|🔧|```:wrench:```|Ajouter ou mettre à jour des fichiers de configuration.|
+|🔨|```:hammer:```|Ajouter ou mettre à jour des scripts de développement.|
+|🌐|```:globe_with_meridians:```|Internationalisation et localisation.|
+|✏️|```:pencil2:```|Corriger les fautes de frappe.|
+|💩|```:poop:```|Écrire un mauvais code qui doit être amélioré.|
+|⏪️|```:rewind:```|Revenir sur les modifications.|
+|🔀|```:twisted_rightwards_arrows:```|Merge de branches.|
+|📦️|```:package:```|Ajouter ou mettre à jour des fichiers compilés ou des paquets.|
+|👽️|```:alien:```|Mise à jour du code suite à des modifications de l'API externe.|
+|🚚|```:truck:```|Déplacer ou renommer des ressources (par exemple : fichiers, chemins, itinéraires).|
+|📄|```:page_facing_up:```|Ajouter ou mettre à jour une licence.|
+|💥|```:boom:```|Introduire des changements radicaux.|
+|🍱|```:bento:```|Ajouter ou mettre à jour des assets.|
+|♿️|```:wheelchair:```|Améliorer l'accessibilité.|
+|💡|```:bulb:```|Ajouter ou mettre à jour des commentaires dans le code source.|
+|🍻|```:beers:```|Écrire du code en état d'ébriété.|
+|💬|```:speech_balloon:```|Ajouter ou mettre à jour du texte et des éléments littéraux.|
+|🗃️|```:card_file_box:```|Effectuer des modifications liées à la base de données.|
+|🔊|```:loud_sound:```|Ajouter ou mettre à jour les journaux.|
+|🔇|```:mute:```|Supprimer les logs.|
+|👥|```:busts_in_silhouette:```|Ajouter ou mettre à jour le(s) contributeur(s).|
+|🚸|```:children_crossing:```|Améliorer l'expérience de l'utilisateur / l'utilisabilité.|
+|🏗️|```:building_construction:```|Apporter des modifications architecturales.|
+|📱|```:iphone:```|Travailler sur le responsive design.|
+|🤡|```:clown_face:```|Mocker des choses.|
+|🥚|```:egg:```|Ajouter ou mettre à jour un Easter Egg.|
+|🙈|```:see_no_evil:```|Ajouter ou mettre à jour un fichier .gitignore.|
+|📸|```:camera_flash:```|Ajouter ou mettre à jour des instantanés.|
+|⚗️|```:alembic:```|Réaliser des expériences.|
+|🔍️|```:mag:```|Améliorer le référencement.|
+|🏷️|```:label:```|Ajouter ou mettre à jour des types.|
+|🌱|```:seedling:```|Ajouter ou mettre à jour les fichiers de seed.|
+|🚩|```:triangular_flag_on_post:```|Ajouter, mettre à jour ou supprimer des indicateurs de fonctionnalité.|
+|🥅|```:goal_net:```|Erreurs de capture.|
+|💫|```:dizzy:```|Ajouter ou mettre à jour des animations et des transitions.|
+|🗑️|```:wastebasket:```|Déclasser le code qui a besoin d'être nettoyé.|
+|🛂|```:passport_control:```|Travailler sur le code relatif à l'autorisation, aux rôles et aux permissions.|
+|🩹|```:adhesive_bandage:```|Un simple correctif pour un problème non critique.|
+|🧐|```:monocle_face:```|Exploration/inspection des données.|
+|⚰️|```:coffin:```|Supprimer le code mort.|
+|🧪|```:test_tube:```|Ajouter un test défaillant.|
+|👔|```:necktie:```|Ajouter ou mettre à jour la logique d'entreprise.|
+|🩺|```:stethoscope:```|Ajouter ou mettre à jour le contrôle de santé.|
+|🧱|```:bricks:```|Changements liés à l'infrastructure.|
+|🧑‍💻|```:technologist:```|Améliorer l'expérience des développeurs.|
+|💸|```:money_with_wings:```|Ajouter des parrainages ou des infrastructures liées à l'argent.|
+|🧵|```:thread:```|Ajouter ou mettre à jour le code relatif au multithreading ou à la concurrence.|
+|🦺|```:safety_vest:```|Ajouter ou mettre à jour le code relatif à la validation.|
