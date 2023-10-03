@@ -1,5 +1,3 @@
-## Contribuer à un projet avec GitHub ou le copier
-
 Sur GitHub, nous avons la possibilité de contribuer aux projets publics d'autres personnes ou de créer nos propres dépôts publics pour que d'autres personnes contribuent à nos projets. Commençons par nous familiariser avec l'aspect contributeur de GitHub.
 
 GitHub est une immense plateforme collaborative qui héberge des dépôts Git. Pour trouver des dépôts auxquels vous souhaitez contribuer ou pour découvrir des fonctionnalités intéressantes que vous aimeriez intégrer dans vos propres projets, vous pouvez utiliser l'onglet **Explorer** ou effectuer une recherche spécifique grâce à la barre de recherche en haut du site.

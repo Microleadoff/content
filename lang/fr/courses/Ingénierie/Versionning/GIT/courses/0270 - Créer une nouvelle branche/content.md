@@ -1,5 +1,3 @@
-## Créer une nouvelle branche
-
 Pour créer une nouvelle branche, on utilise la commande ```git branch nom-de-la-branche```. Cette syntaxe va créer un nouveau pointeur vers le dernier commit effectué (le commit courant). A ce stade, vous allez donc avoir deux branches (deux pointeurs) vers le dernier commit : la branche master et la branche tout juste créée.
 
 Créer une nouvelle branche :

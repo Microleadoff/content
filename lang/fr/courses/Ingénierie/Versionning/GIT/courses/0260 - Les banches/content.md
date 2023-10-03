@@ -1,5 +1,3 @@
-## Les branches
-
 La création de branches dans Git est une opération légère et efficace grâce à la manière dont Git gère les branches. Contrairement à la plupart des systèmes de contrôle de version, Git n'effectue pas une copie physique complète du répertoire de travail à chaque création de branche. Au lieu de cela, Git utilise un modèle de pointeurs et d'objets pour gérer les branches.
 
 Dans Git, une branche est simplement un pointeur vers un commit spécifique. Chaque commit dans Git est identifié par une empreinte SHA-1, une chaîne de 40 caractères. Lorsque vous effectuez un commit, Git stocke un objet commit qui contient des informations sur l'auteur du commit, le message de commit et un pointeur vers un instantané du contenu indexé à ce moment-là. De plus, Git enregistre également des pointeurs vers les commits précédents qui constituent l'historique de votre projet.

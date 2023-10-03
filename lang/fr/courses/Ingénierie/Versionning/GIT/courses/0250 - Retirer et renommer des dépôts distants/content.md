@@ -1,5 +1,3 @@
-## Retirer et renommer des dépôts distants
-
 Si vous souhaitez renommer une référence à un dépôt distant, vous pouvez utiliser la commande ```git remote rename``` pour modifier le nom court du dépôt distant. Par exemple, si vous souhaitez renommer pb en paul, vous pouvez le faire comme ceci :
 
 ```bash

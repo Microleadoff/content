@@ -1,5 +1,3 @@
-## Inspecter un dépôt distant
-
 Si vous souhaitez obtenir des informations détaillées sur un dépôt distant particulier, vous pouvez utiliser la commande ```git remote show [nom-distant]```. Par exemple, si vous exécutez cette commande avec le nom court origin, vous obtiendrez une sortie semblable à ceci :
 
 ```bash

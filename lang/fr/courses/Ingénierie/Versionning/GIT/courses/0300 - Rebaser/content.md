@@ -1,5 +1,3 @@
-## Rebaser
-
 Git offre deux méthodes pour intégrer le travail effectué sur une branche dans une autre : la fusion (merge) et le rebasage (rebase). Nous allons maintenant explorer le rebasage, examiner les distinctions entre la fusion et le rebasage, et déterminer dans quelles situations il est préférable d'utiliser l'une ou l'autre de ces opérations.
 
 Reprenons notre exemple précédent avec nos deux branches divergentes.

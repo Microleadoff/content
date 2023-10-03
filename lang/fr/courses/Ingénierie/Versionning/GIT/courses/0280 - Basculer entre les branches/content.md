@@ -1,5 +1,3 @@
-## Basculer entre les branches
-
 Pour revenir à la branche **master** dans Git, vous pouvez utiliser la commande ```git checkout master```. Cette commande permet de déplacer le pointeur HEAD sur la branche **master** et de restaurer votre répertoire de travail dans l'état du dernier commit auquel pointe la branche **master**. En d'autres termes, cela vous ramène à la version actuelle de la branche **master** de votre projet.
 
 ```bash

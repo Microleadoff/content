@@ -1,5 +1,3 @@
-## Effectuer des modifications au projet
-
 1. Cliquez sur le fichier que vous souhaitez modifier dans le dépôt GitHub.
 2. Une fois sur la page du fichier, repérez l'icône en forme de crayon située dans le coin supérieur droit. Cliquez dessus pour ouvrir l'éditeur de fichier.
 3. Vous pouvez maintenant apporter des modifications au fichier directement dans l'éditeur.

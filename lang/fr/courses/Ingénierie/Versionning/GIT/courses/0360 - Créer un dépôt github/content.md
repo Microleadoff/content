@@ -1,8 +1,6 @@
-## Créer un dépôt GitHub
-
 Pour créer un nouveau dépôt sur GitHub et permettre à d'autres personnes de collaborer sur votre projet, suivez ces étapes simples :
 
-1. Connectez-vous à votre compte GitHub sur https://github.com.
+1. Connectez-vous à votre compte GitHub sur <a href="https://github.com" target="_blank" title="https://github.com">https://github.com</a>.
 2. Cliquez sur l'icône de signe plus (+) en haut à droite de la page, puis sélectionnez **New Repository** (Nouveau dépôt) dans le menu déroulant.
 3. Vous serez dirigé vers une page de création de dépôt où vous devrez fournir les informations suivantes :
     - Nom du dépôt : Choisissez un nom unique pour votre dépôt.
@@ -18,10 +16,10 @@ Votre nouveau dépôt GitHub est maintenant créé, et vous serez redirigé vers
 
 GitHub offre la flexibilité de travailler à la fois en ligne sur sa plateforme et localement sur sa propre machine. Voici comment vous pouvez travailler localement avec GitHub :
 
-1. Cloner un projet : Après avoir forké un projet sur GitHub, vous pouvez le cloner sur votre machine locale en utilisant la commande **git clone [URL du dépôt]**. Cela créera une copie du dépôt sur votre ordinateur que vous pouvez modifier localement.
+1. Cloner un projet : Après avoir forké un projet sur GitHub, vous pouvez le cloner sur votre machine locale en utilisant la commande ```git clone [URL du dépôt]```. Cela créera une copie du dépôt sur votre ordinateur que vous pouvez modifier localement.
 2. Effectuer des modifications : Une fois le projet cloné localement, vous pouvez effectuer toutes les modifications nécessaires sur vos fichiers.
-3. Commit : Lorsque vous avez apporté des modifications que vous souhaitez enregistrer, vous effectuez un commit en utilisant **git commit -m "message de commit"**. Cela crée un instantané des modifications que vous avez apportées.
-4. Push : Pour mettre à jour le dépôt distant (votre fork sur GitHub) avec vos modifications locales, utilisez **git push [nom-distant] [nom-local]**. Par exemple, git push origin master enverra les modifications de votre branche locale **master** vers la branche **master** de votre fork sur GitHub.
-5. Pull : Pour récupérer les dernières modifications depuis le dépôt GitHub vers votre copie locale, utilisez **git pull [nom-distant] [nom-local]**.
+3. Commit : Lorsque vous avez apporté des modifications que vous souhaitez enregistrer, vous effectuez un commit en utilisant ```git commit -m "message de commit"```. Cela crée un instantané des modifications que vous avez apportées.
+4. Push : Pour mettre à jour le dépôt distant (votre fork sur GitHub) avec vos modifications locales, utilisez ```git push [nom-distant] [nom-local]```. Par exemple, git push origin master enverra les modifications de votre branche locale **master** vers la branche **master** de votre fork sur GitHub.
+5. Pull : Pour récupérer les dernières modifications depuis le dépôt GitHub vers votre copie locale, utilisez ```git pull [nom-distant] [nom-local]```.
 
 En utilisant ces commandes, vous pouvez travailler efficacement sur votre projet GitHub en local, puis synchroniser vos modifications avec le dépôt distant lorsque vous êtes prêt. Cela vous permet de travailler hors ligne et de manière plus flexible tout en profitant de la collaboration et du suivi des versions que GitHub offre en ligne.

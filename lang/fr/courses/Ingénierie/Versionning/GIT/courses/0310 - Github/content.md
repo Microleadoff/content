@@ -1,5 +1,3 @@
-## GitHub
-
 GitHub est la plus grande plateforme d'hébergement de projets Git au monde. Il est fort probable que vous ayez à interagir avec GitHub, il est donc essentiel de comprendre son fonctionnement.
 
 Tout d'abord, notez que GitHub propose un service gratuit pour l'hébergement de code open source, mais il propose également des plans payants pour les projets de code privés.

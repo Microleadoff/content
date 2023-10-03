@@ -1,6 +1,4 @@
-## Copier un dépôt : clone vs fork
-
-Pour copier un dépôt GitHub sur nos machines, nous utilisons l'option **clone URL** de GitHub pour obtenir le lien du dépôt, puis nous utilisons la commande **git clone [URL]** dans notre console.
+Pour copier un dépôt GitHub sur nos machines, nous utilisons l'option ```clone URL``` de GitHub pour obtenir le lien du dépôt, puis nous utilisons la commande ```git clone [URL]``` dans notre console.
 
 Une autre option sur GitHub est l'utilisation de la fonction **fork**. Un fork est une copie d'un dépôt distant qui nous permet d'apporter des modifications sans affecter le projet original.
 

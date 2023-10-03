@@ -1,5 +1,3 @@
-## Fusionner des branches
-
 Commençons par nous pencher sur le processus de fusion des branches. Mais avant cela nous apprendrons ce qu'est un état de divergence.
 
 Un état de divergence signifie que bien que les deux branches partagent un commit ancestral commun, elles pointent désormais vers des commits distincts, chacun représentant potentiellement des modifications différentes apportées à un même fichier du projet.

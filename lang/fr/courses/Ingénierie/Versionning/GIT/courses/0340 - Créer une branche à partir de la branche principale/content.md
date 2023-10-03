@@ -1,5 +1,3 @@
-## Créer une branche à partir de la branche principale
-
 Pour contribuer à un projet, il est courant de le copier en effectuant un fork, ce qui crée une copie du projet dans notre espace personnel sur GitHub. Ensuite, nous pouvons créer une branche pour y apporter nos modifications.
 
 Pour ce faire, une fois sur la page du projet forké dans notre espace personnel sur GitHub, nous devons cliquer sur le bouton de la liste "branche" et donner un nom pour créer une nouvelle branche.
