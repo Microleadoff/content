@@ -1,11 +1,6 @@
 ## Inspecter les modifications indexées et non indexées
 
-Lorsque la sortie de la commande **git status** ne fournit pas suffisamment de détails et que vous souhaitez non
-seulement savoir quels fichiers ont été modifiés, mais également ce qui a été modifié dans ces fichiers, vous pouvez
-utiliser la commande **git diff**. Cette commande sera examinée en détail plus tard, mais elle est généralement utilisée
-pour répondre aux questions suivantes : qu'a-t-il été modifié mais pas encore indexé ? Quelles modifications ont été
-indexées et sont prêtes à être validées ? Alors que **git status** offre des informations générales pour répondre à ces
-questions, **git diff** affiche les lignes exactes qui ont été ajoutées, modifiées ou supprimées.
+Lorsque la sortie de la commande ```git status``` ne fournit pas suffisamment de détails et que vous souhaitez non seulement savoir quels fichiers ont été modifiés, mais également ce qui a été modifié dans ces fichiers, vous pouvez utiliser la commande ```git diff```. Cette commande sera examinée en détail plus tard, mais elle est généralement utilisée pour répondre aux questions suivantes : qu'a-t-il été modifié mais pas encore indexé ? Quelles modifications ont été indexées et sont prêtes à être validées ? Alors que ```git status``` offre des informations générales pour répondre à ces questions, ```git diff``` affiche les lignes exactes qui ont été ajoutées, modifiées ou supprimées.
 
 ```bash
 $ git status
@@ -23,7 +18,7 @@ Modifications qui ne seront pas validées :
         modifié :         CONTRIBUTING.md
 ```
 
-Pour voir ce qui a été modifié mais n'est pas encore indexé, exécutez simplement **git diff** sans autre argument :
+Pour voir ce qui a été modifié mais n'est pas encore indexé, exécutez simplement ```git diff``` sans autre argument :
 
 ```bash
 $ git diff
@@ -43,11 +38,9 @@ index 8ebb991..643e24f 100644
  that highlights your work in progress (and note in the PR title that it's
 ```
 
-Cette commande compare le contenu du répertoire de travail avec la zone d'index, vous montrant ainsi les modifications
-non indexées.
+Cette commande compare le contenu du répertoire de travail avec la zone d'index, vous montrant ainsi les modifications non indexées.
 
-Si vous souhaitez visualiser les modifications indexées qui seront incluses dans la prochaine validation, vous pouvez
-utiliser **git diff --cached** ou **git diff --staged**.
+Si vous souhaitez visualiser les modifications indexées qui seront incluses dans la prochaine validation, vous pouvez utiliser ```git diff --cached``` ou ```git diff --staged```.
 
 ```bash
 $ git diff --staged
@@ -60,6 +53,4 @@ index 0000000..1e17b0c
 +Mon Projet
 ```
 
-Il est important de noter que **git diff** ne montre pas les modifications apportées depuis la dernière validation, mais
-seulement les modifications qui ne sont pas encore indexées. Cela peut prêter à confusion, car si tous les fichiers
-modifiés ont été indexés, **git diff** n'affichera aucune modification.
+Il est important de noter que ```git diff``` ne montre pas les modifications apportées depuis la dernière validation, mais seulement les modifications qui ne sont pas encore indexées. Cela peut prêter à confusion, car si tous les fichiers modifiés ont été indexés, ```git diff``` n'affichera aucune modification.
