@@ -1,6 +1,6 @@
 ## Réinitialiser un fichier modifié
 
-Que faire si vous réalisez que vous ne souhaitez pas conserver les modifications du fichier CONTRIBUTING.md ? Comment le réinitialiser facilement, le ramener à son état du dernier instantané (ou lors du clonage, ou dans l’état dans lequel vous l’avez obtenu dans votre copie de travail) ? Heureusement, **git status** vous indique comment procéder. Dans le résultat de la dernière commande, la zone de travail ressemble à ceci :
+Que faire si vous réalisez que vous ne souhaitez pas conserver les modifications du fichier CONTRIBUTING.md ? Comment le réinitialiser facilement, le ramener à son état du dernier instantané (ou lors du clonage, ou dans l’état dans lequel vous l’avez obtenu dans votre copie de travail) ? Heureusement, ```git status``` vous indique comment procéder. Dans le résultat de la dernière commande, la zone de travail ressemble à ceci :
 
 ```bash
 Modifications qui ne seront pas validées :
