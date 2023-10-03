@@ -37,3 +37,4 @@ Généralement, un numéro de version est composé de nombres séparés par des 
 Il est important de noter que le changement de numéro de version dépend de l'importance des modifications apportées. Par exemple, une simple correction de bug ferait passer de "2.5.21" à "2.5.22," tandis qu'une mise à jour majeure entraînerait un changement de "2.5.21" à "2.6.0."
 
 En conclusion, le versionnage dans un projet web est essentiel pour suivre et gérer l'évolution d'une application. Il permet d'identifier clairement chaque étape du développement et de communiquer efficacement sur les modifications apportées. La numérotation des versions peut varier en fonction des besoins et des pratiques de développement, mais elle reste un élément fondamental de la gestion de projet web.
+test
