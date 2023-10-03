@@ -6,7 +6,7 @@ Créer une nouvelle branche :
 $ git branch test
 ```
 
-![Représentation d'un lien entre plusieurs acteurs et la boîte noire](branche-1-image-à-remplacer)
+![Représentation d'un lien entre plusieurs acteurs et la boîte noire](https://raw.githubusercontent.com/Microleadoff/content/master/lang/fr/courses/Ing%C3%A9nierie/Versionning/GIT/courses/0270%20-%20Cr%C3%A9er%20une%20nouvelle%20branche/images/representation-lien-entre-plusieurs-branches.png)
 
 Pour déterminer quel pointeur vous utilisez, c’est-à-dire sur quelle branche vous vous trouvez, Git utilise un autre pointeur spécial appelé **HEAD**. **HEAD** pointe sur la branche master par défaut. Notez que la commande ```git branch``` permet de créer une nouvelle branche mais ne déplace pas HEAD.
 
