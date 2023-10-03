@@ -4,7 +4,7 @@ GitHub est la plus grande plateforme d'hébergement de projets Git au monde. Il 
 
 Tout d'abord, notez que GitHub propose un service gratuit pour l'hébergement de code open source, mais il propose également des plans payants pour les projets de code privés.
 
-Pour utiliser GitHub, il vous suffit de créer un compte gratuitement sur leur site web à l'adresse https://github.com.
+Pour utiliser GitHub, il vous suffit de créer un compte gratuitement sur leur site web à l'adresse <a href="https://github.com" target="_blank" title="https://github.com">https://github.com</a>.
 
 L'un des principaux avantages de GitHub réside dans sa capacité à faciliter la collaboration à l'échelle mondiale sur des projets. Pratiquement n'importe qui peut récupérer des projets et y contribuer, sauf si le propriétaire du projet restreint ces autorisations.
 
