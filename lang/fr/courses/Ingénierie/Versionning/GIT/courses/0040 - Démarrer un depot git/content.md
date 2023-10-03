@@ -22,9 +22,9 @@ $ git commit -m 'initial project version'
 
 ### Cloner un dépôt existant
 
-Si vous souhaitez obtenir une copie d'un dépôt Git existant, par exemple, si vous souhaitez contribuer à un projet, la commande dont vous avez besoin s'appelle **git clone**. Git récupère une copie de presque toutes les données disponibles sur le serveur. Il télécharge toutes les versions de tous les fichiers de l'historique du projet lorsque vous exécutez **git clone**. En fait, si le disque du serveur venait à se corrompre, vous pourriez utiliser n'importe quel clone pour restaurer le serveur dans l'état où il était au moment du clonage.
+Si vous souhaitez obtenir une copie d'un dépôt Git existant, par exemple, si vous souhaitez contribuer à un projet, la commande dont vous avez besoin s'appelle ```git clone```. Git récupère une copie de presque toutes les données disponibles sur le serveur. Il télécharge toutes les versions de tous les fichiers de l'historique du projet lorsque vous exécutez ```git clone```. En fait, si le disque du serveur venait à se corrompre, vous pourriez utiliser n'importe quel clone pour restaurer le serveur dans l'état où il était au moment du clonage.
 
-Pour cloner un dépôt, utilisez la commande **git clone [url]**. Par exemple, si vous souhaitez cloner la bibliothèque logicielle Git appelée **libgit2**, vous pouvez le faire de la manière suivante :
+Pour cloner un dépôt, utilisez la commande ```git clone [url]```. Par exemple, si vous souhaitez cloner la bibliothèque logicielle Git appelée **libgit2**, vous pouvez le faire de la manière suivante :
 
 ```bash
 $ git clone https://github.com/libgit2/libgit2
@@ -38,4 +38,4 @@ $ git clone https://github.com/libgit2/libgit2 monlibgit2
 
 Cette commande accomplira la même chose que la précédente, mais le répertoire cible sera nommé "monlibgit2".
 
-Git prend en charge différents protocoles de transfert. L'exemple précédent utilise le protocole https://, mais vous pouvez également rencontrer git:// ou utilisateur@serveur:/chemin.git, qui utilise le protocole de transfert SSH.
+Git prend en charge différents protocoles de transfert. L'exemple précédent utilise le protocole ```https://```, mais vous pouvez également rencontrer ```git://``` ou ```utilisateur@serveur:/chemin.git```, qui utilise le protocole de transfert SSH.
