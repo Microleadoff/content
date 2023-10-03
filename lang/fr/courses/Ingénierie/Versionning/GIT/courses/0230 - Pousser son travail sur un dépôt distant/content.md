@@ -1,6 +1,4 @@
-## Pousser son travail sur un dépôt distant
-
-Lorsque vous estimez que votre dépôt est prêt à être partagé, vous pouvez le pousser vers l'amont en utilisant la commande suivante : **git push [nom-distant] [nom-de-branche]**. Par exemple, si vous souhaitez pousser votre branche master vers le serveur origin (rappel : lors de la clonaison d'un dépôt, ces noms sont généralement configurés pour vous), vous pouvez exécuter la commande suivante pour mettre à jour le serveur distant avec votre travail :
+Lorsque vous estimez que votre dépôt est prêt à être partagé, vous pouvez le pousser vers l'amont en utilisant la commande suivante : ```git push [nom-distant] [nom-de-branche]```. Par exemple, si vous souhaitez pousser votre branche master vers le serveur origin (rappel : lors de la clonaison d'un dépôt, ces noms sont généralement configurés pour vous), vous pouvez exécuter la commande suivante pour mettre à jour le serveur distant avec votre travail :
 
 ```bash
 $ git push origin master
