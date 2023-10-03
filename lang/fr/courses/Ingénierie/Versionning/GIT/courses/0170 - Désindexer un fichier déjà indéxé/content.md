@@ -1,6 +1,6 @@
 ## Désindexer un fichier déjà indexé
 
-Les deux sections suivantes démontrent comment bricoler les modifications dans votre zone d’index et votre zone de travail. Un point sympathique est que la commande permettant de connaître l’état de ces deux zones vous rappelle aussi comment annuler les modifications. Par exemple, supposons que vous avez modifié deux fichiers et voulez les valider comme deux modifications indépendantes, mais que vous avez tapé accidentellement **git add** et donc indexé les deux. Comment annuler l’indexation d’un des fichiers ? La commande **git status** vous le rappelle :
+Les deux sections suivantes démontrent comment bricoler les modifications dans votre zone d’index et votre zone de travail. Un point sympathique est que la commande permettant de connaître l’état de ces deux zones vous rappelle aussi comment annuler les modifications. Par exemple, supposons que vous avez modifié deux fichiers et voulez les valider comme deux modifications indépendantes, mais que vous avez tapé accidentellement ```git add``` et donc indexé les deux. Comment annuler l’indexation d’un des fichiers ? La commande ```git status``` vous le rappelle :
 
 ```bash
 $ git add .
@@ -14,7 +14,7 @@ Modifications qui seront validées :
     modifié :   CONTRIBUTING.md
 ```
 
-Juste sous le texte « Modifications qui seront validées », elle vous indique d’utiliser **git reset HEAD <fichier>** pour désindexer un fichier. Utilisons donc ce conseil pour désindexer le fichier CONTRIBUTING.md :
+Juste sous le texte « Modifications qui seront validées », elle vous indique d’utiliser ```git reset HEAD <fichier>``` pour désindexer un fichier. Utilisons donc ce conseil pour désindexer le fichier CONTRIBUTING.md :
 
 ```bash
 $ git reset HEAD CONTRIBUTING.md
