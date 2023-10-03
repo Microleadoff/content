@@ -20,6 +20,6 @@ Imaginons la situation suivante :
 
 1. Vous poussez des commits sur un dépôt public.
 2. D'autres personnes récupèrent ces commits et travaillent à partir d'eux.
-3. Vous utilisez ensuite **git rebase** pour **réécrire** ces commits et les poussez à nouveau.
+3. Vous utilisez ensuite ```git rebase``` pour **réécrire** ces commits et les poussez à nouveau.
 
 Dans ce scénario, des problèmes surviendront, car les personnes qui ont travaillé à partir des commits d'origine ne trouveront pas ces commits dans le projet lorsqu'elles souhaiteront récupérer les mises à jour. De plus, lorsqu'elles pousseront leurs propres modifications sur le dépôt public, les commits qui avaient été supprimés seront réintroduits, créant ainsi un historique de version très confus et potentiellement générant des conflits.
