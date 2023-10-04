@@ -4,7 +4,7 @@ Pour revenir à la branche **master** dans Git, vous pouvez utiliser la commande
 $ git checkout master
 ```
 
-![Représentation d'un lien entre plusieurs acteurs et la boîte noire](branche-4-image-à-remplacer)
+![Représentation du changement de branche grâce au pointeur HEAD](branche-4-image-à-remplacer)
 
 Lorsque vous modifiez le répertoire de travail et effectuez un nouveau commit sur une branche, cela crée effectivement un nouvel instantané qui représente l'état actuel du projet à ce stade précis. Si vous effectuez ces modifications sur une branche différente de **master**, par exemple **test**, les branches **master** et **test** vont en effet diverger. Cela signifie qu'elles pointeront vers des instantanés différents qui reflètent des états différents du projet.
 
@@ -12,4 +12,4 @@ Chaque branche dans Git conserve son propre historique de commits, ce qui permet
 
 En résumé, lorsque vous effectuez des commits sur différentes branches, elles évoluent séparément et pointent vers des instantanés différents, créant ainsi une divergence entre les branches.
 
-![Représentation d'un lien entre plusieurs acteurs et la boîte noire](branche-5-image-à-remplacer)
+![Représentation de l'évolution divergente des différentes branches d'un projet git](branche-5-image-à-remplacer)
