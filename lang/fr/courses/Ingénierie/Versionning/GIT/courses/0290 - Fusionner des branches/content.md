@@ -4,7 +4,7 @@ Un état de divergence signifie que bien que les deux branches partagent un comm
 
 Pour mieux comprendre ce concept, retournons légèrement en arrière et examinons un exemple plus simple où notre projet se trouve dans cet état :
 
-![Représentation d'un lien entre plusieurs acteurs et la boîte noire](branche-6-image-à-remplacer)
+![Retour à l'état précédent de base pour l'exemple 1](branche-6-image-à-remplacer)
 
 Ici, nous avons une branche **test** pointant vers le commit **commitN+1** et une branche **master** pointant vers le commit **commitN**. Le **commitN** est l'ancêtre direct du **commitN+1**, ce qui signifie qu'il n'y a pas de problème de divergence entre les deux branches.
 
@@ -16,7 +16,7 @@ Ensuite, nous pouvons simplement supprimer la branche **test** en utilisant la c
 
 Revenons maintenant à la situation précédente, où nous avions deux branches avec des historiques divergents. Cette situation peut être représentée comme suit :
 
-![Représentation d'un lien entre plusieurs acteurs et la boîte noire](branche-7-image-à-remplacer)
+![Retour à l'état précédent de base pour l'exemple 2](branche-7-image-à-remplacer)
 
 Pour fusionner deux branches dans cette situation plus complexe, nous devons d'abord nous placer dans la branche dans laquelle nous souhaitons effectuer la fusion, puis exécuter la commande ```git merge```.
 

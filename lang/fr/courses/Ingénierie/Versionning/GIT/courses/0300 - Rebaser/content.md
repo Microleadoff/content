@@ -2,13 +2,13 @@ Git offre deux méthodes pour intégrer le travail effectué sur une branche dan
 
 Reprenons notre exemple précédent avec nos deux branches divergentes.
 
-![Représentation d'un lien entre plusieurs acteurs et la boîte noire](branche-7-image-à-remplacer)
+![Retour à l'état précédent de base pour l'exemple (n°2)](branche-7-image-à-remplacer)
 
 Au lieu de procéder à une fusion à trois sources, nous avons la possibilité de réaliser un rebasage des modifications validées dans **commitN+1** sur notre branche **master**. Cette opération est accomplie à l'aide de la commande git rebase, qui permet de récupérer les modifications validées sur une branche et de les rejouer sur une autre.
 
 Concrètement, Git commence par se baser sur le dernier commit commun aux deux branches (c'est-à-dire l'ancêtre commun le plus récent). Ensuite, il récupère les modifications effectuées sur la branche que nous souhaitons intégrer et les applique à la branche vers laquelle nous souhaitons rebaser notre travail, en respectant l'ordre chronologique de leur introduction.
 
-![Représentation d'un lien entre plusieurs acteurs et la boîte noire](branche-8-image-à-remplacer)
+![Représentation d'un rebasage de la branche test sur la branche master](branche-8-image-à-remplacer)
 
 Le résultat final obtenu avec un rebasage est similaire à celui d'une fusion, mais l'historique est plus linéaire et clair, car toutes les modifications apparaissent en série, même si elles ont été effectuées en parallèle. L'opération de rebasage rejoue les modifications d'une série de commits sur une autre branche dans l'ordre chronologique de leur création, tandis que la fusion combine les têtes de deux branches distinctes.
 
