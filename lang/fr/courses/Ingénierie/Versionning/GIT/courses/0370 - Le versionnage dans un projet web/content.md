@@ -24,16 +24,34 @@ Il existe deux types d'évolutions majeures dans un logiciel : les évolutions m
 
 Plusieurs méthodes sont utilisées pour décrire la numérotation des versions :
 
-Numéros séparés par des points : Exemple : 1.4, 0.9.95.
-Règles mathématiques : Par exemple, TEX tend vers π, et sa version actuelle est 3.14159265.
-Année de sortie : Exemple : Adobe Illustrator 88.
-Date de sortie : Exemple : Wine 20040505 (pour le 5 mai 2004).
-Numéro de révision : Exemple : WebKit r112.
-Dénomination : Certaines versions sont nommées pour indiquer leur cycle de développement, par exemple, Mac OS 10.5 est surnommé "Leopard."
-Forme Générale d'un Numéro de Version
+- Numéros séparés par des points : Exemple : 1.4, 0.9.95.
+- Règles mathématiques : Par exemple, TEX tend vers π, et sa version actuelle est 3.14159265.
+- Année de sortie : Exemple : Adobe Illustrator 88.
+- Date de sortie : Exemple : Wine 20040505 (pour le 5 mai 2004).
+- Numéro de révision : Exemple : WebKit r112.
+- Dénomination : Certaines versions sont nommées pour indiquer leur cycle de développement, par exemple, Mac OS 10.5 est surnommé "Leopard."
+
+### Forme Générale d'un Numéro de Version
 
 Généralement, un numéro de version est composé de nombres séparés par des points, du plus significatif au moins significatif. Par exemple, "2.5.21" signifie la deuxième version, le cinquième ajout de fonctionnalités dans la version 2, et la vingt-et-unième révision de la version 2.5.
 
 Il est important de noter que le changement de numéro de version dépend de l'importance des modifications apportées. Par exemple, une simple correction de bug ferait passer de "2.5.21" à "2.5.22," tandis qu'une mise à jour majeure entraînerait un changement de "2.5.21" à "2.6.0."
 
 En conclusion, le versionnage dans un projet web est essentiel pour suivre et gérer l'évolution d'une application. Il permet d'identifier clairement chaque étape du développement et de communiquer efficacement sur les modifications apportées. La numérotation des versions peut varier en fonction des besoins et des pratiques de développement, mais elle reste un élément fondamental de la gestion de projet web.
+
+
+## Le GoRoCo
+
+C'est une méthode qui à largement été utilisée chez France Telecom, l'idée est de séparé les 3 numéros que l'on retrouve dans une version en fonction du principe suivant : 
+
+- ```G``` pour **Génération** : Concerne la génération de fonctionnalités majeures
+- ```R``` pour **Révision** : Concerne la révision de fonctionnalités
+- ```C``` pour **Correction** : Concerne les correctifs apportés
+
+Les "o" viennent donc simplement s'intercaler entre les lettres de l'acronyme pour obtenir un nom prononcable.
+
+Le numéro de version sera donc géré de la sorte : 
+
+```bash
+version G.R.C
+```
