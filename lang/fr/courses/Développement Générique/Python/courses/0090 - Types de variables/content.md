@@ -108,7 +108,7 @@ Un nombre complexe est constitué d'une paire ordonnée de nombres réels à vir
 
 ## Chaînes de caractères Python
 
-Les chaînes de caractères en Python sont identifiées comme un ensemble contigu de caractères représentés entre guillemets. Python autorise une paire de guillemets simples ou doubles. Les sous-ensembles de chaînes de caractères peuvent être extraits à l'aide de l'opérateur de découpage ([ ] et [ :] ) avec des indices commençant à 0 au début de la chaîne et allant de -1 à la fin.
+Les chaînes de caractères en Python sont identifiées comme un ensemble contigu de caractères représentés entre guillemets. Python autorise une paire de guillemets simples ou doubles. Les sous-ensembles de chaînes de caractères peuvent être extraits à l'aide de l'opérateur de découpage ([ ] et [ :] ) avec des indices commençant à 0 au début de la chaîne et allant jusqu'à -1 à la fin.
 
 Le signe plus (+) est l'opérateur de concaténation des chaînes de caractères et l'astérisque (*) est l'opérateur de répétition. Par exemple :
 
