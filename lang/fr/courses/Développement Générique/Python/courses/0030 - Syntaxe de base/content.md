@@ -104,7 +104,7 @@ Les guillemets triples sont à éviter, car ils servent à un autre usage dont o
 
 ```python
 mot = 'mot'
-phrase = "Ceci est une phrase".
+phrase = "Ceci est une phrase."
 paragraphe = """Ceci est un paragraphe. Il est
 composé de plusieurs lignes et phrases."""
 ```
