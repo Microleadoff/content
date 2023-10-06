@@ -71,7 +71,7 @@ Ainsi, en Python, toutes les lignes continues indentées avec le même nombre d'
 
 ```python
 #!/usr/bin/python3
-def hello_you(name=Microlead):
+def hello_you(name="Microlead"):
     try:
         print(f’Bonjour, {name} !’)
     except:

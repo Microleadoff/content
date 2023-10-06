@@ -95,6 +95,8 @@ Les outils de traitement de la docstring enlèveront une quantité uniforme d'in
 Le code étant beaucoup plus précis que les mots, voici une implémentation de l'algorithme :
 
 ```python
+import sys
+
 def trim(docstring) :
 
     if not docstring :
@@ -105,26 +107,26 @@ def trim(docstring) :
     lines = docstring.expandtabs().splitlines()
 
     # Déterminer l'indentation minimale (la première ligne ne compte pas) :
-    indent = sys.maxint
+    indent = sys.maxsize
 
     for line in lines[1:]:
-        dépouille = line.lstrip()
+        stripped = line.lstrip()
 
-        if dépouille :
+        if stripped :
             indent = min(indent, len(line) - len(stripped))
 
     # Enlever l'indentation (la première ligne est spéciale) :
     trimmed = [lines[0].strip()]
 
-    if indent < sys.maxint :
-        for line in lines[1 :]:
+    if indent < sys.maxsize :
+        for line in lines[1:]:
             trimmed.append(line[indent :].rstrip())
 
     # Supprimez les lignes vides de queue et de tête :
     while trimmed and not trimmed[-1] :
         trimmed.pop()
 
-    while trimmed et non trimmed[0] :
+    while trimmed and not trimmed[0] :
         trimmed.pop(0)
 
     # Retourne une seule chaîne de caractères :
@@ -143,7 +145,7 @@ def foo() :
 Pour illustrer :
 
 ```python
->>> print repr(foo.__doc__)
+>>> print(repr(foo.__doc__))
 '\n C'est la deuxième ligne de la chaîne documentaire.\n '
 >>> foo.__doc__.splitlines()
 ['', ' C'est la deuxième ligne de la chaîne documentaire.', ' ']
