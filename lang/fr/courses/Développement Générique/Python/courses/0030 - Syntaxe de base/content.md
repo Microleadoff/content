@@ -57,14 +57,14 @@ Le nombre d'espaces dans l'indentation doit être un multiple de 4. Par exemple:
 
 ```python
 def microlead():
-    print(‘Microlead est génial!’)
+    print("Microlead est génial!")
 ```
 
 Cependant, le bloc suivant génère une erreur :
 
 ```python
 def microlead():
-    print(‘Microlead est génial!’)
+  print("Microlead est génial!")
 ```
 
 Ainsi, en Python, toutes les lignes continues indentées avec le même nombre d'espaces forment un bloc. L'exemple suivant comporte plusieurs blocs d'instructions.
@@ -82,7 +82,7 @@ De plus, le nombre de caractères par ligne conseillé est de 79.
 
 ## Déclarations multi-lignes
 
-Les instructions en Python se terminent généralement par une nouvelle ligne. Python permet toutefois d'utiliser le caractère de continuation de ligne (\) pour indiquer que la ligne doit se poursuivre. Par exemple :
+Les instructions en Python se terminent généralement par une nouvelle ligne. Python permet toutefois d'utiliser le caractère de continuation de ligne (```\```) pour indiquer que la ligne doit se poursuivre. Par exemple :
 
 ```python
 total = element_un + \
