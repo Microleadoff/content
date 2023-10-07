@@ -75,7 +75,7 @@
 </section>
 
 <section class="py-6 md:py-16">
-    <h2 class="text-4xl md:text-5xl font-bold xl:text-center py-4">
+    <h2 class="text-4xl md:text-5xl font-bold text-center py-4">
         En conclusion
     </h2>
     <p class="text-gray-600 pt-8 xl:text-center text-md lg:text-lg max-w-4xl mx-auto">
