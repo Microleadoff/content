@@ -14,13 +14,13 @@
                 Commencez votre voyage avec une introduction solide à HTML. Apprenez les bases, comprenez comment utiliser les éléments et les attributs, et découvrez comment structurer votre contenu avec des titres, des paragraphes et des listes. Chaque concept est accompagné d'exercices pratiques pour vous aider à renforcer ce que vous avez appris. Vous aborderez également des sujets plus avancés, tels que les images, les tableaux, les classes, l'ID, les iframes, les formulaires et bien plus encore.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Mathematics-amico.svg" alt="Section de Mathématiques">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Content-structure-amico.svg" alt="Section de HTML">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/aa27553796117f85edb19fb8b26a578bcfcc4d71/images/Filter-rafiki.svg" alt="Section de Tri">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Design%20team-amico.svg" alt="Section de CSS">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Section de CSS
@@ -42,13 +42,13 @@
                 Après avoir appris les bases de HTML et CSS, il est temps de les combiner pour créer votre première page web. Vous apprendrez à naviguer entre les chemins absolus et relatifs, à comprendre le positionnement, et à utiliser efficacement les balises sémantiques.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/5c8abda1814e8a678c88ca0cb1e73d5683cd21f8/images/Woman-thinking-rafiki.svg" alt="Section de Recherche">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Hotel-Booking-amico.svg" alt="Créez votre première page web">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Calculator-amico.svg" alt="Section de Cryptage">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Interior%20design-amico.svg" alt="HTML et CSS Avancés">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 HTML et CSS Avancés
@@ -70,7 +70,7 @@
                 Terminez votre parcours avec un projet d'intégration statique. Appliquez tout ce que vous avez appris dans un scénario réel, en créant une page web et en démarrant un réel portfolio. C'est l'occasion de montrer vos nouvelles compétences et de voir à quel point vous avez progressé. Pour cette dernière étape, vous avez le choix parmis 4 des sites internet parmis les plus utilisés du monde : Netflix, Appel, Spotify ou encore Github !
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/5c8abda1814e8a678c88ca0cb1e73d5683cd21f8/images/Woman-thinking-rafiki.svg" alt="Section de Recherche">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Static%20website-amico.svg" alt="Intégration Statique">
     </div>
 </section>
 
