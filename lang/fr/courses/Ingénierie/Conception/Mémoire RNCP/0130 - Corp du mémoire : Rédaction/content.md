@@ -11,3 +11,4 @@
   - Vérifiez que l'ensemble de votre rédaction est cohérente et raconte une histoire ou à un suite logique
   - Pour chaque sujet et/ou paragraphe que vous avez rédiger : reprendre votre problématique et ajoutez une phrase qui explique en quoi cette partie de rédaction apporte un élément de réponse ou d'explication à votre problématique
   - Reprendre une dernière fois l'ensemble de vos sujets / paragraphes, et rédigez des phrases de transition entre vos différents sujets / différentes parties.
+  - reformuler les titres pour coller aux attentes du rendu!
