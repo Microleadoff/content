@@ -251,7 +251,7 @@ Ainsi :
 
 #### Composition
 
-La **composition** est une association spécifique dite “*à forte dépendance*”. On distingue la classe **composite** de la classe **composante**. La première étant obligatoirement composée de une ou plusieurs instances de la classe composite. La dépendance est dite “forte” car l’instanciation d’une classe composite ne pourra pas se faire sans la création de sa ou ses classe(s) composantes. Il en va de même pour la destruction : la destruction d’une instance de la classe composite entraînera obligatoirement la destruction des instances des classes composantes. On simplifie souvent cette relation par la phrase “l’un ne peut pas vivre sans l’autre”. A titre d’exemple, un appartement ne peut exister indépendamment de l’immeuble. Si on détruit l’immeuble, alors l’appartement l’est aussi.
+La **composition** est une association spécifique dite “*à forte dépendance*”. On distingue la classe **composante** de la classe **composite**. La première étant obligatoirement composée de une ou plusieurs instances de la classe composite. La dépendance est dite “forte” car l’instanciation d’une classe composite ne pourra pas se faire sans la création de sa ou ses classe(s) composantes. Il en va de même pour la destruction : la destruction d’une instance de la classe composite entraînera obligatoirement la destruction des instances des classes composantes. On simplifie souvent cette relation par la phrase “l’un ne peut pas vivre sans l’autre”. A titre d’exemple, un appartement ne peut exister indépendamment de l’immeuble. Si on détruit l’immeuble, alors l’appartement l’est aussi.
 
 L’association se représente par un simple trait, agrémenté d’un losange “plein” (souvent noir) du côté du ou des composant(s).
 
