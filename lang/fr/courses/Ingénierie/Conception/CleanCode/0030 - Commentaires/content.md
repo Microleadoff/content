@@ -6,7 +6,7 @@ L’idée de base d’un commentaire est de permettre à n’importe quel person
 
 Voici donc une liste non exhaustive des bons et mauvais commentaires, qui pourront vous servir de point de repère dans la réalisation de votre code.
 
-### Les bons commentaires
+## Les bons commentaires
 
 Les commentaires légaux, c’est-à-dire ceux qui sont situés au début de fichier et ont pour vocation de transmettre des informations quant au copyright, à l'auteur ou à la licence d’un script, font partie des bons commentaires. J’ai attendu trop longtemps à titre personnel avant d’en rédiger de la sorte, c’est dommage. La plupart de ces commentaires permettent un semblant d’information et de traçabilité, notamment à propos de la possibilité ou non de la ré-exploitation d’un code.
 
@@ -20,7 +20,7 @@ Les commentaires peuvent également permettre d’avertir un lecteur des conséq
 
 Enfin, les commentaires TODO font bien partie des bons commentaires, puisqu’ils permettent d’éviter des oublis. Attention cependant à ne pas oublier de traiter ces points… Les développeurs qui n’utilisent que rarement ce système ont souvent tendance à en oublier quelques-uns…
 
-### Les mauvais commentaires
+## Les mauvais commentaires
 
 Il est important de retenir que les mauvais commentaires viennent toujours d’une bonne intention… Aussi voici quelques exemples de mauvais commentaires et de mauvaises pratiques : 
 
