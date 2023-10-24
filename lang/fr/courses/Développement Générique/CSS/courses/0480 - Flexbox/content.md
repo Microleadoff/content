@@ -258,3 +258,9 @@ Les valeurs disponibles sont les mêmes que pour la propriété ```align-items``
 ```
 
 Notez que ```float```, ```clear``` et ```vertical-align``` n'ont aucun effet sur un **item**.
+
+## La grenouille flex !
+
+Un site internet existe depuis quelques années et permet de pratiquer en live et d'essayer de mieux comprendre le display flex, il s'agit du site "Flexbox Froggy".
+
+Ce site est ludique et permet - grâce à des images de grenouilles - de bien comprendre le positionnement flex. Nus vous encourageons à l'essayer afin de bien comprendre le tout : <a href="https://flexboxfroggy.com/#fr" title="Site internet de Flexbox Froggy" target="_blank">Site internet de Flexbox Froggy</a>
