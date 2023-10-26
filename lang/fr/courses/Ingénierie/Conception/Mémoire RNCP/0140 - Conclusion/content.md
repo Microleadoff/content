@@ -11,3 +11,7 @@ L'ensemble des éléments de réponse doit représenter une réponse globale à 
 ## L'ouverture
 
 Enfin, la conclusion se termine par une ouverture : l'idée est d'exposer un nouvel axe d'étude autour d'un sujet identique ou similaire. Vous devez ici montrer que même si vous maîtrisez l'axe de recherche que vous avez exposé avec votre problématique, les réponses obtenues peuvent entraîner de nouvelles questions. L'ouverture est l'endroit où vous devez identifier et choisir une de ces nouvelles questions et la mettre en lien avec votre sujet de mémoire.
+
+## Information complémentaire
+
+La conclusion est souvent la première ou la deuxième chose lue par les correcteurs. Aussi c'est une des deux parties que vous devez particulièrement soigner et qui doit spécifiquement donner envie au lecteur de lire votre mémoire. 
