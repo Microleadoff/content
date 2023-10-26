@@ -20,11 +20,13 @@ Les prochaines étapes de rédaction (et donc les dernières) vont impliqué div
 
 Première des étapes de finalisation de rédaction : la remise au centre de la problématique. Lorsque vous avez rédiger vos parties, lisibles séparément les unes des autres, il est d'usage de ne pas rappeler la problématique systématiquement. Or bien qu'étant considérée comme un prétexte pour aborder les sujets que vous souhaitez, il reste important de maintenir cette problématique au centre de votre mémoire afin que le correcteur (ou le lecteur) ne perde jamais le fil de votre réflexion et se souvienne en permanence ce que vous souhaitez démontrer.
 
-C'est pourquoi il est nécessaire à cette étape de la rédaction du mémoire de reprendre chaque sous-partie de votre mémoire, chaque bloc de texte, et de vous poser la question "est-ce que cette partie apporte un ou plusieurs éléments de réponse ou de contextualisatio à la problématique ?". Si la réponse à cette question est "oui", alors il vous faudra rajouter à la fin de ladite partie une phrase qui explique son lien avec la problématique.
+C'est pourquoi il est nécessaire à cette étape de la rédaction du mémoire de reprendre chaque sous-partie de votre mémoire, chaque bloc de texte, et de vous poser la question "est-ce que cette partie apporte un ou plusieurs éléments de réponse ou de contextualisation à la problématique ?". Si la réponse à cette question est "oui", alors il vous faudra rajouter à la fin de ladite partie une phrase qui explique son lien avec la problématique.
 
 ## Mise en place des transitions
 
 Il ne vous reste plus maintenant qu'à mettre en avant les relations entre chaque partie pour fluidifier la lecture. Aussi reprennez une dernière fois l'ensemble des sujets et/ou paragraphes, et rédigez des phrases de transitions vers les paragraphes ou parties suivantes.
+
+Il est également commun de rédiger des conclusions intermédiaires, qui correspondent à des sous parties de votre plan. Leur rédaction permet de remettre une fois de plus au centre du mémoire votre problématique et d'y apporter de manière claire et concise des éléments de réponses.
 
 ## Finalisation du plan
 
