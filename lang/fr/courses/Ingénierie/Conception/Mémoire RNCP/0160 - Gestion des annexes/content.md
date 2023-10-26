@@ -6,7 +6,7 @@ Les annexes servent à placer des informations complémentaires à vos dire dans
 
 ## Comment les organiser ?
 
-Elles sont souvent présentes à la fin du mémoire et disposent d'un sommaire dédié. Elles peuvent être organisées par ordre d'apparition des termes en suivant le sens de lecture du mémoire, ou bien être triées par ordre alphabétique comme le serait un dictionnaire.
+Elles sont souvent présentes à la fin du mémoire et disposent d'un sommaire dédié. Elles sont souvent organisées par ordre d'apparition en suivant le sens de lecture du mémoire.
 
 ## Que doivent contenir les annexes ?
 
