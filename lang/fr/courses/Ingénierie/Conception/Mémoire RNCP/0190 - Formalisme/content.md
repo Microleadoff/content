@@ -1,14 +1,9 @@
+Le formalisme est souvent représenté par des points facilement réccupérable sur les barèmes d'évaluation. Dès lors, il n'y à qu'une seule règle que vous devez scrupuleusement respecter : suivez parfaitement les demandes qui vous sont généralement communiquées par votre école.
 
+Toutefois, et à toutes fins utiles, voici quelques exemples de ce qui est généralement demandé, et de ce à quoi vous devez prêter attention.
 
-
---------------------------------
-
-- 1 seule règle : suivre parfaitement les demandes de vos centres de formation !
-
-quelques exemples de ce qui reste important à faire et qui est souvent générique : 
-- page de garde (+ problématique pour ne pas la chercher !)
-- sommaire paginé
-- Taille des textes & police d'écriture
-- légende des images / schémas / illustrations
-- pagination du document
-
+- **Page de garde** : Pensez à la soigner ! Et à titre personnel, en tant que correcteur de mémoires, j'ai tendance à préférer la présence de la problématique sur cette page de garde. Cela me permet de la retrouver rapidement lorsque j'ai besoin de me la remémorer lors des corrections.
+- **Sommaire paginé** : Il est bien évidemment obligatoire, il permet de s'y retrouver dans votre logique globale et d'anticiper ce que vous allez nous présenter. Sur ce sujet, pensez que les outils traditionnels de rédaction (Word, Google Doc, etc...) disposent tous de fonctionnalité pour automatiser la création des sommaires ! Je vois encore tous les ans des étudiants réaliser des sommaires à la main : c'est tout simplement une perte de temps magistrale.
+- **Pagination** : J'ai trop souvent vu des sommaires paginés avec des pages non paginées ! Cela ne permet pas de "naviguer" rapidement dans votre document et peut être handicapant lors d'une lecture ou d'une correction.
+- **Utilisation de légendes** : C'est un oubli aussi réccurrent, mais vous devez systématiquement positionné une légende pour chaque image, schéma ou illustration que vous utilisez. 
+- **Vérifiez les polices et tailles de textes** : C'est aussi souvent une contrainte imposée par les centres de formation, mais prenez gare aux polices que vous utilisez et à la taille de vos textes. Notez qu'un nombre de page minimum est souvent renseigné, et que si vous augmentez la taille de la police vous occuperez davantage de place et obtiendrez donc un document avec "plus de page" qu'il ne devrait avoir. Cette idée, encore une fois trop souvent utilisée, est mauvaise ! Les correcteurs corrigent plusieurs mémoires, jamais un seul, et le font souvent "à la chaine". De la sorte, si une personne ne respecte pas la taille et la police imposés, cela sera visible instantanément par le correcteur !
