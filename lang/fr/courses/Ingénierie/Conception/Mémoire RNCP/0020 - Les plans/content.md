@@ -3,7 +3,7 @@ Afin de rédiger correctement un mémoire, il est nécessaire d'être organisé 
 C'est pourquoi nous avons mis en place un vocabulaire simple, mais spécifique, sur les différents niveaux de plan que nous pouvons trouver dans un mémoire en préambule à sa rédaction : 
 
 - **Le plan de niveau 1** n'est constitué que des titres de premier niveau ;
-- **Le plan de niveau 2** représente les titres de premier ET de second niveaux ;
+- **Le plan de niveau 2** représente les titres de premier ET de seconds niveaux ;
 - **Le plan de niveau 3** représente l'ensemble des titres et sous-titre que vous envisagez pour votre document (en d'autres termes il peut s'apparenter à un sommaire de votre document) ;
 - **Le plan de niveau 4** représente l'ensemble des plans présentés précédemment ET également les contenus de chaque sous-partie (titres de niveaux 3 et inférieurs) sous forme de simple liste.
 

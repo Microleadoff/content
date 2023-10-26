@@ -1,13 +1,13 @@
-La rédaction du corp du mémoire commence obligatoirement par l'organisation des idées et des informations que vous souhaitez y intégrer. 
+La rédaction du corps du mémoire commence obligatoirement par l'organisation des idées et des informations que vous souhaitez y intégrer. 
 
-**Note** : Ce cours vous donne la démarche précise sur comment vous organiser dans le traitement des informations à votre disposition, mais n'est pas spécifique à chaque partie de votre mémoire. __Nous vous recommandons donc de lire tous les cours sur le corp du mémoire avant de vous y attaquer afin d'éviter toute mauvaise surprise !__
+**Note** : Ce cours vous donne la démarche précise sur comment vous organiser dans le traitement des informations à votre disposition, mais n'est pas spécifique à chaque partie de votre mémoire. __Nous vous recommandons donc de lire tous les cours sur le s du mémoire avant de vous y attaquer afin d'éviter toute mauvaise surprise !__
 
 ## Première étape : les principaux titres (plan niveau 1)
 
 La première étape consistera donc à déterminer vos grands axes principaux constituants les parties principales du rendu. Généralement, il vous est demandé la rédaction de 3 parties principales (si ce n'est pas le cas, adaptez à votre besoin !). Voici une solution de découpage en 3 grands axes majeurs qui est souvent utilisée et porte ses fruits : 
 
 1. La **contextualisation** : Cette partie inclue généralement la présentation des termes clés de votre problématique, vous présente dans les grandes lignes ainsi que votre entreprise, et fait le lien entre ces trois éléments.
-2. La **partie théorique** : Elle intègre généralement un état des lieux précis de votre situation en entreprise (par rapport au sujet et à l'axe de traitement de votre problématique) et inclu aussi votre état de l'art. L'idée ici est de présenter des hypothèses qui vont se baser sur vos recherches ainsi que sur votre expérice. Les hypothèses présentent un intérêt dans le sens où elles permettent de proposer des pistes de solutions à la problématique énoncée.
+2. La **partie théorique** : Elle intègre généralement un état des lieux précis de votre situation en entreprise (par rapport au sujet et à l'axe de traitement de votre problématique) et inclus aussi votre état de l'art. L'idée ici est de présenter des hypothèses qui vont se baser sur vos recherches ainsi que sur votre expérience. Les hypothèses présentent un intérêt dans le sens où elles permettent de proposer des pistes de solutions à la problématique énoncée.
 3. La **partie pratique** : Cette section permet d'affirmer ou non les précédentes hypothèses en vous basant sur des cas pratiques, qui correspondent parfaitement au contexte décrit en première partie ! Chaque réponse fournie à propos d'une hypothèse est donc un élément de réponse global à votre problématique.
 
 **Notes** : 
@@ -24,5 +24,5 @@ Une fois le niveau 2 effectué, prenez le temps de repasser sur chaque sous-titr
 
 ## Quatrième étape : Plan de niveau 4
 
-Dernière étape dans l'organisation de vos idées et de vos contenus, vous allez devoir lister dans chacun de vos sous-titres les éléments que vous devez abordés. Il peut s'agir de simples mots pour penser à les utiliser, de reprendre des éléments tirés de vos recherches et de votre tableau dressé lors de l'état de l'art, d'idées à développer ou tout autre information qui vous permettrait d'ettayer vos dires lors de la phase de rédaction.
+Dernière étape dans l'organisation de vos idées et de vos contenus, vous allez devoir lister dans chacun de vos sous-titres les éléments que vous devez aborder. Il peut s'agir de simples mots pour penser à les utiliser, de reprendre des éléments tirés de vos recherches et de votre tableau dressé lors de l'état de l'art, d'idées à développer ou toute autre information qui vous permettrait d'étayer vos dires lors de la phase de rédaction.
 
