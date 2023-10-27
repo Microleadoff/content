@@ -9,7 +9,7 @@ Faisons quelques rappels pour chacune de ces règles.
 
 ## 100% des tests sont verts
 
-Le clean code établit comme principe qu’un système non testable est équivalent à un système non vérifiable, et par conséquent propice à trouver différents bugs et/ou problèmes. Les tests sont donc l’assurance d’un système vérifiable, et testable à tout moment du développement. Les tests permettent également de remanier ou refactorer le code tout en sachant à chaque fois si l’on à cassé quelque chose ou pas.
+Le clean code établit comme principe qu’un système non testable est équivalent à un système non vérifiable, et par conséquent propice à trouver différents bugs et/ou problèmes. Les tests sont donc l’assurance d’un système vérifiable, et testable à tout moment du développement. Les tests permettent également de remanier ou refactorer le code tout en sachant à chaque fois si l’on a cassé quelque chose ou pas.
 
 ## Pas de redondance
 
@@ -19,7 +19,7 @@ Or ce biais de pensée peut conduire à de la redondance de code et donc à des 
 
 Imaginez une condition de la sorte pour vérifier si une personne est majeure et à le droit de toucher des aides d’un pays. Si l’âge de la personne est de 150 ans, la condition sera respectée, et donc la personne en question pourra obtenir de l'aide. Sauf qu’à 150 ans, on est plus probablement mort qu’en capacité de toucher n’importe quelle aide… 
 
-Aussi le fait de ne pas regrouper le code redondant peut mener à des manque de vérification ou à des problématiques majeures au sein d’un système, et il est primordial de le prendre en compte !
+Aussi le fait de ne pas regrouper le code redondant peut mener à des manques de vérification ou à des problématiques majeures au sein d’un système, et il est primordial de le prendre en compte !
 
 ## Expressivité
 
