@@ -1,14 +1,14 @@
-Les commentaires, bien que théoriquement non interprétés, font pleinement partie des pratiques nécessaires à l’obtention d’un Clean Code. A titre personnel, j’aime à dire : “un bon commentaire est un commentaire inutile”. A toutes fins utiles, cette réplique n’est pas à prendre au pied de la lettre, mais reste néanmoins une bonne référence compte tenu de l’ensemble des attention qu’ils impliquent.
+Les commentaires, bien que théoriquement non interprétés, font pleinement partie des pratiques nécessaires à l’obtention d’un Clean Code. A titre personnel, j’aime à dire : “un bon commentaire est un commentaire inutile”. A toutes fins utiles, cette réplique n’est pas à prendre au pied de la lettre, mais reste néanmoins une bonne référence compte tenu de l’ensemble des attentions qu’ils impliquent.
 
 La première étape d’un commentaire vise à s’assurer qu’il ne justifie pas un mauvais code. Mettre en commentaire des explications sur une variable ne vous dispense en rien de lui attribuer un nommage correct. Par contre, utiliser un commentaire pour apporter des informations supplémentaires non visibles instantanément est pertinent.
 
-L’idée de base d’un commentaire est de permettre à n’importe quel personne lisant votre code d’en faciliter sa compréhension. Ainsi, si une partie de votre code nécessite des explications spécifiques, alors l’utilisation des commentaires est requise. A contrario, si l’ensemble de votre code est lisible, clair, et compréhensible de tous, alors aucun commentaire n’est nécessaire. Rappeler cet état de fait peut sembler futile, mais c’est pourtant trop souvent qu’il est oublié lors de la rédaction de code…
+L’idée de base d’un commentaire est de permettre à n’importe quelle personne lisant votre code d’en faciliter sa compréhension. Ainsi, si une partie de votre code nécessite des explications spécifiques, alors l’utilisation des commentaires est requise. A contrario, si l’ensemble de votre code est lisible, clair, et compréhensible de tous, alors aucun commentaire n’est nécessaire. Rappeler cet état de fait peut sembler futile, mais c’est pourtant trop souvent qu’il est oublié lors de la rédaction de code…
 
 Voici donc une liste non exhaustive des bons et mauvais commentaires, qui pourront vous servir de point de repère dans la réalisation de votre code.
 
 ## Les bons commentaires
 
-Les commentaires légaux, c’est-à-dire ceux qui sont situés au début de fichier et ont pour vocation de transmettre des informations quant au copyright, à l'auteur ou à la licence d’un script, font partie des bons commentaires. J’ai attendu trop longtemps à titre personnel avant d’en rédiger de la sorte, c’est dommage. La plupart de ces commentaires permettent un semblant d’information et de traçabilité, notamment à propos de la possibilité ou non de la ré-exploitation d’un code.
+Les commentaires légaux, c’est-à-dire ceux qui sont situés au début de fichier et ont pour vocation de transmettre des informations quant au copyright, à l'auteur ou à la licence d’un script, font partie des bons commentaires. J’ai attendu trop longtemps à titre personnel avant d’en rédiger de la sorte, c’est dommage. La plupart de ces commentaires permettent un semblant d’information et de traçabilité, notamment à propos de la possibilité ou non de la réexploitation d’un code.
 
 Les commentaires informatifs, comme décrits précédemment, sont bien évidemment encouragés. Attention cependant à ne pas tomber dans l’excès : l’information doit être juste, pertinente, et limitée. Ne vous perdez pas dans la description des conséquences d’une mauvaise utilisation d’une constante ou autre. Contentez-vous d’y décrire ce qu’elle doit contenir comme information.
 
@@ -36,4 +36,4 @@ Il est important de retenir que les mauvais commentaires viennent toujours d’u
 - **Trop d’information tue l’information.**
 - Attention aux commentaires d’en-têtes de fonctions inutiles. Un bon nom de fonction est bien souvent suffisant…
 
-Cette liste est, comme sa précédente, non exhaustive ! N’hésitez pas à la compléter par vous même ou bien à nous soumettre des éléments supplémentaires afin que nous puissions la compléter !
+Cette liste est, comme sa précédente, non exhaustive ! N’hésitez pas à la compléter par vous-même ou bien à nous soumettre des éléments supplémentaires afin que nous puissions la compléter !
