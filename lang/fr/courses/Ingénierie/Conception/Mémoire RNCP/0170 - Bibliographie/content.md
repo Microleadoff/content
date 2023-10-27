@@ -1,8 +1,8 @@
-La réalisation de bibliographie est souvent obligatoire dans la rédaction de documents. S'il s'agit d'un point particulièrement simple à mettre en place qui ne nécessite pas particulièrement de réflexion, il reste néanmoins important de mettre en place certaines règles afin de respecter les conventions qui conviennents. 
+La réalisation de bibliographie est souvent obligatoire dans la rédaction de documents. S'il s'agit d'un point particulièrement simple à mettre en place qui ne nécessite pas particulièrement de réflexion, il reste néanmoins important de mettre en place certaines règles afin de respecter les conventions qui conviennent. 
 
-De la sorte, des consignes sont généralement formalisées et communiquées. Celles-ci respectent généralement une norme ISO ([ISO-690](https://fr.wikipedia.org/wiki/ISO_690)) qui décrit précisément comment réaliser une bibliographie. En l'absence de consigne particulière, il conviendra de respecter cette norme ISO de telle sorte à rendre une bibliographie respectant les standards internationnaux.
+Des consignes sont généralement formalisées et communiquées. Celles-ci respectent souvent une norme ISO ([ISO-690](https://fr.wikipedia.org/wiki/ISO_690)) qui décrit précisément comment réaliser une bibliographie. En l'absence de consigne particulière, il conviendra de respecter cette norme ISO de telle sorte à rendre une bibliographie respectant les standards internationaux.
 
-La réalisation d'une bibliographie induit la citation des oeuvres utilisées lors de la rédaction de vos textes. Il existe trois différentes méthodes.
+La réalisation d'une bibliographie induit la citation des œuvres utilisées lors de la rédaction de vos textes. Il existe trois différentes méthodes.
 
 ## Les trois méthodes de citation
 
@@ -18,8 +18,6 @@ Si plusieurs ressources sont citées, alors il faut toutes les inclure dans la m
 
 #### Exemples de l'utilisation de la méthode Harvard
 
-Voici quelques exemples représentatifs de l'utilisation de la méthode Harvard :
-
 -  Jules Renard (1925, p. 207) ;
 -  (Voltaire 1808) ;
 -  (Montesquieu 1879 ; Victor Hugo 1878)
@@ -33,7 +31,7 @@ L'utilisation du système de notes courantes est très largement connu aujourd'h
 - Lorsque une seule et même référence est citée plusieurs fois, le même numéro est utilisé à chaque fois
 - Lorsque plusieurs références sont citées, les numéros correspondants sont mis bout-à-bout, séparés par des virgules
 
-Une note est ensuite présente en côté ou bas de page pour chaque index de référence présent sur la page. Chaque index numérique est donc repris et détail précisément la source de la citation.
+Une note est ensuite mise en côté ou bas de page pour chaque index de référence présent sur la page. Chaque index numérique est donc repris et détail précisément la source de la citation.
 
 ### Méthode numérique
 
@@ -43,8 +41,8 @@ La méthode numérique est similaire à la méthode de notes courantes, à ceci 
 
 Seule deux exigences sont énoncés par la norme ISO 690 :
 
-1. Le système de ponctuaction et de typographie doit être cohérent et similaire pour l'ensemble des sources (ne changez pas de manière de présenter les choses en plein milieu !)
-2. Chaque élément d'une référence doit être séparer proprement par un signe de ponctuation ou par une variation typographique. Pensez à utiliser toujours les mêmes conformément au premier point mentionné ci-dessus
+1. Le système de ponctuation et de typographie doit être cohérent et similaire pour l'ensemble des sources (ne changez pas de manière de présenter les choses en plein milieu !)
+2. Chaque élément d'une référence doit être séparé proprement par un signe de ponctuation ou par une variation typographique. Pensez à utiliser toujours les mêmes conformément au premier point mentionné ci-dessus
 
 ## Éléments de citations
 
