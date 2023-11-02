@@ -15,7 +15,7 @@ Copy code
 
 Dans cet exemple, la fonction tri_insertion(liste) prend en entrée la liste [9, 4, 6, 2, 8, 1, 7, 3, 5] et retourne la liste triée [1, 2, 3, 4, 5, 6, 7, 8, 9] en utilisant l'algorithme de tri par insertion.
 
-### Principe du tri à bulle
+### Principe du tri par insertion
 
 Le tri par insertion consiste à trier une liste en insérant chaque élément dans sa position correcte dans la liste triée précédente. Pour trier une liste de n éléments, il faut n-1 itérations pour trier complètement la liste.
 
