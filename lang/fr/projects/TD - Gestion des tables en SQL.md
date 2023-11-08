@@ -14,7 +14,7 @@ Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes S
     - Firstname, varchar
     - Lastname, varchar
     - Email, longtext
-3. Créez une table nommée « golfeurs »
+3. Créez une table nommée « golfeurs » qui respectera les colonnes suivantes : 
     - Id, pk, auto_increment
     - Firstname, varchar
     - Lastname, varchar
@@ -26,14 +26,14 @@ Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes S
 8. Créez un nouvel utilisateur : david GOLIATH, jaibeaucoupriz@wanadoo.fr
 9. Modifiez la table « utilisateurs » pour y inclure la colonne suivante : 
     - Age, int, null
-10. Renseignez l’âge de John LEGEND : 78 ans
-11. Renseignez l’âge de Jack SPARROW : 2 ans
-12. Renseignez l’âge de Tim COOK : 30 ans
-13. Renseignez l’âge de Harley DAVIDSON : 200 ans
-14. Renseignez l’âge de David GOLIATH : 3000 ans
+10. Renseignez l’âge de John LEGEND (78 ans) en vous basant sur son nom et son prénom
+11. Renseignez l’âge de Jack SPARROW (2 ans) en vous basant sur son nom et son prénom
+12. Renseignez l’âge de Tim COOK (30 ans)  en vous basant sur son nom et son prénom
+13. Renseignez l’âge de Harley DAVIDSON (200 ans) en vous basant sur son nom et son prénom
+14. Renseignez l’âge de David GOLIATH (3000 ans) en vous basant sur son nom et son prénom
 15. Modifier la table « golfeurs » en supprimant la colonne « Email »
-16. Supprimer l'utilisateur david GOLIATH
-17. Supprimer le golfeur Tim COOK
+16. Supprimer l'utilisateur david GOLIATH en vous basant sur son nom et son prénom
+17. Supprimer le golfeur Tim COOK en vous basant sur son nom et son prénom
 18. Vider les informations de la table « utilisateurs »
 19. Vider les informations de la table « golfeurs »
 20. Supprimer la base de données nommée « golf »
