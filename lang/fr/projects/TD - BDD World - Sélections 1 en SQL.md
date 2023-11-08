@@ -17,8 +17,31 @@ Ce TD portera sur la base de données nommée "World" fournie avec le programme 
 Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes SQL :
 
 
-en cours...
-
+1. Sélectionner tous les États distincts
+2. Sélectionner tous les codes d'État distincts
+3. Sélectionner tous les pays distincts
+4. Sélectionner tous les codes de pays distincts
+5. Sélectionner toutes les valeurs distinctes de latitude et longitude
+6. Sélectionner toutes les villes dont l'État est "California" ou "Texas" en utilisant "WHERE" et "OR"
+7. Sélectionner toutes les villes dont le code d'État est "CA" ou "TX" en utilisant "WHERE" et "OR"
+8. Sélectionner toutes les villes dont le pays est "USA" ou "Canada" en utilisant "WHERE" et "OR"
+9. Sélectionner toutes les villes dont le code de pays est "US" ou "CA" en utilisant "WHERE" et "OR"
+10. Sélectionner toutes les villes dont la latitude est supérieure à 40 ou la longitude est inférieure à -100 en utilisant "WHERE" et "OR"
+11. Sélectionner toutes les villes dont l'État est "California" ou "Texas" en utilisant "IN"
+12. Sélectionner toutes les villes dont le code d'État est "CA" ou "TX" en utilisant "IN"
+13. Sélectionner toutes les villes dont le pays est "USA" ou "Canada" en utilisant "IN"
+14. Sélectionner toutes les villes dont le code de pays est "US" ou "CA" en utilisant "IN"
+15. Sélectionner toutes les villes dont la latitude est supérieure à 40 ou la longitude est inférieure à -100 en utilisant "IN"
+16. Sélectionner toutes les villes dont la latitude est entre 40 et 45 en utilisant "WHERE" et "BETWEEN"
+17. Sélectionner toutes les villes dont la longitude est entre -100 et -90 en utilisant "WHERE" et "BETWEEN"
+18. Sélectionner toutes les villes dont l'ID est entre 100 et 200 en utilisant "WHERE" et "BETWEEN"
+19. Sélectionner toutes les villes dont la création a eu lieu entre deux dates en utilisant "WHERE" et "BETWEEN"
+20. Sélectionner toutes les villes dont le code postal est entre 90000 et 90999 en utilisant "WHERE" et "BETWEEN"
+21. Sélectionner toutes les villes dont le nom commence par 'Los' en utilisant "LIKE"
+22. Sélectionner toutes les villes dont le nom se termine par 'ville' en utilisant "LIKE"
+23. Sélectionner toutes les villes dont le nom contient 'New' en utilisant "LIKE"
+24. Sélectionner toutes les villes dont le code postal commence par '90' en utilisant "LIKE"
+25. Sélectionner toutes les villes dont le pays se termine par 'land' en utilisant "LIKE"
 
 ### Contraintes
 
