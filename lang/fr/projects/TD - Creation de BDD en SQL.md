@@ -8,13 +8,13 @@ L'objectif de ce TD est de mettre en pratique les commandes de création et de s
 
 Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes SQL :
 
-- Créer une base de données nommée "Toto"
-- Créer une base de données nommée "Tata"
-- Supprimer la base de données "Toto"
-- Créer une base de données nommée "toto"
-- Créer une base de données nommée "toto" (la BDD ne devra être créée que si une autre possédant le même nom n'existe pas déjà)
-- Supprimer la base de données "Tata"
-- Supprimer la base de données "toto"
+1. Créer une base de données nommée "Toto"
+2. Créer une base de données nommée "Tata"
+3. Supprimer la base de données "Toto"
+4. Créer une base de données nommée "toto"
+5. Créer une base de données nommée "toto" (la BDD ne devra être créée que si une autre possédant le même nom n'existe pas déjà)
+6. Supprimer la base de données "Tata"
+7. Supprimer la base de données "toto"
 
 ### Contraintes
 
