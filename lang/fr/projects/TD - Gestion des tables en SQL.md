@@ -8,35 +8,35 @@ L'objectif de ce TD est de mettre en pratique les commandes de gestion des table
 
 Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes SQL :
 
-- Créer une base de données nommée « golf »
-- Créez une table nommée « utilisateurs » qui respectera les colonnes suivantes : 
+1. Créer une base de données nommée « golf »
+2. Créez une table nommée « utilisateurs » qui respectera les colonnes suivantes : 
     - Id, pk, auto_increment
     - Firstname, varchar
     - Lastname, varchar
     - Email, longtext
-- Créez une table nommée « golfeurs »
+3. Créez une table nommée « golfeurs »
     - Id, pk, auto_increment
     - Firstname, varchar
     - Lastname, varchar
     - Email, longtext
-- Créez un nouveau golfeur : John LEGEND, j.legend@gmail.com
-- Créez un nouvel utilisateur : Jack SPARROW, jack_sparrow@yahoo.fr
-- Créez un nouveau golfeur : Tim COOK, tc@windobe.com
-- Créez un nouveau golfeur : Harley DAVIDSON, h-d@suzukiki.fr
-- Créez un nouvel utilisateur : david GOLIATH, jaibeaucoupriz@wanadoo.fr
-- Modifiez la table « utilisateurs » pour y inclure la colonne suivante : 
+4. Créez un nouveau golfeur : John LEGEND, j.legend@gmail.com
+5. Créez un nouvel utilisateur : Jack SPARROW, jack_sparrow@yahoo.fr
+6. Créez un nouveau golfeur : Tim COOK, tc@windobe.com
+7. Créez un nouveau golfeur : Harley DAVIDSON, h-d@suzukiki.fr
+8. Créez un nouvel utilisateur : david GOLIATH, jaibeaucoupriz@wanadoo.fr
+9. Modifiez la table « utilisateurs » pour y inclure la colonne suivante : 
     - Age, int, null
-- Renseignez l’âge de John LEGEND : 78 ans
-- Renseignez l’âge de Jack SPARROW : 2 ans
-- Renseignez l’âge de Tim COOK : 30 ans
-- Renseignez l’âge de Harley DAVIDSON : 200 ans
-- Renseignez l’âge de David GOLIATH : 3000 ans
-- Modifier la table « golfeurs » en supprimant la colonne « Email »
-- Supprimer l'utilisateur david GOLIATH
-- Supprimer le golfeur Tim COOK
-- Vider les informations de la table « utilisateurs »
-- Vider les informations de la table « golfeurs »
-- Supprimer la base de données nommée « golf »
+10. Renseignez l’âge de John LEGEND : 78 ans
+11. Renseignez l’âge de Jack SPARROW : 2 ans
+12. Renseignez l’âge de Tim COOK : 30 ans
+13. Renseignez l’âge de Harley DAVIDSON : 200 ans
+14. Renseignez l’âge de David GOLIATH : 3000 ans
+15. Modifier la table « golfeurs » en supprimant la colonne « Email »
+16. Supprimer l'utilisateur david GOLIATH
+17. Supprimer le golfeur Tim COOK
+18. Vider les informations de la table « utilisateurs »
+19. Vider les informations de la table « golfeurs »
+20. Supprimer la base de données nommée « golf »
 
 ### Contraintes
 
