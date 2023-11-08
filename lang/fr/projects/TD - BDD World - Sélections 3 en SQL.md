@@ -17,7 +17,7 @@ Ce TD portera sur la base de données nommée "World" fournie avec le programme 
 Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes SQL :
 
 
-en cours...
+1. à venir...
 
 
 ### Contraintes
