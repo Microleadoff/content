@@ -35,42 +35,71 @@ Il existe différents types de badge, certains sont dits "statics" : vous les cr
 
 Pour en savoir plus sur les badges ou en créer vous-même, vous pouvez vous rendre sur le site <a href="https://shields.io" title="shields - le site de gestion des badges pour github" target="_blank" rel="nofollow">https://shields.io</a>
 
+### 4 - Les visuels
 
-Structure
-- dépend du type de projet
-----> DEV
-- Une description générale du système ou du projet.
-- Le statut du projet, qui est surtout utile lorsqu’il est encore en stade du développement. Évoquez les modifications prévues et l’objectif du développement ou signalez clairement que le développement du projet est terminé.
-- Les exigences concernant l’environnement de développement en vue de son intégration.
-- Une instruction pour l’installation et l’utilisation.
-- Une liste des technologies utilisées et, le cas échéant, des liens vers d’autres informations sur ces technologies.
-- Les projets open source que les développeurs modifient ou complètent par eux-mêmes doivent être complétés par un paragraphe « collaboration souhaitée » dans leur fichier readme.md. Comment contourner un problème ? Comment les développeurs doivent-ils appliquer les modifications ?
-- Bugs connus et corrections éventuelles apportées.
-- Section FAQ reprenant toutes les questions posées jusqu’à présent.
-- Droits d’auteurs et informations sur la licence.
-----> Data
-- Les noms de l'investigateur/trice principal-e et des co-investigateurs/trices de l’étude
-- Une description de la méthodologie et des outils utilisés pour la collecte des données
-- Les dates de collecte des données
-- Une description de la hiérarchie du répertoire, du type de données qu'il contient et de la convention de dénomination des fichiers
-- Une liste complète de tous les titres/codes/abréviations et conventions utilisées dans les fichiers.
-- Les conditions de partage et d'accès (licence) pendant et après la fin du projet.
+En fonction du projet que vous menez, il peut être judicieux d'intégrer des visuels (photos, GIF, vidéos, etc...) de votre projet. Une image vallant mille mots, cela peut permettre à d'autres internautes de comprendre plus simplement ce à quoi correspond votre projet et peut les inciter davantage à l'utiliser (l'inverse est vrai aussi d'ailleurs 😇)
 
-----> autres
-- un titre, le nom du projet ;
-- une description de ce que fait le plugin, sans trop entrer dans la technique ;
-- Les pré-requis à l’utilisation du plugin (version de node si besoin, dépendances, etc.)
-- le guide d’installation (les commandes à exécuter pour l’installation, les éventuels problèmes qui peuvent intervenir, etc.) ;
-- le guide d’utilisation : les méthodes, leurs options, ce qu’elles retournent, etc.
-- une roadmap, pour présenter ce que vous avez prévu pour le futur du plugin, avec d’éventuelles dates comme jalons ;
-- la licence d’utilisation, si vous voulez notamment limiter l’utilisation de votre plugin ;
-- les divers contributeurs, s’il y en a, ainsi qu’un moyen de les ou de vous contacter directement.
+### 5 - Les prérequis
 
-LIENS
+Si votre projet nécessite l'installation de dépendances ou de logiciels manuellement pour faire fonctionner votre projet, il est temps de transmettre l'information. Faites attention, n'oubliez pas également de mentionner les numéros de versions minimales requises si existantes !
 
-- https://www.makeareadme.com/
-- https://shields.io/
+### 6 - Installation
+
+C'est la partie la plus délicate et la plus importante du readme. Elle doit contenir l'ensemble des informations nécessaires à une installation en partant de zéro de votre projet. Vous devez lister ici toutes les étapes une par une, et de manière réplicable. Afin de vous assurer des informations que vous y mettez, nous vous conseillons de réinstaller votre projet dans un nouvel endroit sur votre ordinateur afin de vous assurer de la **réplicabilité** des actions ainsi listées.
+
+**Note** : Si différentes étapes sont nécessaire en fonction des OS sur lesquels l'installation est effectuée (Windows, Mac, Linux, iOS, Android, etc...), alors il vous appartient de répliquer cette partie pour chacune des différentes plateforme.
+
+### 7 - utilisation
+
+Cette partie contient généralement des exemples d'utilisation de votre projet. Cela permet de démontrer son utilisation et d'exposer le genre d'action et ou de résultats que vous pouvez obtenir. Si toutefois les explications ou exemples d'utilisation sont trop long pour être présenté dans un readme, alors nous vous recommandons de positinner ici des liens vers d'autres fichiers de type **markdown** que vous pouvez aussi inclure dans votre projet.
+
+### 8 - Support
+
+Renseignez ici les manières disponibles pour les utilisateurs de contacter un support en cas de problème. Il n'y a pas de règle particulière ici, même si nous vous déconseillons évidemment d'exposer publiquement votre mail ou votre téléphone. Préférez un lien vers une page contact d'un site internet, ou bien une procédure à mettre en place directement sur votre plateforme de gestion de projet (Github, Gitlab, etc...)
+
+### 9 - Roadmap
+
+Cette partie n'est à renseigner que si vous êtes toujours en phase de développement. Elle contient comme son nom l'indique les différentes étapes de réalisation du projet, avec si possible des dates ou à minima l'état d'avancement des différentes actions nécessaires pour mener à bien le projet.
+
+### 10 - Contribution
+
+Cette partie indique si vous êtes ouvert ou non à des contributions extérieures. Souhaitez-vous voir d'autres internautes s'impliquer dans votre projet ? Si tel est le cas, alors c'est le parfait endroit pour y documenter les moyens et la manière de prendre part à votre projet.
+
+Si toutefois certaines étapes sont nécessaire à la mise en place d'un projet en tant que contributeur, vous pouvez également les lister ici. Documentez également les commandes de tests si vous en utilisez, ou bien les configuration des linters que vous pourriez utiliser.
+
+### 11 - Auteurs et reconnaissance
+
+Cette partie est souvent dédiée à la mention des personnes ayant pris part au projet. Elle permet de mentionner toute votre équipe et permet d'exposer publiquement votre reconnaissance envers eux. C'est une pratique très courante dans le monde du développement.
+
+Notez évidemment que le but n'est pas d'inclure ici 100% des contributeurs, mais bien des principaux, sans qui le projet n'aurait pas vu le jour ou ne pourrait plus fonctionner.
+
+### 12 - Licence
+
+Tout projet doit mentionner la licence qui lui est appliquée afin de renseigner sur les droits d'exploitation, commerciaux ou non, du projet. Parmis les licences les plus utilisées, on retrouve : 
+
+- GPL ou GNU GPL (General Public Licence)
+- MIT
+- BSD
+
+Pour en savoir plus sur les licences, nous vous recommandons l'excellente description disponible chez <a href="https://fr.wikipedia.org/wiki/Licence_de_logiciel" title="Licences logiciel" target="_blank" rel="nofollow">wikipedia</a>
+
+## Les quelques règle ssupplémentaires
+
+### Le statut du projet
+
+Si toutefois vous comptez abandonner un projet ou drastiquement réduire le temps que vous allez passer dessus, il est d'usage d'en faire mention **au début du readme** pour permettre à d'autres internautes de forker votre projet et de continuer à le faire vivre.
+
+### Exemples de bons readme ?
+
+Il n'existe pas un readme de référence particulier. Il est encore une fois important de rappeler que chaque projet et la manière dont il est géré est unique. Aussi pour vous rendre compte de ce que sont les readme des gros projets, nous avons fait une petite sélection de liens qui vous permettront de vous en rendre compte : 
+
+- <a href="https://github.com/microsoft/vscode" title="VSCode" target="_blank" rel="nofollow">VSCode</a> : Le dépôt officiel du célèbre éditeur de code. 150 000 étoiles, 27 000 forks, 115 000 commits, 1 900 contributeurs
+- <a href="https://github.com/flutter/flutter" title="Flutter" target="_blank" rel="nofollow">Flutter</a> : Le dépôt officiel de Flutter. 158 000 étoiles, 26 000 forks, 38 000 commits, 1 250 contributeurs
+- <a href="https://github.com/cypress-io/cypress" title="Cypress" target="_blank" rel="nofollow">Cypress</a> : Le dépôt officiel de Cypress. 45 000 étoiles, 3 000 forks, 20 000 commits, 450 contributeurs, utilisé par plus de 1 100 000 utilisateurs.
+
+### Le template magique !
+
+Pour terminer ce cours, nous vous avons préparer un template complet avec des rappels de formattage markdown pour vous permettre de gagner du temps lors de la rédaction de vos readme. Vous pouvez le télécharger en suivant ce lien : XXX
 
 
-TEMPLATE
-
+<a href="https://raw.githubusercontent.com/Microleadoff/content/master/lang/fr/courses/Ing%C3%A9nierie/Versionning/GIT/courses/0390%20-%20Readme/template.md" title="Template de readme Microlead" rel="nofollow" download="readme_template_microlead.md">Template de readme Microlead</a>
