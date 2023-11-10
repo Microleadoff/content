@@ -31,6 +31,9 @@ Certains readme mettent en avant des "badges" qui fournissent différentes infor
 ![premier badge](https://raw.githubusercontent.com/Microleadoff/content/master/lang/fr/courses/Ing%C3%A9nierie/Versionning/GIT/courses/0390%20-%20Readme/images/img_1.svg "premier badge")
 ![deuxième badge](https://raw.githubusercontent.com/Microleadoff/content/master/lang/fr/courses/Ing%C3%A9nierie/Versionning/GIT/courses/0390%20-%20Readme/images/img_2.svg "deuxième badge")
 
+Il existe différents types de badge, certains sont dits "statics" : vous les créez en y mettant le texte que vous voulez. D'autres sont générés par des labelisateurs auprès desquels vous allez justement chercher une labellisation. Ces badges vous permettent donc de mettre en avant tous les atouts de votre projet.
+
+Pour en savoir plus sur les badges ou en créer vous-même, vous pouvez vous rendre sur le site <a href="https://shields.io" title="shields - le site de gestion des badges pour github" target="_blank" rel="nofollow">https://shields.io</a>
 
 
 Structure
