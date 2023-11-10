@@ -26,10 +26,10 @@ Souvent juste en dessous du titre, sous forme de paragraphe, une description suc
 
 ### 3 - Les badges
 
-Certains readme mettent en avant des "badges" qui fournissent différentes informations additionnelle à propos de votre projet. Voici quelques exemples de badges que vous pouvez retrouver sur un readme : 
+Certains readme mettent en avant des "badges" qui fournissent différentes informations additionnelle à propos de votre projet. Voici deux exemples de badges que vous pouvez retrouver sur un readme : 
 
-- ![premier badge](https://raw.githubusercontent.com/Microleadoff/content/master/lang/fr/courses/Ing%C3%A9nierie/Versionning/GIT/courses/0390%20-%20Readme/images/img_1.svg "premier badge")
-- ![deuxième badge](https://raw.githubusercontent.com/Microleadoff/content/master/lang/fr/courses/Ing%C3%A9nierie/Versionning/GIT/courses/0390%20-%20Readme/images/img_2.svg "deuxième badge")
+![premier badge](https://raw.githubusercontent.com/Microleadoff/content/master/lang/fr/courses/Ing%C3%A9nierie/Versionning/GIT/courses/0390%20-%20Readme/images/img_1.svg "premier badge")
+![deuxième badge](https://raw.githubusercontent.com/Microleadoff/content/master/lang/fr/courses/Ing%C3%A9nierie/Versionning/GIT/courses/0390%20-%20Readme/images/img_2.svg "deuxième badge")
 
 
 
