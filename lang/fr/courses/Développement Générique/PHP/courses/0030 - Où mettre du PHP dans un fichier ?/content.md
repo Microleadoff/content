@@ -1,6 +1,6 @@
 Le PHP est un langage de programmation informatique. Tout comme les autres, il est nécessaire de créer des fichiers qui vont contenir le code réalisé afin qu’il puisse ensuite être interprété par une machine. Les fichiers contenants du PHP doivent posséder l’extension ```.php``` afin de signifier leurs types aux ordinateurs, de telle sorte à ce que ceux-ci puissent les interpréter.
 
-Une fois l’extension définie, il faut délimiter le code à interpréter au sein d’un fichier PHP. Pour cela, il faut placer l’ensemble du code PHP entre la balise ouvrante ```&lt;?php``` et la balise fermante ```?&gt;```. Tout le code situé au milieu de ces deux balises sera supposé être du PHP et donc interprété comme tel par la machine.
+Une fois l’extension définie, il faut délimiter le code à interpréter au sein d’un fichier PHP. Pour cela, il faut placer l’ensemble du code PHP entre la balise ouvrante &lt;?php et la balise fermante ?&gt;. Tout le code situé au milieu de ces deux balises sera supposé être du PHP et donc interprété comme tel par la machine.
 
 Il faut ici noter deux notions importantes :
 
