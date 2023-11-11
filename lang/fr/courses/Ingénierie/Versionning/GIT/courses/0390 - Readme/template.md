@@ -91,3 +91,33 @@ Utilisation des classes bootstrap possible :
 [Danger](#){.btn .btn-danger}
 [Link](#){.btn .btn-link}
 ```
+
+## Images
+
+Syntaxe : ```![texte alternatif](lien de l'image "description de l'image")```
+
+## Citation
+
+syntaxe : ```> une citation !```
+
+## Listes
+
+Non Ordonnées :
+```
+- premier élément
+    - sous élément
+    - sous élément
+- deuxième élément
+    - sous élément
+- troisième élément
+```
+
+Ordonnées :
+```
+1. premier élément
+    1.1 sous élément
+    1.2 sous élément
+2. deuxième élément
+    2.1 sous élément
+3. troisième élément
+```
