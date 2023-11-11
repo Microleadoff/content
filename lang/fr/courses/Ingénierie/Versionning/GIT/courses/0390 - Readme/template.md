@@ -1,6 +1,13 @@
-# Foobar
+# Titre principal
 
-Foobar is a Python library for dealing with word pluralization.
+Description succincte du projet, liste des fonctionnalités, éléments de démarquation des autres projets !
+
+
+Intégrez ensuite vos badges, vous pouvez vous rendre sur le site <a href="https://shields.io" title="shields - le site de gestion des badges pour github" target="_blank" rel="nofollow">https://shields.io</a>
+
+Voici quelques exemples :
+
+![texte_alternatif](https://img.shields.io/badge/mon_premier_text_exemple-en_bleu-blue "description de l'image")
 
 ## Installation
 

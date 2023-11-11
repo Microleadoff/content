@@ -102,4 +102,4 @@ Il n'existe pas un readme de référence particulier. Il est encore une fois imp
 Pour terminer ce cours, nous vous avons préparer un template complet avec des rappels de formattage markdown pour vous permettre de gagner du temps lors de la rédaction de vos readme. Vous pouvez le télécharger en suivant ce lien : XXX
 
 
-<a href="https://raw.githubusercontent.com/Microleadoff/content/master/lang/fr/courses/Ing%C3%A9nierie/Versionning/GIT/courses/0390%20-%20Readme/template.md" title="Template de readme Microlead" rel="nofollow" download="readme_template_microlead.md">Template de readme Microlead</a>
+<a href="XXX" title="Template de readme Microlead" rel="nofollow">Template de readme Microlead</a>
