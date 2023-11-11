@@ -68,17 +68,17 @@ Mentionnez la licence utilisée pour votre projet. Vous pouvez vous réferrer à
 ou sur plusieurs lignes en spécifiant un langage : 
 
 <code>
-    \`\`\`php
-    <?php
-        // bloc de code
-    ?>
-    \`\`\`
+\`\`\`php
+<?php
+    // bloc de code
+?>
+\`\`\`
 </code>
 
 donnera : 
 
 ```php
-    <?php
-        // bloc de code
-    ?>
+<?php
+    // bloc de code
+?>
 ```
