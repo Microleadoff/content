@@ -1,6 +1,6 @@
 ## Accès rapide
 
-Si vous souhaitez accéder rapidement à notre template de markdown, vous pouvez utiliser directement ce lien : XXX . Si vous n'avez aucune idée de ce qu'est ce template, alors vous devriez commencé par lire la suite du cours !
+Si vous souhaitez accéder rapidement à notre template de markdown, vous pouvez utiliser directement ce lien : <a href="https://github.com/kevinniel/readme-template-microlead/archive/refs/heads/main.zip" title="Template de readme Microlead" rel="nofollow">Template de readme Microlead</a> . Si vous n'avez aucune idée de ce qu'est ce template, alors vous devriez commencé par lire la suite du cours !
 
 ## Qu'est-ce qu'un readme ?
 
@@ -99,7 +99,4 @@ Il n'existe pas un readme de référence particulier. Il est encore une fois imp
 
 ### Le template magique !
 
-Pour terminer ce cours, nous vous avons préparer un template complet avec des rappels de formattage markdown pour vous permettre de gagner du temps lors de la rédaction de vos readme. Vous pouvez le télécharger en suivant ce lien : XXX
-
-
-<a href="XXX" title="Template de readme Microlead" rel="nofollow">Template de readme Microlead</a>
+Pour terminer ce cours, nous vous avons préparer un template complet avec des rappels de formattage markdown pour vous permettre de gagner du temps lors de la rédaction de vos readme. Vous pouvez le télécharger en suivant ce lien : <a href="https://github.com/kevinniel/readme-template-microlead/archive/refs/heads/main.zip" title="Template de readme Microlead" rel="nofollow">Template de readme Microlead</a>
