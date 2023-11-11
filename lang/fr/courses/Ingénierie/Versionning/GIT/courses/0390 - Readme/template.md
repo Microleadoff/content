@@ -80,18 +80,6 @@ ou sur plusieurs lignes en spécifiant un langage :
 
 Syntaxe : ```[texte du lien](lien){classes CSS}```
 
-Utilisation des classes bootstrap possible : 
-
-```
-[Default](#){.btn .btn-default}
-[Primary](#){.btn .btn-primary}
-[Info](#){.btn .btn-info}
-[Success](#){.btn .btn-success}
-[Warning](#){.btn .btn-warning}
-[Danger](#){.btn .btn-danger}
-[Link](#){.btn .btn-link}
-```
-
 ## Images
 
 Syntaxe : ```![texte alternatif](lien de l'image "description de l'image")```
@@ -103,20 +91,39 @@ syntaxe : ```> une citation !```
 ## Listes
 
 Non Ordonnées :
-
+```
 - premier élément
     - sous élément
     - sous élément
 - deuxième élément
     - sous élément
 - troisième élément
-
+```
 
 Ordonnées :
-
+```
 1. premier élément
-    1 sous élément
-    2 sous élément
 2. deuxième élément
-    1 sous élément
 3. troisième élément
+```
+
+## Titres
+
+```
+# Niveau 1
+## Niveau 2
+### Niveau 3
+#### Niveau 4
+##### Niveau 5
+###### Niveau 6
+```
+
+## Tableaux
+
+```
+| Aligné à gauche  | Centré          | Aligné à droite |
+| :--------------- |:---------------:| -----:|
+| Aligné à gauche  |   ce texte        |  Aligné à droite |
+| Aligné à gauche  | est             |   Aligné à droite |
+| Aligné à gauche  | centré          |    Aligné à droite |
+```
