@@ -115,8 +115,8 @@ Non Ordonnées :
 Ordonnées :
 
 1. premier élément
-    1.1 sous élément
-    1.2 sous élément
+    1 sous élément
+    2 sous élément
 2. deuxième élément
-    2.1 sous élément
+    1 sous élément
 3. troisième élément
