@@ -7,7 +7,8 @@ Intégrez ensuite vos badges, vous pouvez vous rendre sur le site <a href="https
 
 Voici quelques exemples :
 
-![texte_alternatif](https://img.shields.io/badge/mon_premier_text_exemple-en_bleu-blue "description de l'image")
+![texte_alternatif](https://img.shields.io/badge/mon_premier_text_exemple-en_bleu-blue "description du badge")
+![texte_alternatif](https://img.shields.io/badge/un_message_en_rouge-FF0000 "description du badge")
 
 ## Installation
 
