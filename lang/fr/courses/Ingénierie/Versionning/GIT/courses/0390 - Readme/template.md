@@ -2,7 +2,7 @@
 
 Description succincte du projet, liste des fonctionnalités, éléments de démarquation des autres projets !
 
-
+## Badges (retirez le titre une fois renseigné)
 
 Intégrez ensuite vos badges, vous pouvez vous rendre sur le site <a href="https://shields.io" title="shields - le site de gestion des badges pour github" target="_blank" rel="nofollow">https://shields.io</a>
 
@@ -12,36 +12,54 @@ Voici quelques exemples :
 ![texte_alternatif](https://img.shields.io/badge/un_message_en_rouge-FF0000 "description du badge")
 
 
+## Visuels (retirez le titre une fois renseigné)
+
+Intégrez des visuels (photos, GIF, vidéos, etc...) de votre projet.
+
+## prérequis
+
+Si votre projet nécessite l'installation de dépendances ou de logiciels manuellement pour faire fonctionner votre projet, renseignez les ici, sinon supprimer cette partie
+
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Tutoriel step-by-step et réplicable pour installer votre projet.
 
-```bash
-pip install foobar
-```
+**Note** : Si différentes étapes sont nécessaire en fonction des OS sur lesquels l'installation est effectuée (Windows, Mac, Linux, iOS, Android, etc...), alors il vous appartient de répliquer cette partie pour chacune des différentes plateforme.
 
-## Usage
+## Utilisation
 
-```python
-import foobar
+Exemples d'utilisation de votre projet.
 
-# returns 'words'
-foobar.pluralize('word')
+## Support
 
-# returns 'geese'
-foobar.pluralize('goose')
+Comment contacter le support ?
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+## Roadmap
 
-## Contributing
+Plan d'action à mener pour continuer d'avancer sur votre projet.
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+## Contribution
 
-Please make sure to update tests as appropriate.
+Règles spécifiques pour contribuer à votre projet.
 
-## License
+## Auteurs et reconnaissance
 
-[MIT](https://choosealicense.com/licenses/mit/)
+Remerciement aux contributeurs importants
+
+## Licence
+
+Mentionnez la licence utilisée pour votre projet. Vous pouvez vous réferrer à <a href="https://fr.wikipedia.org/wiki/Licence_de_logiciel" title="Licences logiciel" target="_blank" rel="nofollow">Wikipedia</a>
+
+
+# RAPPELS SYNTAXE MARKDOWN - A SUPPRIMER UNE FOIS LE README TERMINÉ
+
+## Styles de texte
+
+```_italique_``` s'affiche ainsi : _italique_
+```**gras**``` s'affiche ainsi : **gras**
+```**_gras-italique_**``` s'affiche ainsi : **_gras-italique_**
+```~~barré~~``` s'affiche ainsi : ~~barré~~~
+
+## Blocs de code
+
+``` ```bloc de code``` ```  donnera : ```bloc de code``` 
