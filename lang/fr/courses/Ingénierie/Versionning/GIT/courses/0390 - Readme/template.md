@@ -55,28 +55,39 @@ Mentionnez la licence utilisée pour votre projet. Vous pouvez vous réferrer à
 
 ## Styles de texte
 
-```_italique_``` s'affiche ainsi : _italique_
-```**gras**``` s'affiche ainsi : **gras**
-```**_gras-italique_**``` s'affiche ainsi : **_gras-italique_**
-```~~barré~~``` s'affiche ainsi : ~~barré~~~
+_italique_
+**gras**
+**_gras-italique_**
+~~barré~~~
 
 ## Blocs de code
 
-
-<code>\`\`\`bloc de code\`\`\`</code> donnera : ```bloc de code``` 
-
+sur une seule ligne : ```bloc de code``` 
+ou sur plusieurs lignes :
+```
+<!-- ligne de code 1 -->
+<!-- ligne de code 2 -->
+<!-- ligne de code 3 -->
+```
 ou sur plusieurs lignes en spécifiant un langage : 
-
-<code>\`\`\`php
-&lt;?php
-    // bloc de code
-?>
-\`\`\`</code>
-
-donnera : 
-
 ```php
 <?php
     // bloc de code
 ?>
+```
+
+## Liens
+
+Syntaxe : ```[texte du lien](lien){classes CSS}```
+
+Utilisation des classes bootstrap possible : 
+
+```
+[Default](#){.btn .btn-default}
+[Primary](#){.btn .btn-primary}
+[Info](#){.btn .btn-info}
+[Success](#){.btn .btn-success}
+[Warning](#){.btn .btn-warning}
+[Danger](#){.btn .btn-danger}
+[Link](#){.btn .btn-link}
 ```
