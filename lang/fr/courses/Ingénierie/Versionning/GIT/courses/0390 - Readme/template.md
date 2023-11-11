@@ -64,3 +64,21 @@ Mentionnez la licence utilisée pour votre projet. Vous pouvez vous réferrer à
 
 
 <code>\`\`\`bloc de code\`\`\`</code> donnera : ```bloc de code``` 
+
+ou sur plusieurs lignes en spécifiant un langage : 
+
+<code>
+    \`\`\`php
+    <?php
+        // bloc de code
+    ?>
+    \`\`\`
+</code>
+
+donnera : 
+
+```php
+    <?php
+        // bloc de code
+    ?>
+```
