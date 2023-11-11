@@ -62,4 +62,5 @@ Mentionnez la licence utilisée pour votre projet. Vous pouvez vous réferrer à
 
 ## Blocs de code
 
-``` ```bloc de code``` ```  donnera : ```bloc de code``` 
+
+<code>```bloc de code```</code> donnera : ```bloc de code``` 
