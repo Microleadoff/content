@@ -103,21 +103,20 @@ syntaxe : ```> une citation !```
 ## Listes
 
 Non Ordonnées :
-```
+
 - premier élément
     - sous élément
     - sous élément
 - deuxième élément
     - sous élément
 - troisième élément
-```
+
 
 Ordonnées :
-```
+
 1. premier élément
     1.1 sous élément
     1.2 sous élément
 2. deuxième élément
     2.1 sous élément
 3. troisième élément
-```
