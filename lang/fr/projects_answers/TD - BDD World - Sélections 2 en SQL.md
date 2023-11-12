@@ -147,14 +147,14 @@ SELECT * FROM cities ORDER BY longitude ASC LIMIT 10;
 SELECT * FROM cities WHERE state_id = 123 LIMIT 10;
 ```
 
-30. Sélectionner les 10 villes dans le pays ayant l'id 456 :
+30. Sélectionner les 10 villes dans le pays ayant un id inférieur à 456 :
 ```sql
-SELECT * FROM cities WHERE country_id = 456 LIMIT 10;
+SELECT * FROM cities WHERE country_id < 456 LIMIT 10;
 ```
 
-31. Sélectionner les noms des villes et les catégories de latitude en utilisant "CASE" et "WHEN" :
+31. Sélectionner les noms des villes et les catégories de latitude en utilisant "CASE" et "WHEN" (si la latitude est supérieure à 50, alors vous devrez retourner "Élevée", si elle est supérieure à 40 retournez "Modérée") :
 ```sql
-SELECT city_name, 
+SELECT name, 
 CASE 
     WHEN latitude > 50 THEN 'Élevée'
     WHEN latitude > 40 THEN 'Modérée'
@@ -162,9 +162,9 @@ END AS latitude_category
 FROM cities;
 ```
 
-32. Sélectionner les noms des villes et les catégories de latitude en utilisant "CASE" et "WHEN" :
+32. Sélectionner les noms des villes et les catégories de latitude en utilisant "CASE" et "WHEN" (si la latitude est supérieure à 60, retournez "Très élevée", si elle est supérieure à 50, alors vous devrez retourner "Élevée", si elle est supérieure à 40 retournez "Modérée") :
 ```sql
-SELECT city_name, 
+SELECT name, 
 CASE 
     WHEN latitude > 60 THEN 'Très élevée'
     WHEN latitude > 50 THEN 'Élevée'
@@ -173,9 +173,9 @@ END AS latitude_category
 FROM cities;
 ```
 
-33. Sélectionner les noms des villes et les catégories de latitude en utilisant "CASE" et "WHEN" :
+33. Sélectionner les noms des villes et les catégories de latitude en utilisant "CASE" et "WHEN" (si la latitude est supérieure à 45, alors vous devrez retourner "Élevée", si elle est supérieure à 35 retournez "Modérée") :
 ```sql
-SELECT city_name, 
+SELECT name, 
 CASE 
     WHEN latitude > 45 THEN 'Élevée'
     WHEN latitude > 35 THEN 'Modérée'
@@ -183,9 +183,9 @@ END AS latitude_category
 FROM cities;
 ```
 
-34. Sélectionner les noms des villes et les catégories de latitude en utilisant "CASE" et "WHEN" :
+34. Sélectionner les noms des villes et les catégories de latitude en utilisant "CASE" et "WHEN" (si la latitude est supérieure à 47, retournez "Très élevée", si elle est supérieure à 42, alors vous devrez retourner "Élevée", si elle est supérieure à 37 retournez "Modérée") :
 ```sql
-SELECT city_name, 
+SELECT name, 
 CASE 
     WHEN latitude > 47 THEN 'Très élevée'
     WHEN latitude > 42 THEN 'Élevée'
@@ -194,9 +194,9 @@ END AS latitude_category
 FROM cities;
 ```
 
-35. Sélectionner les noms des villes et les catégories de latitude en utilisant "CASE" et "WHEN" :
+35. Sélectionner les noms des villes et les catégories de latitude en utilisant "CASE" et "WHEN" (si la latitude est supérieure à 55, retournez "Très élevée", si elle est supérieure à 50, alors vous devrez retourner "Élevée", si elle est supérieure à 45 retournez "Modérée") :
 ```sql
-SELECT city_name, 
+SELECT name, 
 CASE 
     WHEN latitude > 55 THEN 'Très élevée'
     WHEN latitude > 50 THEN 'Élevée'
