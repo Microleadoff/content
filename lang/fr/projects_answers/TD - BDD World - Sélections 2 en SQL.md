@@ -48,9 +48,11 @@ FROM cities
 GROUP BY state_id WITH ROLLUP;
 ```
 
-9. Renvoie pour chaque date de naissance l'ensemble des gens qui la partage, ansi que le nombre d'employées total :
+9. Calculer la moyenne des "fips_code" par pays et renvoyer également le total des moyennes :
 ```sql
-SELECT country_id, SUM(longitude) as total_longitude FROM cities GROUP BY country_id WITH ROLLUP; 
+SELECT country_id, AVG(fips_code)
+FROM states
+GROUP BY country_id WITH ROLLUP;
 ```
 
 10. Calculer la somme des latitudes et longitudes avec un total général :
