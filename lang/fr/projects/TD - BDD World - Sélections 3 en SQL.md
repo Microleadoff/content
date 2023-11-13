@@ -17,7 +17,7 @@ Ce TD portera sur la base de données nommée "World" fournie avec le programme 
 Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes SQL :
 
 
-1. à venir...
+1. Sélectionner toutes les sous-région appartenant aux régions id 1 à 3, ainsi que celles appartenant à la région id 5 en utilisant UNION
 
 
 ### Contraintes
