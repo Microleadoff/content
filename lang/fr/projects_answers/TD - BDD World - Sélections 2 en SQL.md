@@ -118,9 +118,12 @@ WHERE state_id > 480 AND state_id < 500
 ORDER BY name DESC;
 ```
 
-20. Sélectionner les noms des produits et leurs prix unitaires, triés par prix décroissant, puis par quantité en stock :
+20. Sélectionner toutes les sous-régions qui appartiennent à la région possédant l'id 2 par ordre décroissant :
 ```sql
-SELECT product_name, unit_price, stock_quantity FROM products ORDER BY unit_price DESC, stock_quantity;
+SELECT *
+FROM subregions
+WHERE region_id = 2
+ORDER BY name DESC;
 ```
 
 21. Sélectionner les noms des États et des codes d'État en renommant les colonnes "nom_de_l_etat" et "code_de_l_etat" :

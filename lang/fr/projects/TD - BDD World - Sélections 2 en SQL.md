@@ -36,7 +36,7 @@ Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes S
 17. Sélectionner tous les pays qui ont une latitude supérieure à 20 dans l'ordre croissant
 18. Sélectionner les Etats dans lequel le mot "Region" apparait par ordre croissant
 19. Sélectionner tous les pays qui ont un état avec un id compris entre 480 et 500 par ordre décroissant
-20. [KO] Sélectionner les noms des produits et leurs prix unitaires, triés par prix décroissant, puis par quantité en stock
+20. Sélectionner toutes les sous-régions qui appartiennent à la région possédant l'id 2 par ordre décroissant
 21. Sélectionner les noms des États et des codes d'État en renommant les colonnes "nom_de_l_etat" et "code_de_l_etat"
 22. Sélectionner les noms des pays et des codes de pays en renommant les colonnes "nom_du_pays" et "code_du_pays"
 23. Sélectionner les latitudes et longitudes des villes en renommant les colonnes "latitude_de_la_ville" et "longitude_de_la_ville"
