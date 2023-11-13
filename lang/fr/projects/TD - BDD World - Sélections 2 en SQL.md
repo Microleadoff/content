@@ -26,7 +26,7 @@ Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes S
 7. Calculer la moyenne des latitudes et des longitudes par country_id ainsi que la moyenne en tout
 8. Calculer les latitudes et longitudes minimales de chaque ville ainsi que la valeur minimale globale
 9. Calculer la moyenne des "fips_code" par pays et renvoyer également le total des moyennes
-10. [KO] Calculer la somme des latitudes et longitudes avec un total général
+10. Calculer la somme des valeurs des sous-régions par région et renvoyer également le total des valeurs
 11. Calculer la moyenne de la latitude par État ayant une moyenne supérieure à 40
 12. Calculer la moyenne de la longitude par État ayant une moyenne supérieure à -100
 13. Calculer la moyenne de la latitude par pays ayant une moyenne supérieure à 35

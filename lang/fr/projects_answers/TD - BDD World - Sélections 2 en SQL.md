@@ -55,9 +55,11 @@ FROM states
 GROUP BY country_id WITH ROLLUP;
 ```
 
-10. Calculer la somme des latitudes et longitudes avec un total général :
+10. Calculer la somme des valeurs des sous-régions par région et renvoyer également le total des valeurs :
 ```sql
-SELECT 'Total' as summary, SUM(latitude) as total_latitude, SUM(longitude) as total_longitude FROM cities;
+SELECT region_id, SUM(subregion_id)
+FROM countries
+GROUP BY region_id WITH ROLLUP
 ```
 
 11. Calculer la moyenne de la latitude par État ayant une moyenne supérieure à 40 :
