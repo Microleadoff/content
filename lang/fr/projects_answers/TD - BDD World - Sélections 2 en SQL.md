@@ -110,9 +110,12 @@ WHERE name LIKE "%Region%"
 ORDER BY name ASC;
 ```
 
-19. Sélectionner les noms des produits et leurs prix unitaires, triés par prix décroissant, puis par date d'ajout au catalogue :
+19. Sélectionner tous les pays qui ont un état avec un id compris entre 480 et 500 par ordre décroissant :
 ```sql
-SELECT product_name, unit_price, added_date FROM products ORDER BY unit_price DESC, added_date;
+SELECT name, state_id, latitude, longitude
+FROM cities
+WHERE state_id > 480 AND state_id < 500
+ORDER BY name DESC;
 ```
 
 20. Sélectionner les noms des produits et leurs prix unitaires, triés par prix décroissant, puis par quantité en stock :
