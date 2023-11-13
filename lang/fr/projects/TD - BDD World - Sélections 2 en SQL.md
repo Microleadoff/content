@@ -22,19 +22,19 @@ Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes S
 3. Sélectionner le nombre de villes par pays
 4. Sélectionner le nombre de villes par code de pays
 5. Sélectionner le nombre de villes par drapeau (flag)
-6. [KO] Calculer la somme des latitudes par État avec un total général
-7. [KO] Calculer la somme des longitudes par État avec un total général
-8. [KO] Calculer la somme des latitudes par pays avec un total général
-9. [KO] Calculer la somme des longitudes par pays avec un total général
+6. Calculer la somme des latitudes et des longitudes par region_id ainsi que la somme de chaque
+7. Calculer la moyenne des latitudes et des longitudes par country_id ainsi que la moyenne en tout
+8. Calculer les latitudes et longitudes minimales de chaque ville ainsi que la valeur minimale globale
+9. [KO] Renvoie pour chaque date de naissance l'ensemble des gens qui la partage, ansi que le nombre d'employées total
 10. [KO] Calculer la somme des latitudes et longitudes avec un total général
 11. Calculer la moyenne de la latitude par État ayant une moyenne supérieure à 40
 12. Calculer la moyenne de la longitude par État ayant une moyenne supérieure à -100
 13. Calculer la moyenne de la latitude par pays ayant une moyenne supérieure à 35
 14. Calculer la moyenne de la longitude par pays ayant une moyenne supérieure à -90
 15. Calculer la moyenne de la latitude et longitude avec une moyenne supérieure à 0
-16. [KO] Sélectionner les noms des produits et leurs prix unitaires, triés par prix décroissant
-17. [KO] Sélectionner les noms des produits et leurs prix unitaires, triés par prix décroissant, puis par nom de produit
-18. [KO] Sélectionner les noms des produits et leurs prix unitaires, triés par prix décroissant, puis par catégorie de produit
+16. Sélectionner les noms des continents dans l'ordre décroissant
+17. Sélectionner tous les pays qui ont une latitude supérieure à 20 dans l'ordre croissant
+18. Sélectionner les Etats dans lequel le mot "Region" apparait par ordre croissant
 19. [KO] Sélectionner les noms des produits et leurs prix unitaires, triés par prix décroissant, puis par date d'ajout au catalogue
 20. [KO] Sélectionner les noms des produits et leurs prix unitaires, triés par prix décroissant, puis par quantité en stock
 21. Sélectionner les noms des États et des codes d'État en renommant les colonnes "nom_de_l_etat" et "code_de_l_etat"

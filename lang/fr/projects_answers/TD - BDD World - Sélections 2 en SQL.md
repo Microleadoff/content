@@ -27,22 +27,28 @@ SELECT country_code, COUNT(*) as city_count FROM cities GROUP BY country_code;
 SELECT flag, COUNT(*) as city_count FROM cities GROUP BY flag;
 ```
 
-6. Calculer la somme des latitudes par État avec un total général :
+6. Calculer la somme des latitudes et des longitudes par region_id ainsi que la somme de chaque :
 ```sql
-SELECT state_id, SUM(latitude) as total_latitude FROM cities GROUP BY state_id WITH ROLLUP;
+SELECT SUM(latitude), SUM(longitude), region_id
+FROM countries
+GROUP BY region_id WITH ROLLUP;
 ```
 
-7. Calculer la somme des longitudes par État avec un total général :
+7. Calculer la moyenne des latitudes et des longitudes par country_id ainsi que la moyenne en tout :
 ```sql
-SELECT state_id, SUM(longitude) as total_longitude FROM cities GROUP BY state_id WITH ROLLUP;
+SELECT AVG(latitude), AVG(longitude), country_id
+from cities
+GROUP BY country_id WITH ROLLUP;
 ```
 
-8. Calculer la somme des latitudes par pays avec un total général :
+8. Calculer les latitudes et longitudes minimales de chaque ville ainsi que la valeur minimale globale :
 ```sql
-SELECT country_id, SUM(latitude) as total_latitude FROM cities GROUP BY country_id WITH ROLLUP;
+SELECT state_id, MIN(latitude), MIN(longitude)
+FROM cities
+GROUP BY state_id WITH ROLLUP;
 ```
 
-9. Calculer la somme des longitudes par pays avec un total général :
+9. Renvoie pour chaque date de naissance l'ensemble des gens qui la partage, ansi que le nombre d'employées total :
 ```sql
 SELECT country_id, SUM(longitude) as total_longitude FROM cities GROUP BY country_id WITH ROLLUP; 
 ```
@@ -77,19 +83,27 @@ SELECT country_id, AVG(longitude) as avg_longitude FROM cities GROUP BY country_
 SELECT 'Total' as summary, AVG(latitude) as avg_latitude, AVG(longitude) as avg_longitude FROM cities HAVING AVG(latitude) > 0;
 ```
 
-16. Sélectionner les noms des produits et leurs prix unitaires, triés par prix décroissant :
+16. Sélectionner les noms des continents dans l'ordre décroissant :
 ```sql
-SELECT product_name, unit_price FROM products ORDER BY unit_price DESC;
+SELECT name, id
+FROM regions
+ORDER BY name DESC;
 ```
 
-17. Sélectionner les noms des produits et leurs prix unitaires, triés par prix décroissant, puis par nom de produit :
+17. Sélectionner tous les pays qui ont une latitude supérieure à 20 dans l'ordre croissant :
 ```sql
-SELECT product_name, unit_price FROM products ORDER BY unit_price DESC, product_name;
+SELECT name, latitude, longitude
+FROM countries
+WHERE latitude > 20
+ORDER BY name ASC;
 ```
 
-18. Sélectionner les noms des produits et leurs prix unitaires, triés par prix décroissant, puis par catégorie de produit :
+18. Sélectionner les Etats dans lequel le mot "Region" apparait par ordre croissant :
 ```sql
-SELECT product_name, unit_price, category FROM products ORDER BY unit_price DESC, category;
+SELECT name 
+FROM states
+WHERE name LIKE "%Region%"
+ORDER BY name ASC;
 ```
 
 19. Sélectionner les noms des produits et leurs prix unitaires, triés par prix décroissant, puis par date d'ajout au catalogue :

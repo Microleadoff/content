@@ -6,7 +6,7 @@ Notez que comme toute requête HTTP, vous pouvez récupérer des informations de
 
 ## Exemples
 
-Vous pouvez utiliser la fonction fetch simplement en enchainant de manière "synchrone" les actions à réaliser à l'issue de la récupération des information grâce à l'utilisation du mot-clé ```then```.
+Vous pouvez utiliser la fonction fetch simplement en enchaînant de manière "synchrone" les actions à réaliser à l'issue de la récupération des informations grâce à l'utilisation du mot-clé ```then```.
 
 ```js
 fetch(url)
