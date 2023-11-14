@@ -18,7 +18,15 @@ Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes S
 
 
 1. Sélectionner toutes les sous-région appartenant aux régions id 1 à 3, ainsi que celles appartenant à la région id 5 en utilisant UNION
-
+2. Sélectionner tous les états avec une latitude comprise entre 20 et 40, ainsi que tous les états avec une longitude comprise entre 20 et 40 en utilisant UNION
+3. Sélectionner tous les pays dont le symbole de la monnaie est "€", ainsi que tous les pays dont le symbole de la monnaie est "$" en utilisant UNION
+4. Sélectionner toutes les villes dont le code de l'état est "AZ", ainsi que toutes les villes dont le code du pays est "AD" en utilisant UNION
+5. Sélectionner tous les pays dont le symbole de la monnaie est "$", ainsi que tous les pays dont le code iso3 contient la lettre "A" en utilisant UNION
+6. Sélectionner tous les id des régions, ainsi que tous les champs "region_id" des pays en utilisant UNION ALL
+7. Sélectionner tous les noms des sous-régions, ainsi que toutes les sous-régions des pays en utilisant UNION ALL
+8. Sélectionner tous les codes iso2 des pays, ainsi que tous les codes des pays depuis la table des états en utilisant UNION ALL
+9. Sélectionner toutes les dates de création des pays, ainsi que toutes les dates de création des états en utilisant UNION ALL
+10. Sélectionner tous les id des sous-régions, ainsi que tous id des régions en utilisant UNION ALL
 
 ### Contraintes
 
