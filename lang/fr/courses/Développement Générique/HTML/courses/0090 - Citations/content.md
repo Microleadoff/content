@@ -2,7 +2,7 @@ Afin que les développeurs puissent respecter les standards et droits d’auteur
 
 ## L'élément ```<blockquote>```
 
-L’élément ```<blockquote></blockquote>``` indique le texte est une citation longue. Dans un ```<blockquote>```, les retours à la ligne sont respectés par le navigateur. 
+L’élément ```<blockquote></blockquote>``` indique que le texte est une citation longue. Dans un ```<blockquote>```, les retours à la ligne sont respectés par le navigateur. 
 
 Le HTML permet également d’utiliser l’attribut cite avec cette balise, afin d’indiquer la source de la citation. Par exemple :
 
