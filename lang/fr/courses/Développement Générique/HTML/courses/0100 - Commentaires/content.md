@@ -2,7 +2,7 @@ Comme tout langage qui se respecte, le langage HTML donne au développeur la pos
 
 ## Définition et utilité des commentaires en HTML
 
-Les commentaires sont des lignes de texte qui ne sont **pas interprétées** par le navigateur (cela signifie que le navigateur n’affiche pas le commentaires). Ils sont utilisés afin d’expliquer certaines parties de code qui peuvent s’avérer compliqués à comprendre autrement. C’est également utile lorsque le développeur sait qu’il laissera son code de côté pendant un moment. S’il a commenté certains bouts de code, il lui sera ainsi plus facile de comprendre ce qu’il a voulu faire lorsqu’il se replongera dans son code.
+Les commentaires sont des lignes de texte qui ne sont **pas interprétées** par le navigateur (cela signifie que le navigateur n’affiche pas les commentaires). Ils sont utilisés afin d’expliquer certaines parties de code qui peuvent s’avérer compliqués à comprendre autrement. C’est également utile lorsque le développeur sait qu’il laissera son code de côté pendant un moment. S’il a commenté certains bouts de code, il lui sera ainsi plus facile de comprendre ce qu’il a voulu faire lorsqu’il se replongera dans son code.
 
 Les commentaires peuvent être très utiles dans trois situations principales :
 
