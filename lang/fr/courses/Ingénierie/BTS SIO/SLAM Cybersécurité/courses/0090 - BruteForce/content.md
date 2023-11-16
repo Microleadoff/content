@@ -1,0 +1,1 @@
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/VCltQ_G-KA0" title="🔒 Attaque par Brute Force : La méthode magique ? [Bases de la cybersécurité]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

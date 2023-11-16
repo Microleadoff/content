@@ -1,0 +1,1 @@
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/_YNQcA_qzJ0" title="Je t&#39;explique le chiffrement Symétrique et Asymétrique. Et c&#39;est très simple en fait !!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

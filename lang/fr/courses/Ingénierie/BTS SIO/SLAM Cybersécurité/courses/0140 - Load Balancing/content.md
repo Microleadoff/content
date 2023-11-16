@@ -1,0 +1,1 @@
+<iframe width="1280" height="721" src="https://www.youtube.com/embed/9EoqLdmZCTU" title="Comprendre le clustering (et le load balancing) en 6 minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

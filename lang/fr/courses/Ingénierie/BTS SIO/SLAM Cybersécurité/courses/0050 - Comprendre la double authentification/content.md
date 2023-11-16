@@ -1,0 +1,1 @@
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/XUH3HZ1wHlc" title="Tutoriel MFA - Français" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

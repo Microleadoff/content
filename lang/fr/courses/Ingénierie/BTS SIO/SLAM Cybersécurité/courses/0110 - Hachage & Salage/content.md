@@ -1,0 +1,1 @@
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/Kb4mAd9Kizc" title="Comment les Sites Web Sécurisent-ils les Mots de Passe ? HASHAGE et SALAGE Expliqués" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

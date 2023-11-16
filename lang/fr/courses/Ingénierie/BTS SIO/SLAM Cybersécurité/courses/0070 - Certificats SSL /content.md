@@ -1,0 +1,1 @@
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/7W7WPMX7arI" title="Comprendre le chiffrement SSL / TLS avec des emojis (et le HTTPS)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
