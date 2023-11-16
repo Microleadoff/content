@@ -14,13 +14,13 @@
                 Cette section met l'accent sur la compréhension des réglementations essentielles, en particulier le Règlement Général sur la Protection des Données (RGPD) et les bonnes pratiques de l'Agence nationale de la sécurité des systèmes d'information (ANSSI). Il vise à fournir une base solide en matière de conformité et de sécurité des données.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Mathematics-amico.svg" alt="Section de Mathématiques">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/law-firm.svg" alt="Sensibilisation aux Réglementations et Bonnes Pratiques">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/aa27553796117f85edb19fb8b26a578bcfcc4d71/images/Filter-rafiki.svg" alt="Section de Tri">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/authentication.svg" alt="Gestion de l'Authentification et des Accès">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Gestion de l'Authentification et des Accès
@@ -42,13 +42,13 @@
                 Dans cette partie, les étudiants explorent les aspects liés à la sécurité des communications et aux transferts de données. Les certificats SSL sont abordés pour garantir des communications sécurisées, tandis que les protocoles FTP & FPTS permettent d'assurer la sécurité lors des transferts de données.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/5c8abda1814e8a678c88ca0cb1e73d5683cd21f8/images/Woman-thinking-rafiki.svg" alt="Section de Recherche">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/private-data.svg" alt="Sécurité des Communications et Transferts de Données">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Calculator-amico.svg" alt="Section de Cryptage">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/security.svg" alt="Techniques Avancées de Sécurité Informatique">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Techniques Avancées de Sécurité Informatique
