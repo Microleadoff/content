@@ -41,7 +41,7 @@ Exemple :
 
 ## Input Type Datetime-local
 
-Ce type d’input permet d’insérer un champ qui recevra à la fois  . 
+Ce type d’input permet d’insérer un champ qui recevra à la fois une date et une heure. 
 
 En fonction du type de navigateur utilisé, un sélecteur de date et heure peut apparaître.
 
