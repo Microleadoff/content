@@ -19,3 +19,7 @@ Exemple d'utilisation :
 
 - N'utilisez que les fonctionnalités de base de python (variables, boucles et conditions).
 - vous pouvez exceptionnellement utiliser les fonctions ```len```, ```append``` et ```sum```
+
+### Astuces
+
+- Commencez par réaliser un algorithme permettant d'identifier un ensemble de sous liste, tel que la liste ```a, b, c```, donne l'ensemble ```ab, ac, bc, abc``` ou que la liste ```a, b, c, d``` donnera l'ensemble ```ab, ac, ad, bc, bd, cd, abc, abd, acd, abcd```
