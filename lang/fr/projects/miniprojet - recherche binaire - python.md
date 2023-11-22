@@ -2,7 +2,7 @@
 
 ### Introduction
 
-La recherche binaire est une méthode de recherche efficace qui fonctionne sur des listes triées. Elle fonctionne en divisant constamment la liste en deux et en vérifiant si l'élément recherché est dans la première ou la deuxième moitié de la liste. Cela permet de réduire considérablement le nombre d'éléments à vérifier par rapport à la recherche linéaire. En Python, vous pouvez implémenter cet algorithme en utilisant une boucle ou de la récursion.
+La recherche binaire (aussi appelée dichotomique) est une méthode de recherche efficace qui fonctionne sur des listes triées. Elle fonctionne en divisant constamment la liste en deux et en vérifiant si l'élément recherché est dans la première ou la deuxième moitié de la liste. Cela permet de réduire considérablement le nombre d'éléments à vérifier par rapport à la recherche linéaire. En Python, vous pouvez implémenter cet algorithme en utilisant une boucle ou de la récursion.
 
 ### Description courte
 
