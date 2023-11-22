@@ -14,13 +14,13 @@
                 Cette section pose les bases essentielles de GIT. De l'introduction aux concepts fondamentaux jusqu'au démarrage d'un dépôt, vous acquerrez une compréhension solide des principes de base de GIT, essentielle pour toute progression future.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Programmer-cuate.svg" alt="Fondamentaux de GIT">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Version%20control-cuate.svg" alt="Fondamentaux de GIT">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Data%20extraction-bro.svg" alt="Gestion et Optimisation de Votre Travail avec GIT">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Version%20control-pana.svg" alt="Gestion et Optimisation de Votre Travail avec GIT">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Gestion et Optimisation de Votre Travail avec GIT
@@ -42,13 +42,13 @@
                 Ici, nous abordons la dimension collaborative de GIT. Vous apprendrez à travailler avec des dépôts distants, à gérer des branches et à fusionner des travaux. Ces compétences sont cruciales pour une collaboration efficace et une gestion de projet agile.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Authentication-rafiki.svg" alt="Collaboration et Réseaux avec GIT">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Version%20control-amico.svg" alt="Collaboration et Réseaux avec GIT">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Printed%20circuit%20board-cuate.svg" alt="GIT Avancé et Intégration avec GitHub">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Version%20control-bro.svg" alt="GIT Avancé et Intégration avec GitHub">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 GIT Avancé et Intégration avec GitHub
