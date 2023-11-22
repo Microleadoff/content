@@ -60,20 +60,6 @@
     </div>
 </section>
 
-<section class="mx-auto max-w-6xl px-4">
-    <div class="pt-8 md:pt-12 flex flex-col xl:flex-row gap-16 items-center justify-between">
-        <div>
-            <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
-                Intégration Statique
-            </h2>
-            <p class="max-w-md text-gray-600 pt-8 text-md lg:text-lg">
-                Terminez votre parcours avec un projet d'intégration statique. Appliquez tout ce que vous avez appris dans un scénario réel, en créant une page web et en démarrant un réel portfolio. C'est l'occasion de montrer vos nouvelles compétences et de voir à quel point vous avez progressé. Pour cette dernière étape, vous avez le choix parmis 4 des sites internet parmis les plus utilisés du monde : Netflix, Appel, Spotify ou encore Github !
-            </p>
-        </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Static%20website-amico.svg" alt="Intégration Statique">
-    </div>
-</section>
-
 <section class="py-6 md:py-16">
     <h2 class="text-4xl md:text-5xl font-bold text-center py-4">
         En conclusion
