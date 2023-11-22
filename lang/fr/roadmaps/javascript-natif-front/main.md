@@ -14,13 +14,13 @@
                 Cette section sert d'introduction au JavaScript, abordant les bases telles que l'écriture de code, la syntaxe, les types de données, les opérateurs, et les variables. Des exercices pratiques sont intégrés pour renforcer la compréhension de ces concepts essentiels.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Under%20construction-rafiki.svg" alt="Fondamentaux du JavaScript">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/JavaScript%20frameworks-rafiki%20(1).svg" alt="Fondamentaux du JavaScript">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Business%20growth-bro.svg" alt="Manipulation des Objets et du DOM">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Domain%20names-amico.svg" alt="Manipulation des Objets et du DOM">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Manipulation des Objets et du DOM
@@ -42,13 +42,13 @@
                 Cette section se concentre sur les fonctions avancées de JavaScript, telles que les closures, les tableaux, les chaînes de caractères, et les dates. Elle traite également du Browser Object Model (BOM) pour une interaction plus approfondie avec le navigateur.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Team%20spirit-bro.svg" alt="Fonctionnalités Avancées et BOM">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Website%20designer-amico.svg" alt="Fonctionnalités Avancées et BOM">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Conversion%20rate%20optimization-amico.svg" alt="Applications Pratiques et JSON">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Data%20analysis-amico.svg" alt="Applications Pratiques et JSON">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Applications Pratiques et JSON
