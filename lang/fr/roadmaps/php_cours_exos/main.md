@@ -14,13 +14,13 @@
                 Ce module initie les bases du PHP. Il comprend des cours sur la différence entre les sites statiques et dynamiques, l'installation d'un serveur local, l'intégration de PHP dans les fichiers, l'utilisation des variables et constantes, les chaînes de caractères, les nombres, et les bases de la syntaxe PHP. C'est la fondation sur laquelle les apprenants construiront leurs compétences.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/JavaScript%20frameworks-rafiki%20(1).svg" alt="Fondamentaux du PHP">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Programmer-cuate.svg" alt="Fondamentaux du PHP">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Insurance-amico.svg" alt="Structures de Contrôle et Types de Données">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Data%20extraction-bro.svg" alt="Structures de Contrôle et Types de Données">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Structures de Contrôle et Types de Données
@@ -42,13 +42,13 @@
                 Ici, les apprenants découvriront les standards de codage PSR, les superglobales, les fonctions mathématiques, et diverses fonctions avancées. Cette partie est cruciale pour écrire un code propre, efficace et conforme aux meilleures pratiques de l'industrie.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Website%20designer-amico.svg" alt="Standards de Codage et Fonctions Avancées">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Authentication-rafiki.svg" alt="Standards de Codage et Fonctions Avancées">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Hand%20coding-rafiki.svg" alt="Programmation Orientée Objet et Concepts Avancés">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Printed%20circuit%20board-cuate.svg" alt="Programmation Orientée Objet et Concepts Avancés">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Programmation Orientée Objet et Concepts Avancés
