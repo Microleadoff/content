@@ -14,13 +14,13 @@
                 Cette première partie est cruciale pour comprendre les bases du PHP. Elle aborde les différences entre les sites statiques et dynamiques, l'installation d'un serveur local, et l'introduction aux éléments fondamentaux de PHP. Les étudiants apprendront à utiliser les composants de base du langage, établissant ainsi une solide fondation pour la programmation PHP.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Notebook-bro.svg" alt="Fondamentaux du PHP et Environnement de Développement">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Development-pana.svg" alt="Fondamentaux du PHP et Environnement de Développement">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Diary-bro.svg" alt="Structures de Contrôle et Opérateurs Avancés">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/App%20development-bro.svg" alt="Structures de Contrôle et Opérateurs Avancés">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Structures de Contrôle et Opérateurs Avancés
@@ -42,13 +42,13 @@
                 Ici, l'accent est mis sur la manipulation et la gestion des données en PHP. Les étudiants découvriront comment PHP interagit avec différentes formes de données et apprendront à utiliser les superglobales, un aspect crucial pour le développement web. Cette partie est clé pour comprendre comment PHP gère les informations et interagit avec l'utilisateur.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Thesis-amico.svg" alt="Gestion des Données et Superglobales">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Software%20engineer-bro.svg" alt="Gestion des Données et Superglobales">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Blogging-pana.svg" alt="Programmation Orientée Objet et Concepts Avancés">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Static%20assets-amico.svg" alt="Programmation Orientée Objet et Concepts Avancés">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Programmation Orientée Objet et Concepts Avancés
