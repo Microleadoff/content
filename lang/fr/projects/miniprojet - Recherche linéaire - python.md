@@ -2,7 +2,7 @@
 
 ### Introduction
 
-La recherche linéaire est une méthode simple pour trouver un élément particulier dans une liste. Elle fonctionne en parcourant chaque élément de la liste un par un jusqu'à ce qu'elle trouve l'élément recherché ou jusqu'à ce qu'elle ait parcouru tous les éléments. En python, vous pouvez implémenter cet algorithme en utilisant une boucle.
+La recherche linéaire (aussi appelée "naïve") est une méthode simple pour trouver un élément particulier dans une liste. Elle fonctionne en parcourant chaque élément de la liste un par un jusqu'à ce qu'elle trouve l'élément recherché ou jusqu'à ce qu'elle ait parcouru tous les éléments. En python, vous pouvez implémenter cet algorithme en utilisant une boucle.
 
 ### Description courte
 
