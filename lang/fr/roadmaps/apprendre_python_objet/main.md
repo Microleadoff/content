@@ -14,13 +14,13 @@
                 Cette section constitue le socle du parcours, introduisant les principes de base de la programmation orientée objet. Vous découvrirez comment Python utilise les objets et les classes pour modéliser des données et des comportements, et comment ces éléments interagissent pour créer des applications robustes et modulaires.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Launching-amico.svg" alt="Fondations de la Programmation Orientée Objet">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Launching-pana.svg" alt="Fondations de la Programmation Orientée Objet">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Data%20extraction-rafiki.svg" alt="Structures de données et contrôle de flux">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Mathematics-bro.svg" alt="Structures de Données Avancées et Algorithmes">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Structures de Données Avancées et Algorithmes
@@ -42,13 +42,13 @@
                 Cette partie explore des modèles de conception sophistiqués et des techniques d'accès aux bases de données. Vous découvrirez comment structurer votre code pour qu'il soit non seulement fonctionnel, mais aussi maintenable et extensible. Les interactions avec les bases de données seront également abordées, un aspect essentiel de la programmation moderne.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Comfort%20zone-amico.svg" alt="Concepts avancés et manipulation de données">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Server-amico.svg" alt="Modèles de Conception et Interaction avec les Bases de Données">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Folder-amico.svg" alt="Modules, Fichiers et Traitement des Erreurs">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Server-rafiki.svg" alt="Programmation Concurrency et Network">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Programmation Concurrency et Network
