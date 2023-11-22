@@ -2,7 +2,7 @@
 
 ### Introduction
 
-Le chiffrement par substitution est une méthode de chiffrement où chaque lettre d'un texte donné est remplacée par une lettre différente, avec un décalage fixe dans l'alphabet. Par exemple, avec un décalage de 1, A serait remplacé par B, B deviendrait C, et ainsi de suite.
+Le chiffrement par substitution (aussi appelé cryptage de césar) est une méthode de chiffrement où chaque lettre d'un texte donné est remplacée par une lettre différente, avec un décalage fixe dans l'alphabet. Par exemple, avec un décalage de 1, A serait remplacé par B, B deviendrait C, et ainsi de suite.
 
 ### Description courte
 
