@@ -4,5 +4,5 @@
     </p>
 </section>
 <section class="py-6 md:py-16 px-4">
-    <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Mathematics-amico.svg" alt="Section de Mathématiques">
+    <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Library-pana.svg" alt="Découvrez nos projets gratuits pour étudiants en BTS SIO SLAM">
 </section>
