@@ -14,13 +14,13 @@
                 Cette partie pose les bases essentielles pour comprendre l'importance et la structure d'un mémoire RNCP. Elle offre un aperçu des différentes méthodologies et plans, en plus d'introduire les fondements contextuels. Parfait pour les débutants, cette section est la pierre angulaire de votre parcours de rédaction.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Mathematics-amico.svg" alt="Fondations du Mémoire Professionnel">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Notebook-bro.svg" alt="Fondations du Mémoire Professionnel">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/aa27553796117f85edb19fb8b26a578bcfcc4d71/images/Filter-rafiki.svg" alt="Développement et Approfondissement">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Diary-bro.svg" alt="Développement et Approfondissement">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Développement et Approfondissement
@@ -42,13 +42,13 @@
                 Découvrez les techniques de structuration et de rédaction du corps de votre mémoire. De la rédaction de l'introduction à l'organisation des idées, cette partie vous guide dans la création d'un contenu cohérent, structuré et engageant.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/5c8abda1814e8a678c88ca0cb1e73d5683cd21f8/images/Woman-thinking-rafiki.svg" alt="Structure et Rédaction du Corps du Mémoire">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Thesis-amico.svg" alt="Structure et Rédaction du Corps du Mémoire">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/69899861bdda5d514aa8d764088b4374742fb92b/images/Calculator-amico.svg" alt="Finalisation et Formalisation">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Blogging-pana.svg" alt="Finalisation et Formalisation">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Finalisation et Formalisation
