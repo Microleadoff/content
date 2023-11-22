@@ -14,13 +14,13 @@
                 Découvrez les bases de Python, un langage de programmation essentiel dans le monde technologique actuel. Cette section vous initie à la syntaxe de Python, à la configuration de votre environnement de développement et vous introduit aux concepts fondamentaux comme les types de variables et les opérations de base. Parfait pour les débutants, cette partie pose les fondations nécessaires pour une compréhension approfondie.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Content-structure-amico.svg" alt="Section de HTML">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Launching-amico.svg" alt="Fondamentaux de Python">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Design%20team-amico.svg" alt="Section de CSS">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Data%20extraction-rafiki.svg" alt="Structures de données et contrôle de flux">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Structures de données et contrôle de flux
@@ -42,13 +42,13 @@
                 Plongez dans le monde de la programmation orientée objet avec Python. Cette partie vous enseigne comment structurer vos programmes en utilisant des classes et des objets, et vous initie à des modèles de conception avancés. De plus, apprenez à interagir avec des bases de données pour gérer efficacement les données. Idéal pour ceux qui aspirent à développer des applications robustes et bien organisées.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Hotel-Booking-amico.svg" alt="Créez votre première page web">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Comfort%20zone-amico.svg" alt="Programmation orientée objet et gestion des données">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Interior%20design-amico.svg" alt="HTML et CSS Avancés">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Mission%20Impossible-amico.svg" alt="Algorithmes et techniques avancées en Python">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Algorithmes et techniques avancées en Python
