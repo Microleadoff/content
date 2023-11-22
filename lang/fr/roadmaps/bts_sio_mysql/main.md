@@ -14,13 +14,13 @@
                 Cette section couvre les bases du SQL, de l'installation à la création et la suppression de bases de données. Elle comprend des travaux dirigés (TD) pratiques pour renforcer la compréhension de la création de bases de données en SQL. Elle pose les fondations solides nécessaires pour manipuler les données et les structures de données.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Development-pana.svg" alt="Fondamentaux de la Gestion de Bases de Données en SQL">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Secure%20Server-amico.svg" alt="Fondamentaux de la Gestion de Bases de Données en SQL">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/App%20development-bro.svg" alt="Manipulation et Gestion des Tables en SQL">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Server%20status-amico.svg" alt="Manipulation et Gestion des Tables en SQL">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Manipulation et Gestion des Tables en SQL
@@ -42,13 +42,13 @@
                 Cette partie se concentre sur les techniques avancées telles que les clauses SELECT, DISTINCT, WHERE, GROUP BY, et d'autres opérateurs et fonctions SQL. Elle comprend des TDs pour mettre en pratique les concepts de sélection et d'analyse de données dans divers scénarios réels.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Software%20engineer-bro.svg" alt="Techniques Avancées de Sélection et d'Analyse de Données">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Data%20analysis-amico.svg" alt="Techniques Avancées de Sélection et d'Analyse de Données">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Static%20assets-amico.svg" alt="Jointures, Sous-requêtes, et Automatisation en SQL">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Data%20processing-amico.svg" alt="Jointures, Sous-requêtes, et Automatisation en SQL">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Jointures, Sous-requêtes, et Automatisation en SQL
