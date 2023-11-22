@@ -8,6 +8,8 @@ L'analyse des fréquences de caractères est une opération couramment utilisée
 
 Votre mission est d'écrire une fonction en Python, nommée ```frequence_caracteres```, qui prend en entrée une chaîne de caractères et retourne un dictionnaire avec chaque caractère unique de la chaîne comme clé et le nombre de fois où ce caractère apparaît dans la chaîne comme valeur.
 
+**Note** : Les lettres majuscules et minuscules doivent être confondues de telle sorte que les lettres ```m``` et ```M``` doivent résulter en une fréquence de 2.
+
 ### Exemple
 
 ```
@@ -21,4 +23,4 @@ Dans cet exemple, la fonction retourne un dictionnaire où chaque caractère de 
 ### Contraintes
 
 - Vous devez uniquement utiliser les fonctionnalités de base de python, c'est à dire les variables, les boucles et les conditions.
-- Vous ne pouvez pas utiliser des fonctions prédéfinies de python comme ```count``` pour accomplir cette tâche.
+- Vous ne pouvez pas utiliser des fonctions prédéfinies de python comme ```count``` pour accomplir cette tâche, exception faite de la fonctio ```lower``` pour mettre toutes les lettres en minuscules et gérer les cas des majuscules.
