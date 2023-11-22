@@ -14,13 +14,13 @@
                 Plongez dans les fondamentaux des Design Patterns avec cette première partie. Vous découvrirez les principes de base à travers des modèles essentiels tels que Singleton, Factory, Abstract Factory, et Builder. Ces cours sont conçus pour vous fournir une compréhension solide des patterns de création, indispensables pour tout développeur Python souhaitant maîtriser la conception de logiciels efficaces et évolutifs.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Launching-pana.svg" alt="Fondations des Design Patterns">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Under%20construction-rafiki.svg" alt="Fondations des Design Patterns">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Mathematics-bro.svg" alt="Structuration et Extension des Systèmes">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Business%20growth-bro.svg" alt="Structuration et Extension des Systèmes">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Structuration et Extension des Systèmes
@@ -42,13 +42,13 @@
                 Cette troisième partie se concentre sur la gestion dynamique du comportement des objets. Vous apprendrez à utiliser des modèles tels que Command, Chaîne de responsabilité, Observer, État, et Stratégie pour manipuler le comportement des objets en temps réel. Ces connaissances sont cruciales pour développer des logiciels interactifs et réactifs, capables de répondre efficacement aux changements d'environnement et d'exigences utilisateur.
             </p>
         </div>
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Server-amico.svg" alt="Gestion du Comportement des Objets">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Team%20spirit-bro.svg" alt="Gestion du Comportement des Objets">
     </div>
 </section>
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Server-rafiki.svg" alt="Optimisation et Anti-modèles">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Conversion%20rate%20optimization-amico.svg" alt="Optimisation et Anti-modèles">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Optimisation et Anti-modèles
