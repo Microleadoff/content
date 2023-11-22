@@ -48,7 +48,7 @@
 
 <section class="mx-auto max-w-6xl px-4">
     <div class="pt-8 md:pt-12 flex flex-col-reverse xl:flex-row gap-16 items-center justify-between">
-        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Mission%20Impossible-amico.svg" alt="Modules, Fichiers et Traitement des Erreurs">
+        <img class="h-[400px] md:h-[550px]" width="727" height="723" src="https://raw.githubusercontent.com/Microleadoff/content/master/images/Folder-amico.svg" alt="Modules, Fichiers et Traitement des Erreurs">
         <div>
             <h2 class="font-bold text-4xl md:text-5xl" style="line-height: 3.6rem">
                 Modules, Fichiers et Traitement des Erreurs
