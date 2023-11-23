@@ -47,7 +47,7 @@ body {
 
 ### Alignement vertical
 
-Le langage CSS permet également d’aligner un texte horizontalement sur une page. Pour ce faire, il faut utiliser la propriété ```vertical-align```. 
+Le langage CSS permet également d’aligner un texte verticalement sur une page. Pour ce faire, il faut utiliser la propriété ```vertical-align```. 
 
 Cette propriété peut recevoir une des 3 valeurs suivantes :
 
