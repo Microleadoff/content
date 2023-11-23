@@ -290,7 +290,7 @@ Cette propriété est ```font``` et prend comme valeur un ou plusieurs, voire l�
 - ```font-size```
 - ```font-family```
 
-__Remarque__ : Les valeurs de font-value et font-family doivent obligatoirement être déclarées. Si ce n’est pas le cas, le navigateur leur attribuera leurs valeurs par défaut. 
+__Remarque__ : Les valeurs de font-size et font-family doivent obligatoirement être déclarées. Si ce n’est pas le cas, le navigateur leur attribuera leurs valeurs par défaut. 
 
 Exemple :
 
