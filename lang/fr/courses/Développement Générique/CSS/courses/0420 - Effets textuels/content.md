@@ -27,6 +27,15 @@ Exemple :
 }
 ```
 
+**Note** : Pour que les fonctionnalités de la propriété text-overflow soient bien prises en compte, il est important de rajouter 2 mentions CSS ;
+
+```css
+/* Permet de ne pas avoir de retour à la ligne */
+white-space: nowrap;
+/* Permet de cacher tout ce qui est sensé dépasser du conteneur */
+overflow: hidden;
+```
+
 ## word-wrap
 
 La propriété ```word-wrap``` permet de couper les longs mots afin que ceux-ci soient renvoyés à la ligne. 
