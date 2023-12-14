@@ -2,110 +2,253 @@
 
 ### Voici la liste des commandes qu'il fallait effectuer dans l'ordre
 
-1. Sélectionner les prénoms des employés qui ont effectué des ventes (commandes) :
-```sql
-SELECT first_name
-FROM employees AS e
-WHERE EXISTS (SELECT 1 FROM orders AS o WHERE o.employee_id = e.emp_no);
-```
 
-2. Sélectionner les noms de famille des employés qui ont des ventes confirmées :
+1. Sélectionner les prénoms et noms des employés qui ne sont pas ou n’ont pas été managers, utiliser des alias 
 ```sql
-SELECT last_name
-FROM employees AS e
-WHERE EXISTS (SELECT 1 FROM orders AS o WHERE o.employee_id = e.emp_no AND o.status = 'Confirmé');
+SELECT `first_name` AS `Prénom`, `last_name` AS `Nom` 
+FROM `employees` 
+WHERE `emp_no` NOT IN (
+    SELECT `emp_no` 
+    FROM `dept_manager`
+    );
 ```
-
-3. Sélectionner les prénoms des employés masculins ayant effectué des ventes :
+       
+2. Sélectionner les prénoms et noms  des employés qui ont eu plus de 2 titres professionnels différents
 ```sql
-SELECT first_name
-FROM employees AS e
-WHERE EXISTS (SELECT 1 FROM orders AS o WHERE o.employee_id = e.emp_no)
-AND gender = 'M';
+SELECT `first_name` , `last_name` 
+FROM `employees` 
+WHERE `emp_no` IN (
+    SELECT `emp_no` 
+    FROM `titles` 
+    GROUP BY `emp_no` 
+    HAVING COUNT(DISTINCT `title`) > 2
+    );
 ```
-
-4. Sélectionner les noms de famille des employés féminins ayant effectué des ventes confirmées :
+       
+3. Sélectionner les numéros, prénoms et noms des employés qui ont eu un salaire compris entre 100000 et 150000
 ```sql
-SELECT last_name
-FROM employees AS e
-WHERE EXISTS (SELECT 1 FROM orders AS o WHERE o.employee_id = e.emp_no AND o.status = 'Confirmé')
-AND gender = 'F';
+SELECT `emp_no`, `first_name`, `last_name` 
+FROM `employees` 
+WHERE `emp_no` IN (
+    SELECT `emp_no` 
+    FROM `salaries` 
+    WHERE `salary` BETWEEN 100000 AND 150000
+    );
 ```
-
-5. Sélectionner les prénoms des employés qui ont été embauchés en 2022 et ont effectué des ventes :
+       
+4. Sélectionner les numéros, prénoms et noms des employés qui ont eu un salaire supérieur à 150000 et qui ne sont pas  ou n’ont pas été managers 
 ```sql
-SELECT first_name
-FROM employees AS e
-WHERE EXISTS (SELECT 1 FROM orders AS o WHERE o.employee_id = e.emp_no)
-AND hire_date >= '2022-01-01' AND hire_date < '2023-01-01';
+SELECT `emp_no`, `first_name`, `last_name` 
+FROM `employees` 
+WHERE `emp_no` IN (
+    SELECT `emp_no` 
+    FROM `salaries` 
+    WHERE `salary` > 150000 
+    )
+AND `emp_no` NOT IN (
+    SELECT `emp_no` 
+    FROM `dept_manager`
+    );
 ```
-
-6. Sélectionner les noms des employés dont le salaire est supérieur ou égal au salaire de tous les employés du département 'Sales' :
+       
+5. Sélectionner les numéros des employés managers qui ont un salaire inférieur à 100000 et qui ont eu plus de 2 titres professionnels 
 ```sql
-SELECT employee_name
-FROM employees AS e
-WHERE salary >= ALL (SELECT salary FROM employees WHERE department = 'Sales');
+SELECT `emp_no` 
+FROM `dept_manager` 
+WHERE `emp_no` IN (
+    SELECT `emp_no` 
+    FROM `salaries` 
+    WHERE `salary` < 100000
+    ) 
+AND `emp_no` IN (
+    SELECT `emp_no` 
+    FROM `titles` 
+    GROUP BY `emp_no` 
+    HAVING COUNT(DISTINCT `title`) > 2
+    );
 ```
-
-7. Sélectionner les prénoms des employés masculins dont le salaire est supérieur ou égal au salaire de tous les employés masculins du département 'Marketing' :
+       
+6. Sélectionner les noms des employés ayant été managers d'un département, utiliser des alias pour les résultats et l’appel des tables (EXISTS)
 ```sql
-SELECT first_name
-FROM employees AS e
-WHERE gender = 'M' AND salary >= ALL (SELECT salary FROM employees WHERE department = 'Marketing' AND gender = 'M');
+SELECT `e`.`last_name` AS `Nom` 
+FROM `employees` AS `e` 
+WHERE EXISTS (
+    SELECT `dm`.`emp_no` 
+    FROM `dept_manager` AS `dm` 
+    WHERE `e`.`emp_no` = `dm`.`emp_no`
+    );
 ```
-
-8. Sélectionner les noms de famille des employés dont le salaire est supérieur ou égal au salaire de tous les employés du département 'Ressources humaines' :
+       
+7. Sélectionner les noms des employés pour qui il existe un salaire supérieur à 100000, utiliser des alias pour les résultats et l’appel des tables (EXISTS)
 ```sql
-SELECT last_name
-FROM employees AS e
-WHERE salary >= ALL (SELECT salary FROM employees WHERE department = 'Ressources humaines');
+SELECT `e`.`last_name` AS `Nom`, `e`.`first_name` AS `Prénom` 
+FROM `employees` AS `e`
+WHERE EXISTS (
+    SELECT `s`.`emp_no` 
+    FROM `salaries` AS `s` 
+    WHERE `e`.`emp_no` = `s`.`emp_no` 
+    AND `s`.`salary` > 100000
+    );
 ```
-
-9. Sélectionner les prénoms des employés féminins dont le salaire est supérieur ou égal au salaire de toutes les employées féminines du département 'Finance' :
+       
+8. Sélectionner les noms des employés féminins ayant occupé un poste de manager, utiliser des alias (EXISTS)
 ```sql
-SELECT first_name
-FROM employees AS e
-WHERE gender = 'F' AND salary >= ALL (SELECT salary FROM employees WHERE department = 'Finance' AND gender = 'F');
+SELECT `e`.`last_name` AS `Nom`, `e`.`first_name` AS `Prénom` 
+FROM `employees` AS e 
+WHERE `gender` = 'F' 
+AND EXISTS (
+    SELECT `dm`.`emp_no` 
+    FROM `dept_manager` AS `dm` 
+    WHERE `e`.`emp_no` = `dm`.`emp_no`
+    );
 ```
-
-10. Sélectionner les noms de famille des employés dont le salaire est supérieur ou égal au salaire de tous les employés du département 'Développement' :
+       
+9. Sélectionner les noms et prénoms des employés ayant eu un salaire supérieur à 100000, utiliser des alias (EXISTS)
 ```sql
-SELECT last_name
-FROM employees AS e
-WHERE salary >= ALL (SELECT salary FROM employees WHERE department = 'Développement');
+SELECT `e`.`first_name`, `e`.`last_name` 
+FROM `employees` AS `e` 
+WHERE EXISTS (
+    SELECT `s`.`emp_no` 
+    FROM `salaries` AS `s` 
+    WHERE `s`.`emp_no` = `e`.`emp_no` 
+    AND `s`.`salary` > 150000
+    );
 ```
-
-11. Sélectionner les prénoms des employés dont au moins un enregistrement a un salaire supérieur à 50000 :
+       
+10. Sélectionner les numéros, noms et prénoms des employés nés le 1er janvier 1960 pour qui il existe exactement deux titres professionnels différents au cours de leur carrière, utiliser des alias (EXISTS)
 ```sql
-SELECT first_name
-FROM employees AS e
-WHERE emp_no = ANY (SELECT emp_no FROM salaries WHERE salary > 50000);
+SELECT `e`.`emp_no`, `e`.`first_name`, `e`.`last_name` 
+FROM `employees` AS `e` 
+WHERE `e`.`birth_date` LIKE '1960-01-01%' 
+AND EXISTS (
+    SELECT `t`.`emp_no` 
+    FROM `titles` AS `t` 
+    WHERE `e`.`emp_no` = `t`.`emp_no` 
+    GROUP BY t.`emp_no` 
+    HAVING COUNT(DISTINCT `t`.`title`) = 2
+    );
 ```
-
-12. Sélectionner les noms de famille des employés dont au moins un enregistrement a un salaire égal à 60000 :
+       
+11. Sélectionner les employés dont la date d'embauche est supérieure ou égale à la dernière prise de poste de manager, utiliser des alias (ALL)
 ```sql
-SELECT last_name
-FROM employees AS e
-WHERE emp_no = ANY (SELECT emp_no FROM salaries WHERE salary = 60000);
+SELECT `e`.* 
+FROM `employees` AS `e` 
+WHERE `hire_date` >= ALL (
+    SELECT MAX(`d`.`from_date`) 
+    FROM `dept_manager` AS `d` 
+    WHERE `d`.`emp_no` = `e`.`emp_no`
+    );
 ```
-
-13. Sélectionner les prénoms des employés masculins dont au moins un enregistrement a un salaire supérieur à 55000 :
+       
+12. Sélectionner l’identifiant de l’employé dont le salaire est le plus élevé, utiliser des alias (ALL)
 ```sql
-SELECT first_name
-FROM employees AS e
-WHERE gender = 'M' AND emp_no = ANY (SELECT emp_no FROM salaries WHERE salary > 55000);
+SELECT `emp_no` 
+FROM `salaries` 
+GROUP BY `emp_no` 
+HAVING MAX(`salary`) >= ALL (
+    SELECT MAX(`salary`) 
+    FROM `salaries` 
+    GROUP BY `emp_no`
+    );
 ```
-
-14. Sélectionner les noms de famille des employés dont au moins un enregistrement a un salaire égal à 58000 :
+       
+13. Sélectionner le titre le plus donné aux employés (ALL)
 ```sql
-SELECT last_name
-FROM employees AS e
-WHERE emp_no = ANY (SELECT emp_no FROM salaries WHERE salary = 58000);
+SELECT `title`, COUNT(*) 
+FROM `titles` 
+GROUP BY `title` 
+HAVING COUNT(*) >= ALL (
+    SELECT COUNT(*) 
+    FROM `titles` 
+    GROUP BY `title`
+    );
 ```
-
-15. Sélectionner les prénoms des employés féminins dont au moins un enregistrement a un salaire supérieur à 53000 :
+       
+14. Sélectionner les identifiants des employés dont la période d'emploi est plus longue que celle des autres employés (ALL)
 ```sql
-SELECT first_name
-FROM employees AS e
-WHERE gender = 'F' AND emp_no = ANY (SELECT emp_no FROM salaries WHERE salary > 53000);
+SELECT `emp_no` 
+FROM `dept_emp` 
+GROUP BY `emp_no` 
+HAVING DATEDIFF(MAX(`to_date`), MIN(`from_date`)) >= ALL (
+    SELECT DATEDIFF(MAX(`to_date`), MIN(`from_date`)) 
+    FROM `dept_emp` 
+    GROUP BY `emp_no`
+    );
+```
+       
+15. Sélectionner les employés qui ont le titre le plus fréquemment donné (ALL)
+```sql
+SELECT * 
+FROM `employees` 
+WHERE `emp_no` IN (
+    SELECT `emp_no` 
+    FROM `titles` 
+    GROUP BY `emp_no` 
+    HAVING COUNT(*) >= ALL (
+        SELECT COUNT(*) 
+        FROM `titles` 
+        GROUP BY `emp_no`
+        )
+    );
+```
+       
+16. Sélectionner les titres des employés ayant au moins un salaire supérieur à 150000$, utiliser des alias (ANY)
+```sql
+SELECT DISTINCT `t`.`title` AS `Titre_de_l_employé` 
+FROM `titles` AS `t` 
+WHERE `t`.`emp_no` = ANY (
+    SELECT `s`.`emp_no` 
+    FROM `salaries` AS `s` 
+    WHERE `s`.`salary` > 150000
+    );
+```
+       
+17. Sélectionner le nombre d’employés managers (ANY)
+```sql
+SELECT COUNT(*) 
+FROM `employees` 
+WHERE `emp_no` = ANY (
+    SELECT `emp_no` 
+    FROM `dept_manager`
+    );
+```
+       
+18. Sélectionner les noms des employés ayant été dans au moins un département et ayant eu un salaire supérieur à 150 000$, utiliser des alias (ANY)
+```sql
+SELECT * 
+FROM `employees` AS `e` 
+WHERE `e`.`emp_no` = ANY (
+    SELECT `de`.`emp_no` 
+    FROM `dept_emp` AS `de` 
+    WHERE `de`.`emp_no` = ANY (
+        SELECT `s`.`emp_no` 
+        FROM `salaries` AS `s` 
+        WHERE `s`.`salary` > 150000
+        )
+    );
+```
+       
+19. Sélectionner les prénoms des employés ayant le titre « Senior Engineer » (ANY)
+```sql
+SELECT `first_name` 
+FROM `employees` 
+WHERE `emp_no` = ANY (
+    SELECT `emp_no` 
+    FROM `titles` 
+    WHERE `title` = 'Senior Engineer'
+    );
+```
+       
+20. Sélectionner le nombre de salariés ayant un salaire supérieur à la moyenne (ANY)
+```sql
+SELECT COUNT(*) AS `Nombre_employés` 
+FROM `employees` 
+WHERE `emp_no` = ANY (
+    SELECT `emp_no` 
+    FROM `salaries` 
+    WHERE `salary` > (
+        SELECT AVG(`salary`) 
+        FROM `salaries`
+        )
+    );
 ```
