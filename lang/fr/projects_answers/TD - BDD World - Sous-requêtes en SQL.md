@@ -2,337 +2,238 @@
 
 ### Voici la liste des commandes qu'il fallait effectuer dans l'ordre
 
-1. Sélectionner toutes les villes qui ont dans leurs country id des noms de pays qui commence par la lettre A :
-```sql
-SELECT name
-FROM cities
-WHERE country_id IN(
-	SELECT id
-	FROM countries
-	WHERE name LIKE "A%");
-```
 
-2. Sélectionner la capitale de chaque pays dont l'id de région est un chiffre pair :
+1. Sélectionner les noms des continents (regions) qui ont plus de 2 sous-continents (subregions), utiliser des alias
 ```sql
-SELECT capital
-FROM countries
-WHERE region_id IN(
-	SELECT id
-	FROM regions
-	WHERE id%2 = 0);
+SELECT `name` AS `Continent` 
+FROM `regions` 
+WHERE `id` IN (
+    SELECT `region_id`
+    FROM `subregions` 
+    GROUP BY `region_id` 
+    HAVING COUNT(*) > 2
+    );
 ```
-
-3. Sélectionner tous les pays qui sont dans la région qui contient la sous-région d'id 1 :
+       
+2. Sélectionner les noms des pays qui ont des États avec des coordonnées de latitude supérieures à 40, utiliser des alias
 ```sql
-SELECT name
-FROM countries
-WHERE region_id IN (
-    SELECT region_id
-    FROM subregions
-    WHERE id =1
-)
+SELECT `name` AS `Nom du pays` 
+FROM `countries` 
+WHERE `id` IN (
+    SELECT `country_id` 
+    FROM `states` 
+    WHERE `latitude` > 40
+    );
 ```
-
-4. Sélectionner les noms de touutes les villes dont le nom de leur pays est "Algeria" ou "Angola" :
+       
+3. Sélectionner les noms des États qui ont des villes avec des noms commençant par « New »
 ```sql
-SELECT name
-FROM cities
-WHERE `country_id` IN (
- 	SELECT id
-    FROM countries
-    WHERE name = "Algeria"
-    OR name = "Angola"
-)
+SELECT `name` 
+FROM `states` 
+WHERE `id` IN (
+    SELECT `state_id` 
+    FROM `cities` 
+    WHERE `name` LIKE 'New%'
+    );
 ```
-
-5. Sélectionner le nom des états de chaque pays situé dans la région dont le nom est "Europe" :
+       
+4. Sélectionner les noms des continents (regions) ayant au moins un sous-continents(subregion), utiliser des alias pour les résultats et l’appel des tables
 ```sql
-SELECT name
-FROM states
-WHERE country_id IN(
-	SELECT id
-	FROM countries
-	WHERE region_id =(
-		SELECT id
-    	FROM regions
-    	WHERE name = "Europe"));
+SELECT `r`.`name` AS `Continent` 
+FROM `regions` AS `r` 
+WHERE `r`.`id` IN (
+    SELECT `region_id` 
+    FROM `subregions`
+    );
 ```
-
-6. Sélectionner tous les noms de ville du pays dont le nom est France si celui-ci existe :
+       
+5. Sélectionner les noms des continents (regions) comprenant des pays ayant une latitude inférieure à 35
 ```sql
-SELECT name
-FROM cities
+SELECT `name` 
+FROM `regions` 
+WHERE `id` IN (
+    SELECT `region_id` 
+    FROM `countries` 
+    WHERE `latitude` < 35
+    );
+```
+       
+6. Sélectionner les noms des continents (regions) pour qui il existe des sous-continents (subregions) existants, utiliser des alias pour les résultats et l’appel des tables (EXISTS)
+```sql
+SELECT `r`.`name`  AS `Continent` 
+FROM `regions` AS `r` 
 WHERE EXISTS (
-    SELECT id
-    FROM countries
-    WHERE name = "France"
-);
+    SELECT `s`.`name` 
+    FROM `subregions` AS `s`
+    WHERE `r`.`id` = `s`.`region_id`
+    );
 ```
-
-7. Sélectionner toutes les régions qui contiennent un pays avec une latitude supérieure à 60 s'il en existe :
+       
+7. Sélectionner les noms des pays pour qui il existe des États avec une latitude supérieure à 50 existants, utiliser des alias (EXISTS)
 ```sql
-SELECT name
-FROM regions
+SELECT `c`.`name` AS `Pays` 
+FROM `countries` AS `c` 
 WHERE EXISTS (
-    SELECT latitude
-    FROM countries
-    WHERE latitude > 60
-);
+    SELECT `s`.`name` 
+    FROM `states` AS `s` 
+    WHERE `c`.`id` = `s`.`country_id` 
+    AND `s`.`latitude` > 50
+    );
 ```
-
-8. Sélectionner le nom de toutes les sous-régions qui contiennent un pays dont le nom est "Région" :
+       
+8. Sélectionner les noms des États pour lesquels il existe au moins une ville avec un nom commençant par "New", utiliser des alias (EXISTS)
 ```sql
-SELECT name
-FROM subregions
+SELECT `s`.`name` 
+FROM `states` AS `s` 
 WHERE EXISTS (
-    SELECT id
-    FROM states
-    WHERE name = "Region"
-);
+    SELECT `c`.`id` 
+    FROM `cities` AS `c` 
+    WHERE `c`.`state_id` = `s`.`id` 
+    AND `c`.`name` LIKE 'New%'
+    );
 ```
-**Note** : Cette requête renvoie un résultat vide car aucun pays ne s'appelle "Region" !
-
-9. Sélectionner toutes les villes dont l'id est plus grand que le nombre de pays qui ont pour devise l'euro :
+       
+9. Sélectionner les noms des continents (regions) pour lesquels il existe plus de deux sous-continents (subregions), utiliser des alias (EXISTS)
 ```sql
-SELECT *
-FROM cities
-WHERE state_id > all (
-	SELECT id
-    FROM countries
-    WHERE currency_name = "Euro"
-);
+SELECT `r`.`name` 
+FROM `regions` AS `r` 
+WHERE EXISTS (
+    SELECT `s`.`region_id` 
+    FROM `subregions` AS `s` 
+    WHERE `r`.`id` = `s`.`region_id` 
+    GROUP BY `s`.`region_id` 
+    HAVING COUNT(*) > 2
+    );
 ```
-
-10. Sélectionner tous les pays, le symbole de leur devise et le nom de leur devise si leurs id est inférieur ou égale à l'id le plus grand parmis la table régions :
+       
+10. Sélectionner les pays pour lesquels il n’existe aucun État, utiliser des alias (EXISTS)
 ```sql
-SELECT name, currency_symbol, currency_name
-FROM countries
-WHERE id <= all (
-	SELECT MAX(id)
-	FROM regions
-);
+SELECT `c`.`name` AS `Pays` 
+FROM `countries` AS `c` 
+WHERE NOT EXISTS (
+    SELECT `st`.`country_id` 
+    FROM `states` AS `st` 
+    WHERE `st`.`country_id` = `c`.`id`
+    );
 ```
-
-11. Sélectionner les noms et les id des sous régions dont l'id de la région parent est égal à tous les id des régions qui ont pour nom "Americas" :
+       
+11. Sélectionner les villes qui ont été créées après la création du dernier pays (ALL)
 ```sql
-SELECT name, id
-FROM subregions
-WHERE region_id = all (
-	SELECT id
-	FROM regions
-    WHERE name = "Americas"
-);
+SELECT `name` 
+FROM `cities` 
+WHERE `created_at` > ALL (
+    SELECT MAX(`created_at`) 
+    FROM `countries`
+    );
 ```
-
-12. Sélectionner les villes si il y a au moins un id plus grand que le nombre de pays qui ont pour devise l'euro :
+       
+12. Sélectionner les continents avec le plus grand nombre de sous-continents (ALL)
 ```sql
-SELECT *
-FROM cities
-WHERE state_id > any (
-	SELECT id
-    FROM countries
-    WHERE currency_name = "Euro"
-);
+SELECT `region_id` 
+FROM `subregions` 
+GROUP BY `region_id` 
+HAVING COUNT(*) >= ALL (
+    SELECT COUNT(*) 
+    FROM `subregions` 
+    GROUP BY `region_id`
+    );
 ```
-
-13. Sélectionner les nom, le symbole et le nom des monnaies des pays dont l'id est égal au plus grand id des régions :
+       
+13. Sélectionner les pays avec le plus grand nombre de villes (ALL)
 ```sql
-SELECT name, currency_symbol, currency_name
-FROM countries
-WHERE id = ANY (
-	SELECT MAX(id)
-	FROM regions
-);
+SELECT `country_id` 
+FROM `cities` 
+GROUP BY `country_id` 
+HAVING COUNT(*) >= ALL (
+    SELECT COUNT(*) 
+    FROM `cities` 
+    GROUP BY `country_id`
+    );
 ```
-
-14. Sélectionner le nom, le fips_code, la latitude et la longitude des états dont le fips_code est égal à l'id de la ville qui s'appelle "Paris" :
+       
+14. Sélectionner le pays avec la latitude la plus élevée (ALL)
 ```sql
-SELECT name, fips_code, latitude, longitude
-FROM states
-WHERE fips_code = ANY (
-	SELECT id
-	FROM cities
-    WHERE name = "Paris"
-);
+SELECT `name` 
+FROM `countries` 
+WHERE `id` = ALL (
+    SELECT `country_id` 
+    FROM `states` 
+    WHERE `latitude` >= ALL (
+        SELECT MAX(`latitude`) 
+        FROM `states`
+        )
+    );
 ```
-**Note** : Ne renvoie rien car aucun flips_code ne partage la même valeur que l'id de la ville de Paris
-
-
+       
+15. Sélectionner la région avec le moins de pays  (ALL)
 ```sql
-
+SELECT `name` 
+FROM `regions` 
+WHERE `id` = ALL (
+    SELECT `region_id` 
+    FROM `countries` 
+    GROUP BY `region_id` 
+    HAVING COUNT(*) <= ALL (
+        SELECT COUNT(*) 
+        FROM `countries` 
+        GROUP BY `region_id`
+        )
+    );
 ```
-
-
+       
+16. Sélectionner l’identifiant du pays à qui est associée la ville avec la plus grande latitude (ANY)
 ```sql
-
+SELECT `ci`.`country_id` 
+FROM `cities` AS `ci` 
+WHERE ci.`latitude` = ANY (
+    SELECT MAX(`latitude`) 
+    FROM `cities`
+    );
 ```
-
-
+       
+17. Séléctionner les noms des continents qui possèdent au moins un sous-sontinent associé (ANY)
 ```sql
-
+SELECT `name` 
+FROM `regions` 
+WHERE `id` = ANY (
+    SELECT `region_id` 
+    FROM `subregions`
+    );
 ```
-
-
+       
+18. Sélectionner les noms des villes associées à la « France » (ANY)
 ```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
+SELECT `name` 
+FROM `cities` 
+WHERE `country_id` = ANY (
+    SELECT `id` 
+    FROM `countries` 
+    WHERE `name` = 'France'
+    );
 ```
 
-
+19. Sélectionner le nom du pays à qui est associée la ville avec la latitude la plus basse (ANY)
 ```sql
-
+SELECT `c`.`name` AS `Nom_du_pays` 
+FROM `countries` AS `c` 
+WHERE `c`.`id` = ANY (
+    SELECT `ci`.`country_id` 
+    FROM `cities` AS `ci` 
+    WHERE `ci`.`latitude` = ANY (
+        SELECT MIN(`latitude`) 
+        FROM `cities`
+        )
+    );
 ```
-
-
+       
+20. Sélectionner les continents qui possèdent plus de 2 sous-continents associés (ANY)
 ```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
-```
-
-
-```sql
-
+SELECT * 
+FROM `regions` 
+WHERE `id` = ANY (
+    SELECT `region_id` 
+    FROM `subregions` 
+    GROUP BY  `region_id` 
+    HAVING COUNT(*) > 2
+    );
 ```
