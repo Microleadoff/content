@@ -9,15 +9,15 @@ La fonction `print()` est l'une des fonctions les plus utilisées en Python, car
 
 ```print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)```
 
-- `objects` : Ce sont les objets à afficher. `print()` peut prendre plusieurs objets, séparés par des virgules.
+- `objects` : Ce sont les objets à afficher. ```print()``` peut prendre plusieurs objets, séparés par des virgules.
 - `sep=' '` : Séparateur à utiliser entre les objets. Par défaut, c'est un espace.
 - `end='\n'` : Ce qui est ajouté après tous les objets sont imprimés. Par défaut, c'est un saut de ligne (`\n`), ce qui fait passer à la ligne suivante.
-- `file` : Un objet de fichier ou un objet similaire. Par défaut, `print()` écrit dans la sortie standard (sys.stdout), mais vous pouvez le diriger vers un fichier ou un autre type de flux.
-- `flush` : Si True, le flux de sortie est forcé à être "flushed" (vidé) après l'appel de `print()`. Utile pour s'assurer que les messages sont écrits immédiatement sans attendre.
+- `file` : Un objet de fichier ou un objet similaire. Par défaut, ```print()``` écrit dans la sortie standard (sys.stdout), mais vous pouvez le diriger vers un fichier ou un autre type de flux.
+- `flush` : Si True, le flux de sortie est forcé à être "flushed" (vidé) après l'appel de ```print()```. Utile pour s'assurer que les messages sont écrits immédiatement sans attendre.
 
 ## Affichage de Variables et de Texte
 
-Vous pouvez afficher du texte, des variables, ou une combinaison des deux. `print()` convertit les objets en chaînes de caractères (via la méthode `str()`) avant de les afficher.
+Vous pouvez afficher du texte, des variables, ou une combinaison des deux. ```print()``` convertit les objets en chaînes de caractères (via la méthode `str()`) avant de les afficher.
 
 ## Séparateurs et Fin de Ligne
 
@@ -27,7 +27,7 @@ Utilisez l'argument sep pour définir comment les objets sont séparés. Par exe
 
 ### Fin de Ligne 
 
-Utilisez l'argument end pour changer le caractère de fin de ligne. Par exemple, `print("Bonjour", end='!')` terminera la ligne avec un point d'exclamation plutôt qu'un saut de ligne.
+Utilisez l'argument end pour changer le caractère de fin de ligne. Par exemple, ```print("Bonjour", end='!')``` terminera la ligne avec un point d'exclamation plutôt qu'un saut de ligne.
 
 ## Redirection vers un Fichier
 

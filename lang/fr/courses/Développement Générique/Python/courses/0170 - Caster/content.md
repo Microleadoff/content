@@ -4,7 +4,7 @@ Le casting en Python fait référence à la conversion explicite d'une variable 
 
 ## Types de Casting
 
-### Conversion en Entier (`int()`)
+### Conversion en Entier (```int()```)
 **Utilisation :** Convertit une variable en entier.
 **Syntaxe :**
   ```python
@@ -16,7 +16,7 @@ Le casting en Python fait référence à la conversion explicite d'une variable 
 nombre_entier = int("123")  # Convertit la chaîne de caractères "123" en entier 123
 ```
 
-### Conversion en Flottant (float())
+### Conversion en Flottant (```float()```)
 
 **Utilisation** : Convertit une variable en nombre à virgule flottante.
 **Syntaxe** :
@@ -31,7 +31,7 @@ float(variable)
 nombre_flottant = float("123.45")  # Convertit la chaîne "123.45" en flottant 123.45
 ```
 
-### Conversion en Chaîne de Caractères (str())
+### Conversion en Chaîne de Caractères (```str()```)
 
 **Utilisation** : Convertit une variable en chaîne de caractères.
 **Syntaxe** :

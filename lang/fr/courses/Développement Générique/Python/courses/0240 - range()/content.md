@@ -6,10 +6,10 @@
 
 ### Syntaxe
 
-La fonction `range()` peut être appelée avec différents nombres d'arguments :
-- `range(stop)` : Crée une séquence de nombres de 0 à `stop-1`.
-- `range(start, stop)` : Crée une séquence de `start` à `stop-1`.
-- `range(start, stop, step)` : Crée une séquence de `start` à `stop-1`, en incrémentant de `step`.
+La fonction ```range()``` peut être appelée avec différents nombres d'arguments :
+- ```range(stop)``` : Crée une séquence de nombres de 0 à `stop-1`.
+- ```range(start, stop)``` : Crée une séquence de `start` à `stop-1`.
+- ```range(start, stop, step)``` : Crée une séquence de `start` à `stop-1`, en incrémentant de `step`.
 
 ### Exemples
 

@@ -46,7 +46,7 @@ La portée en Python détermine la visibilité et la disponibilité des variable
 
 ### Portée Intégrée (Built-in Scope)
 
-**Définition** : Noms pré-définis dans Python, comme `print`, `len`, etc.
+**Définition** : Noms pré-définis dans Python, comme ```print```, ```len```, etc.
 **Accès** : Disponibles globalement, sans importation ni déclaration spécifique.
 
 
