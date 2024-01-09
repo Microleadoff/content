@@ -75,7 +75,7 @@ print(a != b)  # Renvoie True car a n'est pas égal à b
 ```
 ## Bonnes Pratiques
 
-+Utilisez des parenthèses pour rendre vos expressions booléennes plus claires et pour contrôler l'ordre d'évaluation.
++ Utilisez des parenthèses pour rendre vos expressions booléennes plus claires et pour contrôler l'ordre d'évaluation.
 
 + Profitez de l'évaluation de court-circuit pour optimiser les performances, en particulier lorsque vous travaillez avec des opérations coûteuses.
 
