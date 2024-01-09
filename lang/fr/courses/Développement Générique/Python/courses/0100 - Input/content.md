@@ -1,4 +1,4 @@
-La fonction ```input()``` en Python est un outils essentiel pour interagir avec les utilisateurs en leur permettant de saisir des données pendant l'execution d'un programme.
+La fonction ```input()``` en Python est un outil essentiel pour interagir avec les utilisateurs en leur permettant de saisir des données pendant l'execution d'un programme.
 
 ## Définition et Utilisation de Base
 
