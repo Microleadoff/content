@@ -7,7 +7,11 @@ La fonction print() est l'une des fonctions les plus utilisées en Python, car e
 
 ### Syntaxe de Base 
 
-```print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)```
+```
+python
+
+print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+```
 
 + objects : Ce sont les objets à afficher. print() peut prendre plusieurs objets, séparés par des virgules.
 + sep=' ' : Séparateur à utiliser entre les objets. Par défaut, c'est un espace.
