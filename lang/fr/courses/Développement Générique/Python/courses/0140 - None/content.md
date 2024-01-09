@@ -10,7 +10,7 @@ Syntaxe :
 
 ### Vérification de None 
 
-Utilisez l'opérateur d'identité ```is``` pour vérifier si une variable est None. Ne pas utiliser l'opérateur d'égalité ```==```.
+Utilisez l'opérateur d'identité ```is``` pour vérifier si une variable est ```None```. Ne pas utiliser l'opérateur d'égalité ```==```.
 ```python
 
 if a is None:
