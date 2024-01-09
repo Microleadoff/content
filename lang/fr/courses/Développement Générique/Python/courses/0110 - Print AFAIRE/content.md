@@ -46,8 +46,7 @@ Voici quelques exemples d'utilisation de ```print()``` :
 ```print("Hello, World!")```
 
 ### Affichage de plusieurs objets
-```
-Python
+```Python
 
 x = 10
 print("La valeur de x est", x)

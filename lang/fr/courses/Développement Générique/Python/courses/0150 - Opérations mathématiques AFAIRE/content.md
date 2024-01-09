@@ -41,8 +41,7 @@ Utilisation : Pour élever un nombre à la puissance d'un autre.
 ### Racine Carrée
 
 Utilisation : Utilisez l'opérateur de puissance avec 0.5 ou la fonction sqrt du module math.
-```
-python
+```python
 
 racine = 9 ** 0.5  # racine sera 3
 
@@ -60,8 +59,7 @@ Utilisez des parenthèses pour modifier l'ordre d'évaluation.
 ## Bibliothèque Math
 
 Pour des fonctions mathématiques plus avancées, utilisez le module math.
-```
-python
+```python
 
 import math
 result = math.sin(math.pi / 2)  # result sera 1.0

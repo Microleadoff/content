@@ -18,9 +18,7 @@ Préfixe Python : 0o ou 0O.
 
 Représentation : Le système que nous utilisons habituellement avec les chiffres de 0 à 9.
 Aucun préfixe particulier n'est nécessaire.
-```
-python
-
+```python
 decimal_number = 10  # c'est déjà en base 10
 ```
 
@@ -29,9 +27,7 @@ decimal_number = 10  # c'est déjà en base 10
 Représentation : Utilise les chiffres de 0 à 9 et les lettres de A (10) à F (15).
 Préfixe Python : 0x ou 0X.
 
-```
-python
-
+```python
 hexadecimal_number = 0xA  # équivalent décimal est 10
 ```
 ## Conversion entre les Systèmes
@@ -39,29 +35,41 @@ hexadecimal_number = 0xA  # équivalent décimal est 10
 ### De Binaire :
 
 
-```int('101', 2)  # Convertit une chaîne binaire en entier décimal```
+```python 
+int('101', 2)  # Convertit une chaîne binaire en entier décimal
+```
 
 ### De Octal :
 
-```int('7', 8)  # Convertit une chaîne octale en entier décimal```
+```python
+int('7', 8)  # Convertit une chaîne octale en entier décimal
+```
 
 ### De Hexadécimal :
 
-```int('A', 16)  # Convertit une chaîne hexadécimale en entier décimal```
+```python
+int('A', 16)  # Convertit une chaîne hexadécimale en entier décimal
+```
 
 ### Conversion vers les Systèmes
 
 ### Vers Binaire :
 
-```bin(5)  # Convertit un nombre décimal en chaîne binaire```
+```python
+bin(5)  # Convertit un nombre décimal en chaîne binaire
+```
 
 ### Vers Octal :
 
-```oct(7)  # Convertit un nombre décimal en chaîne octale```
+```python
+oct(7)  # Convertit un nombre décimal en chaîne octale
+```
 
 ### Vers Hexadécimal :
 
-```hex(10)  # Convertit un nombre décimal en chaîne hexadécimale```
+```python
+hex(10)  # Convertit un nombre décimal en chaîne hexadécimale
+```
 
 ## Bonnes Pratiques
 

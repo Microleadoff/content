@@ -45,29 +45,25 @@ Exemples
 
 
 ### Exemple avec AND
-```
-Python
+```python
 
 x = 5
 print(x > 3 and x < 10)  # Renvoie True car 5 est entre 3 et 10
 ```
 ### Exemple avec OR
-```
-Python
+```python
 
 y = -5
 print(y < 0 or y > 0)  # Renvoie True car y est inférieur à 0
 ```
 ### Exemple avec NOT
-```
-Python
+```python
 
 z = True
 print(not z)  # Renvoie False car z est True
 ```
 ### Exemple avec des opérateurs de comparaison
-```
-Python
+```python
 
 a, b = 10, 20
 print(a == b)  # Renvoie False car a n'est pas égal à b

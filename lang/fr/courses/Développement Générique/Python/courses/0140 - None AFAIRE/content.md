@@ -10,8 +10,7 @@ Syntaxe :
 
 ### Vérification de None 
 Utilisez l'opérateur d'identité is pour vérifier si une variable est None. Ne pas utiliser l'opérateur d'égalité ```==```.
-```
-python
+```python
 
 if a is None:
     print("a est None")
@@ -22,8 +21,7 @@ if a is None:
 ## Utilisation dans les Fonctions
 
 Valeur de Retour par Défaut : Les fonctions en Python retournent None si aucune valeur n'est explicitement retournée avec return.
-```
-python
+```python
 
 def function_without_return():
     pass
@@ -33,8 +31,7 @@ print(result)  # Affiche None
 ```
 
 Paramètres par Défaut : None est souvent utilisé comme valeur par défaut pour les paramètres de fonction qui n'ont pas été fournis.
-```
-python
+```python
 
     def function_with_default_param(param=None):
         if param is None:
@@ -45,8 +42,7 @@ python
 ## None et les Collections
 
 Listes et Dictionnaires : None peut être utilisé comme valeur dans des listes, des dictionnaires et d'autres structures de données.
-```
-python
+```python
 
     my_list = [1, None, 3]
     my_dict = {'a': 1, 'b': None}
