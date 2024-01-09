@@ -1,8 +1,8 @@
-## Les Opérateurs `in` et `not in` en Python
+## Les Opérateurs ```in``` et ```not in``` en Python
 
-En Python, `in` et `not in` sont des opérateurs de vérification d'appartenance qui permettent de tester si une valeur est présente ou non dans une séquence ou une collection.
+En Python, ```in``` et ```not in``` sont des opérateurs de vérification d'appartenance qui permettent de tester si une valeur est présente ou non dans une séquence ou une collection.
 
-## Utilisation de `in`
+## Utilisation de ```in```
 
 ### Syntaxe
 ```python
@@ -19,14 +19,14 @@ liste = [1, 2, 3]
 resultat = 2 in liste  # True, car 2 est dans la liste
 ```
 
-## Utilisation de `not in`
+## Utilisation de ```not in```
 
 ### Syntaxe
 
 ```python
 element not in sequence
 ```
-Inversion de `in` : Vérifie que element n'est pas dans sequence.
+Inversion de ```in``` : Vérifie que element n'est pas dans sequence.
 
 ### Exemple
 
@@ -37,7 +37,7 @@ Cas d'Utilisation
 
 Vérification de Présence : Idéal pour tester si un élément est présent dans une collection.
 
-Conditions dans les Boucles et les Instructions Conditionnelles : Souvent utilisé dans les structures `if`, `while`, etc.
+Conditions dans les Boucles et les Instructions Conditionnelles : Souvent utilisé dans les structures```if```, ```while```, etc.
 
 Filtrage de Données : Permet de vérifier rapidement l'existence d'une valeur dans des ensembles de données.
 
@@ -55,4 +55,4 @@ Lisibilité : Préférez in et not in pour une meilleure lisibilité et compréh
 
 Alternatives aux Boucles : Utilisez ces opérateurs au lieu de boucles pour des vérifications simples, pour un code plus concis et efficace.
 
-Les opérateurs `in` et `not in` sont essentiels pour la vérification d'appartenance en Python, offrant une manière expressive et lisible de tester la présence ou l'absence d'éléments dans diverses structures de données.
+Les opérateurs ```in``` et ```not in``` sont essentiels pour la vérification d'appartenance en Python, offrant une manière expressive et lisible de tester la présence ou l'absence d'éléments dans diverses structures de données.
