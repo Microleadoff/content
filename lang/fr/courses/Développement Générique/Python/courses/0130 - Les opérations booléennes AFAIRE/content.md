@@ -77,8 +77,8 @@ print(a != b)  # Renvoie True car a n'est pas égal à b
 
 +Utilisez des parenthèses pour rendre vos expressions booléennes plus claires et pour contrôler l'ordre d'évaluation.
 
-+Profitez de l'évaluation de court-circuit pour optimiser les performances, en particulier lorsque vous travaillez avec des opérations coûteuses.
++ Profitez de l'évaluation de court-circuit pour optimiser les performances, en particulier lorsque vous travaillez avec des opérations coûteuses.
 
-+Assurez-vous que la logique de votre condition correspond à ce que vous attendez; testez différentes conditions pour vous assurer de leur validité.
++ Assurez-vous que la logique de votre condition correspond à ce que vous attendez; testez différentes conditions pour vous assurer de leur validité.
 
 Les opérations booléennes sont essentielles pour la prise de décision dans les programmes. Comprendre comment les utiliser efficacement est crucial pour tout développeur souhaitant créer des scripts logiques et efficaces en Python.
