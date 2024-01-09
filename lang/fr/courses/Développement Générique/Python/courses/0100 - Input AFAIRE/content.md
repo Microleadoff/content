@@ -1,14 +1,14 @@
-La fonction '''input()''' en Python est un outils essentiel pour interagir avec les utilisateurs en leur permettant de saisir des données pendant l'execution d'un programme.
+La fonction ```input()``` en Python est un outils essentiel pour interagir avec les utilisateurs en leur permettant de saisir des données pendant l'execution d'un programme.
 
 ## Définition et Utilisation de Base
 
 ### Définition
 
-'''input()''' est une fonction intégrée en Python qui permet de lire une chaine de texte saisie par l'utilisateur au clavier.
+```input()``` est une fonction intégrée en Python qui permet de lire une chaine de texte saisie par l'utilisateur au clavier.
 
 ### Syntaxe de base 
 
-'''input([prompt])''' :	'''prompt'''(facultatif): Une chaine de caractères présentée à l'utilisateur, généralement pour lui indiquer ce qu'il dois saisir.
+```input([prompt])``` :	```prompt```(facultatif):  Une chaine de caractères présentée à l'utilisateur, généralement pour lui indiquer ce qu'il dois saisir.
 
 
 
@@ -16,11 +16,11 @@ La fonction '''input()''' en Python est un outils essentiel pour interagir avec 
 
 ### Type de Données Retourné 
 
-'''input()''' renvoie toujours une chaîne de caractères (str), même si l'utilisateur saisit des nombres. Si vous attendez un type spécifique, vous devez convertir la saisie en conséquence.
+```input()``` renvoie toujours une chaîne de caractères (str), même si l'utilisateur saisit des nombres. Si vous attendez un type spécifique, vous devez convertir la saisie en conséquence.
 
 ### Blocage du Programme  
 
-Lorsque '''input()''' est appelé, le programme s'arrête et attend que l'utilisateur saisisse quelque chose et appuie sur Entrée.
+Lorsque ```input()```  est appelé, le programme s'arrête et attend que l'utilisateur saisisse quelque chose et appuie sur Entrée.
 
 ### Fin de Ligne  
 
@@ -38,16 +38,16 @@ Fournissez des prompts clairs et des instructions pour que l'utilisateur sache e
 
 ### Tests 
 
-Assurez-vous de tester votre gestion de '''input()''' avec diverses entrées, y compris des entrées incorrectes ou inattendues, pour voir comment votre programme réagit.
+Assurez-vous de tester votre gestion de ```input()``` avec diverses entrées, y compris des entrées incorrectes ou inattendues, pour voir comment votre programme réagit.
 
 
 ## Exemples
 
-Voici un exemple simple illustrant l'utilisation de '''input()''' :
+Voici un exemple simple illustrant l'utilisation de ```input()``` :
 
-'''python
+```python
 
 nom = input("Entrez votre nom : ")
 print("Bonjour, " + nom)
-'''
+```
  
