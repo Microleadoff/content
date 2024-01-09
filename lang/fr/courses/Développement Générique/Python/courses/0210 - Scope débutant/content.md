@@ -46,7 +46,7 @@ La portée en Python détermine la visibilité et la disponibilité des variable
 
 ### Portée Intégrée (Built-in Scope)
 
-**Définition** : Noms pré-définis dans Python, comme print, len, etc.
+**Définition** : Noms pré-définis dans Python, comme `print`, `len`, etc.
 **Accès** : Disponibles globalement, sans importation ni déclaration spécifique.
 
 
@@ -73,5 +73,8 @@ Minimisez l'usage de global : L'utilisation excessive de variables globales peut
 Clarté des Noms : Utilisez des noms de variables distincts pour éviter les confusions entre les scopes.
 
 Utilisation de Scope Englobant : Préférez l'utilisation de paramètres pour passer des données aux fonctions.
+
+
+
 
 La compréhension de la portée en Python est cruciale pour la gestion des variables et des fonctions, et pour éviter des erreurs potentielles liées à l'accès et la modification des données.

@@ -5,12 +5,14 @@
 ## Utilisation de Base
 
 ### Syntaxe
+
 La fonction `range()` peut être appelée avec différents nombres d'arguments :
 - `range(stop)` : Crée une séquence de nombres de 0 à `stop-1`.
 - `range(start, stop)` : Crée une séquence de `start` à `stop-1`.
 - `range(start, stop, step)` : Crée une séquence de `start` à `stop-1`, en incrémentant de `step`.
 
 ### Exemples
+
 ```python
 for i in range(5):
     print(i)  # Affiche les nombres de 0 à 4
@@ -38,13 +40,13 @@ Les objets "range" sont immuables, ce qui signifie que leurs valeurs ne peuvent 
 
 ## Utilisations Courantes
 
-Boucles for : Parfait pour exécuter une boucle un nombre spécifique de fois.
+Boucles `for` : Parfait pour exécuter une boucle un nombre spécifique de fois.
 Génération de Séquences Numériques : Utile pour créer des listes de nombres.
-Itération par Pas : Utilisez le paramètre step pour itérer par sauts.
+Itération par Pas : Utilisez le paramètre `step` pour itérer par sauts.
 
 ## Conversion en Liste
 
-Bien que range() renvoie un itérable, il peut être converti en une liste si nécessaire :
+Bien que `range()`` renvoie un itérable, il peut être converti en une liste si nécessaire :
 
 ```python
 
@@ -53,7 +55,9 @@ liste = list(range(5))  # Convertit range(5) en une liste [0, 1, 2, 3, 4]
 
 ## Bonnes Pratiques
 
-Préférez ```range()``` pour les Grandes Séquences : Utilisez range() au lieu de listes pour économiser de la mémoire, surtout avec de grandes séquences.
-Compréhension des Itérables : Comprenez que range() crée un itérable, et non une liste, ce qui a des implications sur la mémoire et la performance.
+Préférez ```range()``` pour les Grandes Séquences : Utilisez `range()` au lieu de listes pour économiser de la mémoire, surtout avec de grandes séquences.
+Compréhension des Itérables : Comprenez que `range()` crée un itérable, et non une liste, ce qui a des implications sur la mémoire et la performance.
+
+
 
 La fonction ```range()``` est un outil polyvalent pour créer des séquences numériques et est essentielle dans les structures de contrôle de flux, comme les boucles for.
