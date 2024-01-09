@@ -11,7 +11,7 @@ result = a & b
 ```
 ### OU Bit à Bit (`|`)
 
-    Utilisation : Compare chaque bit de ses opérandes. Si au moins un des bits est 1, le bit de résultat est 1.
+**Utilisation** : Compare chaque bit de ses opérandes. Si au moins un des bits est 1, le bit de résultat est 1.
 
 ```python
 result = a | b
@@ -19,7 +19,7 @@ result = a | b
 
 ### OU Exclusif Bit à Bit (XOR, ^)
 
-    Utilisation : Compare chaque bit de ses opérandes. Si les deux bits sont différents, le bit de résultat est 1.
+**Utilisation** : Compare chaque bit de ses opérandes. Si les deux bits sont différents, le bit de résultat est 1.
 
 ```python
 result = a ^ b
@@ -27,7 +27,7 @@ result = a ^ b
 
 ### Non Bit à Bit (NOT, ~)
 
-    Utilisation : Inverse chaque bit. 0 devient 1 et 1 devient 0.
+**Utilisation** : Inverse chaque bit. 0 devient 1 et 1 devient 0.
 
 ```python
 result = ~a
@@ -35,7 +35,7 @@ result = ~a
 
 ### Décalage à Gauche (<<)
 
-    Utilisation : Décale les bits vers la gauche, en ajoutant des zéros à droite.
+**Utilisation** : Décale les bits vers la gauche, en ajoutant des zéros à droite.
 
 ```python
 result = a << 2  # Décale a de 2 bits vers la gauche
@@ -43,7 +43,7 @@ result = a << 2  # Décale a de 2 bits vers la gauche
 
 ### Décalage à Droite (>>)
 
-    Utilisation : Décale les bits vers la droite.
+**Utilisation** : Décale les bits vers la droite.
 
 ```python
 result = a >> 2  # Décale a de 2 bits vers la droite

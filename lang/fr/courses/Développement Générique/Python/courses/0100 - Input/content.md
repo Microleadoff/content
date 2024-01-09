@@ -8,7 +8,7 @@ La fonction ```input()``` en Python est un outils essentiel pour interagir avec 
 
 ### Syntaxe de base 
 
-```input([prompt])``` :	```prompt```(facultatif):  Une chaine de caractères présentée à l'utilisateur, généralement pour lui indiquer ce qu'il dois saisir.
+```input([prompt])``` :	```prompt```(facultatif):  Une chaine de caractères présentée à l'utilisateur, généralement pour lui indiquer ce qu'il doit saisir.
 
 
 
@@ -16,7 +16,7 @@ La fonction ```input()``` en Python est un outils essentiel pour interagir avec 
 
 ### Type de Données Retourné 
 
-```input()``` renvoie toujours une chaîne de caractères (str), même si l'utilisateur saisit des nombres. Si vous attendez un type spécifique, vous devez convertir la saisie en conséquence.
+```input()``` renvoie toujours une chaîne de caractères (`str`), même si l'utilisateur saisit des nombres. Si vous attendez un type spécifique, vous devez convertir la saisie en conséquence.
 
 ### Blocage du Programme  
 
@@ -24,7 +24,7 @@ Lorsque ```input()```  est appelé, le programme s'arrête et attend que l'utili
 
 ### Fin de Ligne  
 
-Lorsque l'utilisateur appuie sur Entrée, input() considère cela comme la fin de la saisie et renvoie tout ce qui a été tapé, à l'exception du caractère de fin de ligne (\n).
+Lorsque l'utilisateur appuie sur Entrée, `input()` considère cela comme la fin de la saisie et renvoie tout ce qui a été tapé, à l'exception du caractère de fin de ligne (`\n`).
 
 ## Bonnes Pratiques
 

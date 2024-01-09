@@ -60,13 +60,10 @@ valeur_booleenne = bool(1)  # Convertit l'entier 1 en booléen True
 
 ## Règles de Conversion
 
-Entier vers Flottant : Conversion directe.
-
-Flottant vers Entier : Tronque la partie décimale (sans arrondir).
-
-Chaîne vers Entier/Flottant : La chaîne doit représenter un nombre valide.
-
-Toute Valeur vers Booléen : False si la valeur est fausse ou vide (0, 0.0, "", None), sinon True.
+**Entier vers Flottant**: Conversion directe.
+**Flottant vers Entier** : Tronque la partie décimale (sans arrondir).
+**Chaîne vers Entier/Flottant** : La chaîne doit représenter un nombre valide.
+**Toute Valeur vers Booléen** : False si la valeur est fausse ou vide (0, 0.0, "", None), sinon True.
 
 
 
