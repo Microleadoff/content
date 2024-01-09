@@ -60,7 +60,7 @@ print("La valeur de x est", x)
 
 ## Bonnes Pratiques
 
-    + Utilisez des séparateurs et des fins de ligne pour un formatage clair et lisible.
-    + Utilisez l'argument flush judicieusement pour éviter des performances inutilement lentes dues à des vidages fréquents du tampon.
++ Utilisez des séparateurs et des fins de ligne pour un formatage clair et lisible.
++ Utilisez l'argument flush judicieusement pour éviter des performances inutilement lentes dues à des vidages fréquents du tampon.
 
 La fonction ```print()``` est simple en surface mais offre une flexibilité considérable pour l'affichage de texte et de données, ce qui en fait un outil indispensable pour tout développeur Python.
