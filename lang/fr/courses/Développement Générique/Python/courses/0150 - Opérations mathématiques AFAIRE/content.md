@@ -8,32 +8,32 @@ Voici un guide sur leur utilisation :
 Utilisation : Pour additionner deux nombres.
 ```result = 3 + 2  #result sera 5```
 
-### Soustraction ('-')
+### Soustraction (`-`)
 
 Utilisation : Pour soustraire un nombre d'un autre.
 ```result = 3 - 2  # result sera 1```
 
-### Multiplication ('*')
+### Multiplication (`*`)
 
 Utilisation : Pour multiplier deux nombres.
 ```result = 3 * 2  # result sera 6```
 
-### Division ('/')
+### Division (`/`)
 
 Utilisation : Pour diviser un nombre par un autre. Renvoie toujours un float.
 ```result = 3 / 2  # result sera 1.5```
 
-### Division Entière ('//')
+### Division Entière (`//`)
 
 Utilisation : Pour une division qui renvoie la partie entière du quotient.
 ```result = 3 // 2  # result sera 1```
 
-### Modulo ('%')
+### Modulo (`%`)
 
 Utilisation : Pour obtenir le reste d'une division.
 ```result = 3 % 2  # result sera 1```
 
-### Puissance ('**')
+### Puissance (`**`)
 
 Utilisation : Pour élever un nombre à la puissance d'un autre.
 ```result = 3 ** 2  # result sera 9```
@@ -42,6 +42,8 @@ Utilisation : Pour élever un nombre à la puissance d'un autre.
 
 Utilisation : Utilisez l'opérateur de puissance avec 0.5 ou la fonction sqrt du module math.
 ```
+python
+
 racine = 9 ** 0.5  # racine sera 3
 
 # ou
@@ -52,7 +54,7 @@ racine = math.sqrt(9)  # racine sera 3
 
 ## Priorité des Opérateurs
 
-Les opérations sont évaluées dans l'ordre suivant : **, *, /, //, %, +, -.
+Les opérations sont évaluées dans l'ordre suivant : `**`, `*`, `/`, `//`, `%`, `+`, `-`.
 Utilisez des parenthèses pour modifier l'ordre d'évaluation.
 
 ## Bibliothèque Math
