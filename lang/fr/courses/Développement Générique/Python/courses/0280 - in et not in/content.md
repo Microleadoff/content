@@ -5,6 +5,7 @@ En Python, ```in``` et ```not in``` sont des opérateurs de vérification d'appa
 ## Utilisation de ```in```
 
 ### Syntaxe
+
 ```python
 element in sequence
 ```
