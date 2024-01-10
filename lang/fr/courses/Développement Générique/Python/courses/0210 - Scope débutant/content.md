@@ -54,9 +54,9 @@ La portée en Python détermine la visibilité et la disponibilité des variable
 **Ordre de Résolution** : Local → Enclosing → Global → Built-in.
 Python suit cet ordre pour trouver la signification d'un nom.
 
-Modification des Variables Globales
+## Modification des Variables Globales
 
-  Utilisation de global : Pour modifier une variable globale dans une fonction locale.
+Utilisation de global : Pour modifier une variable globale dans une fonction locale.
 
 ```python
 
