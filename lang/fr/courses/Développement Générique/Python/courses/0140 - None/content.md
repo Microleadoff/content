@@ -42,10 +42,10 @@ Paramètres par Défaut : ```None``` est souvent utilisé comme valeur par défa
 paramètres de fonction qui n'ont pas été fournis.
 
 ```python
-    def function_with_default_param(param=None):
-        if param is None:
-            param = []
-        # Faites quelque chose avec param
+def function_with_default_param(param=None):
+    if param is None:
+        param = []
+    # Faites quelque chose avec param
 ```
 
 ## None et les Collections
@@ -53,8 +53,8 @@ paramètres de fonction qui n'ont pas été fournis.
 Listes et Dictionnaires : ```None``` peut être utilisé comme valeur dans des listes, des dictionnaires et d'autres structures de données.
 
 ```python
-    my_list = [1, None, 3]
-    my_dict = {'a': 1, 'b': None}
+my_list = [1, None, 3]
+my_dict = {'a': 1, 'b': None}
 ```
 ## Attention aux Pièges
 

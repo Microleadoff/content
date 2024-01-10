@@ -2,15 +2,24 @@ Les opérations booléennes en Python sont fondamentales pour effectuer des opé
 
 ## Opérateurs Booléens
 
-### AND (and) : Renvoie ```True``` si les deux opérandes sont vrais.
+### AND (and) 
+
+Renvoie ```True``` si les deux opérandes sont vrais.
+
 - **Syntaxe** : ```a and b```
 - **Exemple** : (```True and True```) renvoie ```True```.
 
-### OR (or) : Renvoie ```True``` si au moins un des opérandes est vrai.
+### OR (or) 
+
+Renvoie ```True``` si au moins un des opérandes est vrai.
+
 - **Syntaxe** : ```a or b```
 - **Exemple** : (```True``` or ```False```) renvoie ```True```.
 
-### NOT (not) : Inverse le booléen de l'opérande.
+### NOT (not) 
+
+Inverse le booléen de l'opérande.
+
 - **Syntaxe** : ```not a```
 - **Exemple** : ```not False``` renvoie ```True```.
 
@@ -32,7 +41,8 @@ L'ordre dans lequel les opérations sont évaluées peut être crucial pour comp
 - ```Or```
 
 Pour contrôler l'ordre des opérations, utilisez des parenthèses. Par exemple, (```False``` and (```True``` or ```True```)) est ```False```, mais (```False and True```) or ```True``` est ```True```.
-Court-Circuit
+
+## Court-Circuit
 
 Python utilise une évaluation de court-circuit pour les opérations booléennes :
 
