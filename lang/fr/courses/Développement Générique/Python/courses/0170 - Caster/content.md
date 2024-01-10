@@ -5,11 +5,11 @@ Le casting en Python fait référence à la conversion explicite d'une variable 
 ## Types de Casting
 
 ### Conversion en Entier (```int()```)
-**Utilisation :** Convertit une variable en entier.
-**Syntaxe :**
+**Utilisation** : Convertit une variable en entier.
+**Syntaxe** :
 
-  ```python
-  int(variable)
+```python
+int(variable)
 ```
 #### Exemple
 
