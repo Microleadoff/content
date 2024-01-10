@@ -24,12 +24,12 @@ nombres = [-2, -1, 0, 1, 2]
 resultat = filter(est_positif, nombres)
 ```
 
-resultat est maintenant un objet filter contenant [1, 2].
+resultat est maintenant un objet filter contenant ```[1, 2]```.
 
 ## Caractéristiques de ```filter()```
 
-Renvoie un Objet Filter : ```filter()``` ne retourne pas une liste, mais un objet ```filter```, qui est un itérable.
-Efficacité : Comme ```map()```, ```filter()``` est efficace avec de grands itérables car il ne stocke pas tous les résultats en mémoire.
+**Renvoie un Objet Filter** : ```filter()``` ne retourne pas une liste, mais un objet ```filter```, qui est un itérable.
+**Efficacité** : Comme ```map()```, ```filter()``` est efficace avec de grands itérables car il ne stocke pas tous les résultats en mémoire.
 
 ## Utilisations Courantes
 

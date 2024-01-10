@@ -24,7 +24,6 @@ reduce(function, iterable[, initializer])
 ### Exemple
 
 ```python
-
 def somme(x, y):
     return x + y
 
@@ -39,7 +38,7 @@ resultat est maintenant 10, qui est la somme de tous les éléments de nombres.
 ```reduce()``` commence par prendre les deux premiers éléments de l'itérable et applique function à ces éléments.
 Le résultat est ensuite utilisé avec le prochain élément de l'itérable, et ce processus se répète jusqu'à ce que tous les éléments aient été traités.
 
-Utilisations Courantes
+## Utilisations Courantes
 
 **Agrégation de Données** : Parfait pour calculer des sommes, des produits, et d'autres agrégations.
 **Transformation et Réduction** : Transforme un ensemble de données en une seule valeur basée sur une logique personnalisée.
@@ -49,7 +48,6 @@ Utilisations Courantes
 ```reduce()``` est souvent utilisé avec des fonctions lambda pour des opérations simples et anonymes.
 
 ```python
-
 resultat = reduce(lambda x, y: x * y, nombres)  # Produit de tous les éléments
 ```
 
