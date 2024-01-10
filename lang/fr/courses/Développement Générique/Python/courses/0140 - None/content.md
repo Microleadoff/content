@@ -64,6 +64,6 @@ Modification de Mutable par Défaut : Ne pas utiliser ```None``` comme une mani�
 
 ## Bonnes Pratiques
 
-Vérification Explicite : Toujours utiliser ```is None``` pour vérifier si une variable est ```None```.
-Documentation : Lorsque vous utilisez ```None``` dans vos fonctions ou méthodes, documentez clairement ce que cela signifie pour éviter la confusion.
-Préférez ```None``` à d'autres valeurs : Pour indiquer une valeur 'vide' ou 'par défaut', préférez ```None``` aux autres valeurs comme 0, False, ou une chaîne vide, sauf si vous avez une bonne raison de faire autrement.
+**Vérification Explicite** : Toujours utiliser ```is None``` pour vérifier si une variable est ```None```.
+**Documentation** : Lorsque vous utilisez ```None``` dans vos fonctions ou méthodes, documentez clairement ce que cela signifie pour éviter la confusion.
+**Préférez ```None``` à d'autres valeurs** : Pour indiquer une valeur 'vide' ou 'par défaut', préférez ```None``` aux autres valeurs comme 0, False, ou une chaîne vide, sauf si vous avez une bonne raison de faire autrement.

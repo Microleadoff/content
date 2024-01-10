@@ -8,7 +8,7 @@ Les générateurs en Python sont un type d'itérable, comme les listes ou les tu
 - **Définition** : Un générateur est créé avec une fonction qui utilise l'instruction ```yield```.
 - **Syntaxe** :
 
-  ```python
+```python
 def mon_generateur():
     yield valeur
 ```

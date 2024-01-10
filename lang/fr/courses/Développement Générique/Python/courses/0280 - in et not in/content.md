@@ -9,6 +9,7 @@ En Python, ```in``` et ```not in``` sont des opérateurs de vérification d'appa
 ```python
 element in sequence
 ```
+
 ```element``` : La valeur à vérifier.
 
 ```sequence``` : La séquence ou collection dans laquelle vérifier (peut être une liste, un tuple, une chaîne de caractères, etc.).

@@ -39,14 +39,14 @@ resultat est maintenant un objet map contenant ```[1, 4, 9, 16]```.
 resultat = map(lambda x: x**2, nombres)
 ```
 
-Conversion en Liste ou Autres Types de Collections
+## Conversion en Liste ou Autres Types de Collections
 
 Pour utiliser les résultats de ```map()```, convertissez l'objet ```map``` en une liste ou une autre structure de données :
 
 ```python
 resultat_liste = list(resultat)
 ```
-Combinaison avec d'Autres Itérables
+## Combinaison avec d'Autres Itérables
 
 ```map()``` peut accepter plusieurs itérables. La fonction donnée doit alors accepter autant d'arguments qu'il y a d'itérables.
 
