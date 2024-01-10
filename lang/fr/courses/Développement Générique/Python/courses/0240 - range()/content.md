@@ -40,9 +40,9 @@ Les objets "range" sont immuables, ce qui signifie que leurs valeurs ne peuvent 
 
 ## Utilisations Courantes
 
-Boucles ```for``` : Parfait pour exécuter une boucle un nombre spécifique de fois.
-Génération de Séquences Numériques : Utile pour créer des listes de nombres.
-Itération par Pas : Utilisez le paramètre ```step``` pour itérer par sauts.
+**Boucles ```for```** : Parfait pour exécuter une boucle un nombre spécifique de fois.
+**Génération de Séquences Numériques** : Utile pour créer des listes de nombres.
+**Itération par Pas** : Utilisez le paramètre ```step``` pour itérer par sauts.
 
 ## Conversion en Liste
 
@@ -54,5 +54,5 @@ liste = list(range(5))  # Convertit range(5) en une liste [0, 1, 2, 3, 4]
 
 ## Bonnes Pratiques
 
-Préférez ```range()``` pour les Grandes Séquences : Utilisez ```range()``` au lieu de listes pour économiser de la mémoire, surtout avec de grandes séquences.
-Compréhension des Itérables : Comprenez que ```range()``` crée un itérable, et non une liste, ce qui a des implications sur la mémoire et la performance.
+**Préférez ```range()``` pour les Grandes Séquences** : Utilisez ```range()``` au lieu de listes pour économiser de la mémoire, surtout avec de grandes séquences.
+**Compréhension des Itérables** : Comprenez que ```range()``` crée un itérable, et non une liste, ce qui a des implications sur la mémoire et la performance.
