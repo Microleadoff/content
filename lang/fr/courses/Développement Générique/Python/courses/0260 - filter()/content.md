@@ -33,8 +33,8 @@ resultat est maintenant un objet filter contenant ```[1, 2]```.
 
 ## Utilisations Courantes
 
-Nettoyage de Données : Idéal pour éliminer des valeurs indésirables d'un ensemble de données.
-Sélection Basée sur des Critères : Permet de sélectionner des éléments qui répondent à certaines conditions.
+**Nettoyage de Données** : Idéal pour éliminer des valeurs indésirables d'un ensemble de données.
+**Sélection Basée sur des Critères** : Permet de sélectionner des éléments qui répondent à certaines conditions.
 
 ## Conversion en Liste ou Autres Types de Collections
 
