@@ -18,7 +18,7 @@ def mon_generateur():
 ```python
 def compte_jusqu_a_trois():
     yield 1
-    yield 2
+    yield 2 
     yield 3
 ```
 
