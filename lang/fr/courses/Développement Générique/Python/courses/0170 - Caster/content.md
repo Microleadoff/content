@@ -11,7 +11,7 @@ Le casting en Python fait référence à la conversion explicite d'une variable 
   ```python
   int(variable)
 ```
-#### Exemple :
+#### Exemple
 
 ```python
 nombre_entier = int("123")  # Convertit la chaîne de caractères "123" en entier 123
@@ -26,7 +26,7 @@ nombre_entier = int("123")  # Convertit la chaîne de caractères "123" en entie
 float(variable)
 ```
 
-#### Exemple :
+#### Exemple
 
 ```python
 nombre_flottant = float("123.45")  # Convertit la chaîne "123.45" en flottant 123.45
@@ -41,7 +41,7 @@ nombre_flottant = float("123.45")  # Convertit la chaîne "123.45" en flottant 1
 str(variable)
 ```
 
-#### Exemple :
+#### Exemple
 
 ```python
 chaine = str(123)  # Convertit l'entier 123 en chaîne de caractères "123"
@@ -56,7 +56,7 @@ chaine = str(123)  # Convertit l'entier 123 en chaîne de caractères "123"
 bool(variable)
 ```
 
-#### Exemple :
+#### Exemple
 
 ```python
 valeur_booleenne = bool(1)  # Convertit l'entier 1 en booléen True
@@ -68,8 +68,6 @@ valeur_booleenne = bool(1)  # Convertit l'entier 1 en booléen True
 **Flottant vers Entier** : Tronque la partie décimale (sans arrondir).
 **Chaîne vers Entier/Flottant** : La chaîne doit représenter un nombre valide.
 **Toute Valeur vers Booléen** : False si la valeur est fausse ou vide (0, 0.0, "", None), sinon True.
-
-
 
 ## Bonnes Pratiques
 

@@ -5,7 +5,7 @@ Les opérateurs binaires en Python permettent de manipuler des nombres au niveau
 ## Opérateurs Binaires Disponibles
 
 ### ET Bit à Bit (```&```)
-- **Utilisation :** Compare chaque bit de ses opérandes. Si les deux bits sont ```1```, le bit de résultat est ```1```.
+**Utilisation :** Compare chaque bit de ses opérandes. Si les deux bits sont ```1```, le bit de résultat est ```1```.
 
 ```python
 result = a & b
@@ -53,14 +53,13 @@ result = a >> 2  # Décale a de 2 bits vers la droite
 
 ## Utilisation Pratique
 
-Masquage : Utilisé pour masquer certains bits (par exemple, extraire certains bits spécifiques d'un nombre).
-Paramètres de Configuration : Permet de stocker plusieurs valeurs booléennes dans un seul entier.
-Optimisation : Ces opérateurs peuvent être plus rapides pour certains types de calculs.
+**Masquage** : Utilisé pour masquer certains bits (par exemple, extraire certains bits spécifiques d'un nombre).
+**Paramètres de Configuration** : Permet de stocker plusieurs valeurs booléennes dans un seul entier.
+**Optimisation** : Ces opérateurs peuvent être plus rapides pour certains types de calculs.
 
-Exemples
+### Exemples
 
 ```python
-
 a = 0b1101  # 13 en décimal
 b = 0b1011  # 11 en décimal
 
