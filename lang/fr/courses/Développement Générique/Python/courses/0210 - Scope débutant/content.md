@@ -21,7 +21,6 @@ La portée en Python détermine la visibilité et la disponibilité des variable
 **Accès** : Accessibles partout dans le module.
 
 ```python
-
     variable_globale = "Je suis globale"
 
     def ma_fonction():
@@ -68,8 +67,8 @@ Modification des Variables Globales
 
 ## Bonnes Pratiques
 
-Minimisez l'usage de global : L'utilisation excessive de variables globales peut rendre le code difficile à comprendre et à maintenir.
+**Minimisez l'usage de global** : L'utilisation excessive de variables globales peut rendre le code difficile à comprendre et à maintenir.
 
-Clarté des Noms : Utilisez des noms de variables distincts pour éviter les confusions entre les scopes.
+**Clarté des Noms** : Utilisez des noms de variables distincts pour éviter les confusions entre les scopes.
 
-Utilisation de Scope Englobant : Préférez l'utilisation de paramètres pour passer des données aux fonctions.
+**Utilisation de Scope Englobant** : Préférez l'utilisation de paramètres pour passer des données aux fonctions.

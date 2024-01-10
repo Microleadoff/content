@@ -7,9 +7,9 @@
 ### Syntaxe
 
 La fonction ```range()``` peut être appelée avec différents nombres d'arguments :
-- ```range(stop)``` : Crée une séquence de nombres de 0 à `stop-1`.
-- ```range(start, stop)``` : Crée une séquence de `start` à `stop-1`.
-- ```range(start, stop, step)``` : Crée une séquence de `start` à `stop-1`, en incrémentant de `step`.
+- ```range(stop)``` : Crée une séquence de nombres de 0 à ```stop-1```.
+- ```range(start, stop)``` : Crée une séquence de ```start``` à ```stop-1```.
+- ```range(start, stop, step)``` : Crée une séquence de ```start``` à ```stop-1```, en incrémentant de ```step```.
 
 ### Exemples
 
@@ -42,14 +42,13 @@ Les objets "range" sont immuables, ce qui signifie que leurs valeurs ne peuvent 
 
 Boucles ```for``` : Parfait pour exécuter une boucle un nombre spécifique de fois.
 Génération de Séquences Numériques : Utile pour créer des listes de nombres.
-Itération par Pas : Utilisez le paramètre `step` pour itérer par sauts.
+Itération par Pas : Utilisez le paramètre ```step``` pour itérer par sauts.
 
 ## Conversion en Liste
 
-Bien que `range()`` renvoie un itérable, il peut être converti en une liste si nécessaire :
+Bien que ```range()``` renvoie un itérable, il peut être converti en une liste si nécessaire :
 
 ```python
-
 liste = list(range(5))  # Convertit range(5) en une liste [0, 1, 2, 3, 4]
 ```
 

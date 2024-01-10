@@ -7,6 +7,7 @@ Le casting en Python fait référence à la conversion explicite d'une variable 
 ### Conversion en Entier (```int()```)
 **Utilisation :** Convertit une variable en entier.
 **Syntaxe :**
+
   ```python
   int(variable)
 ```
@@ -39,11 +40,13 @@ nombre_flottant = float("123.45")  # Convertit la chaîne "123.45" en flottant 1
 ```python
 str(variable)
 ```
+
 #### Exemple :
 
 ```python
 chaine = str(123)  # Convertit l'entier 123 en chaîne de caractères "123"
 ```
+
 ### Conversion en Booléen (```bool()```)
 
 **Utilisation** : Convertit une variable en valeur booléenne (True ou False).
@@ -52,6 +55,7 @@ chaine = str(123)  # Convertit l'entier 123 en chaîne de caractères "123"
 ```python
 bool(variable)
 ```
+
 #### Exemple :
 
 ```python
@@ -69,8 +73,8 @@ valeur_booleenne = bool(1)  # Convertit l'entier 1 en booléen True
 
 ## Bonnes Pratiques
 
-Vérifiez la Validité : Assurez-vous que la valeur peut être convertie sans erreur.
+**Vérifiez la Validité** : Assurez-vous que la valeur peut être convertie sans erreur.
 
-Gestion des Exceptions : Utilisez un bloc ```try``` et ```except``` pour gérer les erreurs de conversion.
+**Gestion des Exceptions** : Utilisez un bloc ```try``` et ```except``` pour gérer les erreurs de conversion.
 
-Utilisation Prudente : Soyez conscient des implications, comme la perte de données lors de la conversion de flottants en entiers.
+**Utilisation Prudente** : Soyez conscient des implications, comme la perte de données lors de la conversion de flottants en entiers.

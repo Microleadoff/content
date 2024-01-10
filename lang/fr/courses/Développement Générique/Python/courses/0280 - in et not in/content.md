@@ -51,6 +51,6 @@ Ensembles : Utilisé pour vérifier la présence d'éléments dans des ensembles
 
 ## Bonnes Pratiques
 
-Lisibilité : Préférez in et not in pour une meilleure lisibilité et compréhension du code.
+**Lisibilité** : Préférez ```in``` et ```not in``` pour une meilleure lisibilité et compréhension du code.
 
-Alternatives aux Boucles : Utilisez ces opérateurs au lieu de boucles pour des vérifications simples, pour un code plus concis et efficace.
+**Alternatives aux Boucles** : Utilisez ces opérateurs au lieu de boucles pour des vérifications simples, pour un code plus concis et efficace.

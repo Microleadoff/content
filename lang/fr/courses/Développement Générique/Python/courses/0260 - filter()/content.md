@@ -5,17 +5,18 @@
 ## Utilisation de Base
 
 ### Syntaxe
+
 ```python
 filter(function, iterable)
 ```
 
-    function : Une fonction qui teste chaque élément de l'itérable. Doit renvoyer True pour conserver l'élément, False pour l'exclure.
-    iterable : Un itérable (comme une liste ou un tuple) dont les éléments seront testés.
+function : Une fonction qui teste chaque élément de l'itérable. Doit renvoyer ```True``` pour conserver l'élément, ```False``` pour l'exclure.
+
+iterable : Un itérable (comme une liste ou un tuple) dont les éléments seront testés.
 
 ### Exemple
 
 ```python
-
 def est_positif(nombre):
     return nombre > 0
 
@@ -27,8 +28,8 @@ resultat est maintenant un objet filter contenant [1, 2].
 
 ## Caractéristiques de ```filter()```
 
-Renvoie un Objet Filter : ```filter()``` ne retourne pas une liste, mais un objet filter, qui est un itérable.
-Efficacité : Comme map(), ```filter()``` est efficace avec de grands itérables car il ne stocke pas tous les résultats en mémoire.
+Renvoie un Objet Filter : ```filter()``` ne retourne pas une liste, mais un objet ```filter```, qui est un itérable.
+Efficacité : Comme ```map()```, ```filter()``` est efficace avec de grands itérables car il ne stocke pas tous les résultats en mémoire.
 
 ## Utilisations Courantes
 
@@ -53,8 +54,8 @@ resultat = filter(lambda x: x > 0, nombres)
 
 ## Bonnes Pratiques
 
-Fonctions Pures : Utilisez des fonctions sans effets secondaires pour une meilleure prévisibilité.
+**Fonctions Pures** : Utilisez des fonctions sans effets secondaires pour une meilleure prévisibilité.
 
-Lisibilité vs Compréhension de Liste : ```filter()``` peut être plus lisible que des compréhensions de liste dans certains cas, mais moins dans d'autres. Choisissez en fonction de la clarté.
+**Lisibilité vs Compréhension de Liste** : ```filter()``` peut être plus lisible que des compréhensions de liste dans certains cas, mais moins dans d'autres. Choisissez en fonction de la clarté.
 
-Évaluation Paresseuse : Utilisez ```filter()``` pour des gains d'efficacité dans le traitement de grands ensembles de données.
+**Évaluation Paresseuse** : Utilisez ```filter()``` pour des gains d'efficacité dans le traitement de grands ensembles de données.
