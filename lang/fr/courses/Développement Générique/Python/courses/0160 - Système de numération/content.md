@@ -78,7 +78,3 @@ Clarté : Utilisez des noms de variables clairs pour indiquer le système de num
 Vérification : Vérifiez toujours le type et la validité des données lors de la conversion entre les systèmes.
 
 Commentaires : Ajoutez des commentaires pour clarifier les conversions et les valeurs particulières.
-
-
-
-Les systèmes de numération sont une partie fondamentale de l'informatique. Comprendre comment les manipuler en Python est essentiel pour travailler avec des données à bas niveau, effectuer des opérations de bit, ou simplement pour convertir des valeurs entre différents systèmes.

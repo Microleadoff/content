@@ -1,4 +1,4 @@
-La fonction `print()` est l'une des fonctions les plus utilisées en Python, car elle permet d'afficher des informations à l'utilisateur. Voici un guide détaillé sur son utilisation et ses caractéristiques :
+La fonction ```print()``` est l'une des fonctions les plus utilisées en Python, car elle permet d'afficher des informations à l'utilisateur. Voici un guide détaillé sur son utilisation et ses caractéristiques :
 
 ## Définition et Utilisation de Base
 
@@ -9,11 +9,11 @@ La fonction `print()` est l'une des fonctions les plus utilisées en Python, car
 
 ```print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)```
 
-- `objects` : Ce sont les objets à afficher. ```print()``` peut prendre plusieurs ```objets```, séparés par des virgules.
-- `sep=' '` : Séparateur à utiliser entre les objets. Par défaut, c'est un espace.
-- `end='\n'` : Ce qui est ajouté après tous les objets sont imprimés. Par défaut, c'est un saut de ligne (`\n`), ce qui fait passer à la ligne suivante.
-- `file` : Un objet de fichier ou un objet similaire. Par défaut, ```print()``` écrit dans la sortie standard (```sys.stdout```), mais vous pouvez le diriger vers un fichier ou un autre type de flux.
-- `flush` : Si True, le flux de sortie est forcé à être "flushed" (vidé) après l'appel de ```print()```. Utile pour s'assurer que les messages sont écrits immédiatement sans attendre.
+- ```objects``` : Ce sont les objets à afficher. ```print()``` peut prendre plusieurs ```objets```, séparés par des virgules.
+- ```sep=' '``` : Séparateur à utiliser entre les objets. Par défaut, c'est un espace.
+- ```end='\n'``` : Ce qui est ajouté après tous les objets sont imprimés. Par défaut, c'est un saut de ligne (```\n```), ce qui fait passer à la ligne suivante.
+- ```file``` : Un objet de fichier ou un objet similaire. Par défaut, ```print()``` écrit dans la sortie standard (```sys.stdout```), mais vous pouvez le diriger vers un fichier ou un autre type de flux.
+- ```flush``` : Si True, le flux de sortie est forcé à être "flushed" (vidé) après l'appel de ```print()```. Utile pour s'assurer que les messages sont écrits immédiatement sans attendre.
 
 ## Affichage de Variables et de Texte
 
@@ -23,7 +23,7 @@ Vous pouvez afficher du texte, des variables, ou une combinaison des deux. ```pr
 
 ### Séparateurs 
 
-Utilisez l'argument sep pour définir comment les objets sont séparés. Par exemple, print(a, b, c, sep=', ') utilisera une virgule et un espace.
+Utilisez l'argument ```sep``` pour définir comment les objets sont séparés. Par exemple, ```print(a, b, c, sep=', ')``` utilisera une virgule et un espace.
 
 ### Fin de Ligne 
 
@@ -35,7 +35,7 @@ Utilisez l'argument file pour écrire le résultat de ```print()``` dans un fich
 
 ## Forçage du Vidage du Tampon
 
-L'argument `flush` est souvent utilisé dans des situations où vous avez besoin de vous assurer que la sortie est vue immédiatement, comme dans le cas d'une interface utilisateur interactive ou d'un journal de débogage en temps réel.
+L'argument ```flush``` est souvent utilisé dans des situations où vous avez besoin de vous assurer que la sortie est vue immédiatement, comme dans le cas d'une interface utilisateur interactive ou d'un journal de débogage en temps réel.
 
 ## Exemples
 
@@ -62,7 +62,3 @@ print("La valeur de x est", x)
 Utilisez des séparateurs et des fins de ligne pour un formatage clair et lisible.
 
 Utilisez l'argument flush judicieusement pour éviter des performances inutilement lentes dues à des vidages fréquents du tampon.
-
-
-
-La fonction ```print()``` est simple en surface mais offre une flexibilité considérable pour l'affichage de texte et de données, ce qui en fait un outil indispensable pour tout développeur Python.

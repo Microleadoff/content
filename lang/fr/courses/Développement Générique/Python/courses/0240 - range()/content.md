@@ -57,7 +57,3 @@ liste = list(range(5))  # Convertit range(5) en une liste [0, 1, 2, 3, 4]
 
 Préférez ```range()``` pour les Grandes Séquences : Utilisez ```range()``` au lieu de listes pour économiser de la mémoire, surtout avec de grandes séquences.
 Compréhension des Itérables : Comprenez que ```range()``` crée un itérable, et non une liste, ce qui a des implications sur la mémoire et la performance.
-
-
-
-La fonction ```range()``` est un outil polyvalent pour créer des séquences numériques et est essentielle dans les structures de contrôle de flux, comme les boucles for.

@@ -58,5 +58,3 @@ Fonctions Pures : Utilisez des fonctions sans effets secondaires pour une meille
 Lisibilité vs Compréhension de Liste : ```filter()``` peut être plus lisible que des compréhensions de liste dans certains cas, mais moins dans d'autres. Choisissez en fonction de la clarté.
 
 Évaluation Paresseuse : Utilisez ```filter()``` pour des gains d'efficacité dans le traitement de grands ensembles de données.
-
-La fonction ```filter()``` est un outil essentiel pour traiter et nettoyer des collections de données en Python, permettant de filtrer des éléments en fonction de critères spécifiques de manière efficace et expressive.

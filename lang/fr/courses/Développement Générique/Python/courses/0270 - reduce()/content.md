@@ -57,5 +57,3 @@ resultat = reduce(lambda x, y: x * y, nombres)  # Produit de tous les éléments
 Clarté : Utilisez ```reduce()``` lorsque la logique de réduction est simple et claire. Pour des opérations plus complexes, envisagez des alternatives plus lisibles.
 Initializer : Spécifiez initializer pour éviter des erreurs si l'itérable est vide.
 Prudence avec les Effets Secondaires : Assurez-vous que la fonction utilisée ne produit pas d'effets secondaires indésirables.
-
-```reduce()``` est un outil puissant pour effectuer des opérations cumulatives sur des collections de données en Python. Il offre une manière expressive et efficace de réduire un itérable à une seule valeur.

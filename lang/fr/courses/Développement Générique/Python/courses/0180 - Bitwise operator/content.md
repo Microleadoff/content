@@ -85,6 +85,3 @@ right_shift = a >> 2  # 0b11 (3 en décimal)
 
 Clarté : Utilisez ces opérateurs lorsque cela est logique; évitez-les pour des opérations simples qui pourraient être réalisées plus clairement avec d'autres opérateurs.
 Commentaires : Ajoutez des commentaires pour expliquer ce que font ces opérations, car elles peuvent être difficiles à comprendre pour ceux qui ne sont pas familiers avec la manipulation de bits.
-
-
-Les opérateurs binaires sont un aspect puissant de Python pour la manipulation de bas niveau et l'optimisation, permettant des opérations efficaces et précises sur des données binaires.

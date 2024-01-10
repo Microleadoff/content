@@ -54,5 +54,3 @@ Ensembles : Utilisé pour vérifier la présence d'éléments dans des ensembles
 Lisibilité : Préférez in et not in pour une meilleure lisibilité et compréhension du code.
 
 Alternatives aux Boucles : Utilisez ces opérateurs au lieu de boucles pour des vérifications simples, pour un code plus concis et efficace.
-
-Les opérateurs ```in``` et ```not in``` sont essentiels pour la vérification d'appartenance en Python, offrant une manière expressive et lisible de tester la présence ou l'absence d'éléments dans diverses structures de données.

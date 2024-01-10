@@ -74,7 +74,3 @@ Vérifiez la Validité : Assurez-vous que la valeur peut être convertie sans er
 Gestion des Exceptions : Utilisez un bloc ```try``` et ```except``` pour gérer les erreurs de conversion.
 
 Utilisation Prudente : Soyez conscient des implications, comme la perte de données lors de la conversion de flottants en entiers.
-
-
-
-Le casting est un outil important en Python pour s'assurer que les variables sont du bon type pour une opération donnée, permettant ainsi d'éviter des erreurs et des comportements inattendus.

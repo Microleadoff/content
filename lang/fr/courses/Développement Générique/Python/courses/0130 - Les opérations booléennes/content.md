@@ -2,24 +2,24 @@ Les opérations booléennes en Python sont fondamentales pour effectuer des opé
 
 ## Opérateurs Booléens
 
-AND (and) : Renvoie True si les deux opérandes sont vrais.
-    **Syntaxe** : a and b
-    **Exemple** : (True and True) renvoie True.
+### AND (and) : Renvoie ```True``` si les deux opérandes sont vrais.
+- **Syntaxe** : ```a and b```
+- **Exemple** : (```True and True```) renvoie ```True```.
 
-OR (or) : Renvoie True si au moins un des opérandes est vrai.
-    **Syntaxe** : a or b
-    **Exemple** : (True or False) renvoie True.
+### OR (or) : Renvoie ```True``` si au moins un des opérandes est vrai.
+- **Syntaxe** : ```a or b```
+- **Exemple** : (```True``` or ```False```) renvoie ```True```.
 
-NOT (not) : Inverse le booléen de l'opérande.
-    **Syntaxe** : not a
-    **Exemple** : not False renvoie True.
+### NOT (not) : Inverse le booléen de l'opérande.
+- **Syntaxe** : ```not a```
+- **Exemple** : ```not False``` renvoie ```True```.
 
 ## Opérateurs de Comparaison
 
 Ces opérateurs sont souvent utilisés en combinaison avec les opérateurs booléens pour former des conditions complexes :
 
 **Égal (==)** : Vérifie si les valeurs des deux opérandes sont égales.
-Non égal (!=)** : Vérifie si les valeurs des deux opérandes ne sont pas égales.
+**Non égal (!=)** : Vérifie si les valeurs des deux opérandes ne sont pas égales.
 **Supérieur à (>)**, Supérieur ou égal à (>=) : Compare deux valeurs pour la supériorité.
 **Inférieur à (<)**, Inférieur ou égal à (<=) : Compare deux valeurs pour l'infériorité.
 
@@ -27,17 +27,17 @@ Non égal (!=)** : Vérifie si les valeurs des deux opérandes ne sont pas égal
 
 L'ordre dans lequel les opérations sont évaluées peut être crucial pour comprendre et prédire le résultat :
 
-- not
-- and
-- or
+- ```Not```
+- ```And```
+- ```Or```
 
-Pour contrôler l'ordre des opérations, utilisez des parenthèses. Par exemple, (False and (True or True)) est False, mais (False and True) or True est True.
+Pour contrôler l'ordre des opérations, utilisez des parenthèses. Par exemple, (```False``` and (```True``` or ```True```)) est ```False```, mais (```False and True```) or ```True``` est ```True```.
 Court-Circuit
 
 Python utilise une évaluation de court-circuit pour les opérations booléennes :
 
-Pour and, si le premier opérande est False, Python n'évalue pas le second et renvoie False.
-Pour or, si le premier opérande est True, Python n'évalue pas le second et renvoie True.
+Pour ```and```, si le premier opérande est ```False```, Python n'évalue pas le second et renvoie ```False```.
+Pour ```or```, si le premier opérande est ```True```, Python n'évalue pas le second et renvoie ```True```.
 
 Cela peut être utile pour éviter des appels de fonctions ou des calculs coûteux si le résultat est déjà déterminé par le premier opérande.
 
@@ -72,7 +72,5 @@ print(a != b)  # Renvoie True car a n'est pas égal à b
 ## Bonnes Pratiques
 
 1. Utilisez des parenthèses pour rendre vos expressions booléennes plus claires et pour contrôler l'ordre d'évaluation.
-1. Profitez de l'évaluation de court-circuit pour optimiser les performances, en particulier lorsque vous travaillez avec des opérations coûteuses.
-1. Assurez-vous que la logique de votre condition correspond à ce que vous attendez; testez différentes conditions pour vous assurer de leur validité.
-
-Les opérations booléennes sont essentielles pour la prise de décision dans les programmes. Comprendre comment les utiliser efficacement est crucial pour tout développeur souhaitant créer des scripts logiques et efficaces en Python.
+2. Profitez de l'évaluation de court-circuit pour optimiser les performances, en particulier lorsque vous travaillez avec des opérations coûteuses.
+3. Assurez-vous que la logique de votre condition correspond à ce que vous attendez; testez différentes conditions pour vous assurer de leur validité.

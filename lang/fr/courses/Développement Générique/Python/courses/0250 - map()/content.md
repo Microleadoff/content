@@ -65,5 +65,3 @@ resultat = map(lambda x, y: x + y, a, b)  # Résultat : [5, 7, 9]
 Fonctions Pures : Utilisez des fonctions sans effets secondaires pour de meilleurs résultats et une meilleure prévisibilité.
 Lisibilité : Choisissez ```map()``` lorsque cela rend le code plus lisible et plus clair que les boucles équivalentes.
 Performances : Préférez ```map()``` pour les transformations simples sur de grands ensembles de données.
-
-La fonction ```map()``` est un outil puissant pour traiter efficacement des collections de données, en appliquant une fonction à chaque élément d'un itérable de manière concise et lisible.
