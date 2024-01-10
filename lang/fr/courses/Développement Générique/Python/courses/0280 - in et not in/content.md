@@ -8,9 +8,9 @@ En Python, ```in``` et ```not in``` sont des opérateurs de vérification d'appa
 ```python
 element in sequence
 ```
-element : La valeur à vérifier.
+```element``` : La valeur à vérifier.
 
-sequence : La séquence ou collection dans laquelle vérifier (peut être une liste, un tuple, une chaîne de caractères, etc.).
+```sequence``` : La séquence ou collection dans laquelle vérifier (peut être une liste, un tuple, une chaîne de caractères, etc.).
 
 ### Exemple
 
@@ -33,13 +33,13 @@ Inversion de ```in``` : Vérifie que element n'est pas dans sequence.
 ```python
 resultat = 4 not in liste  # True, car 4 n'est pas dans la liste
 ```
-Cas d'Utilisation
+### Cas d'Utilisation
 
-Vérification de Présence : Idéal pour tester si un élément est présent dans une collection.
+**Vérification de Présence** : Idéal pour tester si un élément est présent dans une collection.
 
-Conditions dans les Boucles et les Instructions Conditionnelles : Souvent utilisé dans les structures```if```, ```while```, etc.
+**Conditions dans les Boucles et les Instructions Conditionnelles** : Souvent utilisé dans les structures```if```, ```while```, etc.
 
-Filtrage de Données : Permet de vérifier rapidement l'existence d'une valeur dans des ensembles de données.
+**Filtrage de Données** : Permet de vérifier rapidement l'existence d'une valeur dans des ensembles de données.
 
 ## Compatibilité avec Différents Types
 
