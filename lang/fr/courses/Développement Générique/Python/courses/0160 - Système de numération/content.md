@@ -18,6 +18,7 @@ Python offre des outils pour travailler avec différents systèmes de numératio
 
 **Représentation** : Le système que nous utilisons habituellement avec les chiffres de 0 à 9.
 **Préfixe Python** : Aucun préfixe particulier n'est nécessaire.
+
 ```python
 decimal_number = 10  # c'est déjà en base 10
 ```
