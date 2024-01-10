@@ -12,7 +12,7 @@ import configparser
 
 Les fichiers de configuration sont généralement structurés en sections, chacune contenant des paires clé-valeur :
 
-```csharp
+```python
 [Section1]
 clé1 = valeur1
 clé2 = valeur2

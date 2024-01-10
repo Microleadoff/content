@@ -5,6 +5,7 @@ La fonction ```dir()``` en Python est utilisée pour l'introspection, c'est-à-d
 ## Utilisation de Base de ```dir()```
 
 ### Syntaxe
+
 ```python
 dir(objet)
 ```

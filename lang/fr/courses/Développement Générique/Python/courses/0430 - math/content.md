@@ -3,6 +3,7 @@
 Le module ```math``` en Python offre un ensemble de fonctions mathématiques et de constantes qui permettent d'effectuer des calculs mathématiques précis.
 
 ## Importation du Module
+
 ```python
 import math
 ```
@@ -47,6 +48,6 @@ import math
 
 ## Bonnes Pratiques
 
-Utilisation des Fonctions Appropriées : Utilisez les fonctions spécifiques du module ```math``` pour garantir la précision et l'efficacité des calculs.
-Conversion d'Angles : Faites attention à convertir les angles en radians ou en degrés selon les besoins.
-Comprendre les Résultats : Soyez conscient de la nature des résultats (par exemple, ```math.sqrt``` renvoie toujours un flottant).
+**Utilisation des Fonctions Appropriées** : Utilisez les fonctions spécifiques du module ```math``` pour garantir la précision et l'efficacité des calculs.
+**Conversion d'Angles** : Faites attention à convertir les angles en radians ou en degrés selon les besoins.
+**Comprendre les Résultats** : Soyez conscient de la nature des résultats (par exemple, ```math.sqrt``` renvoie toujours un flottant).

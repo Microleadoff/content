@@ -37,7 +37,6 @@ nombre = random.randrange(0, 100, 5)
 
 ### random.choice(seq)
 
-
 **Utilisation** : Sélectionne un élément aléatoire d'une liste non vide seq.
 **Exemple** :
 
@@ -56,8 +55,8 @@ random.shuffle(liste)
 
 ### random.sample(population, k)
 
-    Utilisation : Retourne une liste de longueur k d'éléments uniques choisis à partir de la population.
-    Exemple :
+**Utilisation** : Retourne une liste de longueur k d'éléments uniques choisis à partir de la population.
+**Exemple** :
 
 ```python
 echantillon = random.sample(range(100), 5)
