@@ -36,7 +36,7 @@ resultat est maintenant un objet map contenant ```[1, 4, 9, 16]```.
 **Utilisation avec des Fonctions Lambda** : Souvent utilisé avec des fonctions lambda pour des opérations simples et anonymes.
 
 ```python
-    resultat = map(lambda x: x**2, nombres)
+resultat = map(lambda x: x**2, nombres)
 ```
 
 Conversion en Liste ou Autres Types de Collections
