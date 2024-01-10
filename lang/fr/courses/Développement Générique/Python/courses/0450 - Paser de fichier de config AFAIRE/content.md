@@ -12,60 +12,60 @@ import configparser
 
 Les fichiers de configuration sont généralement structurés en sections, chacune contenant des paires clé-valeur :
 
-csharp
-
+```csharp
 [Section1]
 clé1 = valeur1
 clé2 = valeur2
 
 [Section2]
 clé1 = valeur1
+```
 
-Création et Écriture de Fichiers de Configuration
-Création d'un Objet ConfigParser
+## Création et Écriture de Fichiers de Configuration
 
-python
+### Création d'un Objet ConfigParser
 
+```python
 config = configparser.ConfigParser()
+```
 
-Ajout de Sections et de Paramètres
+### Ajout de Sections et de Paramètres
 
-python
-
+```python
 config['Section1'] = {'clé1': 'valeur1', 'clé2': 'valeur2'}
 config['Section2'] = {'clé1': 'valeur1'}
+```
 
-Écriture dans un Fichier
+## Écriture dans un Fichier
 
-python
-
+```python
 with open('config.ini', 'w') as configfile:
     config.write(configfile)
+```
 
-Lecture et Analyse de Fichiers de Configuration
-Lecture d'un Fichier
+## Lecture et Analyse de Fichiers de Configuration
 
-python
+### Lecture d'un Fichier
 
+```python
 config.read('config.ini')
+```
 
-Accès aux Valeurs
+### Accès aux Valeurs
 
-python
-
+```python
 section1_key1 = config['Section1']['clé1']
+```
 
-Fonctions Utiles de configparser
+## Fonctions Utiles de configparser
 
-    sections() : Renvoie une liste de toutes les sections.
-    options(section) : Renvoie une liste de toutes les options dans une section donnée.
-    get(section, option) : Renvoie la valeur d'une option spécifique.
-    getint(), getfloat(), getboolean() : Renvoie la valeur dans un type spécifique.
+**```sections()```** : Renvoie une liste de toutes les sections.
+**```options(section)```** : Renvoie une liste de toutes les options dans une section donnée.
+**```get(section, option)```** : Renvoie la valeur d'une option spécifique.
+**```getint()```, ```getfloat()```, ```getboolean()```** : Renvoie la valeur dans un type spécifique.
 
 Bonnes Pratiques
 
-    Validation : Assurez-vous de valider les données lues à partir de fichiers de configuration.
-    Gestion des Exceptions : Gérez les exceptions pour les fichiers manquants ou les erreurs de lecture.
-    Sécurité : Évitez de stocker des informations sensibles dans des fichiers de configuration en clair.
-
-Le module configparser est un outil essentiel pour gérer des fichiers de configuration en Python, permettant une manipulation facile des paramètres et des configurations d'applications.
+**Validation** : Assurez-vous de valider les données lues à partir de fichiers de configuration.
+**Gestion des Exceptions** : Gérez les exceptions pour les fichiers manquants ou les erreurs de lecture.
+**Sécurité** : Évitez de stocker des informations sensibles dans des fichiers de configuration en clair.

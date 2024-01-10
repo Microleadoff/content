@@ -6,14 +6,14 @@ La portée en Python détermine la visibilité et la disponibilité des variable
 
 ### Portée Locale (Local Scope)
 
-**Définition :** Variables définies à l'intérieur d'une fonction.
+**Définition** : Variables définies à l'intérieur d'une fonction.
 
-**Accès :** Accessibles uniquement dans la fonction où elles sont déclarées.
+**Accès** : Accessibles uniquement dans la fonction où elles sont déclarées.
 
-  ```python
-  def ma_fonction():
-      variable_locale = "Je suis locale"
-      print(variable_locale)  # Accessible ici
+```python
+def ma_fonction():
+  variable_locale = "Je suis locale"
+  print(variable_locale)  # Accessible ici
 ```
 ### Portée Globale (Global Scope)
 
@@ -21,10 +21,10 @@ La portée en Python détermine la visibilité et la disponibilité des variable
 **Accès** : Accessibles partout dans le module.
 
 ```python
-    variable_globale = "Je suis globale"
+variable_globale = "Je suis globale"
 
-    def ma_fonction():
-        print(variable_globale)  # Accessible ici
+def ma_fonction():
+    print(variable_globale)  # Accessible ici
 ```
 
 ### Portée Englobante (Enclosing Scope)
@@ -33,14 +33,13 @@ La portée en Python détermine la visibilité et la disponibilité des variable
 **Accès** : Variables du scope englobant sont accessibles dans les fonctions imbriquées.
 
 ```python
+def exterieur():
+    variable_englobante = "Je suis englobante"
 
-    def exterieur():
-        variable_englobante = "Je suis englobante"
+    def interieur():
+        print(variable_englobante)  # Accessible ici
 
-        def interieur():
-            print(variable_englobante)  # Accessible ici
-
-        interieur()
+    interieur()
 ```
 
 ### Portée Intégrée (Built-in Scope)
@@ -59,10 +58,9 @@ Python suit cet ordre pour trouver la signification d'un nom.
 Utilisation de global : Pour modifier une variable globale dans une fonction locale.
 
 ```python
-
-    def ma_fonction():
-        global variable_globale
-        variable_globale = "Modifiée"
+def ma_fonction():
+    global variable_globale
+    variable_globale = "Modifiée"
 ```
 
 ## Bonnes Pratiques
