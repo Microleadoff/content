@@ -10,9 +10,9 @@
 filter(function, iterable)
 ```
 
-function : Une fonction qui teste chaque élément de l'itérable. Doit renvoyer ```True``` pour conserver l'élément, ```False``` pour l'exclure.
+```function``` : Une fonction qui teste chaque élément de l'itérable. Doit renvoyer ```True``` pour conserver l'élément, ```False``` pour l'exclure.
 
-iterable : Un itérable (comme une liste ou un tuple) dont les éléments seront testés.
+```iterable``` : Un itérable (comme une liste ou un tuple) dont les éléments seront testés.
 
 ### Exemple
 
