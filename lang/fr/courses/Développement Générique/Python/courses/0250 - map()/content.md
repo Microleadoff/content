@@ -9,8 +9,8 @@
 ```python
 map(function, iterable)
 ```
-function : Une fonction qui sera appliquée à chaque élément de iterable.
-iterable : Un itérable dont les éléments seront traités par function.
+```function``` : Une fonction qui sera appliquée à chaque élément de iterable.
+```iterable``` : Un itérable dont les éléments seront traités par function.
 
 ## Exemple
 
@@ -21,13 +21,13 @@ def carre(nombre):
 nombres = [1, 2, 3, 4]
 resultat = map(carre, nombres)
 ```
-resultat est maintenant un objet map contenant [1, 4, 9, 16].
+resultat est maintenant un objet map contenant ```[1, 4, 9, 16]```.
 
 ## Caractéristiques de ```map()```
 
-Renvoie un Objet Map : ```map()``` ne retourne pas une liste, mais un objet ```map```, qui est un itérable.
+**Renvoie un Objet Map** : ```map()``` ne retourne pas une liste, mais un objet ```map```, qui est un itérable.
 
-Efficacité : L'objet ```map``` ne stocke pas tous les résultats en mémoire; il les calcule à la volée, ce qui est plus efficace pour de grands itérables.
+**Efficacité** : L'objet ```map``` ne stocke pas tous les résultats en mémoire; il les calcule à la volée, ce qui est plus efficace pour de grands itérables.
 
 ## Utilisations Courantes
 
