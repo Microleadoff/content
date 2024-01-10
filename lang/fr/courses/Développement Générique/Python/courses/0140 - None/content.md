@@ -28,7 +28,7 @@ if a is None:
 
 ## Utilisation dans les Fonctions
 
-Valeur de Retour par Défaut : Les fonctions en Python retournent ```None``` si aucune valeur n'est explicitement retournée avec return.
+Valeur de Retour par Défaut : Les fonctions en Python retournent ```None``` si aucune valeur n'est explicitement retournée avec ```return```.
 
 ```python
 def function_without_return():
