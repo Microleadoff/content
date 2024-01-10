@@ -43,11 +43,11 @@ Filtrage de Données : Permet de vérifier rapidement l'existence d'une valeur d
 
 ## Compatibilité avec Différents Types
 
-Séquences : Fonctionne avec des listes, des tuples, des chaînes de caractères, etc.
+**Séquences** : Fonctionne avec des listes, des tuples, des chaînes de caractères, etc.
 
-Dictionnaires : in vérifie la présence de clés dans un dictionnaire.
+**Dictionnaires** : in vérifie la présence de clés dans un dictionnaire.
 
-Ensembles : Utilisé pour vérifier la présence d'éléments dans des ensembles (set).
+**Ensembles** : Utilisé pour vérifier la présence d'éléments dans des ensembles (set).
 
 ## Bonnes Pratiques
 

@@ -5,8 +5,8 @@ Les générateurs en Python sont un type d'itérable, comme les listes ou les tu
 ## Création de Générateurs
 
 ### Utilisation de Fonctions et ```yield```
-- **Définition :** Un générateur est créé avec une fonction qui utilise l'instruction ```yield```.
-- **Syntaxe :**
+- **Définition** : Un générateur est créé avec une fonction qui utilise l'instruction ```yield```.
+- **Syntaxe** :
 
   ```python
 def mon_generateur():
@@ -16,10 +16,10 @@ def mon_generateur():
 ### Exemple :
 
 ```python
-  def compte_jusqu_a_trois():
-      yield 1
-      yield 2
-      yield 3
+def compte_jusqu_a_trois():
+    yield 1
+    yield 2
+    yield 3
 ```
 
 ## Générateurs avec Expressions
