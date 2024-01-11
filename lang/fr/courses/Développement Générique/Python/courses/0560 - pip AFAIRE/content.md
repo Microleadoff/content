@@ -4,8 +4,8 @@
 
 ## Qu'est-ce que ```pip``` ?
 
-- **Définition :** ```pip``` est l'acronyme de "Pip Installs Packages" (Pip Installe des Paquets).
-- **Utilisation :** Avec ```pip```, vous pouvez installer des paquets depuis le Python Package Index (```PyPI```) et d'autres dépôts.
+- **Définition** : ```pip``` est l'acronyme de "Pip Installs Packages" (Pip Installe des Paquets).
+- **Utilisation** : Avec ```pip```, vous pouvez installer des paquets depuis le Python Package Index (```PyPI```) et d'autres dépôts.
 
 ## Installation de ```pip```
 

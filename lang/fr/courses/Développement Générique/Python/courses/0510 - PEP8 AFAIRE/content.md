@@ -4,9 +4,9 @@ Le PEP 8 est une convention de style pour le code Python. Il vise à améliorer 
 
 ## Principes Généraux
 
-- **Lisibilité :** Le code doit être facile à lire et à comprendre.
-- **Cohérence :** Le code au sein d'un projet doit être cohérent.
-- **Conformité :** Suivez les conventions de style autant que possible.
+- **Lisibilité** : Le code doit être facile à lire et à comprendre.
+- **Cohérence** : Le code au sein d'un projet doit être cohérent.
+- **Conformité** : Suivez les conventions de style autant que possible.
 
 ## Règles de Formatage
 
@@ -25,9 +25,10 @@ Le PEP 8 est une convention de style pour le code Python. Il vise à améliorer 
 - Utilisez des commentaires pour expliquer le "pourquoi", pas le "comment".
 
 ### Nommage des Variables
-- Les noms de fonctions, variables et attributs doivent être en `snake_case`.
-- Les constantes doivent être en `UPPER_CASE`.
-- Les noms de classes et d'exceptions doivent être en `CamelCase`.
+- Les noms de fonctions, variables et attributs doivent être en ```snake_case```.
+- Les constantes doivent être en ```UPPER_CASE```.
+- Les noms de classes et d'exceptions doivent être en 
+```CamelCase```.
 
 ## Organisation du Code
 
@@ -45,8 +46,9 @@ Le PEP 8 est une convention de style pour le code Python. Il vise à améliorer 
 
 ## Conseils Supplémentaires
 
-- **Code Explicit :** Préférez un code explicite et simple à du code complexe et implicite.
-- **Erreurs Silencieuses :** Évitez de passer sous silence les exceptions.
-- **Comparaisons :** Utilisez les mots-clés `is` ou `is not` pour les comparaisons à `None`.
+- **Code Explicit** : Préférez un code explicite et simple à du code complexe et implicite.
+- **Erreurs Silencieuses** : Évitez de passer sous silence les exceptions.
+- **Comparaisons** : Utilisez les mots-clés 
+```is``` ou ```is not``` pour les comparaisons à ```None```.
 
 Le respect du PEP 8 est recommandé pour la cohérence et la lisibilité dans la communauté Python. Cependant, il est important de savoir quand s'écarter de ces règles pour le bien du projet.

@@ -4,15 +4,15 @@ La variable ```__name__``` en Python est une variable spéciale utilisée pour d
 
 ## Qu'est-ce que ```__name__``` ?
 
-- **Définition :** ```__name__``` est une variable intégrée qui obtient sa valeur en fonction de la manière dont le fichier est exécuté.
-- **Valeurs :**
+- **Définition** : ```__name__``` est une variable intégrée qui obtient sa valeur en fonction de la manière dont le fichier est exécuté.
+- **Valeurs** :
   - ```__main__``` si le fichier est exécuté comme script principal.
   - Nom du module si le fichier est importé.
 
 ## Utilisation Courante de ```__name__```
 
 ### Point d'Entrée du Script
-**Syntaxe Typique :**
+**Syntaxe Typique** :
 ```python
 if __name__ == '__main__':
   # Le code ici est exécuté uniquement lorsque le fichier est le programme principal.
@@ -49,7 +49,7 @@ if __name__ == '__main__':
 
 ```main()``` est exécuté uniquement si le script est le programme principal. Si le script est importé, ```main()``` n'est pas exécuté.
 
-Importation du Script en tant que Module
+## Importation du Script en tant que Module
 
 En important ce script dans un autre fichier, seules les fonctions et les classes définies seront accessibles, sans exécuter le code dans ```main()```.
 

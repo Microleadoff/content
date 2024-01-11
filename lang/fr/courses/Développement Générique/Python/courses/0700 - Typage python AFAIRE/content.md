@@ -4,8 +4,8 @@ Python est un langage de programmation dynamiquement typé, mais à partir de Py
 
 ## Annotations de Types en Python
 
-**Objectif :** Améliorer la lisibilité du code, faciliter le débogage et permettre aux outils de vérifier les types de variables, de paramètres de fonction, et de valeurs de retour.
-**PEP 484 :** Introduit le concept d'annotations de types en Python.
+**Objectif** : Améliorer la lisibilité du code, faciliter le débogage et permettre aux outils de vérifier les types de variables, de paramètres de fonction, et de valeurs de retour.
+**PEP 484** : Introduit le concept d'annotations de types en Python.
 
 ## Syntaxe des Annotations de Types
 

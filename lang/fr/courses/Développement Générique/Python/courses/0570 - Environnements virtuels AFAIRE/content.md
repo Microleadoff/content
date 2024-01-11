@@ -20,7 +20,7 @@ Rend les projets plus faciles à partager et à reproduire sur d'autres machines
 
 ### Utilisation de ```venv``` (Python 3.3 et Plus)
 
-**Création :**
+**Création** :
 
 ```shell
 python3 -m venv nom_du_env
@@ -68,7 +68,7 @@ Utilisez pip pour installer des paquets spécifiques à l'environnement.
 pip install <paquet>
 ```
 
-### Création d'un requirements.txt :
+### Création d'un requirements.txt
 
 ```shell
 pip freeze > requirements.txt
@@ -76,7 +76,7 @@ pip freeze > requirements.txt
 
 ## Désactivation de l'Environnement Virtuel
 
-### Désactivation :
+### Désactivation
 
 ```shell
 deactivate

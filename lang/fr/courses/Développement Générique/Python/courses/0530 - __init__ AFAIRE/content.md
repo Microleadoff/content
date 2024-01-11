@@ -4,8 +4,8 @@ La méthode ```__init__``` est une méthode spéciale en Python, souvent appelé
 
 ## Définition de ```__init__```
 
-**But :** Initialiser les attributs de l'instance de la classe.
-**Syntaxe :**
+**But** : Initialiser les attributs de l'instance de la classe.
+**Syntaxe** :
 ```python
 class MaClasse:
   def __init__(self, param1, param2):
