@@ -27,40 +27,41 @@ Affectez des valeurs à ```os.environ```.
 os.environ['DB_PASSWORD'] = 'secret'
 ```
 
-Utilisation de python-dotenv pour Gérer les Fichiers .env
-Installation de python-dotenv
+## Utilisation de python-dotenv pour Gérer les Fichiers ```.env```
 
-shell
+### Installation de ```python-dotenv```
 
+```shell
 pip install python-dotenv
+```
 
-Création d'un Fichier .env
+## Création d'un Fichier ```.env```
 
-Créez un fichier .env dans le répertoire racine de votre projet et ajoutez des variables d'environnement :
+Créez un fichier ```.env``` dans le répertoire racine de votre projet et ajoutez des variables d'environnement :
 
-makefile
-
+```makefile
 DB_PASSWORD=secret
 API_KEY=mon_api_key
+```
 
-Chargement des Variables Depuis le Fichier .env
+## Chargement des Variables Depuis le Fichier ```.env```
 
-    Syntaxe :
+### Syntaxe
 
-    python
-
+```python
 from dotenv import load_dotenv
 load_dotenv()
+```
 
-Accès aux Variables :
+### Accès aux Variables
 
-python
+```python
+db_password = os.environ.get('DB_PASSWORD')
+```
 
-    db_password = os.environ.get('DB_PASSWORD')
+## Bonnes Pratiques
 
-Bonnes Pratiques
-
-    Sécurité : Ne stockez jamais de fichiers .env dans des dépôts de code source publics.
-    .env pour le Développement : Utilisez des fichiers .env principalement pour le développement et les tests.
-    Variables d'Environnement pour la Production : En production, configurez les variables d'environnement directement sur l'hôte ou le service d'hébergement.
-    Documentation : Documentez les variables d'environnement requises dans votre README ou une documentation séparée.
+**Sécurité** : Ne stockez jamais de fichiers .env dans des dépôts de code source publics.
+**```.env``` pour le Développement** : Utilisez des fichiers ```.env``` principalement pour le développement et les tests.
+**Variables d'Environnement pour la Production** : En production, configurez les variables d'environnement directement sur l'hôte ou le service d'hébergement.
+**Documentation** : Documentez les variables d'environnement requises dans votre ```README``` ou une documentation séparée.
