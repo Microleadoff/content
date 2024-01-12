@@ -18,16 +18,13 @@ def mon_decorateur(fonction):
         # Ajouter des actions après
         return resultat
     return fonction_interne
-
 ```
 ### Utilisation d'un Décorateur
-
 
 ```python
 @mon_decorateur
 def ma_fonction():
     pass
-
 ```
 ## Exemples de Décorateurs
 
@@ -44,7 +41,6 @@ def decorateur_simple(fonction):
 @decorateur_simple
 def dit_bonjour():
     print("Bonjour !")
-
 ```
 
 ### Décorateur avec Arguments
@@ -61,7 +57,6 @@ def decorateur_avec_arguments(argument):
 @decorateur_avec_arguments("exemple")
 def ma_fonction():
     pass
-
 ```
 ## Bonnes Pratiques
 

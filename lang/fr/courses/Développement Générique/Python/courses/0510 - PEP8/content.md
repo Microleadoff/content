@@ -52,3 +52,7 @@ Le PEP 8 est une convention de style pour le code Python. Il vise à améliorer 
 ```is``` ou ```is not``` pour les comparaisons à ```None```.
 
 Le respect du PEP 8 est recommandé pour la cohérence et la lisibilité dans la communauté Python. Cependant, il est important de savoir quand s'écarter de ces règles pour le bien du projet.
+
+## Lien vers site officiel
+
+[PEP 8](https://peps.python.org/pep-0008/)

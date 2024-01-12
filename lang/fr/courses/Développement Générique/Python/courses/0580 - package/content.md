@@ -15,6 +15,7 @@ Un package en Python est un moyen de structurer l'espace de noms Python en utili
 
 ## Structure d'un Package
 
+```bash
 mon_package/
 │ **init**.py
 │ module1.py
@@ -22,7 +23,7 @@ mon_package/
 │ sous_package/
 │ init.py
 │ module3.py
-
+```
 
 
 ## Utilisation d'un Package

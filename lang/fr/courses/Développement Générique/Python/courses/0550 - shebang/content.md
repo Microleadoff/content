@@ -4,16 +4,16 @@ Le shebang, ou ```#!```, est une ligne d'en-tête dans les scripts exécutables 
 
 ## Qu'est-ce qu'un Shebang ?
 
-- **Définition :** Le shebang est la combinaison des caractères ```#!``` suivie du chemin d'accès à un interpréteur.
-- **But :** Indique au système d'exploitation quel interpréteur utiliser pour exécuter le script.
+**Définition** : Le shebang est la combinaison des caractères ```#!``` suivie du chemin d'accès à un interpréteur.
+**But** : Indique au système d'exploitation quel interpréteur utiliser pour exécuter le script.
 
-## Syntaxe du Shebang en Python
+### Syntaxe du Shebang en Python
 
-- **Shebang Standard pour Python :**
+**Shebang Standard pour Python** :
 ```python
 #!/usr/bin/env python3
 ```
-Exemple de Script Python avec Shebang :
+### Exemple de Script Python avec Shebang
 
 ```python
 #!/usr/bin/env python3

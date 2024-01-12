@@ -4,10 +4,10 @@ La variable ```__name__``` en Python est une variable spéciale utilisée pour d
 
 ## Qu'est-ce que ```__name__``` ?
 
-- **Définition** : ```__name__``` est une variable intégrée qui obtient sa valeur en fonction de la manière dont le fichier est exécuté.
-- **Valeurs** :
-  - ```__main__``` si le fichier est exécuté comme script principal.
-  - Nom du module si le fichier est importé.
+**Définition** : ```__name__``` est une variable intégrée qui obtient sa valeur en fonction de la manière dont le fichier est exécuté.
+**Valeurs** :
+- ```__main__``` si le fichier est exécuté comme script principal.
+- Nom du module si le fichier est importé.
 
 ## Utilisation Courante de ```__name__```
 
@@ -30,7 +30,7 @@ Cela permet de séparer le code qui doit être exécuté lors de l'exécution du
 
 ### Exemples
 
-Exemple de Script avec __name__ :
+Exemple de Script avec ```__name__``` :
 
 ```python
 def fonction_utilitaire():
