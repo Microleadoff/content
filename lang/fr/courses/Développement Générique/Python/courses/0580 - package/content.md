@@ -25,7 +25,6 @@ mon_package/
 │ module3.py
 ```
 
-
 ## Utilisation d'un Package
 
 ### Importation d'un Module du Package

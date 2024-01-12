@@ -55,4 +55,5 @@ Le respect du PEP 8 est recommandé pour la cohérence et la lisibilité dans la
 
 ## Lien vers site officiel
 
-[PEP 8](https://peps.python.org/pep-0008/)
+
+<a href="https://peps.python.org/pep-0008/" title="pep-0008" target="_blank" rel="nofollow">PEP 8</a>
