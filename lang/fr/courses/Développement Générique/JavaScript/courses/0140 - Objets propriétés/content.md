@@ -33,7 +33,7 @@ const person = {
 };
 
 for (let x in person) {
-  txt += person[x];
+  console.log(x)
 }
 ```
 
