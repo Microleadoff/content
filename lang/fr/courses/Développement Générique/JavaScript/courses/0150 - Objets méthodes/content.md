@@ -51,7 +51,7 @@ Exemple :
 name = person.fullName;
 ```
 
-Cet exemple retourne la définition de la définition, c'est-à-dire ```function() { return this.firstName + " " + this.lastName; }```, car la méthode est appelée sans les parenthèses.
+Cet exemple retourne la définition de la méthode, c'est-à-dire ```function() { return this.firstName + " " + this.lastName; }```, car la méthode est appelée sans les parenthèses.
 
 ## Ajouter une méthode
 
