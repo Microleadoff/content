@@ -1,6 +1,6 @@
 ## Pillow en Python
 
-Pillow est une bibliothèque de traitement d'images en Python, une fourche maintenue de PIL (Python Imaging Library). Elle est utilisée pour ouvrir, manipuler et sauvegarder différents formats de fichiers d'images.
+Pillow est une librairie de traitement d'images pour Python, développée comme une extension de PIL (Python Imaging Library). Elle permet d'ouvrir, de manipuler et d'enregistrer des images dans divers formats.
 
 ## Installation de Pillow
 ```shell
