@@ -27,7 +27,7 @@ Exemple :
 
 ```js
 var x = "Ceci est une chaine de caractères dans laquelle nous allons trouver une chaine spécifique";
-console.log(x.indexOf("chaine"));
+console.log(x.lastIndexOf("chaine"));
 ```
 
 __Remarque__ : Ces deux fonctions retournent **-1** si l’occurrence n’a pas été trouvée.
