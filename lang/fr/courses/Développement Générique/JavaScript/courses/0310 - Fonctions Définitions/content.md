@@ -66,7 +66,7 @@ __Remarque__ : Les expressions de fonctions ne sont pas hoistées.
 
 ## Les fonctions qui s’appellent elles-mêmes
 
-Les fonctions peuvent s’écrire de telle manière qu’elles s’appellent elles-mêmes. En d’autre terme, ces fonctions sont invoquées - c’est-à-dire appelées - par elles-mêmes, sans avoir besoin d’être appelées plus loin dans le code. 
+Les fonctions peuvent s’écrire de telle manière qu’elles s’appellent elles-mêmes. En d’autre termes, ces fonctions sont invoquées - c’est-à-dire appelées - par elles-mêmes, sans avoir besoin d’être appelées plus loin dans le code. 
 
 Pour ce faire, les parenthèses **()** doivent être utilisées.
 
