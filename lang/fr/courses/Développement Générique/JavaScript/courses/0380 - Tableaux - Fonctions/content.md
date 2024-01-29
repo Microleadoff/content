@@ -116,7 +116,7 @@ Dans cet exemple, la fonction ```shift()``` retourne “**Renault**”, car c’
 
 ## Ajouter une entrée au début du tableau
 
-Pour ajouter une entrée au début du tableau, il faut utiliser la méthode ```unshift()```. Cette fonction retourne la taille de l’élément ajouté.
+Pour ajouter une entrée au début du tableau, il faut utiliser la méthode ```unshift()```. Cette fonction retourne la taille du tableau avec l'élément ajouté.
 
 De plus, une fois la nouvelle entrée ajoutée, les autres éléments contenus dans le tableau sont descendus. Leur numéro d’index prend alors **+1**.
 
