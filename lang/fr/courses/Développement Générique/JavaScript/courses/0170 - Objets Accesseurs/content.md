@@ -12,7 +12,7 @@ const person = {
     firstName: "John",
     lastName: "Doe",
     language: "en",
-    get language() {
+    get lang() {
         return this.language;
     }
 };
@@ -24,6 +24,8 @@ document.getElementById("demo").innerHTML = person.lang;
 Dans cet exemple, la première partie du code crée l’objet ```person```. Au sein de cet objet, une méthode de type getter est créée grâce au mot-clé ```get```.
 
 Ensuite, dans la seconde partie du code, la langue de la personne est affichée grâce à l’accesseur créé dans l’objet.
+
+Faites attention à ne pas nommer les getters du même nom que vos attributs sous réserve d'obtenir une erreur ```Max call stack size exceeded``` !
 
 ## Les setters - le mot-clé set
 
@@ -40,17 +42,19 @@ const person = {
     firstName: "John",
     lastName: "Doe",
     language: "",
-    set language(lang) {
+    set lang(lang) {
         this.language = lang;
     }
 };
 
 // Modifie la valeur de la propriété via le setter
-person.language = "en";
+person.lang = "en";
 
 // Affichage de la nouvelle valeur
 document.getElementById("demo").innerHTML = person.language;
 ```
+
+Faites attention à ne pas nommer les setters du même nom que vos attributs sous réserve d'obtenir une erreur ```Max call stack size exceeded``` !
 
 ## Qualité des données
 
