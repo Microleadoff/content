@@ -13,7 +13,7 @@ La plupart des programmes contiennent beaucoup de déclarations. Ces dernières 
 Exemple : 
 
 ``` js
-var chiffre = 2;
+let chiffre = 2;
 ```
 
 ## Les points-virgules
@@ -25,7 +25,7 @@ __Remarque__ : Les points-virgules en fin de déclaration ne sont pas obligatoir
 Exemple :
 
 ``` js
-var a = 1; b = 2; c = 3;
+let a = 1; b = 2; c = 3;
 ```
 
 ## Les espaces en JavaScript
@@ -35,9 +35,9 @@ Le langage JavaScript ignore les espaces lorsqu’il est exécuté. Ainsi, pour 
 Exemple :
 
 ``` js
-var a = 1;
-var b = 2;
-var addition : a + b;
+let a = 1;
+let b = 2;
+let addition : a + b;
 ```
 
 ## Taille des lignes et retours à la ligne
@@ -65,9 +65,9 @@ Exemple :
 
 ``` js
 function addition() {
-    var a = 1;
-    var b = 2;
-    var total = a + b;
+    let a = 1;
+    let b = 2;
+    let total = a + b;
     document.getElementById(total);
 }
 ```
