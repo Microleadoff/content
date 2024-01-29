@@ -46,7 +46,7 @@ const person = {
 };
 
 // Modifie la valeur de la propriété via le setter
-person.language("en");
+person.language = "en";
 
 // Affichage de la nouvelle valeur
 document.getElementById("demo").innerHTML = person.language;
