@@ -74,7 +74,7 @@ Ici, la fonction ```pop()``` retourne : “Volvo”.
 
 ### Ajouter une entrée
 
-La fonction ```push()```, quant à elle, permet d’ajouter une nouvelle entrée à la fin du tableau. Cette fonction retourne la taille de l’élément ajouté.
+La fonction ```push()```, quant à elle, permet d’ajouter une nouvelle entrée à la fin du tableau. Cette fonction retourne la taille du tableau en incluant l'élément ajouté.
 
 Exemple :
 
