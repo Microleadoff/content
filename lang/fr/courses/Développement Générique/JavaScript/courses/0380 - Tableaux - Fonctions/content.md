@@ -131,7 +131,7 @@ var carBrands = [
 carBrands.unshift("Renault");
 ```
 
-Dans cet exemple, ```unshift()``` retourne la valeur 4, car c’est la taille de l’élément ajouté. De plus, les autres entrées sont descendues. Par exemple, l’index de “**Peugeot**” était, auparavant **0**, il vaut désormais **1**.
+Dans cet exemple, ```unshift()``` retourne la valeur 4, car c’est la nouvelle longueur du tableau. De plus, les autres entrées sont descendues. Par exemple, l’index de “**Peugeot**” était, auparavant **0**, il vaut désormais **1**.
 
 ## Changer les éléments
 
