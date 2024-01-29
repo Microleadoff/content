@@ -22,6 +22,7 @@ Exemple :
 ``` js
 {
 	let x = 0;
+	// Ici, la variable x est toujours accessible
 } 
 // Ici, la variable x n'est plus accessible
 ```
