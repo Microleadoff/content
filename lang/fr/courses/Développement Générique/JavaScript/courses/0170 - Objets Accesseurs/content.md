@@ -78,7 +78,7 @@ Exemple :
 // Définit l'objet
 const obj = {counter : 0};
 
-// Définit les setters
+// Définit les setters et les getters
 Object.defineProperty(obj, "reset", {
     get : function () {this.counter = 0;}
 });
