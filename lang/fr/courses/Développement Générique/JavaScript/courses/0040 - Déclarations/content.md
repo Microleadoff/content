@@ -68,6 +68,6 @@ function addition() {
     let a = 1;
     let b = 2;
     let total = a + b;
-    document.getElementById(total);
+    console.log(total);
 }
 ```
