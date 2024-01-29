@@ -12,7 +12,7 @@ const person = {
     firstName: "John",
     lastName: "Doe",
     language: "en",
-    get lang() {
+    get language() {
         return this.language;
     }
 };
@@ -40,7 +40,7 @@ const person = {
     firstName: "John",
     lastName: "Doe",
     language: "",
-    set lang(lang) {
+    set language(lang) {
         this.language = lang;
     }
 };
