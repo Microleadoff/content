@@ -44,9 +44,9 @@ Exemple :
 
 ```js
 if (confirm("Êtes-vous sûr de vouloir quitter cette page ?")) {
-    txt = "À bientôt.";
+    console.log("À bientôt.");
 } else {
-    txt = "Vous avez annulé";
+    console.log("Vous avez annulé");
 }
 ```
 
