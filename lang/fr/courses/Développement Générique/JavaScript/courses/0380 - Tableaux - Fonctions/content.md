@@ -286,7 +286,7 @@ var carBrands = [
     "Citroen",
     "Volvo" 
 ];
-carBrands.slice(0);
+carBrands.slice(1);
 ```
 
 Cet exemple retourne le tableau suivant : ```["Peugeot”, “Citroen”, “Volvo”]```, car la fonction ```slice()``` a découpé le tableau à partir de la première entrée.

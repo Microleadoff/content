@@ -52,7 +52,7 @@ Exemple :
 const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
 ```
 
-Dans cet exemple, **firstName**, **lasName**, **age** et **eyeColor** sont les propriétés de l’objet **person**.
+Dans cet exemple, **firstName**, **lastName**, **age** et **eyeColor** sont les propriétés de l’objet **person**.
 
 ## Les méthodes d’objet
 
