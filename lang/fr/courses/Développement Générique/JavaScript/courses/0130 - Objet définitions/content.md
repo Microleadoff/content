@@ -32,7 +32,7 @@ let x = 3.14;
 
 Cependant, les variables JavaScript peuvent également contenir plusieurs variables. En fait, les objets sont également des variables, et ce sont les objets qui contiennent plusieurs valeurs.
 
-Les valeurs d’objet sont écrites en pair clé valeur, les deux séparés par les deux points : **cle:valeur**.
+Les valeurs d’objet sont écrites en paire clé valeur, les deux séparés par les deux points : **cle:valeur**.
 
 Exemple :
 
