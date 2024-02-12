@@ -45,6 +45,6 @@ Exemple :
 var d;
 Boolean(d); // La fonction, ici, renvoie faux car la variable d n'a pas de valeur
 
-var texte = "";
+var text = "";
 Boolean(text); // Ici, faux est également retourné car la chaîne de caractères est vide
 ```
