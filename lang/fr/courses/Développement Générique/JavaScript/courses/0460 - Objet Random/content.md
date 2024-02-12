@@ -30,7 +30,7 @@ Voilà à quoi peut ressembler une fonction “random” :
 
 ```js
 function randomNumber(min, max) {
-	return Math.floor(Math.random * (max - min)) + min ;
+	return Math.floor(Math.random() * (max - min)) + min ;
 }
 ```
 
