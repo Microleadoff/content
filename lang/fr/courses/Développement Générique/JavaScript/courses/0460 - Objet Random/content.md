@@ -1,6 +1,6 @@
 Il est des moments où un développeur a besoin qu’un nombre au hasard soit généré automatiquement.
 
-Pour ce faire, le langage JavaScript met à disposition l’objet Random.
+Pour ce faire, le langage JavaScript met à disposition la fonction Random.
 
 ## Math.random()
 
