@@ -4,9 +4,9 @@ L’objet Math permet de manipuler les nombres en y effectuant des tâches math�
 
 Contrairement aux autres objets en JavaScript, Math n’a pas de constructeur. De plus, c’est un objet statique - qui ne change pas -, et sa particularité est que les méthodes et les propriétés de l’objet Math sont utilisables sans avoir besoin de créer un nouvel objet math.
 
-## Les propriétés de Maths (constants)
+## Les propriétés de Math (constants)
 
-Maths, comme tout objet qui se respecte, contient des propriétés. Celles-ci sont accessibles en utilisant la syntaxe suivante :
+Math, comme tout objet qui se respecte, contient des propriétés. Celles-ci sont accessibles en utilisant la syntaxe suivante :
 
 ```js
 Math.nomDeLaPropriété;
