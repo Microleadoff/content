@@ -201,7 +201,7 @@ const voiture = [
 voiture[voiture.length - 1];
 ```
 
-Ici, la valeur retournée est bien le dernier élément du tableau, à savoir “Renault”.
+Ici, la valeur retournée est bien le dernier élément du tableau, à savoir "Citroen".
 
 ## Faire une boucle sur un tableau
 
