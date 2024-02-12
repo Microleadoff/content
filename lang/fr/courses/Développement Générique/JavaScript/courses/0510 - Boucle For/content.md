@@ -1,8 +1,8 @@
 En programmation, le principe d’une boucle est d’exécuter un bout de programme un certain nombre de fois, sans que le développeur ait à retaper sans cesse la même ligne de code avec juste une donnée changeante. 
 
-## Différents types de boucle
+## Différents types de boucles
 
-En Javascript, il existe 5 type de boucles - également appelées avec leur nom anglais *loop* :
+En Javascript, il existe 5 types de boucles - également appelées avec leur nom anglais *loop* :
 
 - La boucle ```for``` : permet de faire une boucle sur un morceau de code un certain nombre de fois. C’est la boucle détaillée dans ce chapitre.
 - La boucle ```for in``` : permet de faire une boucle sur les propriétés d’un objet. 
