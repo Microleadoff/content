@@ -52,7 +52,7 @@ Il existe plusieurs méthodes permettant de trouver un objet HTML. En voici une 
 - ```document.documentURI``` : retourne l’URI du document
 - ```document.domain``` : retourne le nom de domaine du serveur du document
 - ```document.embed``` : retourne tous les ```<embed>``` d’un document
-- ```document.form``` : retourne tous les éléments ```<form>``` d’un document
+- ```document.form``` : retourne tous les éléments **<form>**```** d’un document
 - ```document.head``` : retourne l’élément ```<head>``` d’un document
 - ```document.images``` : retourne tous les éléments ```<img>``` d’un document
 - ```document.implementation``` : retourne l’implémentation DOM
