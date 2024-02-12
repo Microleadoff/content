@@ -25,7 +25,7 @@ Tout comme Math contient un certain nombre de propriétés, cet objet met égale
 Avec l’objet Math, la syntaxe pour accéder à une méthode est la suivante :
 
 ```js
-Math.méthode.(nombre);
+Math.méthode(nombre);
 ```
 
 ### Convertir un nombre en nombre entier
@@ -85,9 +85,9 @@ Cette méthode retourne le signe du nombre passé en paramètre. En d’autres t
 Exemple :
 
 ```js
-Math.sign(5); // Retourne 1, car 5 est positif
+Math.sign(5); // Retourne 1 car 5 est positif
 Math.sign(-5); // Retourne -1 car 5 est négatif
-Math.sigh(0); // Retourne 0 car c'est un nombre nul
+Math.sign(0); // Retourne 0 car c'est un nombre nul
 ```
 
 #### La méthode Math.pow()

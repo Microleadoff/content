@@ -64,7 +64,7 @@ Exemple :
 const d = new Date("11/03/2020");
 ```
 
-Dans cet exemple, la date définie est le 03 décembre 2020.
+Dans cet exemple, la date définie est le 03 novembre 2020.
 
 ### Avertissements
 
