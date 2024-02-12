@@ -62,7 +62,7 @@ En JavaScript, un nombre peut être primitif ou un objet. La fonction ```valueOf
 Exemple : 
 
 ```js
-(5 + 5).valueOf(); // Ici, la valeur 60 est retournée
+(5 + 5).valueOf(); // Ici, la valeur 10 est retournée
 ```
 
 ## Convertir des variables en nombre
