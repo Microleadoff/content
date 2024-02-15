@@ -9,7 +9,7 @@ Ci-dessous, la liste des opérateurs de comparaison utilisables en Javascript :
 - ```!=``` : est l’opérateur d’inégalité. Il signifie “**n’est pas égal à**”. Exemple : ```2 != 3;```
 - ```!==``` : est l’opérateur de **stricte inégalité**. Exemple : ```"Bonjour" !== 2;```
 - ```>``` : est l’opérateur permettant de tester une supériorité. Cet opérateur signifie “**est supérieur à**”. Exemple : ```3 > 2;```
-- ```<``` : est l’opérateur permettant de tester une infériorité. Il signifie “**est inférieure à**”. Exemple : ```2 < 3;```
+- ```<``` : est l’opérateur permettant de tester une infériorité. Il signifie “**est inférieur à**”. Exemple : ```2 < 3;```
 - ```>=``` et ```<=``` : sont les opérateurs permettant de tester si quelque chose est **inférieur/supérieur ou égal à**.Exemple : ```2 <= 3;``` et ```3 >= 2;```
 
 ### Utilisation
@@ -52,4 +52,4 @@ Exemple :
 var ageVote = (age > 18) ? "Vous pouvez voter" : "Vous ne pouvez pas voter";
 ```
 
-Dans un premier temps, la variable ```ageVote``` est créée. Ensuite, la condition teste si la valeur de la variable ```age``` est supérieur à 18. Si tel est le cas, le résultat retourné est “**Vous pouvez voter**” ; sinon, c’est “**Vous ne pouvez pas voter**” qui s’affiche sur l’écran de l’utilisateur.
+Dans un premier temps, la variable ```ageVote``` est créée. Ensuite, la condition teste si la valeur de la variable ```age``` est supérieure à 18. Si tel est le cas, le résultat retourné est “**Vous pouvez voter**” ; sinon, c’est “**Vous ne pouvez pas voter**” qui s’affiche sur l’écran de l’utilisateur.

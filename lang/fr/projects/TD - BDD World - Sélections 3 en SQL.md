@@ -17,16 +17,21 @@ Ce TD portera sur la base de données nommée "World" fournie avec le programme 
 Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes SQL :
 
 
-1. Sélectionner toutes les sous-région appartenant aux régions id 1 à 3, ainsi que celles appartenant à la région id 5 en utilisant UNION
-2. Sélectionner tous les états avec une latitude comprise entre 20 et 40, ainsi que tous les états avec une longitude comprise entre 20 et 40 en utilisant UNION
-3. Sélectionner tous les pays dont le symbole de la monnaie est "€", ainsi que tous les pays dont le symbole de la monnaie est "$" en utilisant UNION
-4. Sélectionner toutes les villes dont le code de l'état est "AZ", ainsi que toutes les villes dont le code du pays est "AD" en utilisant UNION
-5. Sélectionner tous les pays dont le symbole de la monnaie est "$", ainsi que tous les pays dont le code iso3 contient la lettre "A" en utilisant UNION
-6. Sélectionner tous les id des régions, ainsi que tous les champs "region_id" des pays en utilisant UNION ALL
-7. Sélectionner tous les noms des sous-régions, ainsi que toutes les sous-régions des pays en utilisant UNION ALL
-8. Sélectionner tous les codes iso2 des pays, ainsi que tous les codes des pays depuis la table des états en utilisant UNION ALL
-9. Sélectionner toutes les dates de création des pays, ainsi que toutes les dates de création des états en utilisant UNION ALL
-10. Sélectionner tous les id des sous-régions, ainsi que tous id des régions en utilisant UNION ALL
+1. Sélectionner les identifiants et codes de pays des villes et des états sans doublon
+2. Sélectionner les identifiants, noms et dates de créations des continents des tables : continent (regions) et pays (countries) si l’identifiant du continent est compris entre 1 et 3 sans doublon
+3. Sélectionner les identifiants et codes de pays des villes et des états si les codes de pays contiennent la lettre « A » sans doublon
+4. Sélectionner les identifiants et dates de création des continents et sous-continents si les identifiants sont compris entre 1 et 10 sans doublon
+5. Sélectionner les identifiants et codes de pays des villes et des états si les codes de pays sont compris entre 1 et 10 
+6. Sélectionner les identifiants et codes de pays des villes et des états avec possibles doublons
+7. Sélectionner les identifiants, noms et dates de créations des continents tables : continent (regions) et pays (countries) si l’identifiant du continent est compris entre 1 et 3 avec possibles doublons
+8. Sélectionner les identifiants et codes de pays des villes et des états si les codes de pays contiennent la lettre « A » avec possibles doublon
+9. Sélectionner les identifiants et dates de création des continents et sous-continents si les identifiants sont compris entre 1 et 10 avec possibles doublons
+10. Sélectionner les pays dont les identifiants correspondent à ceux référencés dans la table des villes (INTERSECT - VERSION MySQL Workbench)
+11. Sélectionner les pays dont les identifiants correspondent à ceux référencés dans la table des villes si le code ISO2 du pays termine par un « E » (INTERSECT - VERSION MySQL Workbench)
+12. Sélectionner les États dont les identifiants correspondent à ceux référencés dans la table des villes (INTERSECT - VERSION MySQL Workbench)
+13. Sélectionner les états dont les identifiants correspondent à ceux des pays référencés dans les 200 premières entrées de la table des villes (INTERSECT - VERSION MySQL Workbench)
+14. Sélectionner les identifiants et les codes ISO2 des pays en excluant ceux qui sont dans la table des villes (EXCEPT)
+15. Sélectionner les identifiants et les codes des pays de la table des États en excluant ceux qui sont dans la table des villes (EXCEPT)
 
 ### Contraintes
 

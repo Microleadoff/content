@@ -114,6 +114,6 @@ Les variables déclarées avec ```const``` sont également hoistées, mais ne so
 Exemple :
 
 ``` js
-alert (carName);
+alert(carName);
 const carName = "Volvo";
 ```

@@ -66,7 +66,7 @@ __Remarque__ : Les expressions de fonctions ne sont pas hoistées.
 
 ## Les fonctions qui s’appellent elles-mêmes
 
-Les fonctions peuvent s’écrire de telle manière qu’elles s’appellent elles-mêmes. En d’autre terme, ces fonctions sont invoquées - c’est-à-dire appelées - par elles-mêmes, sans avoir besoin d’être appelées plus loin dans le code. 
+Les fonctions peuvent s’écrire de telle manière qu’elles s’appellent elles-mêmes. En d’autre termes, ces fonctions sont invoquées - c’est-à-dire appelées - par elles-mêmes, sans avoir besoin d’être appelées plus loin dans le code. 
 
 Pour ce faire, les parenthèses **()** doivent être utilisées.
 
@@ -156,7 +156,7 @@ const x = (x, y) => x * y; // Syntaxe fléchée
 
 Il est important de savoir que les fonctions fléchées n’ont pas leur propre ```this```. La raison est simple : vu que c’est une fonction anonyme, le programme ne sait pas par quoi il doit remplacer le ```this```. De plus, il n’est pas recommandé de les utiliser pour définir des méthodes d’objets
 
-Les fonctions fléchées ne sont pas hostées et doivent donc être définies avant d’être utilisées.
+Les fonctions fléchées ne sont pas hoistées et doivent donc être définies avant d’être utilisées.
 
 Utiliser ```const``` plutôt que ```var``` est recommandé, car une expression de fonction n’est pas censée pouvoir être modifiée.
 

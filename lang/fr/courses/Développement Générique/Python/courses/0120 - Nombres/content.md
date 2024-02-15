@@ -10,7 +10,7 @@ var2 = 10
 Vous pouvez également supprimer la référence à un objet numérique en utilisant l'instruction ```del```. La syntaxe de l'instruction ```del``` est la suivante :
 
 ```python
-del var1[,var2[,var3[....,varN]]]]
+del var1[,var2[,var3[....,varN]]]
 ```
 
 Vous pouvez supprimer un objet unique ou plusieurs objets en utilisant l'instruction ```del```. Par exemple :

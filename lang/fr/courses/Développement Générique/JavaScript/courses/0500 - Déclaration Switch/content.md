@@ -50,6 +50,7 @@ switch(userAge) {
 	
 	case 18 : 
 	    text = "Vous êtes en âge de voter";
+		break;
 
 	default :
 	    text = "Vous n'êtes pas en âge de voter";

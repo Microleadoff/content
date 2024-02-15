@@ -17,41 +17,31 @@ Ce TD portera sur la base de données nommée "World" fournie avec le programme 
 Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes SQL :
 
 
-1. Sélectionner le nombre de villes par État
-2. Sélectionner le nombre de villes par code d'État
-3. Sélectionner le nombre de villes par pays
-4. Sélectionner le nombre de villes par code de pays
-5. Sélectionner le nombre de villes par drapeau (flag)
-6. Calculer la somme des latitudes et des longitudes par region_id ainsi que la somme de chaque
-7. Calculer la moyenne des latitudes et des longitudes par country_id ainsi que la moyenne en tout
-8. Calculer les latitudes et longitudes minimales de chaque ville ainsi que la valeur minimale globale
-9. Calculer la moyenne des "fips_code" par pays et renvoyer également le total des moyennes
-10. Calculer la somme des valeurs des sous-régions par région et renvoyer également le total des valeurs
-11. Calculer la moyenne de la latitude par État ayant une moyenne supérieure à 40
-12. Calculer la moyenne de la longitude par État ayant une moyenne supérieure à -100
-13. Calculer la moyenne de la latitude par pays ayant une moyenne supérieure à 35
-14. Calculer la moyenne de la longitude par pays ayant une moyenne supérieure à -90
-15. Calculer la moyenne de la latitude et longitude avec une moyenne supérieure à 0
-16. Sélectionner les noms des continents dans l'ordre décroissant
-17. Sélectionner tous les pays qui ont une latitude supérieure à 20 dans l'ordre croissant
-18. Sélectionner les Etats dans lequel le mot "Region" apparait par ordre croissant
-19. Sélectionner tous les pays qui ont un état avec un id compris entre 480 et 500 par ordre décroissant
-20. Sélectionner toutes les sous-régions qui appartiennent à la région possédant l'id 2 par ordre décroissant
-21. Sélectionner les noms des États et des codes d'État en renommant les colonnes "nom_de_l_etat" et "code_de_l_etat"
-22. Sélectionner les noms des pays et des codes de pays en renommant les colonnes "nom_du_pays" et "code_du_pays"
-23. Sélectionner les latitudes et longitudes des villes en renommant les colonnes "latitude_de_la_ville" et "longitude_de_la_ville"
-24. Sélectionner les dates de création et de mise à jour des enregistrements en renommant les colonnes "date_de_creation" et "date_de_mise_a_jour"
-25. Sélectionner les indicateurs de drapeau et les identifiants WikiData en renommant les colonnes "indicateur_de_drapeau" et "identifiant_WikiData"
-26. Sélectionner les 10 premières lignes de la table des villes
-27. Sélectionner les 10 villes avec les latitudes les plus élevées
-28. Sélectionner les 10 villes avec les longitudes les plus basses
-29. Sélectionner les 10 villes dans l'état ayant l'id 123
-30. Sélectionner les 10 villes dans le pays ayant un id inférieur à 456
-31. Sélectionner les noms des villes et les catégories de latitude en utilisant "CASE" et "WHEN" (si la latitue est supérieure à 50, alors vous devrez retourner "Élevée", si elle est supérieure à 40 retournez "Modérée")
-32. Sélectionner les noms des villes et les catégories de latitude en utilisant "CASE" et "WHEN" (si la latitude est supérieure à 60, retournez "Très élevée", si elle est supérieure à 50, alors vous devrez retourner "Élevée", si elle est supérieure à 40 retournez "Modérée")
-33. Sélectionner les noms des villes et les catégories de latitude en utilisant "CASE" et "WHEN" (si la latitude est supérieure à 45, alors vous devrez retourner "Élevée", si elle est supérieure à 35 retournez "Modérée")
-34. Sélectionner les noms des villes et les catégories de latitude en utilisant "CASE" et "WHEN" (si la latitude est supérieure à 47, retournez "Très élevée", si elle est supérieure à 42, alors vous devrez retourner "Élevée", si elle est supérieure à 37 retournez "Modérée")
-35. Sélectionner les noms des villes et les catégories de latitude en utilisant "CASE" et "WHEN" (si la latitude est supérieure à 55, retournez "Très élevée", si elle est supérieure à 50, alors vous devrez retourner "Élevée", si elle est supérieure à 45 retournez "Modérée")
+1. Sélectionner le nombre de pays par monnaies
+2. Sélectionner la latitude maximum et minimum des villes
+3. Sélectionner la latitude maximum et minimum des villes par pays
+4. Sélectionner la moyenne de latitude des villes par pays
+5. Sélectionner la moyenne de latitude des villes par pays si leur code contient un « A »
+6. Sélectionner le nombre de villes par pays avec un résumé général
+7. Sélectionner le nombre de villes par pays si leur identifiant d’État est compris entre 10 et 150
+8. Sélectionner la moyenne, le maximum et le minimum des latitudes des villes par pays si leur identifiant d’État est compris entre 10 et 150 avec un résumé général
+9. Sélectionner le nombre de villes pour les pays ayant les codes « ES » et « FR »
+10. Sélectionner le nombre de villes par pays s’il est supérieur à 50000
+11. Sélectionner la moyenne de latitude des villes par pays si elle est comprise entre 20 et 25
+12. Sélectionner la liste des pays en ordre alphabétique inversé de nom
+13. Sélectionner la liste des villes en ordre alphabétique inversé de code de pays et en ordre alphabétique par code d’État
+14. Sélectionner le nombre de villes par pays du plus petit au plus grand
+15. Sélectionner la latitude moyenne, maximum et minimum des villes par pays, utiliser des alias
+16. Sélectionner les 10 premiers pays
+17. Sélectionner les noms des 10 premiers pays, utiliser des alias
+18. Sélectionner 10 pays à partir du 5ème
+19. Sélectionner les noms des 10 premiers pays en ordre alphabétique inversé de nom
+20. Sélectionner le nombre de pays par monnaie pour les 10 premières monnaies si leur nombre est supérieur à 2, utiliser des alias
+21. Sélectionner le nombre de villes par pays si leur latitude est comprise entre 10 et 50 et le nombre est supérieur à 1000
+22. Sélectionner le nombre de villes par pays si leur code d’État contient un « Z » et le nombre est inférieur à 1000
+23. Sélectionner les noms des pays et afficher les catégories de monnaie EUR = « Euro », USD = « Dollars », Les autres = « Autre monnaie »
+24. Sélectionner le nombre de pays par monnaie ayant un résultat supérieur ou égal à 2 et afficher les catégories : supérieur à 5 = « Très élevé », supérieur à 3 = « Élevé », inférieur à 3 = « Moyen », utiliser des alias
+25. Sélectionner les moyennes des latitudes des villes par pays si le code pays contient un « A » comme deuxième lettre et afficher les catégories : supérieur à 10 = « Nord », inférieur à -10 = « Sud », compris entre 10 et -10 = « Équateur », utiliser des alias
 
 ### Contraintes
 

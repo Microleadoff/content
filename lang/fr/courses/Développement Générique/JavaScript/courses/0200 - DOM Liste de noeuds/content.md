@@ -41,7 +41,7 @@ for (let i = 0; i < myNodelist.length; i++) {
 
 Cet exemple permet de changer la couleur des paragraphes contenus dans la liste de nœuds.
 
-## Différence en HTMLCollection et NodeList
+## Différence entre HTMLCollection et NodeList
 
 ```HTMLCollection``` est une collection d’éléments HTML ; tandis que ```NodeList``` est une liste de nœuds contenus dans un document. En fait, ils sont tous les deux similaires.
 

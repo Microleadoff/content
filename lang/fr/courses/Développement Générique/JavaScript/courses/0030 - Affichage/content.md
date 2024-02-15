@@ -23,17 +23,17 @@ Exemple :
 <!DOCTYPE html>
 <html>
     <head>
-	<meta charset="utf-8" />
-	<title>Afficher du texte dans un élément HTML</title>
-	<script type="text/javascript">
-	    document.getElementById('message').innerHTML='<h1>Hello World</h1>';
-	</script>
+        <meta charset="utf-8" />
+        <title>Afficher du texte dans un élément HTML</title>
     </head>
 
     <body>
-	<div id="message">
+    	<div id="message">
 
         </div>
+        <script type="text/javascript">
+            document.getElementById('message').innerHTML='<h1>Hello World</h1>';
+        </script>
     </body>
 </html>
 ```

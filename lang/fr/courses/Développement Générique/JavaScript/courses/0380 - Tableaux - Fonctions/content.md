@@ -74,7 +74,7 @@ Ici, la fonction ```pop()``` retourne : “Volvo”.
 
 ### Ajouter une entrée
 
-La fonction ```push()```, quant à elle, permet d’ajouter une nouvelle entrée à la fin du tableau. Cette fonction retourne la taille de l’élément ajouté.
+La fonction ```push()```, quant à elle, permet d’ajouter une nouvelle entrée à la fin du tableau. Cette fonction retourne la taille du tableau en incluant l'élément ajouté.
 
 Exemple :
 
@@ -116,7 +116,7 @@ Dans cet exemple, la fonction ```shift()``` retourne “**Renault**”, car c’
 
 ## Ajouter une entrée au début du tableau
 
-Pour ajouter une entrée au début du tableau, il faut utiliser la méthode ```unshift()```. Cette fonction retourne la taille de l’élément ajouté.
+Pour ajouter une entrée au début du tableau, il faut utiliser la méthode ```unshift()```. Cette fonction retourne la taille du tableau avec l'élément ajouté.
 
 De plus, une fois la nouvelle entrée ajoutée, les autres éléments contenus dans le tableau sont descendus. Leur numéro d’index prend alors **+1**.
 
@@ -131,7 +131,7 @@ var carBrands = [
 carBrands.unshift("Renault");
 ```
 
-Dans cet exemple, ```unshift()``` retourne la valeur 4, car c’est la taille de l’élément ajouté. De plus, les autres entrées sont descendues. Par exemple, l’index de “**Peugeot**” était, auparavant **0**, il vaut désormais **1**.
+Dans cet exemple, ```unshift()``` retourne la valeur 4, car c’est la nouvelle longueur du tableau. De plus, les autres entrées sont descendues. Par exemple, l’index de “**Peugeot**” était, auparavant **0**, il vaut désormais **1**.
 
 ## Changer les éléments
 
@@ -286,7 +286,7 @@ var carBrands = [
     "Citroen",
     "Volvo" 
 ];
-carBrands.slice(0);
+carBrands.slice(1);
 ```
 
 Cet exemple retourne le tableau suivant : ```["Peugeot”, “Citroen”, “Volvo”]```, car la fonction ```slice()``` a découpé le tableau à partir de la première entrée.

@@ -44,23 +44,23 @@ Il existe une méthode qui permet d’écouter un évènement sur un élément H
 
 Il existe plusieurs méthodes permettant de trouver un objet HTML. En voici une liste non-exhaustive :
 
-- ```document.anchors``` : retourne tous les éléments HTML ```<a>``` ayant un attribut name
-- ```document.body``` : retourne l’élément ```<body>``` du document
+- ```document.anchors``` : retourne tous les éléments HTML **a** ayant un attribut name
+- ```document.body``` : retourne l’élément **body** du document
 - ```document.cookie``` : retourne le cookie d’un document
 - ```document.doctype``` : retourne le doctype d’un document
-- ```document.documentElement``` : retourne l’élément ```<html>``` d’un document
+- ```document.documentElement``` : retourne l’élément **html** d’un document
 - ```document.documentURI``` : retourne l’URI du document
 - ```document.domain``` : retourne le nom de domaine du serveur du document
-- ```document.embed``` : retourne tous les ```<embed>``` d’un document
-- ```document.form``` : retourne tous les éléments ```<form>``` d’un document
-- ```document.head``` : retourne l’élément ```<head>``` d’un document
-- ```document.images``` : retourne tous les éléments ```<img>``` d’un document
+- ```document.embed``` : retourne tous les **embed** d’un document
+- ```document.form``` : retourne tous les éléments **form** d’un document
+- ```document.head``` : retourne l’élément **head** d’un document
+- ```document.images``` : retourne tous les éléments **img** d’un document
 - ```document.implementation``` : retourne l’implémentation DOM
 - ```document.inputEncoding``` : retourne l’encodage du document (attribut HTML charset)
 - ```document.lastModified``` : retourne la date et l’heure de la dernière modification du document
-- ```document.links``` : retourne tous les éléments ```<area>``` et ```<a>``` ayant un attribut ```href```
+- ```document.links``` : retourne tous les éléments **area** et **a** ayant un attribut **href**
 - ```document.readyState``` : retourne le statut de chargement du document
-- ```document.scripts``` : retourne la totalité de l’élément ```<script>```
+- ```document.scripts``` : retourne la totalité de l’élément **script**
 - ```document.strictErrorChecking``` : retourne si la vérification de l’erreur est renforcé
-- ```document.title``` : retourne l’élément ```<title>```
+- ```document.title``` : retourne l’élément **title**
 - ```document.URL``` : retourne l’URL complète du document

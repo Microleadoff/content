@@ -2,7 +2,7 @@
 
 ### Description courte
 
-L'objectif de ce TD est de mettre en pratique les jointures dans une base de données SQL au sein d'un SGBD.
+L'objectif de ce TD est de mettre en pratique les commandes de sélection de lignes dans une base de données au sein d'un SGBD.
 
 ### Éléments donnés 
 
@@ -16,32 +16,33 @@ Ce TD portera sur la base de données nommée "Employees" fournie avec le progra
 
 Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes SQL :
 
+1. Sélectionner les noms, prénoms et numéros des employés et leur département actuel (INNER JOIN)
+2. Sélectionner les prénoms, noms et titres actuels des employés (INNER JOIN)
+4. Sélectionner les noms, prénoms et salaires des employés en Juin 1989 (INNER JOIN)
+5. Sélectionner les noms, prénoms et départements actuels des managers (INNER JOIN)
+6. Sélectionner les noms, prénoms et dates de début d'emploi des employés avec leur département (INNER JOIN)
+7. Sélectionner les noms et départements des employés ayant le même département que les managers ayant été embauchés après le 1er Janvier 1996 (INNER JOIN et Sous-requêtes)
+8. Sélectionner les employés et leur date d'embauche dans les départements où le salaire moyen est supérieur à 80000 (INNER JOIN et Sous-requêtes)
+9. Sélectionner les employés et les départements (CROSS JOIN)
+10. Sélectionner les postes actuels des employés avec les noms des départements (CROSS JOIN)
+11. Sélectionner les dates d'emploi des employés et les noms des départements (JOIN et CROSS JOIN)
+12. Sélectionner les noms, prénoms, dates d’embauche et départements des employés même s’ils n’ont pas de département associé (LEFT JOIN)
+13. Sélectionner les noms, prénoms et titres des employés même s’ils n’ont pas de titre associé (LEFT JOIN)
+14. Sélectionner les noms, prénoms et salaires des employés depuis 1985 (LEFT JOIN)
+15. Sélectionner les noms, prénoms et départements des employés même s’ils n’ont pas de département associé (RIGHT JOIN)
+16. Sélectionner les noms, prénoms et salaires des employés depuis 1985 (RIGHT JOIN)
+17. Sélectionner les noms, prénoms et titres des employés même s’ils n’ont pas de titre associé (RIGHT JOIN)
+18. Sélectionner les noms, prénoms et départements des employés même s’ils n’ont pas de département associé (FULL JOIN)
+19. Sélectionner les noms, prénoms et salaires des employés depuis 1985 (FULL JOIN)
+20. Sélectionner les noms, prénoms et titres des employés même s’ils n’ont pas de titre associé (FULL JOIN)
+21. Sélectionner les managers ayant le même département que d'autres managers (SELF JOIN)
+22. Sélectionner les managers ayant la même date d’embauche que d'autres managers (SELF JOIN)
+23. Sélectionner les informations sur les employés et leurs salaires (NATURAL JOIN)
+24. Sélectionner les informations sur les employés managers (NATURAL JOIN)
+25. Sélectionner les informations sur les employés managers et leur département (NATURAL JOIN)
+26. Sélectionner les identifiants, noms et prénoms des employés et la somme de leur salaire par identifiant (NATURAL JOIN)
+27. Sélectionner la somme des salaires par département (NATURAL JOIN)
 
-1. Sélectionner les prénoms et les noms des départements auxquels les employés sont affectés
-2. Sélectionner les noms de famille et les noms des départements auxquels les employés sont affectés
-3. Sélectionner les prénoms et les noms de départements pour les employés masculins
-4. Sélectionner les noms de famille et les noms de départements pour les employés féminins
-5. Sélectionner les prénoms et les noms de départements pour les employés embauchés en 2022
-6. Sélectionner les prénoms et les noms des départements auxquels les employés sont affectés (avec éventuelles affectations manquantes)
-7. Sélectionner les noms de famille et les noms des départements auxquels les employés sont affectés (avec éventuelles affectations manquantes)
-8. Sélectionner les prénoms et les noms de départements pour les employés masculins (avec éventuelles affectations manquantes)
-9. Sélectionner les noms de famille et les noms de départements pour les employés féminins (avec éventuelles affectations manquantes)
-10. Sélectionner les prénoms et les noms de départements pour les employés embauchés en 2022 (avec éventuelles affectations manquantes)
-11. Sélectionner les prénoms et les noms des départements auxquels les employés sont affectés (avec éventuelles affectations manquantes)
-12. Sélectionner les noms de famille et les noms des départements auxquels les employés sont affectés (avec éventuelles affectations manquantes)
-13. Sélectionner les prénoms et les noms de départements pour les employés masculins (avec éventuelles affectations manquantes)
-14. Sélectionner les noms de famille et les noms de départements pour les employés féminins (avec éventuelles affectations manquantes)
-15. Sélectionner les prénoms et les noms de départements pour les employés embauchés en 2022 (avec éventuelles affectations manquantes)
-16. Sélectionner les prénoms et les noms de départements pour chaque combinaison employé-département
-17. Sélectionner les noms de famille et les noms de départements pour chaque combinaison employé-département
-18. Sélectionner les prénoms et les noms de départements pour chaque combinaison employé-département, pour les employés masculins
-19. Sélectionner les noms de famille et les noms de départements pour chaque combinaison employé-département, pour les employés féminins
-20. Sélectionner les prénoms et les noms de départements pour chaque combinaison employé-département, pour les employés embauchés en 2022
-21. Sélectionner les prénoms des employés et les prénoms de leurs gestionnaires (avec gestionnaires optionnels)
-22. Sélectionner les noms de famille des employés et les noms de famille de leurs gestionnaires (avec gestionnaires optionnels)
-23. Sélectionner les prénoms des employés masculins et les prénoms de leurs gestionnaires masculins (avec gestionnaires optionnels)
-24. Sélectionner les noms de famille des employés féminins et les noms de famille de leurs gestionnaires féminins (avec gestionnaires optionnels)
-25. Sélectionner les prénoms des employés embauchés en 2022 et les prénoms de leurs gestionnaires (avec gestionnaires optionnels)
 
 ### Contraintes
 

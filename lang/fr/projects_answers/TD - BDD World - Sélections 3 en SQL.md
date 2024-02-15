@@ -2,152 +2,160 @@
 
 ### Voici la liste des commandes qu'il fallait effectuer dans l'ordre
 
-1. Sélectionner toutes les sous-région appartenant aux régions id 1 à 3, ainsi que celles appartenant à la région id 5 en utilisant UNION :
+
+1. Sélectionner les identifiants et codes de pays des villes et des états sans doublon
 ```sql
-SELECT *
-FROM subregions
-WHERE region_id < 4
+SELECT `country_id`, `country_code` 
+FROM `cities`
+UNION 
+SELECT `country_id`, `country_code` 
+FROM `states`;
+```
+ 
+2. Sélectionner les identifiants, noms et dates de créations des continents des tables : continent (regions) et pays (countries) si l’identifiant du continent est compris entre 1 et 3 sans doublon
+```sql
+SELECT `id`, `name`, `created_at` 
+FROM `regions` 
+WHERE `id` BETWEEN 1 AND 3
 UNION
-SELECT *
-FROM subregions
-WHERE region_id = 5
+SELECT `region_id`, `region`, `created_at` 
+FROM `countries` 
+WHERE `region_id` BETWEEN 1 AND 3;
 ```
-
-2. Sélectionner tous les états avec une latitude comprise entre 20 et 40, ainsi que tous les états avec une longitude comprise entre 20 et 40 en utilisant UNION :
+ 
+3. Sélectionner les identifiants et codes de pays des villes et des états si les codes de pays contiennent la lettre « A » sans doublon
 ```sql
-SELECT *
-FROM states
-WHERE latitude BETWEEN 20 AND 40
+SELECT `country_id`, `country_code` F
+ROM `cities` 
+WHERE `country_code` LIKE '%A%'
 UNION
-SELECT *
-FROM states
-WHERE longitude BETWEEN 20 AND 40
+SELECT `country_id`, `country_code` 
+FROM `states` 
+WHERE `country_code` LIKE '%A%';
 ```
-
-3. Sélectionner tous les pays dont le symbole de la monnaie est "€", ainsi que tous les pays dont le symbole de la monnaie est "$" en utilisant UNION
+ 
+4. Sélectionner les identifiants et dates de création des continents et sous-continents si les identifiants sont compris entre 1 et 10 sans doublon
 ```sql
-SELECT *
-FROM countries
-WHERE currency_symbol = '€'
+SELECT `id`, `created_at` 
+FROM `regions` 
+WHERE `id`BETWEEN 1 AND 10
 UNION
-SELECT *
-FROM countries
-WHERE currency_symbol = '$'
+SELECT `id`, `created_at` 
+FROM `subregions` 
+WHERE `id`BETWEEN 1 AND 10;
 ```
-
-4. Sélectionner toutes les villes dont le code de l'état est "AZ", ainsi que toutes les villes dont le code du pays est "AD" en utilisant UNION :
-```sql
-SELECT *
-FROM cities
-WHERE state_code = 'AZ'
-UNION
-SELECT *
-FROM cities
-WHERE country_code = 'AD'
+ 
+5. Sélectionner les identifiants et codes de pays des villes et des états si les codes de pays sont compris entre 1 et 10 
+```sql 
+SELECT `country_code`, COUNT( `country_id`) 
+FROM `cities` 
+WHERE `country_id` BETWEEN 1 AND 10 
+GROUP BY `country_code`
+UNION 
+SELECT `country_code`, COUNT( `country_id`) 
+FROM `states` 
+WHERE `country_id` BETWEEN 1 AND 10 
+GROUP BY `country_code`;
 ```
-
-5. Sélectionner tous les pays dont le symbole de la monnaie est "$", ainsi que tous les pays dont le code iso3 contient la lettre "A" en utilisant UNION :
+ 
+6. Sélectionner les identifiants et codes de pays des villes et des états avec possibles doublons
 ```sql
-SELECT *
-FROM countries
-WHERE currency_symbol = '$'
-UNION
-SELECT *
-FROM countries
-WHERE iso3 LIKE "%A%"
-```
-
-6. Sélectionner tous les id des régions, ainsi que tous les champs "region_id" des pays en utilisant UNION ALL :
-```sql
-SELECT id FROM regions
+SELECT `country_id`, `country_code` 
+FROM `cities`
 UNION ALL
-SELECT region_id FROM countries
+SELECT `country_id`, `country_code` 
+FROM `states`;
 ```
 
-7. Sélectionner tous les noms des sous-régions, ainsi que toutes les sous-régions des pays en utilisant UNION ALL :
+7. Sélectionner les identifiants, noms et dates de créations des continents tables : continent (regions) et pays (countries) si l’identifiant du continent est compris entre 1 et 3 avec possibles doublons
 ```sql
-SELECT name FROM subregions
+SELECT `id`, `name`, `created_at` 
+FROM `regions` 
+WHERE `id`BETWEEN 1 AND 3
 UNION ALL
-SELECT subregion FROM countries
+SELECT `region_id`, `region`, `created_at` 
+FROM `countries` 
+WHERE `region_id` BETWEEN 1 AND 3;
 ```
 
-8. Sélectionner tous les codes iso2 des pays, ainsi que tous les codes des pays depuis la table des états en utilisant UNION ALL
+8. Sélectionner les identifiants et codes de pays des villes et des états si les codes de pays contiennent la lettre « A » avec possibles doublon
 ```sql
-SELECT iso2 FROM countries
+SELECT `country_id`, `country_code` 
+FROM `cities` 
+WHERE `country_code` LIKE '%A%'
 UNION ALL
-SELECT country_code FROM states
+SELECT `country_id`, `country_code` 
+FROM `states` 
+WHERE `country_code` LIKE '%A%';
 ```
 
-9. Sélectionner toutes les dates de création des pays, ainsi que toutes les dates de création des états en utilisant UNION ALL
+9. Sélectionner les identifiants et dates de création des continents et sous-continents si les identifiants sont compris entre 1 et 10 avec possibles doublons
 ```sql
-SELECT created_at FROM countries
+SELECT `id`, `created_at` 
+FROM `regions` 
+WHERE `id` BETWEEN 1 AND 10
 UNION ALL
-SELECT created_at FROM states
+SELECT `id`, `created_at` 
+FROM `subregions` 
+WHERE `id` BETWEEN 1 AND 10;
+```
+ 
+10. Sélectionner les pays dont les identifiants correspondent à ceux référencés dans la table des villes (INTERSECT - VERSION MySQL Workbench)
+```sql
+SELECT DISTINCT * 
+FROM `countries`
+WHERE `id` IN (
+	SELECT `country_id`
+ 	FROM `cities`
+);
 ```
 
-10. Sélectionner tous les id des sous-régions, ainsi que tous id des régions en utilisant UNION ALL
+11. Sélectionner les pays dont les identifiants correspondent à ceux référencés dans la table des villes si le code ISO2 du pays termine par un « E » (INTERSECT - VERSION MySQL Workbench)
 ```sql
-SELECT id FROM subregions
-UNION ALL
-SELECT id FROM regions
+SELECT DISTINCT * 
+FROM `countries`
+WHERE `id` IN (
+ 	SELECT `country_id`
+ 	FROM `cities`
+)
+AND `iso2` LIKE "%E";
 ```
 
-
+12. Sélectionner les États dont les identifiants correspondent à ceux référencés dans la table des villes (INTERSECT - VERSION MySQL Workbench)
 ```sql
-XXX
+SELECT DISTINCT * 
+FROM `states`
+WHERE `id` IN (
+ 	SELECT `country_id`
+ 	FROM `cities`
+);
+```
+ 
+13. Sélectionner les états dont les identifiants correspondent à ceux des pays référencés dans les 200 premières entrées de la table des villes (INTERSECT - VERSION MySQL Workbench)
+```sql
+SELECT DISTINCT * 
+FROM `states`
+WHERE `id` IN (
+ 	SELECT `country_id`
+ 	FROM `cities`
+ WHERE `id` BETWEEN 1 AND 200
+);
 ```
 
-
+14. Sélectionner les identifiants et les codes ISO2 des pays en excluant ceux qui sont dans la table des villes (EXCEPT)
 ```sql
-XXX
+SELECT `id`, `iso2` 
+FROM `countries`
+EXCEPT
+SELECT `country_id`, `country_code` 
+FROM `cities`;
 ```
 
-
+15. Sélectionner les identifiants et les codes des pays de la table des États en excluant ceux qui sont dans la table des villes (EXCEPT)
 ```sql
-XXX
-```
-
-
-```sql
-XXX
-```
-
-
-```sql
-XXX
-```
-
-
-```sql
-XXX
-```
-
-
-```sql
-XXX
-```
-
-
-```sql
-XXX
-```
-
-
-```sql
-XXX
-```
-
-
-```sql
-XXX
-```
-
-
-```sql
-XXX
-```
-
-
-```sql
-XXX
+SELECT `country_id`, `country_code` 
+FROM `states`
+EXCEPT
+SELECT `country_id`, `country_code` 
+FROM `cities`;
 ```

@@ -1,6 +1,6 @@
 La rédaction du corps du mémoire commence obligatoirement par l'organisation des idées et des informations que vous souhaitez y intégrer. 
 
-**Note** : Ce cours vous donne la démarche précise sur comment vous organiser dans le traitement des informations à votre disposition, mais n'est pas spécifique à chaque partie de votre mémoire. __Nous vous recommandons donc de lire tous les cours sur le s du mémoire avant de vous y attaquer afin d'éviter toute mauvaise surprise !__
+**Note** : Ce cours vous donne la démarche précise sur comment vous organiser dans le traitement des informations à votre disposition, mais n'est pas spécifique à chaque partie de votre mémoire. __Nous vous recommandons donc de lire tous les cours sur la roadmap du mémoire avant de vous y attaquer afin d'éviter toute mauvaise surprise !__
 
 ## Première étape : les principaux titres (plan niveau 1)
 
