@@ -22,8 +22,7 @@ const person = {
   city: "New York"
 };
 
-document.getElementById("demo").innerHTML =
-person.name + "," + person.age + "," + person.city;
+console.log(person.name + "," + person.age + "," + person.city);
 ```
 
 Cet exemple retourne les valeurs des propriétés : “**John, 30, New York**”.
