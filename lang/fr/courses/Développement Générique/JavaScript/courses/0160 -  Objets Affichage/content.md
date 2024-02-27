@@ -45,7 +45,7 @@ for (x in person){
     txt += person[x] + " ";
 }
 
-document.getElementById("demo").innerHTML = txt;
+console.log(txt);
 ```
 
 Cet exemple affiche bien le contenu des propriétés de l’objet ```person```.
@@ -105,7 +105,7 @@ const person = {
 };
 
 let myString = JSON.stringify(person);
-document.getElementById("demo").innerHTML = myString;
+console.log(myString);
 ```
 
 ## Convertir les fonctions en string (stringify)
@@ -122,7 +122,7 @@ const person = {
 person.age = person.age.toString();
 
 let myString = JSON.stringify(person);
-document.getElementById("demo").innerHTML = myString;
+console.log(myString);
 ```
 
 ## Convertir les arrays en chaîne de caractères
@@ -137,5 +137,5 @@ Exemple :
 const arr = ["John", "Peter", "Sally", "Jane"];
 
 let myString = JSON.stringify(arr);
-document.getElementById("demo").innerHTML = myString;
+console.log(myString);
 ```
