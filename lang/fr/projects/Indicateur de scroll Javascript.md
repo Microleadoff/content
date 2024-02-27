@@ -2,7 +2,7 @@
 
 ### Description courte
 
-Réaliser un indicateur de scroll. Lorsqu’un utilisateur scroll sur la page une barre de progression se rempli indiquant à quel niveau de scroll se situe l’utilisateur.
+Réaliser un indicateur de scroll. Lorsqu’un utilisateur scroll sur la page une barre de progression se remplit indiquant à quel niveau de scroll se situe l’utilisateur.
 
 ### Listing de fonctionnalités
 
