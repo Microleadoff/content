@@ -24,7 +24,7 @@ Réaliser les différentes tâches suivantes dans l'ordre grâce aux commandes S
 6. Créez un nouveau golfeur : Tim COOK, tc@windobe.com
 7. Créez un nouveau golfeur : Harley DAVIDSON, h-d@suzukiki.fr
 8. Créez un nouvel utilisateur : david GOLIATH, jaibeaucoupriz@wanadoo.fr
-9. Modifiez la table « utilisateurs » pour y inclure la colonne suivante : 
+9. Modifiez les tables « utilisateurs » et « golfeurs » pour y inclure la colonne suivante : 
     - Age, int, null
 10. Renseignez l’âge de John LEGEND (78 ans) en vous basant sur son nom et son prénom
 11. Renseignez l’âge de Jack SPARROW (2 ans) en vous basant sur son nom et son prénom
