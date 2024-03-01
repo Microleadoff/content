@@ -50,10 +50,11 @@ INSERT INTO golfeurs (Firstname, Lastname, Email) VALUES ('Harley', 'DAVIDSON', 
 INSERT INTO utilisateurs (Firstname, Lastname, Email) VALUES ('David', 'GOLIATH', 'jaibeaucoupriz@wanadoo.fr');
 ```
 
-9. Modifiez la table « utilisateurs » pour y inclure la colonne suivante : 
+9. Modifiez les tables « utilisateurs » et « golfeurs » pour y inclure la colonne suivante :
     - Age, int, null
 ```sql
 ALTER TABLE utilisateurs ADD Age INT;
+ALTER TABLE golfeurs ADD Age INT;
 ```
 
 10. Renseignez l’âge de John LEGEND (78 ans) en vous basant sur son nom et son prénom :
