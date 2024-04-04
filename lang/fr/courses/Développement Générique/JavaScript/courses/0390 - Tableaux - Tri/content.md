@@ -15,7 +15,7 @@ Cet exemple retourne le résultat suivant : ```["Citroen", "Nissan", "Peugeot", 
 
 ## Inverser les éléments dans un array
 
-Il est également possible de trier les éléments en partant de la dernière entrée. Pour ce faire, la fonction ```reverse()``` doit être utilisée.
+Il est également possible de trier les éléments en ordre alphabétique inversé. Pour ce faire, la fonction ```reverse()``` doit être utilisée.
 
 Exemple :
 
