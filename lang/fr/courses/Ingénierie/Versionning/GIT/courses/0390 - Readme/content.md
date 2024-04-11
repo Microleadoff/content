@@ -83,7 +83,7 @@ Tout projet doit mentionner la licence qui lui est appliquée afin de renseigner
 
 Pour en savoir plus sur les licences, nous vous recommandons l'excellente description disponible chez <a href="https://fr.wikipedia.org/wiki/Licence_de_logiciel" title="Licences logiciel" target="_blank" rel="nofollow">wikipedia</a>
 
-## Les quelques règle ssupplémentaires
+## Les quelques règle supplémentaires
 
 ### Le statut du projet
 
