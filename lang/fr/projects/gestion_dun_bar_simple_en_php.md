@@ -23,7 +23,7 @@ Voici les informations que vous devez stocker concernant les boissons :
 - Description (facultatif - recette)
 - Prix
 
-Voici les informations que vous devez stocker concernant les table :
+Voici les informations que vous devez stocker concernant les tables :
 
 - Nom
 - Disponibilité
