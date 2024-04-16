@@ -20,8 +20,6 @@ Voici un exemple de tableau Excel tel qu'attendu en tant que rendu :
 | lien 4 | Video | nom | XX/XX/XXXX |
 | lien 5 | Video | nom | XX/XX/XXXX |
 
-## Point d'avancement
-
 ## Listing des attendus à cette étape
 
 Attention à ne pas valider les étapes de la roadmap tant que les objectifs ci-dessous ne sont pas remplis.
