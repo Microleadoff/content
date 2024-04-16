@@ -30,7 +30,3 @@ Par ailleurs, il est important de noter que toutes les sources identifiées dans
 
 - _Premier trimestre_ : __15__ sources doivent être ajoutées, portant le nombre total à __15__ sources.
 - _Second trimestre_ : __15__ sources doivent être ajoutées, portant le nombre total à __30__ sources.
-- _Troisième trimestre_ : __15__ sources doivent être ajoutées, portant le nombre total à __45__ sources.
-- _Quatrième trimestre_ : __15__ sources doivent être ajoutées, portant le nombre total à __60__ sources.
-- _Cinquième trimestre_ : __15__ sources doivent être ajoutées, portant le nombre total à __75__ sources.
-- _Sixième trimestre_ : __15__ sources doivent être ajoutées, portant le nombre total à __90__ sources.
