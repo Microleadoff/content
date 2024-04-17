@@ -40,7 +40,7 @@ echo($a);
 
 La décrémentation permet d’enlever 1 au nombre. Comme pour l’incrémentation, il existe, en PHP, deux façons de décrémenter un nombre, qui sont les mêmes que pour l’incrémentation.
 
-### --$a 
+### $a--
 
 Cette manière de décrémenter enlève 1 au nombre puis le retourne.
 
