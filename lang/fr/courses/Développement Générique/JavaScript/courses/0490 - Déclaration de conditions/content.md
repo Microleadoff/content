@@ -2,7 +2,7 @@ Les conditions sont utilisées pour tester des égalités entre des données et 
 
 ## Déclarations conditionnelles
 
-La plupart du temps, il y a besoin de tester différentes des égalités entre des données et de retourner des résultats en fonction. Pour ce faire, il faut utiliser les déclarations conditionnelles, également appelées conditions.
+La plupart du temps, il y a besoin de tester différentes égalités entre des données et de retourner des résultats en fonction. Pour ce faire, il faut utiliser les déclarations conditionnelles, également appelées conditions.
 
 ### La condition if
 
@@ -58,4 +58,4 @@ if(userAge >= 18) {
 }
 ```
 
-Dans cet exemple, le premier ```if``` teste si la variable ```userAge``` est supérieure ou égale à 18. Si ce n’est pas le cas, le programme passe au ```else if``` et regarde si la variable est supérieure ou égale à 18 ans ; si tel est le cas, le texte “Vous pourrez voter dans 2 ans” est retourné. Sinon, le texte du ```else``` est retourné. 
+Dans cet exemple, le premier ```if``` teste si la variable ```userAge``` est supérieure ou égale à 18. Si ce n’est pas le cas, le programme passe au ```else if``` et regarde si la valuer de la variable ```userAge``` est comprise entre 16 et 18 ans ; si tel est le cas, le texte “Vous pourrez voter dans 2 ans” est retourné. Sinon, le texte du ```else``` est retourné. 

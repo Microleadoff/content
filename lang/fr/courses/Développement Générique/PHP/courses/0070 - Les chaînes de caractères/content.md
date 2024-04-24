@@ -89,7 +89,7 @@ Exemple :
 
 ```php
 $var = "test";
-echo("Ceci est un deuxième " . $test);
+echo("Ceci est un deuxième " . $var);
 ```
 
 Cet exemple retourne bien la phrase “**Ceci est un deuxième test**”.

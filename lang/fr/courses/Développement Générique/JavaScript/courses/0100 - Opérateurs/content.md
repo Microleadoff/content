@@ -132,7 +132,7 @@ Exemple :
 var a = 10, b = 5;
 var result = a - b; // Ici, result vaut 5
 
-result *= 5; // Ici, result vaut 1, car le résultat déjà contenu dans la variable result est divisé par 5
+result /= 5; // Ici, result vaut 1, car le résultat déjà contenu dans la variable result est divisé par 5
 ```
 
 ### Récupérer le reste d’une division

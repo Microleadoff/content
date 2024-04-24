@@ -4,9 +4,9 @@ L’objet Math permet de manipuler les nombres en y effectuant des tâches math�
 
 Contrairement aux autres objets en JavaScript, Math n’a pas de constructeur. De plus, c’est un objet statique - qui ne change pas -, et sa particularité est que les méthodes et les propriétés de l’objet Math sont utilisables sans avoir besoin de créer un nouvel objet math.
 
-## Les propriétés de Maths (constants)
+## Les propriétés de Math (constants)
 
-Maths, comme tout objet qui se respecte, contient des propriétés. Celles-ci sont accessibles en utilisant la syntaxe suivante :
+Math, comme tout objet qui se respecte, contient des propriétés. Celles-ci sont accessibles en utilisant la syntaxe suivante :
 
 ```js
 Math.nomDeLaPropriété;
@@ -25,7 +25,7 @@ Tout comme Math contient un certain nombre de propriétés, cet objet met égale
 Avec l’objet Math, la syntaxe pour accéder à une méthode est la suivante :
 
 ```js
-Math.méthode.(nombre);
+Math.méthode(nombre);
 ```
 
 ### Convertir un nombre en nombre entier
@@ -85,9 +85,9 @@ Cette méthode retourne le signe du nombre passé en paramètre. En d’autres t
 Exemple :
 
 ```js
-Math.sign(5); // Retourne 1, car 5 est positif
+Math.sign(5); // Retourne 1 car 5 est positif
 Math.sign(-5); // Retourne -1 car 5 est négatif
-Math.sigh(0); // Retourne 0 car c'est un nombre nul
+Math.sign(0); // Retourne 0 car c'est un nombre nul
 ```
 
 #### La méthode Math.pow()

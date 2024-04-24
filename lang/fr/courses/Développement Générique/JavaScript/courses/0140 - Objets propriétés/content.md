@@ -33,11 +33,11 @@ const person = {
 };
 
 for (let x in person) {
-  txt += person[x];
+  console.log(person[x])
 }
 ```
 
- Dans cet exemple, la boucle parcourt chaque propriété de l’objet ```person``` et stocke la valeur dans la variable ```x```. Ensuite, pour chaque propriété rencontrée, la valeur contenue dans ```x``` est ajoutée à la variable ```x```.
+Dans cet exemple, la boucle parcourt chaque propriété de l’objet ```person```. Ainsi lors du premier tour la valeur est ```fname```, puis ```lname``` puis enfin ```age```. Pour afficher les valeurs contenues dans ces propriétés, il faut donc les appeler comme pour un tableau a partir de l'objet ```person``` : ```person[x]```.
 
 ## Ajouter de nouvelles propriétés
 
@@ -136,7 +136,7 @@ Exemple :
 
 ```js
 for (let i in myObj.cars) {
-    x += "<h1>" + myObj.cars[i].name + "</h1>";
+    let x = "<h1>" + myObj.cars[i].name + "</h1>";
     for (let j in myObj.cars[i].models) {
         x += myObj.cars[i].models[j];
     }

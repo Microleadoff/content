@@ -18,7 +18,7 @@ La première étape consistera donc à déterminer vos grands axes principaux co
 
 Rendu ici, vous allez devoir commencer à organiser vos informations, et générer vos sous-titres correspondant donc au plan de niveau 2. Vous devez donc effectuer un regroupement d'informations en fonction des travaux précédemment menés (état de l'art, brainstorming, etc...).
 
-## Troisème étape : Plan de niveau 3
+## Troisième étape : Plan de niveau 3
 
 Une fois le niveau 2 effectué, prenez le temps de repasser sur chaque sous-titre, et d'organiser en triant à nouveau les informations qui y sont présentes. Cela vous permettra de définir tous les niveaux de sous-titre et donc d'obtenir un plan final et détaillé de l'ensemble de votre mémoire.
 

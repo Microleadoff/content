@@ -1,4 +1,4 @@
-Certains langages informatiques comme le langage JavaScript utilise le mot-clé this afin de faire référence à l’objet auquel il appartient. Sa valeur change en fonction de là où il est utilisé.
+Certains langages informatiques comme le langage JavaScript utilisent le mot-clé this afin de faire référence à l’objet auquel il appartient. Sa valeur change en fonction de là où il est utilisé.
 
 ## This utilisé avec une méthode
 
@@ -37,7 +37,7 @@ Dans cet exemple, ```this``` fait donc référence à l’objet ```window```.
 
 ## This dans une fonction (default)
 
-Dans une fonction, le propriétaire de la fonction est l’objet global. Donc lorsqu’il est utilisé au sein d’une fonction, ```this``` faire référence à ```window```.
+Dans une fonction, le propriétaire de la fonction est l’objet global. Donc lorsqu’il est utilisé au sein d’une fonction, ```this``` fait référence à ```window```.
 
 Exemple :
 

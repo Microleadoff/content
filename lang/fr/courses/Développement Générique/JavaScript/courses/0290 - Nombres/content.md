@@ -74,8 +74,6 @@ isNaN(b); // Ici la valeur retournée est false, car b contient un nombre
 
 De plus, les divisions par 0 retournent aussi la valeur ```Infinity```.
 
-Exemple :
-
 ## Hexadécimal
 
 Si elles sont précédées par 0x, les constantes numériques sont interprétées par JavaScript comme des valeurs hexadécimales.

@@ -17,17 +17,20 @@ Vous pouvez utiliser du CSS pour styliser l'ensemble de votre page, mais ce n'es
 
 ### Éléments donnés
 
-Voici les informations que vous devez stocker concernant les boissons : 
+Voici les informations que vous devez stocker concernant les boissons :
+
 - Nom
 - Description (facultatif - recette)
 - Prix
 
-Voici les informations que vous devez stocker concernant les table : 
+Voici les informations que vous devez stocker concernant les tables :
+
 - Nom
 - Disponibilité
 - Détail de la commande en cours
 
-Voici les informations que vous devez stocker concernant les commandes : 
+Voici les informations que vous devez stocker concernant les commandes :
+
 - Numéro (généré automatiquement)
 - Contenu (liste de boissons)
 - Prix total
@@ -39,3 +42,23 @@ Voici les informations que vous devez stocker concernant les commandes :
 - N'utiliser que du HTML, CSS et PHP
 - Vous devez obligatoirement exploiter l'orienté objet, et tous vos traitements doivent obligatoirement être dans des classes
 - L'enregistrement des informations doit se faire grâce aux Cookies, aucune base de données ne doit être utilisée.
+
+### Astuces
+
+Vous pouvez stocker un tableau d'éléments au format JSON dans vos cookies. Voici un exemple : 
+
+```php
+<?php
+
+$info = ["a", "b", "c", "d"];
+
+// Enregistrement du cookie
+// setcookie prend 3 paramètres : 
+// 1. le nom du cookie, à définir par vos soins
+// 2. la donnée à stocker : ici il s'agit du tableau transformé en JSON
+// 3. la durée de conservation : ici 1 an
+setcookie('le_nom_du_cookie', json_encode($info), strtotime("+1 year"));
+
+// Récupération du cookie
+$data = json_decode($_COOKIE['le_nom_du_cookie'], true);
+```

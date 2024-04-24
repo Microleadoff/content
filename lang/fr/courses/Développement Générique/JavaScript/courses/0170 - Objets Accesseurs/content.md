@@ -25,6 +25,8 @@ Dans cet exemple, la première partie du code crée l’objet ```person```. Au s
 
 Ensuite, dans la seconde partie du code, la langue de la personne est affichée grâce à l’accesseur créé dans l’objet.
 
+Faites attention à ne pas nommer les getters du même nom que vos attributs sous réserve d'obtenir une erreur ```Max call stack size exceeded``` !
+
 ## Les setters - le mot-clé set
 
 Dans certains langages de programmation, les valeurs des propriétés d’un objet ne sont, pour des raisons de sécurité du code, jamais modifiées directement par le développeur.
@@ -52,6 +54,8 @@ person.lang = "en";
 document.getElementById("demo").innerHTML = person.language;
 ```
 
+Faites attention à ne pas nommer les setters du même nom que vos attributs sous réserve d'obtenir une erreur ```Max call stack size exceeded``` !
+
 ## Qualité des données
 
 JavaScript peut assurer une meilleure sécurité, intégrité et qualité des données grâce aux accesseurs, car les données transmises pour modifier une propriété sont d’abord vérifiées par le setter avant d’être envoyées à la propriété.
@@ -74,7 +78,7 @@ Exemple :
 // Définit l'objet
 const obj = {counter : 0};
 
-// Définit les setters
+// Définit les setters et les getters
 Object.defineProperty(obj, "reset", {
     get : function () {this.counter = 0;}
 });

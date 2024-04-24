@@ -15,7 +15,7 @@ Cet exemple retourne le résultat suivant : ```["Citroen", "Nissan", "Peugeot", 
 
 ## Inverser les éléments dans un array
 
-Il est également possible de trier les éléments en partant de la dernière entrée. Pour ce faire, la fonction ```reverse()``` doit être utilisée.
+Il est également possible de trier les éléments en ordre alphabétique inversé. Pour ce faire, la fonction ```reverse()``` doit être utilisée.
 
 Exemple :
 
@@ -53,7 +53,7 @@ Pour rappel, la fonction de comparaison est la suivante :
 function(a, b){return a - b}
 ```
 
-Lorsque la fonction ```sort()``` est appelée, elle envoi les valeurs du tableau à la fonction de comparaison. Cette dernière trie les données et les retourne en fonction de la valeur retournée. 
+Lorsque la fonction ```sort()``` est appelée, elle envoie les valeurs du tableau à la fonction de comparaison. Cette dernière trie les données et les retourne en fonction de la valeur retournée. 
 
 Ainsi, si le résultat est négatif, ```a``` est trié avant ```b``` ; tandis que si le résultat est positif, ```b``` est trié avant ```a```.
 

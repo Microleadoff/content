@@ -71,7 +71,7 @@ De plus, les variables déclarées avec ```var```, ```let``` et ```const``` sont
 
 ### Les variables
 
-Les objets et fonctions, en Javascript, sont aussi des variables. La portée permet de définir lors visibilité et leur utilisation au sein d’un programme. 
+Les objets et fonctions, en Javascript, sont aussi des variables. La portée permet de définir leur visibilité et leur utilisation au sein d’un programme. 
 
 ### Portée globale automatique
 

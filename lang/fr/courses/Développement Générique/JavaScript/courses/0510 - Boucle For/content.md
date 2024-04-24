@@ -1,8 +1,8 @@
 En programmation, le principe d’une boucle est d’exécuter un bout de programme un certain nombre de fois, sans que le développeur ait à retaper sans cesse la même ligne de code avec juste une donnée changeante. 
 
-## Différents types de boucle
+## Différents types de boucles
 
-En Javascript, il existe 5 type de boucles - également appelées avec leur nom anglais *loop* :
+En Javascript, il existe 5 types de boucles - également appelées avec leur nom anglais *loop* :
 
 - La boucle ```for``` : permet de faire une boucle sur un morceau de code un certain nombre de fois. C’est la boucle détaillée dans ce chapitre.
 - La boucle ```for in``` : permet de faire une boucle sur les propriétés d’un objet. 
@@ -19,12 +19,12 @@ Ce cours traite des trois boucles for : ```for```, ```for in``` et ```for of```.
 Voici la syntaxe de la boucle for :
 
 ```js
-for (condition1 ; condition2 ; condition3) {
+for (expression1 ; expression2 ; expression3) {
 	// Code à exécuter
 }
 ```
 
-Avant d’entrer dans la boucle, le programme lit la condition 1. Ensuite, la condition 2 définit la condition dans laquelle le programme doit être exécuté. Enfin, la condition 3 s’applique juste avant que le programme entre dans la boucle. Ensuite, le code contenu entre accolades est exécuté. 
+Avant d’entrer dans la boucle, le programme lit l'expression 1. Ensuite, l'expression 2 définit la condition dans laquelle le programme doit être exécuté. Le bloc entre accolades est ensuite exécuté avant que la troisième expression de la boucle for soit elle-même exécutée.
 
 Exemple :
 
@@ -34,7 +34,7 @@ for (var i = 0 ; i < 5; i++) {
 }
 ```
 
-Dans cet exemple, la variable ```i``` est créé et initialisé à 0.
+Dans cet exemple, la variable ```i``` est créée et initialisée à 0.
 
 Ensuite le programme vérifie si ```i``` est inférieur à 5. Le cas échéant, ```i``` est incrémenté de 1 à chaque fois jusqu’à ce qu’il soit égal à 5, et le texte “Hello World” s’affiche dans la console.
 
@@ -113,7 +113,7 @@ const user = { prenom: "Joe", nom: "Blow", age: 25};
 var text = "";
 
 for (var x in user) {
-	texte += user[x];
+	text += user[x];
 }
 ```
 

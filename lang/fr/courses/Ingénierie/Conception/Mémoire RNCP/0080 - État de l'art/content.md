@@ -29,12 +29,43 @@ Voici donc 5 points importants que vous devez absolument noter pour chaque sourc
 
 Imaginons faire des recherches sur la programmation en python, voici un exemple de début de tableau que vous pourriez être amené à réalisé :
 
-| Nom | Origine | Date publi | Auteur | Contenu |
-|-----|-----|-----|-----|-----|
-| Apprendre Python [Tuto Programmation Complet Débutant] | https://www.youtube.com/watch?v=oUJolR5bX6g | 2021 | CodeAvecJonathan | contenu 1, contenu 2, contenu 3, etc... |
-| Apprenez les bases du langage Python | https://openclassrooms.com/fr/courses/7168871-apprenez-les-bases-du-langage-python | 12/09/2023 | OpenClassrooms | contenu 1, contenu 2, contenu 3, etc... |
-| Apprendre à programmer avec Python 3 | https://www.fnac.com/a3897816/Gerard-Swinnen-Apprendre-a-programmer-avec-Python-3?oref=00000000-0000-0000-0000-000000000000&Origin=SEA_GOOGLE_PLA_BOOKS&esl-k=sem-google%7cnx%7cc%7cm%7ckpla%7cp%7ct%7cdc%7ca%7cg20111491090&gclid=CjwKCAjw69moBhBgEiwAUFCx2LtIWtvXLYtI2-Ns0QMlfEE9Gyu2c3WrFeywiNADcXSZNsgaa5qYPBoCyIYQAvD_BwE&gclsrc=aw.ds | 02/02/2012 | Gérard Swinnen | contenu 1, contenu 2, contenu 3, etc... |
-
+<div style="overflow-x: scroll">
+<table>
+<thead>
+    <tr>
+        <th>Nom</th>
+        <th>Origine</th>
+        <th>Date publi</th>
+        <th>Auteur</th>
+        <th>Contenu</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Apprendre Python [Tuto Programmation Complet Débutant]</td>
+        <td>https://www.youtube.com/watch?v=oUJolR5bX6g</td>
+        <td>2021</td>
+        <td>CodeAvecJonathan</td>
+        <td>contenu 1, contenu 2, contenu 3, etc...</td>
+    </tr>  
+       <tr>
+        <td>Apprenez les bases du langage Python</td>
+        <td>https://openclassrooms.com/fr/courses/7168871-apprenez-les-bases-du-langage-python</td>
+        <td>12/09/2023</td>
+        <td>OpenClassrooms</td>
+        <td>contenu 1, contenu 2, contenu 3, etc...</td>
+    </tr>  
+    <tr>  
+       <tr>
+        <td>Apprendre à programmer avec Python 3</td>
+        <td>https://www.fnac.com/a3897816/Gerard-Swinnen-Apprendre-a-programmer-avec-Python-3?oref=00000000-0000-0000-0000-000000000000&Origin=SEA_GOOGLE_PLA_BOOKS&esl-k=sem-google%7cnx%7cc%7cm%7ckpla%7cp%7ct%7cdc%7ca%7cg20111491090&gclid=CjwKCAjw69moBhBgEiwAUFCx2LtIWtvXLYtI2-Ns0QMlfEE9Gyu2c3WrFeywiNADcXSZNsgaa5qYPBoCyIYQAvD_BwE&gclsrc=aw.ds</td>
+        <td>02/02/2012</td>
+        <td>Gérard Swinnen</td>
+        <td>contenu 1, contenu 2, contenu 3, etc...</td>
+    </tr>  
+</tbody>
+</table>
+</div>
 
 Bref, vous avez normalement compris le principe !
 

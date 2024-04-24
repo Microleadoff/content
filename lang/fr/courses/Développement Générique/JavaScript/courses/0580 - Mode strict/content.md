@@ -137,6 +137,8 @@ Exemple :
 let x = 010;
 ```
 
+Dans cet exemple, le nombre est "010", et non "10". Ainsi programmatiquement parlant, le premier zéro est pris en compte en tant que nombre, et est considéré comme faisant parti pleinement de ce nombre. Le mode "use strict" ne permet pas cette utilisation. Vous devrez à la place écrire ```let x = 10;``` pour que le code fonctionne.
+
 ### L’échappement des expressions numériques octales
 
 De même, en mode strict, échapper une expression numérique octale retourne une erreur. 

@@ -78,7 +78,7 @@ JavaScript stocke les dates comme le nombre de millisecondes écoulées depuis l
 
 ### new Date(milliseconds)
 
-Cette manière d’implémenter permet crée un nouvel objet date de **0 fois plus les millisecondes**.
+Cette manière d’implémenter crée un nouvel objet date de **0 fois plus les millisecondes**.
 
 __Exemple__ :
 
