@@ -12,13 +12,13 @@ _Note_ : Vous pouvez réaliser votre veille sur plus de 1 sujet, vous n'êtes pa
 
 Voici un exemple de tableau Excel tel qu'attendu en tant que rendu :
 
-| Lien de la source | Type de source | Nom de la source | Date d'ajout |
-| --- | --- | --- | --- |
-| lien 1 | Video | nom | XX/XX/XXXX |
-| lien 2 | Video | nom | XX/XX/XXXX |
-| lien 3 | Video | nom | XX/XX/XXXX |
-| lien 4 | Video | nom | XX/XX/XXXX |
-| lien 5 | Video | nom | XX/XX/XXXX |
+| Lien de la source | Type de source | Nom de la source | Date d'ajout | Résumé court |
+| --- | --- | --- | --- | --- |
+| lien 1 | Video | nom | XX/XX/XXXX | Lorem ipsum... |
+| lien 2 | Video | nom | XX/XX/XXXX | Lorem ipsum... |
+| lien 3 | Video | nom | XX/XX/XXXX | Lorem ipsum... |
+| lien 4 | Video | nom | XX/XX/XXXX | Lorem ipsum... |
+| lien 5 | Video | nom | XX/XX/XXXX | Lorem ipsum... |
 
 ## Listing des attendus à cette étape
 
@@ -26,5 +26,5 @@ Attention à ne pas valider les étapes de la roadmap tant que les objectifs ci-
 
 Par ailleurs, il est important de noter que toutes les sources identifiées dans le tableau doivent rentrer dans les périodes mentionnées. Il vous revient de déterminer les différentes dates en fonction de l'emploi du temps de votre formation.
 
-- _Premier trimestre_ : __15__ sources doivent être ajoutées, portant le nombre total à __15__ sources.
-- _Second trimestre_ : __15__ sources doivent être ajoutées, portant le nombre total à __30__ sources.
+- _Premier trimestre_ : __5__ sources doivent être ajoutées, portant le nombre total à __5__ sources.
+- _Second trimestre_ : __5__ sources doivent être ajoutées, portant le nombre total à __10__ sources.
