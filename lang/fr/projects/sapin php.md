@@ -33,7 +33,7 @@ Ne dessinez rien directement dans votre code PHP : chaque ligne doit ENTIÈREMEN
 3. Faire une fonction qui permet de faire le sapin
 4. Traiter les spécificités une par une.
 
-## Tips
+## Astuces
 
 - Ne faire que du procédural au début si vous galérez !
 - Utilisez les fonctions "simples" pour faire les fonctions "complexes" (n'hésitez pas à appeler une fonction dans une autre)
