@@ -39,4 +39,11 @@ Le document doit être exporté en fichier PDF afin que sa lecture puisse se fai
 
 Le document final doit intégrer une page de garde, un sommaire si nécessaire, une numérotation de page et toutes autres informations pertinentes. N'oubliez pas par exemple de rappeler votre nom prénom, BTS SIO, etc... a minima sur la première et / ou la dernière page dudit document.
 
-**Ce document devra être ensuite accessible depuis votre portfolio en ligne**. Vous pourrez donc l'intégrer pour son téléchargement sur un bouton que vous aurez prévu à cet effet.
+## Portfolio
+
+Votre portfolio devra contenir une page spécifiquement pour la partie de veille technologique. Vous devrez y présenter plusieurs choses, et notamment : 
+
+- le sujet de votre veille
+- une liste de 4 à 8 articles issus de votre veille, avec leurs résumés succincts respectifs
+
+Je vous encourage d'intégrer également un lien de téléchargement vers le PDF susmentionné afin de démontrer au jury que vous savez parfaitement réaliser une veille, et en restituer les informations !
