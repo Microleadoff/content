@@ -25,3 +25,16 @@ Voici le schéma de base du sapin, incluant toutes les options :
 N'utilisez que du PHP à l'exception des balises html ```<pre></pre>``` que vous pouvez utiliser de telle sorte à ce que les caractères d'espace soivent de la même taille que les caractères d'étoile.
 
 Ne dessinez rien directement dans votre code PHP : chaque ligne doit ENTIÈREMENT être générée algorithmiquement.
+
+## Étapes de réalisation
+
+1. créer une fonction qui affiche une ligne, avec un nombre d'espaces donné en paramètre, et un nombre d'étoiles donné aussi en paramètre.
+2. créer une fonction qui permet de faire un étage, et qui prend en paramètre le nombre d'étoiles pour la première ligne de l'étage (attention, petite particularité pour le premier étage - à traiter ultérieurement !)
+3. Faire une fonction qui permet de faire le sapin
+4. Traiter les spécificités une par une.
+
+## Tips
+
+- Ne faire que du procédural au début si vous galérez !
+- Utilisez les fonctions "simples" pour faire les fonctions "complexes" (n'hésitez pas à appeler une fonction dans une autre)
+- Toujours commencer par l'étape la plus simple !
