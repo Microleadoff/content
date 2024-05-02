@@ -62,15 +62,31 @@ Il existe d'autres éléments que vous pouvez intégrer dans vos mentions légal
 
 #### Travaux
 
-**Définition** : La terminologie "Travaux" n'est pas officielle, ni propre au BTS SIO. Cependant, il convient de différencier les travaux que vous présentez lors de votre épreuve E4 (portfolio), de ceux que vous présentez lors de votre épreuve E5 (le choix des 2 projets).
+**Définition** : La terminologie "Travaux" n'est pas officielle, ni propre au BTS SIO. Cependant, il convient de différencier les travaux que vous présentez lors de votre épreuve E4 (portfolio), de ceux que vous pouvez présenter lors de votre épreuve E5 (le choix des 2 projets).
 
 La page des travaux va devoir contenir une liste de tous les travaux que vous aurez réalisé et que vous jugerez pertinent d'intégrer dans votre présentation. Il s'agit bien ici uniquement d'une présentation globale de vos travaux, aucun détail n'est à fournir sur cette page.
 
 #### Travaux - détail
 
-Pour chaque travail réalisé, vous devrez présenter :
+Pour chaque travail réalisé, vous devrez détailler :
 
+- Le nom du travail; 
+- La description des tâches réalisées pour mener à bien le travail;
+- Les moyens que vous avez utilisé;
+- Avec qui vous l'avez réalisé;
+- Le contexte (entreprise, école, perso, service, date, etc...)
+- Les commentaires que vous jugerez pertinents
+- Les annexes (cahier des charges, documentation technique / fonctionnelle, Schémas UML & Merise etc...)
 
+Vous devrez enfin lister les compétences de l'annexe 6-1 qui vous ont été nécessaires pour réaliser le projet.
+
+#### Projets
+
+Le découpage des projets se fait de la même manière que pour les travaux. Pour rappel, les projets sont des travaux suffisamment conséquent pour pouvoir être présenté à l'épreuve E5.
+
+Vous allez donc devoir créer la page de listing des projets, ainsi que la page de contenu des projets. Ces pages sont stritement identique en terme de structure par rapport aux pages de détail des travaux.
+
+#### Compétences
 
 
 
@@ -78,8 +94,6 @@ Pour chaque travail réalisé, vous devrez présenter :
 
 en cours de rédaction...
 
-- Travaux (plus 1 page par travail réalisé)
-- Projets (plus 1 page par projet réalisé)
 - Compétences
 - Répertoire (= domaine de compétence)
 
