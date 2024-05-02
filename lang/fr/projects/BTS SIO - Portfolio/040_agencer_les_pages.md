@@ -60,6 +60,16 @@ Il existe d'autres éléments que vous pouvez intégrer dans vos mentions légal
 - La gestion des cookies le cas échéant;
 - Toute autre information légale qui vous concernerait.
 
+#### Travaux
+
+**Définition** : La terminologie "Travaux" n'est pas officielle, ni propre au BTS SIO. Cependant, il convient de différencier les travaux que vous présentez lors de votre épreuve E4 (portfolio), de ceux que vous présentez lors de votre épreuve E5 (le choix des 2 projets).
+
+La page des travaux va devoir contenir une liste de tous les travaux que vous aurez réalisé et que vous jugerez pertinent d'intégrer dans votre présentation. Il s'agit bien ici uniquement d'une présentation globale de vos travaux, aucun détail n'est à fournir sur cette page.
+
+#### Travaux - détail
+
+Pour chaque travail réalisé, vous devrez présenter :
+
 
 
 
