@@ -23,6 +23,10 @@ Le contenu de votre page d'accueil va essentiellement dépendre du template choi
 
 
 
+
+
+en cours de rédaction...
+
 - Veille
 - BTS SIO
 - Mentions légales
