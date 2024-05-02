@@ -110,14 +110,10 @@ Cette page est une synthétisation et une représentation de l'annexe 6-1 (le ta
 | Travail | Lorem ipsum | Développer la présence en ligne de l'organisation <br> Organiser son développement personnel | Référencer les services en ligne de l’organisation et mesurer leur visibilité. <br> Gérer son identité professionnelle |
 | Projet | Dolor sit amet | Travailler en mode projet | Planifier les activités <br> Évaluer les indicateurs de suivi d’un projet et analyser les écarts |
 
-en cours de rédaction...
+### 2. Trouver un design adéquat pour chaque page
 
-- Compétences
-- Répertoire (= domaine de compétence)
+Pour chaque page présentée ci-dessus, vous allez devoir identifier un ou plusieurs éléments dans votre template qui doivent permettre de présenter 100% des éléments indiqués ci-dessus. Il ne s'agit donc pas ici de créer encore les contenus textuels, mais il s'agit de bien tous les avoir en tête afin de prévoir parfaitement toutes vos pages, et de préparer le terrain pour l'intégration des contenus finaux.
 
+Si votre découpage à été fait correctement, il devrait être normalement relativement simple de préparer chacune des pages étant donné qu'il va essentiellement s'agir de copier/coller.
 
-
-
-préparer le contenu de chaque page
-2 - trouver un design adéquat via le theme
-3 - mettre en place les éléments visuels avec les textes de base du theme
+Faites toutefois attention, assurez vous dès maintenant que l'affichage soit parfait, cela vous évitera de trop repasser dessus lors de l'intégration des contenus. L'objectif étant bien évidemment de ne plus toucher à la structure globale de votre site web une fois cette étape terminée !
