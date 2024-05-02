@@ -19,7 +19,7 @@ Il est possible d'avoir de nombreux plans et de nombreuses pages pour les portfo
 - Mentions légales
 - Travaux (plus 1 page par travail réalisé)
 - Projets (plus 1 page par projet réalisé)
-- Compétences
+- Compétences (plus 1 page par compétence mise en oeuvre)
 - Répertoire (= domaine de compétence)
 
 #### Création des pages
@@ -69,7 +69,11 @@ Voici le plan de votre menu si votre template implémente un design pour les sou
     - travaux 2
     - travaux 3
     - ...
-- Compétences : redirige sur la page qui liste les compétences et sous-compétences, ainsi que les projets et travaux associés.
+- Compétences : redirige sur la page qui liste les compétences
+    - Compétence 1
+    - Compétence 2
+    - Compétence 3
+    - ...
 - Répertoire : redirige sur la page qui liste l'association des compétences et des projets
 
 Comparativement avec les templates qui n'ont pas de sous-menu, vous allez ici intégrer un lien par travail ou projet réalisé en sous-menu !

@@ -88,9 +88,27 @@ Vous allez donc devoir créer la page de listing des projets, ainsi que la page 
 
 #### Compétences
 
+Cette page - sur le même principe que les projets et travaux - ne servira qu'à lister l'ensemble des compétences que vous avez mis en oeuvre pour votre diplôme. Vous devrez ensuite pour chacune de ces compétences mettre en place une page spécifique décrivant ladite compétence.
 
+#### Compétence - détail
 
+Cette page à pour objectif de démontrer l'acquisition des compétences via les sous-compétences qui y sont associées dans le tableau de synthèse. Vous devrez donc préciser dans cette page : 
 
+- La liste des sous-compétences qui sont associées à ladite compétence
+- La liste des travaux réalisés qui mettent en oeuvre une ou plusieurs sous-compétences. Pour chaque travail, préciser quelles sous-comptences sont associés.
+- La liste des projets réalisés qui mettent en oeuvre une ou plusieurs sous-compétences. Pour chaque projet, préciser quelles sous-comptences sont associés.
+
+#### Répertoire
+
+Cette page est une synthétisation et une représentation de l'annexe 6-1 (le tableau de synthèse). Elle permet de parfaitement mettre en correllation l'ensemble des travaux et projets réalisés. On doit y retrouver : 
+
+- Un lien de téléchargement de votre tableau de synthèse (Annexe 6-1)
+- Un tableau récapitulatif de tous vos projets/travaux et des compétences associées prenant la forme suivante : 
+
+| Type | Nom | Compétences | Sous-compétences |
+| --- | --- | --- | --- |
+| Travail | Lorem ipsum | Développer la présence en ligne de l'organisation <br> Organiser son développement personnel | Référencer les services en ligne de l’organisation et mesurer leur visibilité. <br> Gérer son identité professionnelle |
+| Projet | Dolor sit amet | Travailler en mode projet | Planifier les activités <br> Évaluer les indicateurs de suivi d’un projet et analyser les écarts |
 
 en cours de rédaction...
 
