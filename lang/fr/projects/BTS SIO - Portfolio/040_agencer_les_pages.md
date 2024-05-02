@@ -20,7 +20,11 @@ Le contenu de votre page d'accueil va essentiellement dépendre du template choi
 
 #### Entreprise
 
+La présentation de l'entreprise induit de facto un texte descriptif de son activité. Vérifiez auprès de vos collègues si vous êtes en entreprise : il est fort probable qu'un tel texte ai déjà été réalisé sur les éléments de communication de l'entreprise (site internet, supports papiers, etc...). Si tel est le cas : vous n'aurez qu'à l'adapter à vos besoins spécifiques.
 
+Le but de cette partie est bien de présenter l'entreprise, et pas forcément votre rôle en son sein. Vous pouvez - mais n'êtes donc pas obligé - inclure un paragraphe sur votre rôle et les actions que vous menez dans le cadre de votre stage ou de votre alternance.
+
+Pensez enfin à inclure des chiffres clés. Il n'y a pas de liste précise ou exhaustive, il s'agit ici d'identifier des éléments et informations chiffrés pour illustrer ce que fait votre entreprise et ce qu'elle représente. Ces éléments sont également généralement inclus dans la communication de l'entreprise.
 
 
 
