@@ -28,14 +28,46 @@ Pensez enfin à inclure des chiffres clés. Il n'y a pas de liste précise ou ex
 
 #### Veille
 
+_Note_ : La partie veille pour le BTS SIO fait l'objet d'une roadmap à part entière sur Microlead. Nous partirons ici du principe que vous avez suivi cette roadmap avant de réaliser cette page. Si ce n'est pas le cas, mettez en stand-by votre avancement, et aller la suivre avant de revenir !
+
+La page de veille technologique doit contenir plusieurs éléments parmis lesquels : 
+
+- Une première partie expliquant le sujet ou les sujets que vous avez choisi pour réaliser votre veille.
+- Une partie expliquant les outils que vous avez utilisé pour faire votre veille
+- Une partie expliquant votre méthodologie pour réaliser votre veille
+- Une partie contenant les 4 à 6 articles que vous avez choisi pour votre présentation, accompagné de leur résumé
+- Un bouton de téléchargement de votre fichier de veille complet (tableau)
+
+#### BTS SIO
+
+La page BTS SIO doit présenter le BTS SIO dans sa globalité, avec les 2 options : SISR & SLAM. Vous devez expliquer les deux options séparément, sans vous inclure dedans ou spécifier votre filière : il s'agit ici uniqument de présentation globale.
+
+Vous devrez également intégrer un listing de tous les cours que vous avez eu au cours des 2 années d'apprentissage, avec le nombre d'heures que vous aurez eu par matière.
+
+_Note_ : Arrangez-vous dans votre classe pour vous partager les informations chiffrées, pour que tout le monde ai bien les mêmes informations !
+
+#### Mentions légales
+
+Les mentions légales sont des informations légales obligatoires qui doivent permettre aux internautes de vous identifier clairement et facilement. Elles doivent comprendre dans le cadre de votre BTS SIO à minima : 
+
+- Votre Nom / Prénom;
+- Mail et numéro de téléphone de contact;
+- Les informations d'identification de l'hébergeur du site (nom + adresse + téléphone)
+
+Il existe d'autres éléments que vous pouvez intégrer dans vos mentions légales, tels que : 
+
+- Une partie sur le RGPD et le traitement des données personnelles que vous effectuez;
+- La gestion des cookies le cas échéant;
+- Toute autre information légale qui vous concernerait.
+
+
+
+
 
 
 
 en cours de rédaction...
 
-- Veille
-- BTS SIO
-- Mentions légales
 - Travaux (plus 1 page par travail réalisé)
 - Projets (plus 1 page par projet réalisé)
 - Compétences
@@ -45,5 +77,5 @@ en cours de rédaction...
 
 
 préparer le contenu de chaque page
-trouver un design adéquat via le theme
-mettre en place les éléments visuels avec les textes de base du theme
+2 - trouver un design adéquat via le theme
+3 - mettre en place les éléments visuels avec les textes de base du theme
