@@ -22,7 +22,7 @@ Il est possible d'avoir de nombreux plans et de nombreuses pages pour les portfo
 - Compétences
 - Répertoire (= domaine de compétence)
 
-#### Travaux à réaliser
+#### Création des pages
 
 Pour chacune des pages listées ci-dessus, vous allez devoir créer un fichier du nom de la page, avec l'extension ```.php```. Placez ce fichier à la racine de votre projet (au même niveau que le fichier ```index.php```).
 
@@ -78,5 +78,16 @@ _Note_ : Les **projets** sont des travaux qui sont suffisamment conséquents pou
 
 _Note_ : Les **travaux** sont la liste de tous les projets que vous avez réalisés : en cours, en entreprise ou à titre personnel. Les petits exercices de pratique ne sont pas consiédérés comme des travaux !
 
-### 3. Implémenter les liens du footer
+### 3. Implémenter les éléments du footer
+
+Il est maintenant temps de gérer l'ensemble des informations contenues dans votre footer. Notez ici qu'on doit à minima y retrouver un lien vers vos mentions légales. Voici tout de même une liste non exhaustive des éléments que l'on pourrait y retrouver, et qu'il faut implémenter maintenant : 
+
+- Les mentions légales
+- Les informations de contact (nom/prénom, tel, mail, adresse, etc...)
+- Un copyright
+- Des liens vers les pages internes du site
+- Etc...
+
+Une fois cette étape réalisée, il va être temps de commencer à agencer les pages !
+
 
