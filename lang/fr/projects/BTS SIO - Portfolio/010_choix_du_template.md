@@ -8,7 +8,6 @@ La validation du BTS SIO, quelle que soit l'option choisie, implique nécessaire
 
 - Vous devez être relativement à l'aise avec le HTML et le CSS
 - Vous devez avoir terminer à au moins 50% la roadmap PHP
-- Vous devez avoir terminer à au moins 50% la roadmap BTS SIO SQL
 
 ### Choix d'un template
 
