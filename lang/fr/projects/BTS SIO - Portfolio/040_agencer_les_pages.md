@@ -26,6 +26,8 @@ Le but de cette partie est bien de présenter l'entreprise, et pas forcément vo
 
 Pensez enfin à inclure des chiffres clés. Il n'y a pas de liste précise ou exhaustive, il s'agit ici d'identifier des éléments et informations chiffrés pour illustrer ce que fait votre entreprise et ce qu'elle représente. Ces éléments sont également généralement inclus dans la communication de l'entreprise.
 
+#### Veille
+
 
 
 

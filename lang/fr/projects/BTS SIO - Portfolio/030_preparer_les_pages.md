@@ -51,9 +51,9 @@ _Note_ : Les **projets** sont des travaux qui sont suffisamment conséquents pou
 
 _Note_ : Les **travaux** sont la liste de tous les projets que vous avez réalisés : en cours, en entreprise ou à titre personnel. Les petits exercices de pratique ne sont pas consiédérés comme des travaux !
 
-#### Sans sous-menu
+#### Avec sous-menu
 
-Voici le plan de votre menu si votre template n'implémente pas de design pour les sous-menus :
+Voici le plan de votre menu si votre template implémente un design pour les sous-menus :
 
 - Accueil : redirige vers la page d'accueil (index)
 - BTS SIO : redirige vers la page qui va présenter le BTS SIO
