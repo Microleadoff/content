@@ -103,7 +103,13 @@ En reprennant les compétences renseignées au point précédent, précisez ici 
 
 ### 4. Intégration aux compétences
 
+Cette étape nécessite que vous passiez en revue l'ensemble des compétences et sous-compétences pour chacun de vos travaux / projets.
 
+A chaque fois que votre projet correspondra à une compétence ou une sous-compétence, vous devrez l'incorporer dans la page associée, en n'oubiant pas de bien mettre l'ensemble des éléments suivants : 
+
+- Le nom du travail / du projet
+- La liste des sous-compétences associées
+- Un lien vers la page de détail du projet.
 
 ### 5. Intégration des liens
 
@@ -117,65 +123,19 @@ Il va enfin falloir rendre accessibles cette nouvelle page sur votre site. Il fa
 
 ### 6. Bonus : Tableau de synthèse
 
+Une fois rendu à cette étape, vous avez normalement terminé d'intégrer votre projet / travail à votre portfolio. Cepenant, il serait dommage de s'arrêter sur une si belle lancée sachant que vous allez également devoir intégrer ce travail à la fameuse annexe 6-1. Je vous propose donc de l'intégrer également dessus.
 
+#### Déterminer le cadre
 
+Première nécessité : déterminer le cadre dans lequel vous avez réalisé le projet. Ce cadre peut-être : 
+- En cours de formation
+- En milieu professionnel en première année
+- En milieu professionnel en deuxième année
 
+Vous aurez donc besoin de la date (période) pendant laquelle vous avez travailler sur les projets mentionnés.
 
+_Note_ : Si toutefois vous avez travailler sur le même projet durant la première et la deuxième année, alors vous devrez répéter la ligne dans le tableau.
 
+#### Identifier les compétences adéquates
 
-
-
-
-
-
-
-#### Veille
-
-_Note_ : La partie veille pour le BTS SIO fait l'objet d'une roadmap à part entière sur Microlead. Nous partirons ici du principe que vous avez suivi cette roadmap avant de réaliser cette page. Si ce n'est pas le cas, mettez en stand-by votre avancement, et aller la suivre avant de revenir !
-
-La page de veille technologique doit contenir plusieurs éléments parmis lesquels : 
-
-- Une première partie expliquant le sujet ou les sujets que vous avez choisi pour réaliser votre veille.
-- Une partie expliquant les outils que vous avez utilisé pour faire votre veille
-- Une partie expliquant votre méthodologie pour réaliser votre veille
-- Une partie contenant les 4 à 6 articles que vous avez choisi pour votre présentation, accompagné de leur résumé
-- Un bouton de téléchargement de votre fichier de veille complet (tableau)
-
-#### Travaux
-
-**Définition** : La terminologie "Travaux" n'est pas officielle, ni propre au BTS SIO. Cependant, il convient de différencier les travaux que vous présentez lors de votre épreuve E4 (portfolio), de ceux que vous pouvez présenter lors de votre épreuve E5 (le choix des 2 projets).
-
-La page des travaux va devoir contenir une liste de tous les travaux que vous aurez réalisé et que vous jugerez pertinent d'intégrer dans votre présentation. Il s'agit bien ici uniquement d'une présentation globale de vos travaux, aucun détail n'est à fournir sur cette page.
-
-#### Travaux - détail
-
-Pour chaque travail réalisé, vous devrez détailler :
-
-- Le nom du travail; 
-- La description des tâches réalisées pour mener à bien le travail;
-- Les moyens que vous avez utilisé;
-- Avec qui vous l'avez réalisé;
-- Le contexte (entreprise, école, perso, service, date, etc...)
-- Les commentaires que vous jugerez pertinents
-- Les annexes (cahier des charges, documentation technique / fonctionnelle, Schémas UML & Merise etc...)
-
-Vous devrez enfin lister les compétences de l'annexe 6-1 qui vous ont été nécessaires pour réaliser le projet.
-
-#### Projets
-
-Le découpage des projets se fait de la même manière que pour les travaux. Pour rappel, les projets sont des travaux suffisamment conséquent pour pouvoir être présenté à l'épreuve E5.
-
-Vous allez donc devoir créer la page de listing des projets, ainsi que la page de contenu des projets. Ces pages sont stritement identique en terme de structure par rapport aux pages de détail des travaux.
-
-#### Compétences
-
-Cette page - sur le même principe que les projets et travaux - ne servira qu'à lister l'ensemble des compétences que vous avez mis en oeuvre pour votre diplôme. Vous devrez ensuite pour chacune de ces compétences mettre en place une page spécifique décrivant ladite compétence.
-
-#### Compétence - détail
-
-Cette page à pour objectif de démontrer l'acquisition des compétences via les sous-compétences qui y sont associées dans le tableau de synthèse. Vous devrez donc préciser dans cette page : 
-
-- La liste des sous-compétences qui sont associées à ladite compétence
-- La liste des travaux réalisés qui mettent en oeuvre une ou plusieurs sous-compétences. Pour chaque travail, préciser quelles sous-comptences sont associés.
-- La liste des projets réalisés qui mettent en oeuvre une ou plusieurs sous-compétences. Pour chaque projet, préciser quelles sous-comptences sont associés.
-
+Rien de bien compliqué dans cette étape : il s'agit uniquement de répercuté le tri des compétences que vous avez déjà réalisé auparavant. Cochez simplment les cases correspondantes.

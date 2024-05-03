@@ -144,10 +144,8 @@ Chacune des compétences listées ci-dessus devra fair el'objet d'une page spéc
 - La liste des sous-compétences associées. Vous pouvez retrouver ces informations toujours dans l'annexe 6-1, et si vous souhaitez juste faire un copier/coller, vous pouvez avancer à la prochaine étape de la roadmap qui contient ces informations prêtes à l'emploi.
 - La liste des travaux et projets que vous avez réalisé et qui entrent dans le domaine de compétence de la page sur laquelle vous travaillez.
 
-Attention, l'inclusion des travaux et projets d
+Attention, l'inclusion des travaux et projets doit se faire de manière propre. Pour cela, évitez les simples listes à puces, car vous aurez besoin de plusieurs éléments pour hacun d'entre eux : 
 
-
-
-
-
-TODO - Rédaction en cours...
+- Le nom du travail / du projet
+- La liste des sous-compétences associées
+- Un lien vers la page de détail du projet.
