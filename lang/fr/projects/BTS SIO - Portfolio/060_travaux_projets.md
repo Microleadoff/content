@@ -30,9 +30,9 @@ Pour rappel, voici les contenus qu'il va falloir mettre en place pour chaque mis
 
 A vous de travailler cette partie !
 
-### 3. Intégration au répertoire
+### 3. Intégration à la page synthèse
 
-Une fois la description du projet réalisée, vous allez devoir l'ajouter à votre tableau dans la page "répertoire". Créez donc une nouvelle ligne et renseignez la de la sorte : 
+Une fois la description du projet réalisée, vous allez devoir l'ajouter à votre tableau dans la page "synthèse". Créez donc une nouvelle ligne et renseignez la de la sorte : 
 
 #### Type
 
@@ -118,7 +118,7 @@ Il va enfin falloir rendre accessibles cette nouvelle page sur votre site. Il fa
 - La page de listing des missions (pour une mission)
 - La page de listing des projets (pour un projet)
 - Un sous-menu (pour les tempalte ayant un menu adéquat)
-- Un lien dans votre répertoire
+- Un lien dans votre page de synthèse
 - Un lien dans les pages de compétences
 
 ### 6. Bonus : Tableau de synthèse

@@ -113,9 +113,9 @@ Voici une liste des éléments obligatoires dans des mentions légales. Vous pou
 
 _Note_ : Notez ici que cette liste est valable pour une personne physique, mais les informations nécessaires pour une entreprise sont différentes !
 
-### 5. Répertoire
+### 5. Synthèse
 
-Pour rappel, le répertoire est une synthétisation et une représentation de l'annexe 6-1 (le tableau de synthèse). 
+Pour rappel, la page synthèse est une représentation de l'annexe 6-1 (le tableau de synthèse).
 
 Si vous ne pouvez pas encore implémenter le lien de téléchargement de votre tableau de synthèse (Annexe 6-1), il vous est tout de même possible de mettre en place votre tableau de projets et travaux ! Voici le modèle à implémenter pour rappel :
 

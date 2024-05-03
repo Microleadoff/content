@@ -98,7 +98,7 @@ Cette page à pour objectif de démontrer l'acquisition des compétences via les
 - La liste des missions réalisées qui mettent en oeuvre une ou plusieurs sous-compétences. Pour chaque mission, préciser quelles sous-comptences sont associés.
 - La liste des projets réalisés qui mettent en oeuvre une ou plusieurs sous-compétences. Pour chaque projet, préciser quelles sous-comptences sont associés.
 
-#### Répertoire
+#### Synthèse
 
 Cette page est une synthétisation et une représentation de l'annexe 6-1 (le tableau de synthèse). Elle permet de parfaitement mettre en correllation l'ensemble des missions et projets réalisés. On doit y retrouver : 
 

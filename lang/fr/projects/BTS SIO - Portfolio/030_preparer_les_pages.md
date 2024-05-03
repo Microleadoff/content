@@ -45,7 +45,7 @@ Voici le plan de votre menu si votre template n'implémente pas de design pour l
 - Projets : redirige sur la page qui liste les projets réalisés
 - Missions : redirige sur la page qui liste les missions réalisées
 - Compétences : redirige sur la page qui liste les compétences et sous-compétences, ainsi que les projets et travaux associés.
-- Répertoire : redirige sur la page qui liste l'association des compétences et des projets
+- Synthèse : redirige sur la page qui liste l'association des compétences et des projets
 
 _Note_ : Les **projets** sont des travaux qui sont suffisamment conséquents pour être présentés lors de l'épreuve E5
 
@@ -76,7 +76,7 @@ Voici le plan de votre menu si votre template implémente un design pour les sou
     - Travailler en mode projet
     - Mettre à disposition des utilisateurs un service informatiqe
     - Organiser son développement professionel
-- Répertoire : redirige sur la page qui liste l'association des compétences et des projets
+- Synthèse : redirige sur la page qui liste l'association des compétences et des projets
 
 Comparativement avec les templates qui n'ont pas de sous-menu, vous allez ici intégrer un lien par travail ou projet réalisé en sous-menu !
 
