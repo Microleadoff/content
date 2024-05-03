@@ -12,7 +12,7 @@ Rendu à cette étape, vous devriez commencer à y voir plutôt clair sur l'éte
 
 Le contenu de votre page d'accueil va essentiellement dépendre du template choisi. Cependant, il faudra idéalement y retrouver une partie permettant de vous présenter. Vous devrez y intégrer :
 
-- Une photo de vous ;
+- Une photo de vous (optionnelle mais appréciée);
 - Un laïus sur vous et votre parcours;
 - Un lien de téléchargement vers votre CV (obligatoire !).
 
