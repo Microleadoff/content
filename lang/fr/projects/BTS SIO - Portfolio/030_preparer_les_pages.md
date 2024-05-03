@@ -70,10 +70,12 @@ Voici le plan de votre menu si votre template implémente un design pour les sou
     - travaux 3
     - ...
 - Compétences : redirige sur la page qui liste les compétences
-    - Compétence 1
-    - Compétence 2
-    - Compétence 3
-    - ...
+    - Gérer le patrimoine informatique
+    - Répondre aux incidents et aux demandes d'assistance et d'évolution
+    - Déelopper la présence en ligne de l'organisation
+    - Travailler en mode projet
+    - Mettre à disposition des utilisateurs un service informatiqe
+    - Organiser son développement professionel
 - Répertoire : redirige sur la page qui liste l'association des compétences et des projets
 
 Comparativement avec les templates qui n'ont pas de sous-menu, vous allez ici intégrer un lien par travail ou projet réalisé en sous-menu !

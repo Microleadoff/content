@@ -128,4 +128,26 @@ Si toutefois vous avez déjà réalisé un travail ou un projet, commencez à le
 
 ### 6. Compétences
 
+La page "compétences" est une représentation de ce qui est nommé "Domaine de Compétences" dans la littérature propre au BTS SIO. Le principe est d'identifier les compétences et sous-compétences mises en oeuvre dans chaque projet. 
+
+Cette page doit donc contenir des liens vers les pages des copétences spécifiques identifiées (provenant de l'annexe 6-1). Les voici pour rappel : 
+
+- Gérer le patrimoine informatique
+- Répondre aux incidents et aux demandes d'assistance et d'évolution
+- Déelopper la présence en ligne de l'organisation
+- Travailler en mode projet
+- Mettre à disposition des utilisateurs un service informatiqe
+- Organiser son développement professionel
+
+Chacune des compétences listées ci-dessus devra fair el'objet d'une page spécifique. Chacune de ces pages devra comprendre les éléments suivants : 
+
+- La liste des sous-compétences associées. Vous pouvez retrouver ces informations toujours dans l'annexe 6-1, et si vous souhaitez juste faire un copier/coller, vous pouvez avancer à la prochaine étape de la roadmap qui contient ces informations prêtes à l'emploi.
+- La liste des travaux et projets que vous avez réalisé et qui entrent dans le domaine de compétence de la page sur laquelle vous travaillez.
+
+Attention, l'inclusion des travaux et projets d
+
+
+
+
+
 TODO - Rédaction en cours...

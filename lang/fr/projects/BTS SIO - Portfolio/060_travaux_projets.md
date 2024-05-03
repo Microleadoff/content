@@ -50,7 +50,7 @@ Listez ici l'ensemble des compétences qui ont été exploitées pour la réalis
 - Répondre aux incidents et aux demandes d'assistance et d'évolution
 - Déelopper la présence en ligne de l'organisation
 - Travailler en mode projet
-- Mettre à disposition des utilisateurs u service informatiqe
+- Mettre à disposition des utilisateurs un service informatiqe
 - Organiser son développement professionel
 
 #### Sous-compétences
