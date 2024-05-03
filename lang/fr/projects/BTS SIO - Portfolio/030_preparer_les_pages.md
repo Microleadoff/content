@@ -90,6 +90,7 @@ Il est maintenant temps de gérer l'ensemble des informations contenues dans vot
 - Les informations de contact (nom/prénom, tel, mail, adresse, etc...)
 - Un copyright
 - Des liens vers les pages internes du site
+- Les informations de contact & liens vers vos réseaux sociaux (LinkedIn, Github à minima, + mail & téléphone si vous le souhaitez)
 - Etc...
 
 Une fois cette étape réalisée, il va être temps de commencer à agencer les pages !
