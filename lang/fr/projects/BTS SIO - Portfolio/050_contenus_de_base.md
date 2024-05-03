@@ -126,3 +126,6 @@ Si vous ne pouvez pas encore implémenter le lien de téléchargement de votre t
 
 Si toutefois vous avez déjà réalisé un travail ou un projet, commencez à le renseigner sur le tableau, même si vous n'avez pas encore la liste des compétences en tête et que vous n'êtes pas encore capable de mettre en place la corrélation avec les compétences demandées (cela viendra avec le temps).
 
+### 6. Compétences
+
+TODO - Rédaction en cours...
