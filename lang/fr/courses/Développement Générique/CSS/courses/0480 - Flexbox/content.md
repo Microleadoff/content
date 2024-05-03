@@ -193,7 +193,7 @@ Par défaut, les **items** sont disposés dans l'ordre de la source. Toutefois, 
 }
 ```
 
-__remarque__ : hormis pour certains cas exceptionnels, il est déconseillé de changer les ordre d'apparition des éléments HTML en CSS. Si vous êtes amenés à utiliser ce genre de propriété, questionnez vous bien avant sur la bonne utilisation ou non de votre HTML.
+__remarque__ : hormis pour certains cas exceptionnels, il est déconseillé de changer les ordres d'apparition des éléments HTML en CSS. Si vous êtes amenés à utiliser ce genre de propriété, questionnez vous bien avant sur la bonne utilisation ou non de votre HTML.
 
 
 
