@@ -2,26 +2,26 @@
 
 ### Description courte
 
-La prochaine étape sur votre liste va durer tout au long de votre cursus : il s'agit de maintenir à jour votre portfolio, et notamment en mettant au fur et à mesure de votre avancement les travaux et projets que vous réalisez.
+La prochaine étape sur votre liste va durer tout au long de votre cursus : il s'agit de maintenir à jour votre portfolio, et notamment en mettant au fur et à mesure de votre avancement les missions et projets que vous réalisez.
 
-Les étapes d'ajout sont les mêmes peut importe qu'il s'agisse d'un travail ou d'un projet.
+Les étapes d'ajout sont les mêmes peut importe qu'il s'agisse d'une mission ou d'un projet.
 
-_Rappel_ : Les projets sont des travaux suffisamment conséquents pour pouvoir être présentés lors de votre épreuve E5. Les travaux sont vos autres réalisations.
+_Rappel_ : Les projets sont des missions suffisamment conséquents pour pouvoir être présentés lors de votre épreuve E5. Les missions sont vos autres réalisations.
 
 ## Étapes
 
 ### 1. Création de la page
 
-Première étape pour l'intégration d'un projet ou d'un travail : créer le fichier PHP qui contiendra le contenu.
+Première étape pour l'intégration d'un projet ou d'une mission : créer le fichier PHP qui contiendra le contenu.
 
 Vous avez normalement déjà un agencement de réalisé pour ce modèle de page, vous ne devriez normalement donc qu'avoir à faire un copier/coller de ce contenu de base pour avoir votre modèle prêt à l'emploi.
 
 ### 2. Implémentation du contenu
 
-Pour rappel, voici les contenus qu'il va falloir mettre en place pour chaque travail / projet que vous présentez :
+Pour rappel, voici les contenus qu'il va falloir mettre en place pour chaque mission / projet que vous présentez :
 
-- Le nom du travail; 
-- La description des tâches réalisées pour mener à bien le travail;
+- Le nom de la mission; 
+- La description des tâches réalisées pour mener à bien la mission;
 - Les moyens que vous avez utilisé;
 - Avec qui vous l'avez réalisé;
 - Le contexte (entreprise, école, perso, service, date, etc...);
@@ -36,15 +36,15 @@ Une fois la description du projet réalisée, vous allez devoir l'ajouter à vot
 
 #### Type
 
-Spécifiez s'il s'agit d'un travail ou d'un projet. Pour rappel, un projet est une réalisation suffisamment conséquente pour être présentée lors de votre épreuve E5. Le reste est à classer dans la catégorie des travaux.
+Spécifiez s'il s'agit d'une mission ou d'un projet. Pour rappel, un projet est une réalisation suffisamment conséquente pour être présentée lors de votre épreuve E5. Le reste est à classer dans la catégorie des missions.
 
 #### Nom
 
-Précisez ici le nom de votre projet ou de votre travail.
+Précisez ici le nom de votre projet ou de votre mission.
 
 #### Compétences
 
-Listez ici l'ensemble des compétences qui ont été exploitées pour la réalisation de votre travail ou projet. Voicin la liste des compétences pour rappel : 
+Listez ici l'ensemble des compétences qui ont été exploitées pour la réalisation de votre mission ou projet. Voicin la liste des compétences pour rappel : 
 
 - Gérer le patrimoine informatique
 - Répondre aux incidents et aux demandes d'assistance et d'évolution
@@ -103,11 +103,11 @@ En reprennant les compétences renseignées au point précédent, précisez ici 
 
 ### 4. Intégration aux compétences
 
-Cette étape nécessite que vous passiez en revue l'ensemble des compétences et sous-compétences pour chacun de vos travaux / projets.
+Cette étape nécessite que vous passiez en revue l'ensemble des compétences et sous-compétences pour chacun de vos missions / projets.
 
 A chaque fois que votre projet correspondra à une compétence ou une sous-compétence, vous devrez l'incorporer dans la page associée, en n'oubiant pas de bien mettre l'ensemble des éléments suivants : 
 
-- Le nom du travail / du projet
+- Le nom de la mission / du projet
 - La liste des sous-compétences associées
 - Un lien vers la page de détail du projet.
 
@@ -115,7 +115,7 @@ A chaque fois que votre projet correspondra à une compétence ou une sous-comp�
 
 Il va enfin falloir rendre accessibles cette nouvelle page sur votre site. Il faut donc intérer les liens nécessaires pour accéder à ladite page. Voici l'ensemble des pages dans lesquelles il faut intégrer un lien d'accès à votre projet :
 
-- La page de listing des travaux (pour un travail)
+- La page de listing des missions (pour une mission)
 - La page de listing des projets (pour un projet)
 - Un sous-menu (pour les tempalte ayant un menu adéquat)
 - Un lien dans votre répertoire
@@ -123,7 +123,7 @@ Il va enfin falloir rendre accessibles cette nouvelle page sur votre site. Il fa
 
 ### 6. Bonus : Tableau de synthèse
 
-Une fois rendu à cette étape, vous avez normalement terminé d'intégrer votre projet / travail à votre portfolio. Cepenant, il serait dommage de s'arrêter sur une si belle lancée sachant que vous allez également devoir intégrer ce travail à la fameuse annexe 6-1. Je vous propose donc de l'intégrer également dessus.
+Une fois rendu à cette étape, vous avez normalement terminé d'intégrer votre projet / mission à votre portfolio. Cepenant, il serait dommage de s'arrêter sur une si belle lancée sachant que vous allez également devoir intégrer cette mission à la fameuse annexe 6-1. Je vous propose donc de l'intégrer également dessus.
 
 #### Déterminer le cadre
 

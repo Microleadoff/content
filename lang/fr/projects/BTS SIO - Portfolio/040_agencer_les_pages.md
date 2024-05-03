@@ -60,18 +60,18 @@ Il existe d'autres éléments que vous pouvez intégrer dans vos mentions légal
 - La gestion des cookies le cas échéant;
 - Toute autre information légale qui vous concernerait.
 
-#### Travaux
+#### Missions
 
-**Définition** : La terminologie "Travaux" n'est pas officielle, ni propre au BTS SIO. Cependant, il convient de différencier les travaux que vous présentez lors de votre épreuve E4 (portfolio), de ceux que vous pouvez présenter lors de votre épreuve E5 (le choix des 2 projets).
+**Définition** : La terminologie "Mission" n'est pas officielle, ni propre au BTS SIO. Cependant, il convient de différencier les missions que vous présentez lors de votre épreuve E4 (portfolio), des projets qui sont suffisamment conséquents pour être présenté lors de votre épreuve E5 (le choix des 2 projets).
 
-La page des travaux va devoir contenir une liste de tous les travaux que vous aurez réalisé et que vous jugerez pertinent d'intégrer dans votre présentation. Il s'agit bien ici uniquement d'une présentation globale de vos travaux, aucun détail n'est à fournir sur cette page.
+La page des missions va devoir contenir une liste de toutes les missions que vous aurez réalisé et que vous jugerez pertinent d'intégrer dans votre présentation. Il s'agit bien ici uniquement d'une présentation globale de vos missions, aucun détail n'est à fournir sur cette page.
 
-#### Travaux - détail
+#### Mission - détail
 
-Pour chaque travail réalisé, vous devrez détailler :
+Pour chaque mission réalisée, vous devrez détailler :
 
-- Le nom du travail; 
-- La description des tâches réalisées pour mener à bien le travail;
+- Le nom de la mission; 
+- La description des tâches réalisées pour mener à bien la mission;
 - Les moyens que vous avez utilisé;
 - Avec qui vous l'avez réalisé;
 - Le contexte (entreprise, école, perso, service, date, etc...)
@@ -82,32 +82,32 @@ Vous devrez enfin lister les compétences de l'annexe 6-1 qui vous ont été né
 
 #### Projets
 
-Le découpage des projets se fait de la même manière que pour les travaux. Pour rappel, les projets sont des travaux suffisamment conséquent pour pouvoir être présenté à l'épreuve E5.
+Le découpage des projets se fait de la même manière que pour les missions. Pour rappel, les projets sont des missions suffisamment conséquent pour pouvoir être présenté à l'épreuve E5.
 
-Vous allez donc devoir créer la page de listing des projets, ainsi que la page de contenu des projets. Ces pages sont stritement identique en terme de structure par rapport aux pages de détail des travaux.
+Vous allez donc devoir créer la page de listing des projets, ainsi que la page de contenu des projets. Ces pages sont stritement identique en terme de structure par rapport aux pages de détail des missions.
 
 #### Compétences
 
-Cette page - sur le même principe que les projets et travaux - ne servira qu'à lister l'ensemble des compétences que vous avez mis en oeuvre pour votre diplôme. Vous devrez ensuite pour chacune de ces compétences mettre en place une page spécifique décrivant ladite compétence.
+Cette page - sur le même principe que les projets et missions - ne servira qu'à lister l'ensemble des compétences que vous avez mis en oeuvre pour votre diplôme. Vous devrez ensuite pour chacune de ces compétences mettre en place une page spécifique décrivant ladite compétence.
 
 #### Compétence - détail
 
 Cette page à pour objectif de démontrer l'acquisition des compétences via les sous-compétences qui y sont associées dans le tableau de synthèse. Vous devrez donc préciser dans cette page : 
 
 - La liste des sous-compétences qui sont associées à ladite compétence
-- La liste des travaux réalisés qui mettent en oeuvre une ou plusieurs sous-compétences. Pour chaque travail, préciser quelles sous-comptences sont associés.
+- La liste des missions réalisées qui mettent en oeuvre une ou plusieurs sous-compétences. Pour chaque mission, préciser quelles sous-comptences sont associés.
 - La liste des projets réalisés qui mettent en oeuvre une ou plusieurs sous-compétences. Pour chaque projet, préciser quelles sous-comptences sont associés.
 
 #### Répertoire
 
-Cette page est une synthétisation et une représentation de l'annexe 6-1 (le tableau de synthèse). Elle permet de parfaitement mettre en correllation l'ensemble des travaux et projets réalisés. On doit y retrouver : 
+Cette page est une synthétisation et une représentation de l'annexe 6-1 (le tableau de synthèse). Elle permet de parfaitement mettre en correllation l'ensemble des missions et projets réalisés. On doit y retrouver : 
 
 - Un lien de téléchargement de votre tableau de synthèse (Annexe 6-1)
-- Un tableau récapitulatif de tous vos projets/travaux et des compétences associées prenant la forme suivante : 
+- Un tableau récapitulatif de tous vos projets / missions et des compétences associées prenant la forme suivante : 
 
 | Type | Nom | Compétences | Sous-compétences |
 | --- | --- | --- | --- |
-| Travail | Lorem ipsum | Développer la présence en ligne de l'organisation <br> Organiser son développement personnel | Référencer les services en ligne de l’organisation et mesurer leur visibilité. <br> Gérer son identité professionnelle |
+| Mission | Lorem ipsum | Développer la présence en ligne de l'organisation <br> Organiser son développement personnel | Référencer les services en ligne de l’organisation et mesurer leur visibilité. <br> Gérer son identité professionnelle |
 | Projet | Dolor sit amet | Travailler en mode projet | Planifier les activités <br> Évaluer les indicateurs de suivi d’un projet et analyser les écarts |
 
 ### 2. Trouver un design adéquat pour chaque page

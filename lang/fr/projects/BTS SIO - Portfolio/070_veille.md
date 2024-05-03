@@ -33,11 +33,6 @@ Cette partie doit intégrer entre 4 et 6 articles que vous avez sélectionné qu
 
 ### 5. Téléchargement
 
-Enfin, toujours si vous avez bien suivi la roadmap microlead pour la veille technologique, vous devriez av
+Enfin, toujours si vous avez bien suivi la roadmap microlead pour la veille technologique, vous devriez avoir à votre disposition un tableau excel regroupant l'ensemble des articles que vous avez étudié et sélectionné pendant l'année. Si tel est le cas, intégrez un lien de téléchargement de votre tableau de veille pour que le jury puisse y accéder et se rendre compte du travail effectué.
 
 _Note_ : Cette partie n'est pas obligatoire.
-
-
-
-- Une partie contenant les 4 à 6 articles que vous avez choisi pour votre présentation, accompagné de leur résumé
-- Un bouton de téléchargement de votre fichier de veille complet (tableau)

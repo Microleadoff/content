@@ -17,10 +17,10 @@ Il est possible d'avoir de nombreux plans et de nombreuses pages pour les portfo
 - Veille
 - BTS SIO
 - Mentions légales
-- Travaux (plus 1 page par travail réalisé)
+- Missions (plus 1 page par mission réalisée)
 - Projets (plus 1 page par projet réalisé)
 - Compétences (plus 1 page par compétence mise en oeuvre)
-- Répertoire (= domaine de compétence)
+- Synthèse
 
 #### Création des pages
 
@@ -43,7 +43,7 @@ Voici le plan de votre menu si votre template n'implémente pas de design pour l
 - Entreprise : redirige vers la page qui va présenter l'entreprise
 - Veille : redirige vers la page de veille
 - Projets : redirige sur la page qui liste les projets réalisés
-- Travaux : redirige sur la page qui liste les travaux réalisés
+- Missions : redirige sur la page qui liste les missions réalisées
 - Compétences : redirige sur la page qui liste les compétences et sous-compétences, ainsi que les projets et travaux associés.
 - Répertoire : redirige sur la page qui liste l'association des compétences et des projets
 
@@ -60,14 +60,14 @@ Voici le plan de votre menu si votre template implémente un design pour les sou
 - Entreprise : redirige vers la page qui va présenter l'entreprise
 - Veille : redirige vers la page de veille
 - Projets : redirige sur la page qui liste les projets réalisés
-    - projet 1
-    - projet 2
-    - projet 3
+    - Projet 1
+    - Projet 2
+    - Projet 3
     - ...
-- Travaux : redirige sur la page qui liste les travaux réalisés
-    - travaux 1
-    - travaux 2
-    - travaux 3
+- Missions : redirige sur la page qui liste les missions réalisées
+    - Mission 1
+    - Mission 2
+    - Mission 3
     - ...
 - Compétences : redirige sur la page qui liste les compétences
     - Gérer le patrimoine informatique
@@ -80,9 +80,9 @@ Voici le plan de votre menu si votre template implémente un design pour les sou
 
 Comparativement avec les templates qui n'ont pas de sous-menu, vous allez ici intégrer un lien par travail ou projet réalisé en sous-menu !
 
-_Note_ : Les **projets** sont des travaux qui sont suffisamment conséquents pour être présentés lors de l'épreuve E5
+_Note_ : Les **projets** sont des missions qui sont suffisamment conséquents pour être présentés lors de l'épreuve E5
 
-_Note_ : Les **travaux** sont la liste de tous les projets que vous avez réalisés : en cours, en entreprise ou à titre personnel. Les petits exercices de pratique ne sont pas consiédérés comme des travaux !
+_Note_ : Les **missions** sont la liste de tous les projets que vous avez réalisés : en cours, en entreprise ou à titre personnel. Les petits exercices de pratique ne sont pas consiédérés comme des missions !
 
 ### 3. Implémenter les éléments du footer
 
