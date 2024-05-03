@@ -99,15 +99,40 @@ Voici les débouchés avec un BTS SIO SLAM:
 - Technicien d'études informatiques
 ```
 
+### 4. Mentions légales
+
+Voici une liste des éléments obligatoires dans des mentions légales. Vous pouvez les copier/coller mais pensez bien à les intégrer dans des balises HTML et à renseigner le contenu correctement ! A titre informatif, l'absence d'une seule information est sanctionnée par une amende de **1 500 €**.
+
+- Nom et prénom ;
+- Adresse du domicile ;
+- Coordonnées téléphoniques ;
+- Nom du directeur ou du codirecteur de la publication ;
+- Adresse e-mail ;
+- Nom du responsable de la rédaction pour les sites publiant des contenus éditoriaux ;
+- Informations concernant l’hébergeur du site (nom, dénomination sociale ou raison sociale, adresse et numéro de téléphone).
+
+_Note_ : Notez ici que cette liste est valable pour une personne physique, mais les informations nécessaires pour une entreprise sont différentes !
+
+### 5. Répertoire
+
+Pour rappel, le répertoire est une synthétisation et une représentation de l'annexe 6-1 (le tableau de synthèse). 
+
+Si vous ne pouvez pas encore implémenter le lien de téléchargement de votre tableau de synthèse (Annexe 6-1), il vous est tout de même possible de mettre en place votre tableau de projets et travaux ! Voici le modèle à implémenter pour rappel :
+
+| Type | Nom | Compétences | Sous-compétences |
+| --- | --- | --- | --- |
+| XXX | XXX | XXX | XXX |
+| XXX | XXX | XXX | XXX |
+
+Si toutefois vous avez déjà réalisé un travail ou un projet, commencez à le renseigner sur le tableau, même si vous n'avez pas encore la liste des compétences en tête et que vous n'êtes pas encore capable de mettre en place la corrélation avec les compétences demandées (cela viendra avec le temps).
 
 
-#### BTS SIO
 
-La page BTS SIO doit présenter le BTS SIO dans sa globalité, avec les 2 options : SISR & SLAM. Vous devez expliquer les deux options séparément, sans vous inclure dedans ou spécifier votre filière : il s'agit ici uniqument de présentation globale.
 
-Vous devrez également intégrer un listing de tous les cours que vous avez eu au cours des 2 années d'apprentissage, avec le nombre d'heures que vous aurez eu par matière.
 
-_Note_ : Arrangez-vous dans votre classe pour vous partager les informations chiffrées, pour que tout le monde ai bien les mêmes informations !
+
+
+
 
 #### Veille
 
@@ -120,20 +145,6 @@ La page de veille technologique doit contenir plusieurs éléments parmis lesque
 - Une partie expliquant votre méthodologie pour réaliser votre veille
 - Une partie contenant les 4 à 6 articles que vous avez choisi pour votre présentation, accompagné de leur résumé
 - Un bouton de téléchargement de votre fichier de veille complet (tableau)
-
-#### Mentions légales
-
-Les mentions légales sont des informations légales obligatoires qui doivent permettre aux internautes de vous identifier clairement et facilement. Elles doivent comprendre dans le cadre de votre BTS SIO à minima : 
-
-- Votre Nom / Prénom;
-- Mail et numéro de téléphone de contact;
-- Les informations d'identification de l'hébergeur du site (nom + adresse + téléphone)
-
-Il existe d'autres éléments que vous pouvez intégrer dans vos mentions légales, tels que : 
-
-- Une partie sur le RGPD et le traitement des données personnelles que vous effectuez;
-- La gestion des cookies le cas échéant;
-- Toute autre information légale qui vous concernerait.
 
 #### Travaux
 
@@ -173,22 +184,3 @@ Cette page à pour objectif de démontrer l'acquisition des compétences via les
 - La liste des travaux réalisés qui mettent en oeuvre une ou plusieurs sous-compétences. Pour chaque travail, préciser quelles sous-comptences sont associés.
 - La liste des projets réalisés qui mettent en oeuvre une ou plusieurs sous-compétences. Pour chaque projet, préciser quelles sous-comptences sont associés.
 
-#### Répertoire
-
-Cette page est une synthétisation et une représentation de l'annexe 6-1 (le tableau de synthèse). Elle permet de parfaitement mettre en correllation l'ensemble des travaux et projets réalisés. On doit y retrouver : 
-
-- Un lien de téléchargement de votre tableau de synthèse (Annexe 6-1)
-- Un tableau récapitulatif de tous vos projets/travaux et des compétences associées prenant la forme suivante : 
-
-| Type | Nom | Compétences | Sous-compétences |
-| --- | --- | --- | --- |
-| Travail | Lorem ipsum | Développer la présence en ligne de l'organisation <br> Organiser son développement personnel | Référencer les services en ligne de l’organisation et mesurer leur visibilité. <br> Gérer son identité professionnelle |
-| Projet | Dolor sit amet | Travailler en mode projet | Planifier les activités <br> Évaluer les indicateurs de suivi d’un projet et analyser les écarts |
-
-### 2. Trouver un design adéquat pour chaque page
-
-Pour chaque page présentée ci-dessus, vous allez devoir identifier un ou plusieurs éléments dans votre template qui doivent permettre de présenter 100% des éléments indiqués ci-dessus. Il ne s'agit donc pas ici de créer encore les contenus textuels, mais il s'agit de bien tous les avoir en tête afin de prévoir parfaitement toutes vos pages, et de préparer le terrain pour l'intégration des contenus finaux.
-
-Si votre découpage à été fait correctement, il devrait être normalement relativement simple de préparer chacune des pages étant donné qu'il va essentiellement s'agir de copier/coller.
-
-Faites toutefois attention, assurez vous dès maintenant que l'affichage soit parfait, cela vous évitera de trop repasser dessus lors de l'intégration des contenus. L'objectif étant bien évidemment de ne plus toucher à la structure globale de votre site web une fois cette étape terminée !
