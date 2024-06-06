@@ -35,44 +35,35 @@ Vous pouvez également retrouver les maquettes Figma du projet sur le lien suiva
 
 #### Formules mathématiques
 
-##### Montant des mensualités
-
-Pour calculer le montant des mensualités d'un emprunt bancaire, on utilise la formule de l'annuité constante, qui est couramment utilisée pour les prêts à amortissement constant. Voici la formule :
+##### Calcul des intérêts mensuels
 
 ```
-M = (K × T) / ( 1 - (1 + T)**-n )
+Intérêts par mois = (Taux d'intérêt / 12) / 100
 ```
 
-où :
-
-- M est le montant des mensualités.
-- K est le montant emprunté (le capital).
-- T est le taux d'intérêt périodique (mensuel), que l'on peut obtenir en divisant le taux annuel par 12.
-- n est le nombre total de mensualités (la durée du prêt en mois).
-
-##### Calcul du coût total du crédit
+##### Calcul de la durée du prêt en mois
 
 ```
-Coût total = M × n − K
+Durée du prêt en mois = durée total du prêt * 12
 ```
 
-##### Calcul des intérêts totaux payés
+##### Calcul des intérêts d'un mois
 
 ```
-Intérêts totaux = Coût total − K
+intérêts du mois = montant restant à payer * Intérêts par mois
 ```
 
-##### Amortissement à chaque période
+##### Calcul de l'échéance mensuel
 
 ```
-At = M -  (Kt x T)
+Echeance mensuel = Montant total du prêt * ( ( Intérêts par mois * ( (1 + Intérêts par mois) ** Durée du prêt en mois)) / (((1 + Intérêts par mois) ** Durée du prêt en mois) - 1));
 ```
 
-où :
+##### Calcul de l'amortissement
 
-- At est l'amortissement au temps t
-- Kt est le capital restant dû au temps t
-
+```
+amortissemet du mois = Echeance mensuel - intérêts du mois
+```
 
 ### Contraintes
 
