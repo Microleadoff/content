@@ -26,7 +26,8 @@ Vous pouvez retrouver un visuel et un exemple de rendu sur la vidéo youtube sui
 
 Vous pouvez également retrouver les maquettes Figma du projet sur le lien suivant : <a href="https://www.figma.com/file/SlO9YozC45uw1VBITDZo4q/Modelling_calculatrice_pret?type=design&node-id=0%3A1&mode=design&t=50BGSIIqqgz9f0yv-1" target="_blank" title="Maquette figma du projet de calculette de prêt immobilier en JavaScript sur Microlead">Voir la maquette</a>
 
-**Note** Pour accéder à la maquette, vous devez : 
+**Note** Pour accéder à la maquette, vous devez :
+
 - Vous connecter à Figma
 - Vous rendre sur le lien ci-dessus
 - cliquez sur le bouton "get a copy"
@@ -43,6 +44,7 @@ M = (K × T) / ( 1 - (1 + T)**-n )
 ```
 
 où :
+
 - M est le montant des mensualités.
 - K est le montant emprunté (le capital).
 - T est le taux d'intérêt périodique (mensuel), que l'on peut obtenir en divisant le taux annuel par 12.
@@ -67,6 +69,7 @@ At = M -  (Kt x T)
 ```
 
 où :
+
 - At est l'amortissement au temps t
 - Kt est le capital restant dû au temps t
 
