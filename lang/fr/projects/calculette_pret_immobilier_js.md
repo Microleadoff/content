@@ -37,10 +37,10 @@ Pour l'export en PDF, vous pouvez utiliser la librairie jsPDF disponible sur le 
 
 #### Formules mathématiques
 
-##### Calcul des intérêts mensuels
+##### Calcul du taux d'intérêt mensuel
 
 ```
-Intérêts par mois = (Taux d'intérêt / 12) / 100
+taux d'intérêt mensuel = (Taux d'intérêt / 12) / 100
 ```
 
 ##### Calcul de la durée du prêt en mois
@@ -52,13 +52,13 @@ Durée du prêt en mois = durée total du prêt * 12
 ##### Calcul des intérêts d'un mois
 
 ```
-intérêts du mois = montant restant à payer * Intérêts par mois
+intérêts du mois = montant restant à payer * taux d'intérêt mensuel
 ```
 
 ##### Calcul de l'échéance mensuelle
 
 ```
-Echeance mensuelle = Montant total du prêt * ( ( Intérêts par mois * ( (1 + Intérêts par mois) ** Durée du prêt en mois)) / (((1 + Intérêts par mois) ** Durée du prêt en mois) - 1));
+Echeance mensuelle = Montant total du prêt * ( ( taux d'intérêt mensuel * ( (1 + taux d'intérêt mensuel) ** Durée du prêt en mois)) / (((1 + taux d'intérêt mensuel) ** Durée du prêt en mois) - 1));
 ```
 
 ##### Calcul de l'amortissement
