@@ -53,16 +53,16 @@ Durée du prêt en mois = durée total du prêt * 12
 intérêts du mois = montant restant à payer * Intérêts par mois
 ```
 
-##### Calcul de l'échéance mensuel
+##### Calcul de l'échéance mensuelle
 
 ```
-Echeance mensuel = Montant total du prêt * ( ( Intérêts par mois * ( (1 + Intérêts par mois) ** Durée du prêt en mois)) / (((1 + Intérêts par mois) ** Durée du prêt en mois) - 1));
+Echeance mensuelle = Montant total du prêt * ( ( Intérêts par mois * ( (1 + Intérêts par mois) ** Durée du prêt en mois)) / (((1 + Intérêts par mois) ** Durée du prêt en mois) - 1));
 ```
 
 ##### Calcul de l'amortissement
 
 ```
-amortissemet du mois = Echeance mensuel - intérêts du mois
+amortissemet du mois = Echeance mensuelle - intérêts du mois
 ```
 
 ### Contraintes
