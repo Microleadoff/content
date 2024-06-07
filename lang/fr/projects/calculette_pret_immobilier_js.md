@@ -33,6 +33,8 @@ Vous pouvez également retrouver les maquettes Figma du projet sur le lien suiva
 - cliquez sur le bouton "get a copy"
 - Rendez-vous ensuite sur la page "Maquette" pour obtenir le détail de l'intégration à réaliser.
 
+Pour l'export en PDF, vous pouvez utiliser la librairie jsPDF disponible sur le lien suivant : <a href="https://github.com/parallax/jsPDF" target="_blank" rel="nofollow" title="jsPDF">jsPDF</a>
+
 #### Formules mathématiques
 
 ##### Calcul des intérêts mensuels
