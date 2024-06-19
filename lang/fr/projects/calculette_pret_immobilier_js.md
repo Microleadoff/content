@@ -72,5 +72,5 @@ Amortissement du mois = Echeance mensuelle - intérêts du mois
 ### Contraintes
 
 - N'utilisez que du HTML, du CSS, et du JavaScript
-- respectez scrupuleusement la maquette
-- Vérifiez bien les données renseignées par l'utilisateur.
+- Respectez scrupuleusement la maquette
+- Vérifiez bien les données renseignées par l'utilisateur
