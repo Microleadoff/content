@@ -42,7 +42,7 @@ Pour l'export en PDF, vous pouvez utiliser la librairie jsPDF disponible sur le 
 Le taux d'intérêt est la valeur qui est passée dans le champs "Taux nomminal" de la maquette.
 
 ```
-taux d'intérêt mensuel = (Taux d'intérêt / 12) / 100
+Taux d'intérêt mensuel = (Taux d'intérêt / 12) / 100
 ```
 
 ##### Calcul de la durée du prêt en mois
@@ -54,7 +54,7 @@ Durée du prêt en mois = durée total du prêt * 12
 ##### Calcul des intérêts d'un mois
 
 ```
-intérêts du mois = montant restant à payer * taux d'intérêt mensuel
+Intérêts du mois = montant restant à payer * taux d'intérêt mensuel
 ```
 
 ##### Calcul de l'échéance mensuelle
@@ -66,7 +66,7 @@ Echeance mensuelle = Montant total du prêt * ( ( taux d'intérêt mensuel * ( (
 ##### Calcul de l'amortissement
 
 ```
-amortissement du mois = Echeance mensuelle - intérêts du mois
+Amortissement du mois = Echeance mensuelle - intérêts du mois
 ```
 
 ### Contraintes
