@@ -39,7 +39,7 @@ Pour l'export en PDF, vous pouvez utiliser la librairie jsPDF disponible sur le 
 
 ##### Calcul du taux d'intérêt mensuel
 
-Le taux d'intérêt est la valeur qui est passée dans le champs "Taux nomminal" de la maquette.
+Le taux d'intérêt est la valeur qui est passée dans le champs "Taux nominal" de la maquette.
 
 ```
 Taux d'intérêt mensuel = (Taux d'intérêt / 12) / 100
