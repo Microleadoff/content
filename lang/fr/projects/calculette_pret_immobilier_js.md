@@ -66,7 +66,7 @@ Echeance mensuelle = Montant total du prêt * ( ( taux d'intérêt mensuel * ( (
 ##### Calcul de l'amortissement
 
 ```
-amortissemet du mois = Echeance mensuelle - intérêts du mois
+amortissement du mois = Echeance mensuelle - intérêts du mois
 ```
 
 ### Contraintes
