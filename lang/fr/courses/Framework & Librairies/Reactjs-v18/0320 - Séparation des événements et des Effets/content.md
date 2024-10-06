@@ -1,0 +1,1 @@
+https://fr.react.dev/learn/separating-events-from-effects
