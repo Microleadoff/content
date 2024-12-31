@@ -44,6 +44,7 @@ Il faut s'astreindre à découper les éléments de votre problématique, et à 
 >"En quoi l'agilité dans le cadre d'une entreprise composée de plusieurs équipes, chacune gérée de manière indépendante, est-elle pertinente pour harmoniser la méthodologie de travail globale ?"
 
 Voici les différents éléments qu'il serait pertinent de reprendre et d'expliquer individuellement : 
+
 - **agilité** : Ce terme est utilisé à presque toutes les sauces aujourd'hui, il peut présenter plusieurs approches et plusieurs interprétations différentes, il convient donc de bien préciser l'approche soutenue par le rédacteur !
 - **entreprise composée de plusieurs équipes, chacune gérée de manière indépendante** : information précieuse, qui sous-entends que toutes les entreprises composées de plusieurs équipes et qui sont chacunes gérées de manière indépendante sont concerné par la problématique actuelle et donc la réponse apportée conviendra à 100% de ces entreprises ! Attention donc ici à la formulation ou à s'assurer qu'aucun contre-exemple ne soit possible !
 - **pertinente** : Quelle pertinence ? Selon quels critères ? Quels KPIs utiliser afin de démontrer cette pertinence ? Comment est-elle calculée ?

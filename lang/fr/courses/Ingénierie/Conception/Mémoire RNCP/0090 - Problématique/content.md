@@ -37,7 +37,7 @@ Formulation de la problématique :
 
 - Problème : simplification de la gestion de projet
 - Axe de traitement : DevOps
-- Contexte : Développement d'un LMS (Learning Mamangment System)
+- Contexte : Développement d'un LMS (Learning Management System)
 
 Formulation de la problématique : 
 1. (début) En quoi
