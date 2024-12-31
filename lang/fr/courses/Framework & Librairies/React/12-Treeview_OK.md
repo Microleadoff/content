@@ -1,4 +1,4 @@
-## Treeview UI
+## Treeview
 
 ### Qu'est-ce qu'une Treeview ?
 
