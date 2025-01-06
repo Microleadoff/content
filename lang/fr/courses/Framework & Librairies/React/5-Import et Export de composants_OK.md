@@ -90,7 +90,7 @@ MyFunction(); // Affiche "Hello!"
 Dans cet exemple, même si la fonction exportée est appelée ```Hello``` dans le fichier d'origine, on peut l'importer sous le nom ```MyFunction```, ou n'importe quel autre nom !
 
 ### Composant racine
-Le composant racine est le point de départ d'une application dans React. Il s'agit du composant principal, généralement appelé **App.js**, qui englobe tous les autres composants. Le composant racine est rendu directement dans le DOM HTML de la page, souvent à l’intérieur d'un élément comme <div id="root">, et il sert de base pour construire l'ensemble de l'interface en imbriquant et en organisant les composants enfants.
+Le composant racine est le point de départ d'une application dans React. Il s'agit du composant principal, généralement appelé **App.js**, qui englobe tous les autres composants. Le composant racine est rendu directement dans le DOM HTML de la page, souvent à l’intérieur d'un élément comme ```<div id="root">```, et il sert de base pour construire l'ensemble de l'interface en imbriquant et en organisant les composants enfants.
 
 Notez que selon le framework utilisé, il est possible que chaque page ait son propre composant racine !
 

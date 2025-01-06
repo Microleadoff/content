@@ -48,7 +48,7 @@ export default function Microlead() {
 }
 ```
 
-Tout comme avec les balises HTML, il est possible de composer, organiser et imbriquer des composants pour construire des pages complètes.On pourrais alors imaginer un composants pour chaque éléments qui composerait la page.
+Tout comme avec les balises HTML, il est possible de composer, organiser et imbriquer des composants pour construire des pages complètes. On pourrais alors imaginer un composants pour chaque éléments qui composerait la page.
 
 Voici un exemple :
 

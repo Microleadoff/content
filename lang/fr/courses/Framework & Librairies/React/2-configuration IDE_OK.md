@@ -26,7 +26,7 @@ Pour installer l'extension *ESLint* sur VS Code, voici les étapes à suivre :
 Veillez à activer toutes les règles de `eslint-plugin-react-hooks` dans votre projet. Elles sont cruciales pour identifier et corriger rapidement les bugs majeurs.
 
 #### *Illustration VS Code pour l'extension ESLint*
-<img src="img/vscode ESLint.png" alt="Illustration de VS Code pour l'extension ESLint">
+<img src="https://github.com/Microleadoff/content/blob/55d6f07295e69b18d4a1c0ec1a7cca5a4ea76a5b/lang/fr/courses/Framework%20%26%20Librairies/React/img/vscode%20ESLint.png" alt="Illustration de VS Code pour l'extension ESLint">
 
 
 ### Formatage
@@ -45,7 +45,7 @@ Pour installer l’extension *Prettier* sur VS Code, voici les étapes à suivre
 Attention à bien prendre l'extension officiel !
 
 #### *Illustration VS Code pour l'installation de l'extension prettier*
-<img src="img/install prettier vscode.png" alt="Illustration de VS Code pour prettier">
+<img src="https://github.com/Microleadoff/content/blob/55d6f07295e69b18d4a1c0ec1a7cca5a4ea76a5b/lang/fr/courses/Framework%20%26%20Librairies/React/img/install%20prettier%20vscode.png" alt="Illustration de VS Code pour prettier">
 
 ### Formatage à la sauvegarde
 
@@ -59,7 +59,7 @@ Suivez ces étapes pour activer l’option sur VS Code.
 4. Dans la barre de recherche, entrer **format on save** puis cochez la première option.
 
 #### *Illustration VS Code pour les instructions 1/2/3*
-<img src="img/format auto vscode 1.png" alt="Illustration de VS Code pour le Formatage à la sauvegarde 1">
+<img src="https://github.com/Microleadoff/content/blob/55d6f07295e69b18d4a1c0ec1a7cca5a4ea76a5b/lang/fr/courses/Framework%20%26%20Librairies/React/img/format%20auto%20vscode%201.png" alt="Illustration de VS Code pour le Formatage à la sauvegarde 1">
 
 #### *Illustration VS Code pour l'instruction 4*
-<img src="img/format auto vscode 2.png" alt="Illustration de VS Code pour le Formatage à la sauvegarde 2">
+<img src="https://github.com/Microleadoff/content/blob/55d6f07295e69b18d4a1c0ec1a7cca5a4ea76a5b/lang/fr/courses/Framework%20%26%20Librairies/React/img/format%20auto%20vscode%202.png" alt="Illustration de VS Code pour le Formatage à la sauvegarde 2">
