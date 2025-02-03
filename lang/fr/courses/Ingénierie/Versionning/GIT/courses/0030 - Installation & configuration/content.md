@@ -34,6 +34,8 @@ Pour plus d’options, des instructions d’installation sur différentes versio
 
 ## Configuration
 
+### Qui êtes-vous ?
+
 Après avoir installé Git, la première étape consiste à configurer votre nom et votre adresse e-mail. Ces informations sont essentielles car Git les utilise pour chaque validation (commit), et elles seront intégrées de manière permanente dans toutes les validations que vous effectuerez :
 
 ```bash
@@ -44,6 +46,75 @@ $ git config --global user.email johndoe@example.com
 Il est important de noter que cette étape n'est nécessaire qu'une seule fois si vous utilisez l'option --global, car Git utilisera ces informations pour toutes vos opérations sur ce système. Si vous souhaitez spécifier un nom ou une adresse e-mail différents pour un projet particulier, vous pouvez exécuter ces commandes sans l'option --global lorsque vous êtes dans ce projet spécifique.
 
 De nombreux outils graphiques vous guideront également lors de cette configuration la première fois que vous les utiliserez.
+
+### Changer le nom par défaut de la branche principale
+
+Gitlab et Github ont récemment changé le nom de la branche principale de `master` à `main`. Git ne l'a pas fait par défaut. Pour unifier cette situation, il est possible de renommer par défaut la branche principale dans le dépôt local Git de la manière suivante : 
+
+```
+git config --global init.defaultBranch main
+```
+
+### Changer l'éditeur par défaut
+
+Souvent, lors de l'apparition de conflits ou lorsque vous oubliez de nommer un commit, GIT ouvre un éditeur en ligne de commande pour vous permettre de réaliser les modifications attendues. Par défaut, il n'est pas rare que GIT ouvre VIM, très puissant mais également assez complexe pour les débutants. Pour changer l'éditeur et définir l'éditeur NANO (plus simple), il est possible d'utiliser la commande suivante : 
+
+```
+git config --global core.editor nano
+```
+
+### Ajouter de la couleur
+
+Pour distinguer plus facilement les sorties de GIT dans vos terminaux, il peut être pratique de mettre différents éléments en couleur. Pour cela, vous pouvez saisir les commandes de configuration suivantes : 
+
+```
+git config --global color.branch auto
+git config --global color.diff auto
+git config --global color.interactive auto
+git config --global color.status auto
+git config --global color.grep auto
+```
+
+#### Spécification Linux
+
+Pour avoir les branches visibles sous Linux dans votre terminal, il faudra éditer le fichier `~./bashrc` en y ajoutant les commandes suivantes :
+
+```
+parse_git_branch() {
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+export PS1="\u@\h \[\e[32m\]\w \[\e[91m\]\$(parse_git_branch)\[\e[00m\]$ "
+```
+
+#### Spécification Mac
+
+Pour obtenir les branches visibles dans le terminal sous MAC et disposer des couleurs, il faudra éditer le fichier `~./zshrc` en y ajoutant : 
+
+```
+function parse_git_branch() {
+    git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/[\1]/p'
+}
+COLOR_DEF=$'%f'
+COLOR_USR=$'%F{243}'
+COLOR_DIR=$'%F{197}'
+COLOR_GIT=$'%F{39}'
+setopt PROMPT_SUBST
+export PROMPT='${COLOR_USR}%n ${COLOR_DIR}%~ ${COLOR_GIT}$(parse_git_branch)${COLOR_DEF} $ '
+```
+
+### Alias
+
+Il est possible de configurer des alias pour GIT. L'idée est de simplifier l'écriture des commandes longues et fastidieuses à écrire. Pour cela, nous allons prendre pour exemple la commande "git log", qui est souvent utilisée avec de nombreuses options pour simplifier la lecture de sa sortie. Voici la commande permettant de générer un alias de cette commande : 
+
+```
+git config --global alias.lol "log --graph --oneline --decorate --color --all"
+```
+
+Une fois cette commande saisie - et donc l'alias configuré, vous pourrez appeler la commande `git log --graph --oneline --decorate --color --all` en tapant simplement :
+
+```
+git lol
+```
 
 ## Vérifier votre configuration
 
