@@ -6,4 +6,4 @@
 
 ## Rendu attendu
 
-<img src="../img/rendu_exo_4_1.png" alt="rendu attendu de l'exercice">
+<img src="https://raw.githubusercontent.com/Microleadoff/content/refs/heads/master/lang/fr/courses/Framework%20%26%20Librairies/Reactjs-v18/0040%20-%20Cr%C3%A9er%20un%20premier%20composant/rendu_exo_4_1.png" alt="rendu attendu de l'exercice">
