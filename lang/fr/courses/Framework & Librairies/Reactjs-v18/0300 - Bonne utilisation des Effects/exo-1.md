@@ -26,4 +26,4 @@ export default Timer;
 
 #### Rendu attendu
 
-<img src="../img/rendu_exo_30.png" alt="Rendu attendu de l'exercice">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0300%20-%20Bonne%20utilisation%20des%20Effects/rendu_exo_30_1.png?raw=true" alt="Rendu attendu de l'exercice">

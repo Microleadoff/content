@@ -18,4 +18,4 @@
 
 ## Rendu attendu (après avoir fait les deux exercices)
 
-<img src="../img/rendu_exo_27_1.png" alt="Rendu attendu des exercices">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0270%20-%20Utiliser%20les%20Refs/rendu_exo_27_1.png?raw=true" alt="Rendu attendu des exercices">

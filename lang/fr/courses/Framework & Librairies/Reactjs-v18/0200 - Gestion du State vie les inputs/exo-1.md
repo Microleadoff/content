@@ -14,4 +14,4 @@
 
 ## Rendu attendu
 
-<img src="../img/rendu_exo_20_1.png" alt="Rendu attendu de des exercices">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0200%20-%20Gestion%20du%20State%20vie%20les%20inputs/rendu_exo_20_1.png?raw=true" alt="Rendu attendu de des exercices">

@@ -11,4 +11,4 @@
 
 ## Rendu attendu
 
-<img src="../img/rendu_exo_8_2.png" alt="rendu attendu de l'exercice">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0080%20-%20Les%20props/rendu_exo_8_2.png?raw=true" alt="rendu attendu de l'exercice">

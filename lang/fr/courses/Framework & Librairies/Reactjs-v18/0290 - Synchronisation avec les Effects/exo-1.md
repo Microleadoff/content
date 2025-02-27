@@ -16,4 +16,4 @@
 
 #### Rendu attendu (après avoir fait les deux exercices)
 
-<img src="../img/rendu_exo_29_2.png" alt="Rendu attendu de des exercices">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0290%20-%20Synchronisation%20avec%20les%20Effects/rendu_exo_29_2.png?raw=true" alt="Rendu attendu de des exercices">

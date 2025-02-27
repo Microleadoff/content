@@ -7,4 +7,4 @@
 
 ## Rendu attendu
 
-<img src="../img/rendu_exo_18_2.png" alt="Rendu attendu de l'exercice">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0180%20-%20MAJ%20les%20objets%20dans%20le%20State/rendu_exo_18_2.png?raw=true" alt="Rendu attendu de l'exercice">

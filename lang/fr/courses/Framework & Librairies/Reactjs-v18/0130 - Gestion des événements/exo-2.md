@@ -6,4 +6,4 @@
 
 ## Rendu attendu
 
-<img src="../img/rendu_exo_13_2.png" alt="Rendu attendu de l'exercice">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0130%20-%20Gestion%20des%20%C3%A9v%C3%A9nements/rendu_exo_13_2.png?raw=true" alt="Rendu attendu de l'exercice">

@@ -32,4 +32,4 @@ export default ClickCounter;
 
 ## Rendu attendu
 
-<img src="../img/rendu_exo_32.png" alt="Rendu attendu de l'exercice">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0320%20-%20S%C3%A9paration%20des%20%C3%A9v%C3%A9nements%20et%20des%20Effets/rendu_exo_32_1.png?raw=true" alt="Rendu attendu de l'exercice">

@@ -11,4 +11,4 @@
 
 ## Rendu attendu
 
-<img src="../img/rendu_exo_34_2_theme.png" alt="Rendu attendu de l'exercice 2">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0340%20-%20Les%20Hooks%20Personnalis%C3%A9s/rendu_exo_34_2.png?raw=true" alt="Rendu attendu de l'exercice 2">

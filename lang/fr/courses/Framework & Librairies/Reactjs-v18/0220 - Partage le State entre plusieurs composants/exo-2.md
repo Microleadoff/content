@@ -8,4 +8,4 @@
 
 ## Rendu attendu
 
-<img src="../img/rendu_exo_22_2.png" alt="Rendu attendu de l'exercice">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0220%20-%20Partage%20le%20State%20entre%20plusieurs%20composants/rendu_exo_22_2.png?raw=true" alt="Rendu attendu de l'exercice">

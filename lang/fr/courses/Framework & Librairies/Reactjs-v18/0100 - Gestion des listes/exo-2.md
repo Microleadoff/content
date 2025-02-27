@@ -9,4 +9,4 @@
 
 ## Rendu attendu
 
-<img src="../img/rendu_exo_10_2.png" alt="rendu attendu de l'exercice">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0100%20-%20Gestion%20des%20listes/rendu_exo_10_2.png?raw=true" alt="rendu attendu de l'exercice">

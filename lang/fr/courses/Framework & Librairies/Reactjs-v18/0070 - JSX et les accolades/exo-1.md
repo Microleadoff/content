@@ -10,4 +10,4 @@
 
 ## Rendu attendu
 
-<img src="../img/rendu_exo_7_1.png" alt="rendu attendu de l'exercice">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0070%20-%20JSX%20et%20les%20accolades/rendu_exo_7_1.png?raw=true" alt="rendu attendu de l'exercice">

@@ -11,4 +11,4 @@
 
 ### Rendu attendu
 
-<img src="../img/rendu_exo_9_1.png" alt="rendu attendu de l'exercice">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0090%20-%20Les%20conditions/rendu_exo_9_1.png?raw=true" alt="rendu attendu de l'exercice">

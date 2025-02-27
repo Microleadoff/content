@@ -9,4 +9,4 @@
 
 ## Rendu attendu
 
-<img src="../img/rendu_exo_12_2.png" alt="Rendu attendu de l'exercice">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0120%20-%20Treeview%20UI/rendu_exo_12_2.png?raw=true" alt="Rendu attendu de l'exercice">

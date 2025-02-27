@@ -13,4 +13,4 @@
 
 ## Rendu attendu (après avoir fait les deux exercices)
 
-<img src="../img/rendu_exo_23_1.png" alt="Rendu attendu des exercices">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0230%20-%20Pr%C3%A9server%20et%20R%C3%A9initialiser%20le%20State/rendu_exo_23_1.png?raw=true" alt="Rendu attendu des exercices">

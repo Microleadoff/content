@@ -13,4 +13,4 @@
 
 ## Rendu attendu
 
-<img src="../img/rendu_exo_16_1.png" alt="Rendu attendu de l'exercice">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0160%20-%20States%20et%20Snapshots/rendu_exo_16_1.png?raw=true" alt="Rendu attendu de l'exercice">
