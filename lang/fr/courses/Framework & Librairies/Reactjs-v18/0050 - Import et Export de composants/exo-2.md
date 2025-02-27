@@ -6,4 +6,4 @@
 
 ## Rendu attendu
 
-<img src="../img/rendu_exo_5_2.png" alt="rendu attendu de l'exercice">
+<img src="https://github.com/Microleadoff/content/blob/master/lang/fr/courses/Framework%20&%20Librairies/Reactjs-v18/0050%20-%20Import%20et%20Export%20de%20composants/rendu_exo_5_2.png?raw=true" alt="rendu attendu de l'exercice">
