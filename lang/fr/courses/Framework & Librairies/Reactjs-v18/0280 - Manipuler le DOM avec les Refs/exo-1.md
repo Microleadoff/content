@@ -18,4 +18,4 @@
 
 ## Rendu attendu (après avoir fait les deux exercices)
 
-<img src="../img/rendu_exo_28_2.png" alt="Rendu attendu des exercices">
+<img src="../img/rendu_exo_28_1.png" alt="Rendu attendu des exercices">
